@@ -52,6 +52,6 @@
 	{
 		"innerRadius" : 800,
 		"outerRadius" : 950,
-		"texture" : "planets/assets/jewel_rings.png",
+		"texture" : "planets/assets/planet_rings.png",
 	},
 }

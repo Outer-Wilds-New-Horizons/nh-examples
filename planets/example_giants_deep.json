@@ -6,5 +6,6 @@
 		"outerRadius" : 2200,
 		"inclination" : 20,
 		"longitudeOfAscendingNode" : 80,
+		"texture" : "planets/assets/default_rings.png",
 	}
 }
