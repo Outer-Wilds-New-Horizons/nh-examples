@@ -1,0 +1,19 @@
+{
+	"name" : "Attlerock",
+	"Base" : 
+	{
+		"lavaSize":50,
+	},
+	"Atmosphere" : 
+	{
+		"fogTint":
+		{
+			"r" : 160,
+			"g" : 0,
+			"b" : 0,
+			"a" : 255
+		},
+		"fogSize": 100,
+		"fogDensity":0.3,
+	}
+}

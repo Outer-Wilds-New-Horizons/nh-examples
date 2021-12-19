@@ -1,0 +1,44 @@
+{
+	"name" : "Wetrock",
+	"Base" : 
+	{
+		"groundSize" : 100,
+		"waterSize" : 101,
+		"surfaceSize" : 101,
+		"surfaceGravity" : 12,
+		"hasMapMarker" : true,
+		"lightTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 1300,
+		"inclination" : 10,
+		"primaryBody" : "TIMBER_HEARTH",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+	},
+	"Atmosphere" : 
+	{
+		"size" : 150,
+		"fogTint" : 
+		{
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogSize": 150,
+		"fogDensity":0.2,
+		"hasRain" : true,
+		"hasSnow" : true,
+	},
+}
