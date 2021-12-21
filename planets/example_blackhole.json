@@ -3,8 +3,8 @@
 	"Base" : 
 	{
 		"surfaceGravity" : 20,
-		"surfaceSize" : 100,
-		"blackHoleSize" : 100,
+		"surfaceSize" : 500,
+		"blackHoleSize" : 500,
 		"hasMapMarker" : true,
 		"lightTint" : 
 		{
@@ -16,22 +16,22 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1700,
+		"semiMajorAxis" : 27000,
 		"inclination" : 30,
-		"primaryBody" : "BRITTLE_HOLLOW",
-		"isMoon" : true,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
 		"longitudeOfAscendingNode" : 50,
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0,
 	},
 	"Atmosphere" :
 	{
-		"size" : 100,
+		"size" : 500,
 		"fogTint":
 		{
-			"r" : 255,
-			"g" : 168,
-			"b" : 17,
+			"r" : 50,
+			"g" : 10,
+			"b" : 50,
 			"a" : 255
 		},
 		"fogSize": 250,
@@ -39,9 +39,9 @@
 	},
 	"Ring" : 
 	{
-		"innerRadius" : 100,
-		"outerRadius" : 200,
-		"inclination" : 30,
+		"innerRadius" : 550,
+		"outerRadius" : 800,
+		"inclination" : 10,
 		"texture" : "planets/assets/accretion_disk.png",	
 	}
 }

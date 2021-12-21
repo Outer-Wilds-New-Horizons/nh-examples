@@ -1,0 +1,20 @@
+{
+	"name" : "Timber Hearth",
+	"Base" : 
+	{
+		"surfaceSize" : 150,
+	},
+	"Atmosphere" : 
+	{
+		"size" : 400,
+		"fogTint" : 
+		{
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogSize": 200,
+		"fogDensity":0.2,
+	},
+}

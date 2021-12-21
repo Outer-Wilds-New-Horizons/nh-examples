@@ -16,14 +16,13 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 25000,
+		"semiMajorAxis" : 23000,
 		"inclination" : 9,
-		"primaryBody" : "SUN",
+		"primaryBody" : "Sun",
 		"isMoon" : false,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
-		"axialTilt" : 90,
+		"longitudeOfAscendingNode" : 150,
+		"axialTilt" : 80,
+		"trueAnomaly" : 130,
 	},
 	"Atmosphere" :
 	{
@@ -37,7 +36,6 @@
 		},
 		"cloud" : "planets/assets/ringed_jewel.png",
 		"cloudCap" : "planets/assets/ringed_jewel_cap.png",
-		"cloudRamp" : "planets/assets/ringed_jewel_ramp.png",
 		"fogTint" : 
 		{
 			"r" : 255,

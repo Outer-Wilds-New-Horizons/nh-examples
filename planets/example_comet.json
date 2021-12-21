@@ -1,0 +1,43 @@
+{
+	"name" : "Snowball",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 100,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"hasCometTail" : true,
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 23000,
+		"inclination" : 0,
+		"primaryBody" : "Sun",
+		"isMoon" : false,
+		"longitudeOfAscendingNode" : 0,
+		"axialTilt" : 0,
+		"argumentOfPeriapsis" : 0,
+		"eccentricity" : 0.2,
+		"isTidallyLocked" : true,
+	},
+	"Atmosphere" :
+	{
+		"size" : 120,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 0.1,
+		"fogSize": 120,
+		"hasSnow" : true,
+	},
+	"HeightMap" :
+	{
+		"heightMap" : "planets/assets/snowball_heightmap.png",	
+		"minHeight" : 100,
+		"maxHeight" : 104,
+	}
+}
