@@ -12,7 +12,7 @@
 			"b" : 255,
 			"a" : 255
 		},
-		"lavaSize" : 200,
+		"lavaSize" : 200
 	},
 	"Orbit" :
 	{
@@ -22,7 +22,7 @@
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 150,
 		"axialTilt" : 80,
-		"trueAnomaly" : 130,
+		"trueAnomaly" : 130
 	},
 	"Atmosphere" :
 	{
@@ -45,11 +45,19 @@
 		},
 		"fogDensity": 0.4,
 		"fogSize": 450,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 140,
+			"g" : 65,
+			"b" : 140,
+			"a" : 255
+		}
 	},
 	"Ring" : 
 	{
 		"innerRadius" : 800,
 		"outerRadius" : 950,
-		"texture" : "planets/assets/planet_rings.png",
-	},
+		"texture" : "planets/assets/planet_rings.png"
+	}
 }

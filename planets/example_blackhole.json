@@ -4,7 +4,6 @@
 	{
 		"surfaceGravity" : 20,
 		"surfaceSize" : 500,
-		"blackHoleSize" : 500,
 		"hasMapMarker" : true,
 		"lightTint" : 
 		{
@@ -12,7 +11,7 @@
 			"g" : 0,
 			"b" : 0,
 			"a" : 255
-		},
+		}
 	},
 	"Orbit" :
 	{
@@ -22,7 +21,7 @@
 		"isMoon" : false,
 		"longitudeOfAscendingNode" : 50,
 		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
+		"argumentOfPeriapsis": 0
 	},
 	"Atmosphere" :
 	{
@@ -35,13 +34,19 @@
 			"a" : 255
 		},
 		"fogSize": 250,
-		"fogDensity":0.3,
+		"fogDensity":0.3
 	},
 	"Ring" : 
 	{
 		"innerRadius" : 550,
 		"outerRadius" : 800,
 		"inclination" : 10,
-		"texture" : "planets/assets/accretion_disk.png",	
+		"texture" : "planets/assets/accretion_disk.png",
+		"unlit" : true
+	},
+	"Singularity" :
+	{
+		"Size" : 400,
+		"Type" : "BlackHole"
 	}
 }

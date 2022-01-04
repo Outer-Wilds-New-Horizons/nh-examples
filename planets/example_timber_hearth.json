@@ -2,19 +2,23 @@
 	"name" : "Timber Hearth",
 	"Base" : 
 	{
-		"surfaceSize" : 150,
+		"surfaceSize" : 150
 	},
-	"Atmosphere" : 
+	"Props" : 
 	{
-		"size" : 400,
-		"fogTint" : 
-		{
-			"r" : 200,
-			"g" : 255,
-			"b" : 255,
-			"a" : 255
-		},
-		"fogSize": 200,
-		"fogDensity":0.2,
-	},
+		"details" :
+		[
+			{ 
+				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
+				"position" : {"x": 19.0082, "y" : -50.483, "z" : 183.0975},  
+				"rotation" : {"x":282.8344, "y": 11.2392, "z": 178.7205}
+			},
+			{ 
+				"path" : "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle", 
+				"position" : {"x": 14.8902, "y": -46.59983, "z": 184.4946},  
+				"rotation" : {"x": 334.5685, "y": 91.1202, "z": 104.7031}
+			}
+		]
+	}
+
 }

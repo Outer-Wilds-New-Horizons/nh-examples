@@ -7,13 +7,7 @@
 		"surfaceSize" : 101,
 		"surfaceGravity" : 12,
 		"hasMapMarker" : true,
-		"lightTint" : 
-		{
-			"r" : 255,
-			"g" : 255,
-			"b" : 255,
-			"a" : 255
-		},
+		"hasAmbientLight" : true
 	},
 	"Orbit" : 
 	{
@@ -24,7 +18,7 @@
 		"isTidallyLocked" : true,
 		"longitudeOfAscendingNode" : 0,
 		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0,
+		"argumentOfPeriapsis": 0
 	},
 	"Atmosphere" : 
 	{
@@ -39,6 +33,11 @@
 		"fogSize": 150,
 		"fogDensity":0.2,
 		"hasRain" : true,
-		"hasSnow" : true,
 	},
+	"Props" :
+	{
+		"scatter" : [
+			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 12}
+		]
+	}
 }

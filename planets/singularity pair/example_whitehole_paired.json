@@ -1,0 +1,23 @@
+{
+	"name" : "Light Gateway",
+	"Base" : 
+	{
+		"surfaceGravity" : 0,
+		"surfaceSize" : 200,
+		"hasMapMarker" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 30000,
+		"primaryBody" : "Sun",
+		"isStatic" : true,
+		"argumentOfPeriapsis" : 0,
+		"showOrbitLine" : false
+	},
+	"Singularity" :
+	{
+		"Size" : 200,
+		"Type" : "WhiteHole",
+		"PairedSingularity" : "Dark Gateway"
+	}
+}
