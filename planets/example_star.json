@@ -1,11 +1,12 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Night Light",
 	"Base" :
 	{
 		"surfaceGravity" : 50,
 		"surfaceSize" : 1000,
 		"hasMapMarker" : true,
-		"gravityFallOff" : "inverseSquared",
+		"gravityFallOff" : "inverseSquared"
 	},
 	"Orbit" :
 	{

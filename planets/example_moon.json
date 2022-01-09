@@ -1,4 +1,5 @@
 {
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Wetrock",
 	"Base" : 
 	{
@@ -32,7 +33,7 @@
 		},
 		"fogSize": 150,
 		"fogDensity":0.2,
-		"hasRain" : true,
+		"hasRain" : true
 	},
 	"Props" :
 	{
