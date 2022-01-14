@@ -8,5 +8,14 @@
 		"inclination" : 20,
 		"longitudeOfAscendingNode" : 80,
 		"texture" : "planets/assets/default_rings.png"
+	},
+	"Props" :
+	{
+		"details": [
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":300,"y":0,"z":0}, "scale": 0.8},
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":-300,"y":0,"z":0}, "scale": 0.8},
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":0,"y":0,"z":300}, "scale": 0.8},
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":0,"y":0,"z":-300}, "scale": 0.8}
+		]
 	}
 }
