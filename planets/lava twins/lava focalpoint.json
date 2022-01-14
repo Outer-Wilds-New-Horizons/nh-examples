@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Lava Twins",
+	"Base" :
+	{
+		"hasMapMarker" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 22000,
+		"primaryBody" : "Sun"
+	},
+	"FocalPoint" :
+	{
+		"Primary" : "Lava 1",
+		"Secondary" : "Lava 2"
+	}
+}
