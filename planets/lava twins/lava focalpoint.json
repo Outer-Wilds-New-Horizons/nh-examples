@@ -3,7 +3,8 @@
 	"name" : "Lava Twins",
 	"Base" :
 	{
-		"hasMapMarker" : true
+		"hasMapMarker" : true,
+		"sphereOfInfluence": 2000
 	},
 	"Orbit" :
 	{

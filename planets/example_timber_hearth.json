@@ -11,13 +11,20 @@
 		[
 			{ 
 				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
-				"position" : {"x": 19.0082, "y" : -50.483, "z" : 183.0975},  
-				"rotation" : {"x":282.8344, "y": 11.2392, "z": 178.7205}
+				"position" : {"x": 12.0282, "y": -45.4429,"z": 185.0175},  
+				"rotation" : {"x":5.426, "y": 99.0692,"z": 105.8894}
 			},
 			{ 
-				"path" : "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle", 
-				"position" : {"x": 14.8902, "y": -46.59983, "z": 184.4946},  
-				"rotation" : {"x": 334.5685, "y": 91.1202, "z": 104.7031}
+				"path" : "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot", 
+				"position" : {"x": 21.1502, "y": -47.1391, "z": 183.6548},  
+				"rotation" : {"x":343.6591, "y": 281.5204, "z": 254.1599}
+			}
+		],
+		"dialogue" :
+		[
+			{
+				"position": {"x": 13.2082, "y": -46.2829, "z": 187.4374},
+				"xmlFile" : "planets/xml/Example.xml"
 			}
 		]
 	}

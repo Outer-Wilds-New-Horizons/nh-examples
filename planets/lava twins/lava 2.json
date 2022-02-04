@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 1000,
+		"semiMajorAxis" : 400,
 		"primaryBody" : "Lava Twins",
 		"isMoon" : true,
 		"isTidallyLocked" : true
@@ -21,6 +21,12 @@
 		"curve": [
 			{"time":0, "value": 0.5},
 			{"time":5, "value":1}
-		]
+		],
+		"Tint" : {
+			"r" : 32,
+			"g" : 255,
+			"b" : 128,
+			"a" : 255
+		}
 	}
 }
