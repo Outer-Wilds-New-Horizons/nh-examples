@@ -1,0 +1,14 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Ember Twin",
+	"childrenToDestroy" : ["SandSphere_Rising"],
+	"Base" : 
+	{
+		"surfaceSize" : 150
+	},
+	"Lava" : 
+	{
+		"size": 150,
+		"curve" :[{"time":0,"value": 0.3}, {"time":22, "value":1}]
+	}
+}
