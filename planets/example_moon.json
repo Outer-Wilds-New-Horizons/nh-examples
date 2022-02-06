@@ -4,7 +4,6 @@
 	"Base" : 
 	{
 		"groundSize" : 100,
-		"waterSize" : 101,
 		"surfaceSize" : 101,
 		"surfaceGravity" : 12,
 		"hasMapMarker" : true,
@@ -20,6 +19,10 @@
 		"longitudeOfAscendingNode" : 0,
 		"eccentricity" : 0,
 		"argumentOfPeriapsis": 0
+	},
+	"Water": 
+	{
+		"size": 101
 	},
 	"Atmosphere" : 
 	{

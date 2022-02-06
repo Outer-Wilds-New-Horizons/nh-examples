@@ -6,8 +6,7 @@
 		"surfaceGravity" : 12,
 		"surfaceSize" : 200,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true,
-		"lavaSize" : 200
+		"hasAmbientLight" : true
 	},
 	"Orbit" :
 	{
@@ -18,6 +17,10 @@
 		"longitudeOfAscendingNode" : 150,
 		"axialTilt" : 80,
 		"trueAnomaly" : 130
+	},
+	"Lava" : 
+	{
+		"size": 200
 	},
 	"Atmosphere" :
 	{
