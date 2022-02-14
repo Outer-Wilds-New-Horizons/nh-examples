@@ -22,7 +22,14 @@
 	},
 	"Water": 
 	{
-		"size": 101
+		"size": 101,
+		"tint": 
+		{
+			"r" : 128,
+			"g" : 255,
+			"b" : 200,
+			"a" : 255
+		}
 	},
 	"Atmosphere" : 
 	{
@@ -43,5 +50,11 @@
 		"scatter" : [
 			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 12}
 		]
-	}
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/logs/Wetrock.xml",
+        "initialReveal": [
+            "EXAMPLE_ENTRY_R1"
+        ]
+    }
 }

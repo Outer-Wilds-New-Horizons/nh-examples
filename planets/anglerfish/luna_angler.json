@@ -1,0 +1,90 @@
+{
+	"name" : "Luna Lure",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 20,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "linear",
+		"hasAmbientLight": true
+	},
+	"Atmosphere" :
+	{
+		"size" : 30,
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 128,
+			"g" : 164,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 440,
+		"inclination" : 4,
+		"primaryBody" : "Lures",
+		"isMoon" : true,
+		"tint": {"r": 26, "g": 26, "b": 26, "a": 255},
+		"isTidallyLocked": true
+	},
+    "HeightMap": {
+        "heightMap": "planets/anglerfish/luna_heightmap.png",
+        "textureMap": "planets/anglerfish/luna_texturemap.png",
+        "minHeight": 18,
+        "maxHeight": 22
+    },
+	"Props" :
+	{
+		"scatter" :
+		[
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L",
+				"count" : 20,
+				"scale" : 0.5
+			}
+		],
+		"details": [
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish",
+				"position" : {"x":0,"y":95,"z": -50},
+				"rotation" : {"x":90, "y":0, "z":0},
+				"scale":0.75,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"position" : {"x":0,"y":95,"z": -50},
+				"rotation" : {"x":90, "y":0, "z":0},
+				"scale":0.75
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire", 
+				"position" : {"x": 5.664703, "y": 16.86613, "z": 4.126942},
+				"alignToNormal" : true
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume", 
+				"position" : {"x": 1.841939, "y": -18.10435, "z": 2.636243},
+				"alignToNormal" : true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 1.8419, "y": -19.9243, "z": 2.6362},
+				"scale" : 0.1,
+				"alignToNormal" : true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
+				"position" : {"x": 1.8419, "y": -19.9243, "z": 2.6362},
+				"scale" : 0.1,
+				"alignToNormal" : true
+			}
+		]
+	}
+}

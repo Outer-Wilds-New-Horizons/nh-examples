@@ -1,20 +1,20 @@
 <DialogueTree>
-	<NameField>Ghostbird</NameField>
+	<NameField>Ernesto</NameField>
 
 	<DialogueNode>
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hey man how's it going?</Page>
+			<Page>Hey it's me Ernesto the magic talking anglerfish.</Page>
 		</Dialogue>
 		
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Aren't you supposed to kill me?</Text>
+				<Text>Wow you can talk?</Text>
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Hey.</Text>
+				<Text>What do you think about Geswaldo.</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -23,14 +23,14 @@
 	<DialogueNode>
 		<Name>1</Name>
 		<Dialogue>
-			<Page>Oh yeah dude I totally forgot about that, maybe next time.</Page>
+			<Page>No I can't. You must be mistaken.</Page>
 		</Dialogue>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
-			<Page>See ya.</Page>
+			<Page>I love him, he is my husband.</Page>
 		</Dialogue>
 	</DialogueNode>
 
