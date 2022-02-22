@@ -56,13 +56,13 @@
 		"details": [
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
-				"position" : {"x": 0, "y": 100, "z": 0},
+				"position" : {"x": 0, "y": 101, "z": 0},
 				"scale" : 0.1,
 				"alignToNormal" : true
 			},
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
-				"position" : {"x": 0, "y": 100, "z": 0},
+				"position" : {"x": 0, "y": 101, "z": 0},
 				"scale" : 0.1,
 				"alignToNormal" : true
 			}
@@ -71,6 +71,7 @@
 		[
 			{
 				"position" : {"x": 0, "y": 101, "z": 0},
+				"radius": 3,
 				"xmlFile" : "planets/Dialogue/ErnestosCousin.xml"
 			}
 		]
