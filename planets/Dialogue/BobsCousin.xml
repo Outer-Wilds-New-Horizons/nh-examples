@@ -1,0 +1,49 @@
+<DialogueTree>
+	<NameField>Bob's Cousin</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Oh wow, I didn't expect anyone to hear my distress call.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>How do you know my language?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How long have you been here?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>EXAMPLES_BOB</RequiredLogCondition>
+				<Text>Oh hey I met your cousin Bob on Timber Hearth!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Lazy writing.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>At least a quarter million years. I ate my own children for sustenance. Their souls have sustained me thus far.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Who the hell is Bob?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

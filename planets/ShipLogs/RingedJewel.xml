@@ -1,0 +1,22 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>RINGED_JEWEL</ID>
+
+    <Entry>
+        <ID>EXAMPLES_RINGED_JEWEL</ID>
+        <Name>More rings</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+
+        <RumorFact>
+            <ID>EXAMPLES_RINGED_JEWEL_RUMOR</ID> 
+            <SourceID>EXAMPLES_GIANTS_DEEP</SourceID> 
+            <RumorName>Other rings</RumorName> 
+            <Text>Giant's Deep isn't the only planet with rings.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_RINGED_JEWEL_VISIT</ID>
+            <Text>Well that's slightly less habitable than Giant's Deep.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

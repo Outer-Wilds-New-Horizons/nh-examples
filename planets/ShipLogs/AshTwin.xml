@@ -1,0 +1,22 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>TOWER_TWIN</ID>
+
+    <Entry>
+        <ID>EXAMPLES_ASH_TWIN</ID>
+        <Name>Rings</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+    
+        <RumorFact>
+            <ID>EXAMPLES_LAVA</ID> 
+            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
+            <RumorName>Lava</RumorName> 
+            <Text>All the sand on Ash Twin melted into lava, or something, thanks Fred.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_LAVA_FOUND</ID> 
+            <Text>Yeah Ash Twin is covered in lava, that's a bit of an issue.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

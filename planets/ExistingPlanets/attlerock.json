@@ -1,0 +1,70 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Attlerock",
+	"Lava" : 
+	{
+		"size" : 50,
+		"curve" : [
+			{"time" : 0, "value" : 0},
+			{"time" : 2, "value" : 1},
+			{"time" : 10, "value" : 0}
+		]
+	},
+	"Sand" : {
+		"size" : 100,
+		"tint":
+		{
+			"r" : 160,
+			"g" : 0,
+			"b" : 0,
+			"a" : 255
+		},
+		"curve" : [
+			{"time" : 0, "value" : 1},
+			{"time" : 2, "value" : 0},
+			{"time" : 4, "value" : 1},
+			{"time" : 6, "value" : 0},
+			{"time" : 8, "value" : 1},
+			{"time" : 10, "value" : 0},
+			{"time" : 12, "value" : 1},
+			{"time" : 14, "value" : 0},
+			{"time" : 16, "value" : 1},
+			{"time" : 18, "value" : 0},
+			{"time" : 20, "value" : 1},
+			{"time" : 22, "value" : 0}
+		]
+	},
+	"Atmosphere" : 
+	{
+		"fogTint":
+		{
+			"r" : 160,
+			"g" : 0,
+			"b" : 0,
+			"a" : 255
+		},
+		"fogSize": 100,
+		"fogDensity":0.3
+	},
+	"Orbit": {
+		"inclination": 90
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/ShipLogs/Attlerock.xml",
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"entryPositions": [
+			{
+				"id": "EXAMPLES_ATTLEROCK",
+				"position": {
+					"x": 700,
+					"y": -1000
+				}
+			}
+		]
+    },
+	"Props":{
+		"reveal": [
+			{"radius":300, "reveals": ["EXAMPLES_SAND_FOUND"]}
+		]
+	}
+}

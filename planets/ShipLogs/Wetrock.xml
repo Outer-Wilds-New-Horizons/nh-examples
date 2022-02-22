@@ -1,0 +1,27 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>WETROCK</ID>
+
+    <Entry>
+        <ID>EXAMPLES_WETROCK_ENTRY</ID>
+        <Name>Wetrock</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+
+        <RumorFact>
+            <ID>EXAMPLES_ERNESTO_COUSIN_RUMOR</ID>
+            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
+            <RumorName>Ernesto's cousin</RumorName>
+            <Text>Apparently Ernesto's cousin is on Wetrock.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_WETROCK_LANDING</ID> 
+            <Text>It sure is wet.</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_COUSIN_FOUND</ID> 
+            <Text>I found Ernesto's cousin! They're dead.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

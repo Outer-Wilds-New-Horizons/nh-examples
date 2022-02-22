@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Ash Twin",
+	"childrenToDestroy" : ["SandSphere_Draining"],
+	"Base" : 
+	{
+		"surfaceSize" : 150
+	},
+	"Lava" : 
+	{
+		"size": 150,
+		"curve" :[
+			{"time":0,"value": 1},
+			{"time":1,"value": 1},
+			{"time":22, "value":0.2}
+		]
+	},
+	"Props" : 
+	{
+		"tornados" : 
+		[
+			{"elevation" : 150, "height": 50, "width": 5},
+			{"elevation" : 150, "height": 50, "width": 5},
+			{"elevation" : 150, "height": 50, "width": 5},
+			{"elevation" : 150, "height": 50, "width": 5}
+		],
+		"reveal": [
+			{"radius":400, "reveals": ["EXAMPLES_LAVA_FOUND"]}
+		]
+	},
+	"Funnel" :
+	{
+		"target" : "Ember Twin",
+		"type" : "Lava",
+		"curve":[
+			{"time":0,"value": 0},
+			{"time":1, "value":0},
+			{"time":2, "value":1},
+			{"time":21, "value":1}, 
+			{"time":22, "value":0}
+		]
+	}
+}

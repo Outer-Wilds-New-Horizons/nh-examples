@@ -1,0 +1,103 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Wetrock",
+	"Base" : 
+	{
+		"groundSize" : 100,
+		"surfaceSize" : 101,
+		"surfaceGravity" : 12,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 1300,
+		"inclination" : 0,
+		"primaryBody" : "TIMBER_HEARTH",
+		"isMoon" : true,
+		"isTidallyLocked" : true,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0
+	},
+	"Water": 
+	{
+		"size": 101,
+		"tint": 
+		{
+			"r" : 128,
+			"g" : 255,
+			"b" : 200,
+			"a" : 255
+		}
+	},
+	"Atmosphere" : 
+	{
+		"size" : 150,
+		"fogTint" : 
+		{
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogSize": 150,
+		"fogDensity":0.2,
+		"hasRain" : true
+	},
+	"Props" :
+	{
+		"scatter" : [
+			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 12}
+		],
+		"reveal" : [
+			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
+		],
+		"details": [
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 0, "y": 100, "z": 0},
+				"scale" : 0.1,
+				"alignToNormal" : true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
+				"position" : {"x": 0, "y": 100, "z": 0},
+				"scale" : 0.1,
+				"alignToNormal" : true
+			}
+		],
+		"dialogue" :
+		[
+			{
+				"position" : {"x": 0, "y": 101, "z": 0},
+				"xmlFile" : "planets/Dialogue/ErnestosCousin.xml"
+			}
+		]
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/ShipLogs/Wetrock.xml",
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/wetrock_map_mode.png",
+			"scale": 0.6,
+			"manualPosition": {
+				"x": 582,
+				"y": 100
+			},
+			"manualNavigationPosition": {
+				"x": 2,
+				"y": 2
+			}
+		},
+		"entryPositions": [
+			{
+				"id": "EXAMPLES_WETROCK_ENTRY",
+				"position": {
+					"x": 500,
+					"y": -1250
+				}
+			}
+		]
+    }
+}

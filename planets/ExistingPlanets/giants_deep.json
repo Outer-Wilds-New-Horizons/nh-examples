@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Giants Deep",
+	"Ring" :
+	{
+		"innerRadius" : 1800,
+		"outerRadius" : 2200,
+		"inclination" : 20,
+		"longitudeOfAscendingNode" : 80,
+		"texture" : "planets/assets/default_rings.png"
+	},
+	"Props" :
+	{
+		"details": [
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":300,"y":0,"z":0}, "scale": 0.8},
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":-300,"y":0,"z":0}, "scale": 0.8},
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":0,"y":0,"z":300}, "scale": 0.8},
+			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":0,"y":0,"z":-300}, "scale": 0.8}
+		],
+		"reveal": [
+			{"radius":2500, "reveals": ["EXAMPLES_RINGS_FOUND", "EXAMPLES_RINGED_JEWEL_RUMOR"]},
+			{"radius":1000, "reveals": ["EXAMPLES_GIANTS_DEEP_ANGLERS"]}
+		]
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/ShipLogs/GiantsDeep.xml",
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"entryPositions": [
+			{
+				"id": "EXAMPLES_GIANTS_DEEP",
+				"position": {
+					"x": 1000,
+					"y": -1100
+				}
+			}
+		]
+	}
+}

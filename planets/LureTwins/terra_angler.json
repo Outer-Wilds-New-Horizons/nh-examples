@@ -1,0 +1,143 @@
+{
+	"name" : "Terra Lure",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"Base" :
+	{
+		"sphereOfInfluence" : 500,
+		"surfaceGravity" : 6,
+		"surfaceSize" : 30,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "linear",
+		"hasAmbientLight": true
+	},
+	"Atmosphere" :
+	{
+		"size" : 50,
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"atmosphereTint" : 
+		{
+			"r" : 128,
+			"g" : 164,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 0,
+		"inclination" : 4,
+		"primaryBody" : "Lures",
+		"tint": {"r": 78, "g": 78, "b": 52, "a": 255},
+		"isTidallyLocked": true,
+		"isMoon": true
+	},
+	"Water" :
+	{
+		"size" : 28.5
+	},
+    "HeightMap": {
+        "heightMap": "planets/assets/terra_heightmap.png",
+        "textureMap": "planets/assets/terra_texturemap.png",
+        "minHeight": 27,
+        "maxHeight": 30
+    },
+	"Signal" : 
+	{
+		"Signals" : 
+		[
+			{ 
+				"Frequency" : "EscapePod", 
+				"Name" : "Lure Distress Signal", 
+				"AudioClip" : "OW_NM_EscapePodDistressSignal", 
+				"SourceRadius" : 1, 
+				"DetectionRadius" : 60,
+				"IdentificationRadius" : 5,
+				"Position" : {"x": 0, "y": -30.25, "z": 0}
+			}
+		]
+	},
+	"Props" :
+	{
+		"scatter" :
+		[
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (9)/Tree_TH_Sapling",
+				"count" : 30,
+				"scale" : 0.5
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_QRedwood/QRedwood (2)/Prefab_TH_Redwood",
+				"count" : 20,
+				"scale" : 0.25
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Geometry_FossilCave/OtherComponentsGroup/Child Skeletons/Prefab_NOM_Skeleton_Child_Pile_A",
+				"count" : 20
+			}
+		],
+		"details": [
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish",
+				"position" : {"x":0,"y":190,"z":100},
+				"rotation" : {"x":90, "y":180, "z":0},
+				"scale":1.5,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"position" : {"x":0,"y":190,"z":100},
+				"rotation" : {"x":90, "y":180, "z":0},
+				"scale":1.5
+			},
+			{
+				"path" : "QuantumMoon_Body/Sector_QuantumMoon/QuantumShuttle/Prefab_NOM_Shuttle", 
+				"position" : {"x":-4.1988, "y":18.6601, "z":-10.68},
+				"rotation" : {"x":41.1627,"y": 351.132,"z": 356.6642}
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder", 
+				"position" : {"x":0,"y":-29.75,"z":0},
+				"alignToNormal":true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam", 
+				"position" : {"x":0,"y":-29.75,"z":0},
+				"alignToNormal":true
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Geometry_FossilCave/OtherComponentsGroup/Child Skeletons/Prefab_NOM_Skeleton_Child_Pile_A",
+				"position" : {"x": -2.950979, "y": -29.65235, "z": 3.441322},
+				"alignToNormal":true
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+				"position" : {"x": 2.607613, "y": -29.848, "z": 1.419874},
+				"alignToNormal":true
+			}
+		],
+		"dialogue" :
+		[
+			{
+				"position": {"x": 2.6076, "y": -31.4881, "z": 1.4199},
+				"xmlFile" : "planets/Dialogue/BobsCousin.xml"
+			}
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/terra_lure_map_mode.png",
+			"scale": 1,
+			"manualPosition": {
+				"x": 780,
+				"y": 150
+			},
+			"manualNavigationPosition": {
+				"x": 4,
+				"y": 2
+			}
+		}
+    }
+}

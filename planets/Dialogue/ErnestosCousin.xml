@@ -1,0 +1,14 @@
+<DialogueTree>
+	<NameField>Dead fish</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I think this is Ernesto's cousin.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_COUSIN_FOUND</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,16 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Quantum Moon",
+	"ShipLog" : {
+        "mapMode" : {
+			"manualPosition": {
+				"x": 430,
+				"y": 100
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 2
+			}
+		}
+    }
+}

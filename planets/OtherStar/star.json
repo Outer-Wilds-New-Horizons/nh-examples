@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Night Light",
+	"Base" :
+	{
+		"surfaceGravity" : 50,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared"
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 62000,
+		"trueAnomaly" : 33,
+		"primaryBody" : "Sun",
+		"showOrbitLine" : false,
+		"isStatic" : true
+	},
+	"Star" :
+	{
+		"size" : 200,
+		"tint" : 
+		{
+			"r" : 200,
+			"g" : 220,
+			"b" : 250,
+			"a" : 255
+		},
+		"solarFlareTint" : 
+		{
+			"r" : 5,
+			"g" : 38,
+			"b" : 255,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.6
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/night_light_map_mode.png",
+			"scale": 1,
+			"manualPosition": {
+				"x": 250,
+				"y": 300
+			},
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 3
+			}
+		}
+    }
+}

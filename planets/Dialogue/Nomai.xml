@@ -1,0 +1,98 @@
+<DialogueTree>
+	<NameField>Fred</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>You looking at something?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_FRED</FactID>
+		</RevealFacts>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Aren't you guys all supposed to be dead?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>OH MY GOD A LIVING NOMAI AHHH WHAT HOW?!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Fait beau, eh?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nevermind.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Oh yeah dude I totally forgot about that, maybe I'll be dead next time.</Page>
+			<Page>Speaking of Nomai not being dead, have you seen my brother? He's supposed to be in this system somewhere.</Page>
+			<Page>He said something about anglerfish, so I've been following this Ernesto guy around. I don't think its him though.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I'll keep a look out.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Did you try Dark Bramble?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Yessir miller it's me the Nomai.</Page>
+			<Page>I'm just hanging out here man I don't get it.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>But you're all supposed to be dead.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Forget I mentioned it.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page><![CDATA[<i>Did you try Dark Bramble</i>]]> really man, you think I didn't try looking for anglerfish in the place where anglerfish are?</Page>
+			<Page>I am deeply offended that you would question me on this.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>My bad, forget I asked.</Text>
+				<DialogueTarget>MAIN</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Pas pire.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Ciao big.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

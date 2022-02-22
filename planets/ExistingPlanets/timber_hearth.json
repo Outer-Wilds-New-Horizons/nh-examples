@@ -1,0 +1,114 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Timber Hearth",
+	"Orbit": {
+		"semiMajorAxis": 32000,
+		"inclination": 5,
+		"longitudeOfAscendingNode": 90,
+		"trueAnomaly": 180
+	},
+	"Base" : 
+	{
+		"surfaceSize" : 150
+	},
+	"Props" : 
+	{
+		"details" :
+		[
+			{ 
+				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
+				"position" : {"x": 12.0282, "y": -45.4429,"z": 185.0175},  
+				"rotation" : {"x":5.426, "y": 99.0692,"z": 105.8894}
+			},
+			{ 
+				"path" : "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle", 
+				"position" : {"x": 18.06051, "y": -50.64357, "z": 183.141},  
+				"rotation" : {"x":311.8565, "y": 287.9388, "z": 254.72}
+			},
+			{
+				"assetBundle": "planets/bundle/test",
+				"path":"Assets/Prefabs/ArtificialGravity.prefab",
+				"position": {"x": 400,"y": 0,"z": 0},
+				"scale" : 50
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (1)/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
+				"rotation": {"x":78, "y":189, "z":180},
+				"scale" : 0.08
+			},
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
+				"rotation": {"x":78, "y":189, "z":180},
+				"scale" : 0.02,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
+				"rotation": {"x":78, "y":189, "z":180},
+				"scale" : 0.02
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate", 
+				"position": {"x": 18.2547, "y": -40.6567, "z": 185.6922},
+				"rotation": {"x": 82.1106, "y": 107.3981, "z": 103.934}
+			}
+		],
+		"dialogue" :
+		[
+			{
+				"position": {"x": 13.2082, "y": -46.2829, "z": 187.4374},
+				"xmlFile" : "planets/Dialogue/Ghostbird.xml"
+			},
+			{
+				"position": {"x": 18.0605, "y": -50.5836, "z": 185.0414},
+				"xmlFile" : "planets/Dialogue/Nomai.xml"
+			},
+			{
+				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
+				"xmlFile" : "planets/Dialogue/Geswaldo.xml"
+			},
+			{
+				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
+				"xmlFile" : "planets/Dialogue/Ernesto.xml"
+			}
+		]
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/ShipLogs/TimberHearth.xml",
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"initialReveal": [
+			"EXAMPLES_VISITORS_RUMOR"
+		],
+		"curiosities": [
+			{
+				"id": "EXAMPLES_UNEXPECTED_GUESTS",
+				"color": {
+					"r": 0,
+					"g": 255,
+					"b": 255,
+					"a": 255
+				},
+				"highlightColor": {
+					"r": 132,
+					"g": 255,
+					"b": 255,
+					"a": 255
+				}
+			}
+		],
+		"entryPositions": [
+			{
+				"id": "EXAMPLES_UNEXPECTED_GUESTS",
+				"position": {
+					"x": 800,
+					"y": -1400
+				}
+			}
+		]
+    }
+}

@@ -1,0 +1,86 @@
+<DialogueTree>
+	<NameField>Bob</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey man how's it going?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>EXAMPLES_BOB</FactID>
+		</RevealFacts>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Aren't you supposed to kill me?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Hey.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing here?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Oh yeah dude I totally forgot about that, maybe next time.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Hey.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Yeah.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>I'm actually a magical wizard and I've been casting some <b>crazy</b> spells on your solar system.</Page>
+			<Page>I put a bunch of sand on some moon, I put rings on some big gas giant...</Page>
+			<Page>Oh yeah I gave you guys an extra blackhole-whitehole pair, so you're welcome.</Page>
+			<Page><b>Oh</b> and I threw your planet far from the sun so look out for falling temperatures killing you all in a few months.</Page>
+			<Page>Although you might not be too worried about that now that I think about it.</Page>
+		</Dialogue>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_SAND</FactID>
+			<FactID>EXAMPLES_RINGS</FactID>
+			<FactID>EXAMPLES_LAVA</FactID>
+		</RevealFacts>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What?</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing here?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>... Bro I literally just told you.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

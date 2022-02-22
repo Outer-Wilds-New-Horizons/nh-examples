@@ -1,0 +1,38 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/ship-log/NewHorizons/shiplog_schema.xsd">
+    <ID>TIMBER_HEARTH</ID>
+
+    <Entry>
+        <ID>EXAMPLES_UNEXPECTED_GUESTS</ID>
+        <Name>Unexpected guests</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+		<IsCuriosity/>
+    
+        <RumorFact>
+            <ID>EXAMPLES_VISITORS_RUMOR</ID> 
+            <RumorName>Visitors</RumorName> 
+            <Text>When I went to sleep by the campfire only Slate was here, who are these characters?</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_GESWALDO</ID>
+            <Text>I met a talking jellyfish. His name is Geswaldo!</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_ERNESTO</ID>
+            <Text>I met a talking anglerfish named Ernesto!</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_FRED</ID>
+            <Text>There's a living Nomai here, just hanging out. His name is Fred.</Text> 
+        </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_BOB</ID>
+            <Text>Some sort of bird guy is here. Bob I think?</Text> 
+        </ExploreFact>
+
+    </Entry>
+</AstroObjectEntry>
