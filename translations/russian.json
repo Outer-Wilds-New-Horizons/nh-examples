@@ -1,10 +1,10 @@
 {
     "DialogueDictionary" :
     {
-        	"Fred" : "Фред",
-       	 	"You looking at something?" : "Ты что-то искал?",
-        	"Aren't you guys all supposed to be dead?" : "А разве вы, ребята, не вымерли?",
-        	"OH MY GOD A LIVING NOMAI AHHH WHAT HOW?!" : "ААААА, ЖИВАЯ НОМАИ?!",
+		"Fred" : "Фред",
+		"You looking at something?" : "Ты что-то искал?",
+		"Aren't you guys all supposed to be dead?" : "А разве вы, ребята, не вымерли?",
+		"OH MY GOD A LIVING NOMAI AHHH WHAT HOW?!" : "ААААА, ЖИВАЯ НОМАИ?!",
 		"Fait beau, eh?" : "Хорошая погода, да?",
 		"Nevermind." : "Нет, ничего.",
 		"Oh yeah dude I totally forgot about that, maybe I'll be dead next time." : "О, точно, я совсем забыл. Наверное я умру в другой раз.",
@@ -81,10 +81,10 @@
     },
     "ShipLogDictionary" :
     {
-        	"Unexpected guests" : "Незванные гости",
-        	"Visitors" : "Посетители",
-        	"When I went to sleep by the campfire only Slate was here, who are these characters?" : "Когда я ложился спать у костра здесь был только Сланец. Кто все эти люди?",
-        	"I met a talking jellyfish. His name is Geswaldo!" : "Я встретил говорящую медузу. Его зовут Гесвальдо!",
+		"Unexpected guests" : "Незванные гости",
+		"Visitors" : "Посетители",
+		"When I went to sleep by the campfire only Slate was here, who are these characters?" : "Когда я ложился спать у костра здесь был только Сланец. Кто все эти люди?",
+		"I met a talking jellyfish. His name is Geswaldo!" : "Я встретил говорящую медузу. Его зовут Гесвальдо!",
 		"I met a talking anglerfish named Ernesto!" : "Я встретился с говорящим удильщиком по имени Эрнесто!",
 		"There's a living Nomai here, just hanging out. His name is Fred." : "Здесь есть живой номаи, который просто тусуется. Его имя Фред.",
 		"Some sort of bird guy is here. Bob I think?" : "Здесь какой-то странный сово-олень. Вроде-бы Боб?",
@@ -111,11 +111,11 @@
 		"There are four angler fish on Giant's Deep and they do not seem happy to see me." : "На Пучине Гиганта есть 4 удильщика. Я уверен, что они мне не рады."
 		
     },
-	    "UIDictionary" :
+	"UIDictionary" :
     {
 		"Lure Distress Signal" : "Сигнал бедствия с Приманки",
 	    
-        	"Wetrock" : "Галька",
+		"Wetrock" : "Галька",
 		"Lava Twins" : "Лавовые близнецы",
 		"Lava 1" : "Лава 1",
 		"Lava 2" : "Лава 2",
