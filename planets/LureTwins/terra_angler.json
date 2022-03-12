@@ -30,7 +30,8 @@
 		"primaryBody" : "Lures",
 		"tint": {"r": 78, "g": 78, "b": 52, "a": 255},
 		"isTidallyLocked": true,
-		"isMoon": true
+		"isMoon": true,
+		"AlignmentAxis" : {"x": 0, "y": 0, "z": -1}
 	},
 	"Water" :
 	{
