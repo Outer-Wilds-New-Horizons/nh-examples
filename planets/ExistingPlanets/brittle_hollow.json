@@ -1,0 +1,7 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "BrittleHollow",
+	"Base" :{
+		"cloakRadius":600
+	}
+}
