@@ -1,0 +1,42 @@
+<DialogueTree>
+	<NameField>Slate's Cousin</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hi Slate!</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nevermind.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>What? I'm not Slate, that's my cousin.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh my bad. Bye.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

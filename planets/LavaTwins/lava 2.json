@@ -6,7 +6,9 @@
 		"surfaceGravity" : 8,
 		"surfaceSize" : 100,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : true,
+		"gravityFallOff": "linear",
+		"sphereOfInfluence": 1000
 	},
 	"Orbit" :
 	{

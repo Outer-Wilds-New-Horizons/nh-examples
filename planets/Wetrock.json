@@ -25,10 +25,10 @@
 		"size": 101,
 		"tint": 
 		{
-			"r" : 128,
-			"g" : 255,
-			"b" : 200,
-			"a" : 255
+			"R" : 128,
+			"G" : 255,
+			"B" : 200,
+			"A" : 255
 		}
 	},
 	"Atmosphere" : 
@@ -36,10 +36,10 @@
 		"size" : 150,
 		"fogTint" : 
 		{
-			"r" : 200,
-			"g" : 255,
-			"b" : 255,
-			"a" : 255
+			"R" : 200,
+			"G" : 255,
+			"B" : 255,
+			"A" : 255
 		},
 		"fogSize": 150,
 		"fogDensity":0.2,
@@ -79,7 +79,7 @@
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/Wetrock.xml",
 		"spriteFolder": "planets/ShipLogs/sprites",
-		"mapMode" : {
+		"MapMode" : {
 			"revealedSprite": "planets/ShipLogs/sprites/wetrock_map_mode.png",
 			"scale": 0.6,
 			"manualPosition": {

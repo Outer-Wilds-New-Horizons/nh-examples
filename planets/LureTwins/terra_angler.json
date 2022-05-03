@@ -31,7 +31,7 @@
 		"tint": {"r": 78, "g": 78, "b": 52, "a": 255},
 		"isTidallyLocked": true,
 		"isMoon": true,
-		"AlignmentAxis" : {"x": 0, "y": 0, "z": -1}
+		"alignmentAxis" : {"x": 0, "y": 0, "z": -1}
 	},
 	"Water" :
 	{
@@ -45,16 +45,16 @@
     },
 	"Signal" : 
 	{
-		"Signals" : 
+		"signals" : 
 		[
 			{ 
-				"Frequency" : "EscapePod", 
-				"Name" : "Lure Distress Signal", 
-				"AudioClip" : "OW_NM_EscapePodDistressSignal", 
-				"SourceRadius" : 1, 
-				"DetectionRadius" : 60,
-				"IdentificationRadius" : 5,
-				"Position" : {"x": 0, "y": -30.25, "z": 0}
+				"frequency" : "EscapePod", 
+				"name" : "Lure Distress Signal", 
+				"audioClip" : "OW_NM_EscapePodDistressSignal", 
+				"sourceRadius" : 1, 
+				"detectionRadius" : 60,
+				"identificationRadius" : 5,
+				"position" : {"x": 0, "y": -30.25, "z": 0}
 			}
 		]
 	},
@@ -123,7 +123,8 @@
 		[
 			{
 				"position": {"x": 2.6076, "y": -31.4881, "z": 1.4199},
-				"xmlFile" : "planets/Dialogue/BobsCousin.xml"
+				"xmlFile" : "planets/Dialogue/BobsCousin.xml",
+				"pathToAnimController": "Sector/Nomai_ANIM_SkyWatching_Idle(Clone)"
 			}
 		]
 	},

@@ -55,7 +55,18 @@
 			{
 				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate", 
 				"position": {"x": 18.2547, "y": -40.6567, "z": 185.6922},
-				"rotation": {"x": 82.1106, "y": 107.3981, "z": 103.934}
+				"rotation": {"x": 82.1106, "y": 107.3981, "z": 103.934},
+				"removeChildren": ["ConversationZone_RSci"]
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring",
+				"position": {"x": 32.1645, "y": -32.99, "z": 189.1096},
+				"rotation": {"x": 350.6663, "y": 80.1437, "z": 111.6283}
+			},
+			{
+				"path":"RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5",
+				"position": {"x": 32.2473, "y": -29.1062, "z": 189.7523},
+				"rotation": {"x": 4.5687, "y": 266.861, "z": 237.4793}
 			}
 		],
 		"dialogue" :
@@ -66,7 +77,9 @@
 			},
 			{
 				"position": {"x": 18.0605, "y": -50.5836, "z": 185.0414},
-				"xmlFile" : "planets/Dialogue/Nomai.xml"
+				"xmlFile" : "planets/Dialogue/Nomai.xml",
+				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle(Clone)",
+				"lookAtRadius" : 5
 			},
 			{
 				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
@@ -75,6 +88,69 @@
 			{
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
 				"xmlFile" : "planets/Dialogue/Ernesto.xml"
+			},
+			{
+				"position": {"x": 18.2946, "y": -40.5167, "z": 186.9321},
+				"xmlFile" : "planets/Dialogue/Shale.xml",
+				"pathToAnimController": "Sector_TH/Villager_HEA_Slate(Clone)/Villager_HEA_Slate_ANIM_LogSit",
+				"lookAtRadius" : 5
+			}
+		],
+		"slideShows" :
+		[
+			{
+				"position": {"x": 36.3886, "y": -35.1931, "z": 187.0995},
+				"rotation": {"x": 287.2072, "y": 65.1164, "z": 127.4015},
+				"type": "slideReel",
+				"slides": [
+					{"imagePath": "planets/assets/slides/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slides/prisoner.png"},
+					{"imagePath": "planets/assets/slides/MangledMica.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/feldspar.png"},
+					{"imagePath": "planets/assets/slides/angler.png", "beatAudio": "DBAnglerfishChasing_LP"},
+					{"imagePath": "planets/assets/slides/AmongUsDrip.png"}
+				]
+			},
+			{
+				"position": {"x": 36.7838, "y": -33.9397, "z": 187.2504},
+				"rotation": {"x": 288.4233, "y": 313.5344, "z": 236.3884},
+				"type": "slideReel",
+				"slides": [
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backDropFadeTime": 2},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "blackFrameDuration": 1},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"}
+				]
+			},
+			{
+				"position": {"x": 36.1593, "y": -36.479, "z": 186.9064},
+				"rotation": {"x": 297.2245, "y": 301.7512, "z": 246.6633},
+				"type": "slideReel",
+				"slides": [
+					{"imagePath": "planets/assets/slides/nh.png"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"}
+				]
+			},
+			{
+				"position": {"x": 38.0319, "y": -36.9151, "z": 185.9331},
+				"rotation": {"x": 85.3647, "y": 168.7207, "z": 155.2558},
+				"type": "autoProjector",
+				"slides": [
+					{"imagePath": "planets/assets/slides/nh.png"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
+				]
 			}
 		]
 	},
@@ -84,20 +160,20 @@
 		"initialReveal": [
 			"EXAMPLES_VISITORS_RUMOR"
 		],
-		"curiosities": [
+		"Curiosities": [
 			{
 				"id": "EXAMPLES_UNEXPECTED_GUESTS",
 				"color": {
-					"r": 0,
-					"g": 255,
-					"b": 255,
-					"a": 255
+					"R": 0,
+					"G": 255,
+					"B": 255,
+					"A": 255
 				},
 				"highlightColor": {
-					"r": 132,
-					"g": 255,
-					"b": 255,
-					"a": 255
+					"R": 132,
+					"G": 255,
+					"B": 255,
+					"A": 255
 				}
 			}
 		],

@@ -6,7 +6,9 @@
 		"surfaceGravity" : 8,
 		"surfaceSize" : 100,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"hasAmbientLight" : true,
+		"gravityFallOff": "linear",
+		"sphereOfInfluence": 1000
 	},
 	"Orbit" :
 	{
@@ -20,24 +22,24 @@
 		"size" : 100,
 		"curve": [
 			{"time":0, "value": 1},
-			{"time":5, "value": 0.5}
+			{"time":5, "value": 0.8}
 		],
-		"Tint" : {
-			"r" : 32,
-			"g" : 255,
-			"b" : 128,
-			"a" : 255
+		"tint" : {
+			"R" : 32,
+			"G" : 255,
+			"B" : 128,
+			"A" : 255
 		}
 	},
 	"Funnel" : 
 	{
-		"Target" : "Lava 2",
-		"Type" : "Lava",
-		"Tint" : {
-			"r" : 32,
-			"g" : 255,
-			"b" : 128,
-			"a" : 255
+		"target" : "Lava 2",
+		"type" : "Lava",
+		"tint" : {
+			"R" : 32,
+			"G" : 255,
+			"B" : 128,
+			"A" : 255
 		},
 		"curve": [
 			{"time":0, "value": 0},
@@ -48,7 +50,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",
-		"mapMode" : {
+		"MapMode" : {
 			"revealedSprite": "planets/ShipLogs/sprites/lava_twin_map_mode.png",
 			"scale": 0.9,
 			"manualPosition": {
@@ -60,5 +62,21 @@
 				"y": 2
 			}
 		}
-    }
+    },
+	"Props": {
+		"volcanoes" : [
+			{
+				"position" : {"x": 105, "y": 0, "z": 0}, 
+				"lavaTint" : {"R" : 32, "G" : 255, "B" : 128, "A" : 255},
+				"minLaunchSpeed" : 35,
+				"maxLaunchSpeed" : 40
+			},
+			{
+				"position" : {"x": -105, "y": 0, "z": 0}, 
+				"lavaTint" : {"R" : 32, "G" : 255, "B" : 128, "A" : 255},
+				"minLaunchSpeed" : 35,
+				"maxLaunchSpeed" : 40
+			}
+		]
+	}
 }
