@@ -67,6 +67,16 @@
 				"path":"RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5",
 				"position": {"x": 32.2473, "y": -29.1062, "z": 189.7523},
 				"rotation": {"x": 4.5687, "y": 266.861, "z": 237.4793}
+			},
+			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District2/Interactables_HangingCity_District2/VisibleFrom_HangingCity/Props_NOM_Whiteboard (1)",
+				"position": {"x": 33.1276, "y": -37.9262, "z": 184.553},
+				"rotation": {"x": 80, "y": 191.1707, "z": 180}
+			},
+			{
+				"path": "BackerSatellite_Body/Sector_BackerSatellite/Geometry_BackerSatellite",
+				"position" :{"x": 27.1177, "y": -55.1385, "z": 189.6429},
+				"rotation" :{"x": 0.8455, "y": 22.3547, "z": 0}
 			}
 		],
 		"dialogue" :
@@ -151,6 +161,70 @@
 					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
 				]
+			}
+		],
+		"nomaiText":[
+			{
+				"comment": "Behind Slate",
+				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
+				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
+				"xmlFile": "planets/Text/Text.xml",
+				"seed":42,
+				"arcInfo":[
+					{"type": "child"}
+				]
+			},
+			{
+				"comment": "On the ground by trees",
+				"position": {"x": 34.13071, "y": -27.06833, "z": 190.8683}, 
+				"normal": {"x": 0.06757314, "y": -0.472719, "z": 0.8786187},
+				"xmlFile": "planets/Text/Text.xml",
+				"seed":1337,
+				"arcInfo":[
+					{"type": "child"}
+				]
+			},
+			{
+				"comment": "On that one ledge",
+				"position":  {"x": 11.834, "y": -55.0562, "z": 184.1439}, 
+				"normal" : {"x": 0.9072242, "y": 0.4202163, "z": 0.01904997},
+				"xmlFile": "planets/Text/Text.xml",
+				"seed":54352,
+				"arcInfo":[
+					{"type": "child"}
+				]
+			},
+			{
+				"position": {"x": 35.68043, "y": -42.78446, "z": 182.4819}, 
+				"xmlFile": "planets/Text/WallText.xml",
+				"type": "scroll",
+				"seed": 10,
+				"arcInfo":[
+					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "child", "location":"A"},
+					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "stranger", "location":"B"},
+					{"position": {"x": -0.2968, "y":  1.7341}, "zRotation": 100, "type": "child", "location":"A"},
+					{"position": {"x": -0.7676, "y": 1.4533}, "zRotation": 160, "type": "adult", "location":"B"},
+					{"position": {"x": -1.0676, "y": 2.086}, "zRotation": 80, "type": "adult", "location":"B"},
+					{"position": {"x": -0.85, "y":  2.1}, "zRotation": 320, "type": "adult", "location":"B"},
+					{"position": {"x": 0.9988, "y": 1.7824}, "zRotation": 240, "type": "child", "location":"A"}
+				]
+			},
+			{
+				"position": {"x": 15.479, "y": -50.6244, "z": 183.2454},
+				"xmlFile": "planets/Text/Computer.xml",
+				"type": "computer"
+			},
+			{
+				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
+				"rotation": {"x": 358.4885, "y": 276.013, "z": 257.7496},
+				"xmlFile": "planets/Text/Cairn.xml",
+				"type": "cairn"
+			},
+			{
+				"position" : {"x": 26.7683, "y": -39.872, "z": 186.0676},
+				"rotation" : {"x": 17.0802, "y": 105.9782, "z": 102.4818},
+				"xmlFile": "planets/Text/Recorder.xml",
+				"type": "recorder"
 			}
 		]
 	},

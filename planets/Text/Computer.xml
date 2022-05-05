@@ -1,0 +1,16 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Beep boop I am a computer.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Making New Horizons is rotting my brain.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>This is a cry for help please kill me.</Text>
+	</TextBlock>
+</NomaiObject>
