@@ -8,7 +8,7 @@
 		"Fait beau, eh?" : "Хорошая погода, да?",
 		"Nevermind." : "Нет, ничего.",
 		"Oh yeah dude I totally forgot about that, maybe I'll be dead next time." : "О, точно, я совсем забыл. Наверное я умру в другой раз.",
-		"Speaking of Nomai not being dead, have you seen my brother? He's supposed to be in this system somewhere." : "Кстати говоря, ты видел моего брата? Он должен быть где-то в этой солнечной системе.",
+		"Speaking of Nomai not being dead, have you seen my cousin? He's supposed to be in this system somewhere." : "Кстати говоря, ты видел моего двоюродного брата? Он должен быть где-то в этой солнечной системе.",
 		"He said something about anglerfish, so I've been following this Ernesto guy around. I don't think its him though." : "Перед исчезновением он говорил про какого-то удильщика, так что я следил за этим удильщиком, Эрнесто. Но я не думаю, что это он виноват.",
 		"I'll keep a look out." : "Я постараюсь.",
 		"Did you try Dark Bramble?" : "Искал ли ты в чёрном Терновнике?",
@@ -31,7 +31,7 @@
 		"Okay... That's pretty rude bro..." : "Ладно... Это немного грубо, бро...",
 		"You're right. I apologize." : "Ты прав. Извини.",
 		"I'm sorry but I'm taken." : "Прости, но у меня есть супруг.",
-		"Oh my bad, they must consider themselves very lucky." : "Ох, прости. Наверное он очень удачливый.",
+		"Oh my bad, they must consider themselves very lucky." : "Ох, прости. Ему очень повезло.",
 		"Okay nevermind I hate you." : "Ладно, неважно, я ненавижу тебя.",
 		"Okay, say hi to Ernesto for me!" : "Ладно, передай привет Эрнесто!",
 		
@@ -77,8 +77,38 @@
 		"Although you might not be too worried about that now that I think about it." : "Хотя вам сейчас не нужно об этом волноваться.",
 		"What?" : "Что?",
 		"What are you doing here?" : "Что ты здесь делаешь?",
-		"... Bro I literally just told you." : "...Бро, я же это буквально только что сказал."
-    },
+		"... Bro I literally just told you." : "...Бро, я же это буквально только что сказал.",
+		
+		"Slate's Cousin" : "Двоюродный брат Сланца",
+		"Hey." : "Хей.",
+		"Hi Slate!" : "Привет, Сланец!",
+		"What? I'm not Slate, that's my cousin." : "Что? Я не Сланец, я его двоюродный брат.",
+		"Oh my bad. Bye." : "Ох, извини. Пока.",
+		"Bye." : "Пока.",
+		
+		
+		
+		"Fred: Fred was here." : "Фред: Фред был здесь.",
+		
+		"Dear diary." : "Дорогой дневник.",
+		"Hi it's me Ernesto." : "Меня зовут Эрнесто.",
+		"I just learned how to write in Nomai yesterday." : "Вчера я выучил как писать на номайском.",
+		"Wait no this is like a tape recorder right? Ok I just learned how to speak in Nomai yesterday." : "А, стоп, погодите, это же голосовая запись, да? Похоже я только что выучил как говорить на номайском.",
+    
+		"Beep boop I am a computer." : "Бип буп я компьютер.",
+		"Making New Horizons is rotting my brain." : "Я не могу остановиться создавать New Horizons.",
+		"This is a cry for help please kill me." : "Пожалуйста, убейте меня.",
+		
+		"Slide reel examples (10m)." : "Примеры диамагазинов(10m).",
+		
+		"FRED: Do you want to <![CDATA[<color=lightblue>duo</color>]]> in <![CDATA[<color=red>Fortnite</color>]]>." : "ФРЕД: Го в Фортнайт вдвоём?",
+		"BOB: No, I'd really rather not." : "БОБ: Нет.",
+		"FRED: Okay well does anyone want to play <![CDATA[<color=pink>Among Us</color>]]>." : "ФРЕД: Окей ладно, кто-нибудь хочет в Амонг Ас?",
+		"Ernesto: Yeah I'm down." : "ЭРНЕСТО: Давай",
+		"Geswaldo: Sure thing." : "Гесвальдо: Я согласен",
+		"Slate: Who even are you people?" : "Сланец: Ребят, вы вообще кто?",
+		"FRED: My name is Bob." : "ФРЕД: Я Боб"
+	},
     "ShipLogDictionary" :
     {
 		"Unexpected guests" : "Незванные гости",
@@ -127,6 +157,8 @@
 		"Ringed Jewel" : "Окольцованная жемчужина",
 		"Devil's Maw" : "Дьявольская пасть",
 		"Light Gateway" : "Светлый путь",
-		"Dark Gateway" : "Тёмный путь"
+		"Dark Gateway" : "Тёмный путь",
+		
+
     }
 }
