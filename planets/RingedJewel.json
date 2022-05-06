@@ -34,6 +34,7 @@
 		},
 		"cloud" : "planets/assets/ringed_jewel.png",
 		"cloudCap" : "planets/assets/ringed_jewel_cap.png",
+		"cloudFluidType": "PLASMA",
 		"fogTint" : 
 		{
 			"r" : 255,
@@ -56,7 +57,8 @@
 	{
 		"innerRadius" : 800,
 		"outerRadius" : 950,
-		"texture" : "planets/assets/planet_rings.png"
+		"texture" : "planets/assets/planet_rings.png",
+		"fluidType": "WATER"
 	},
 	"ShipLog" : {
 		"xmlFile": "planets/ShipLogs/RingedJewel.xml",
@@ -87,6 +89,44 @@
 	{
 		"reveal": [
 			{"radius":500, "reveals": ["EXAMPLES_RINGED_JEWEL_VISIT"]}
+		],
+		"tornados":
+		[
+			{
+				"elevation": 200,
+				"height": 100,
+				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
+				"downwards": true,
+				"wanderRate": 0.1
+			},
+			{
+				"elevation": 200,
+				"height": 100,
+				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
+				"downwards": true,
+				"wanderRate": 0.1
+			},
+			{
+				"elevation": 200,
+				"height": 100,
+				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
+				"downwards": true,
+				"wanderRate": 0.1
+			},
+			{
+				"elevation": 200,
+				"height": 100,
+				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
+				"downwards": true,
+				"wanderRate": 0.1
+			},
+			{
+				"elevation": 200,
+				"height": 100,
+				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
+				"downwards": true,
+				"wanderRate": 0.1
+			}
 		]
 	}
 }

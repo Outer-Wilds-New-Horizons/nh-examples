@@ -3,7 +3,7 @@
 	"name" : "Wetrock",
 	"Base" : 
 	{
-		"groundSize" : 100,
+		"groundSize" : 99,
 		"surfaceSize" : 101,
 		"surfaceGravity" : 12,
 		"hasMapMarker" : true,
@@ -73,6 +73,30 @@
 				"position" : {"x": 0, "y": 101, "z": 0},
 				"radius": 3,
 				"xmlFile" : "planets/Dialogue/ErnestosCousin.xml"
+			}
+		],
+		"rafts": 
+		[
+			{
+				"position" : {"x": 101, "y": 0, "z": 0}
+			}
+		],
+		"tornados":
+		[
+			{
+				"elevation": 101,
+				"height": 30,
+				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
+			},
+			{
+				"elevation": 101,
+				"height": 30,
+				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
+			},
+			{
+				"elevation": 101,
+				"height": 30,
+				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
 			}
 		]
 	},
