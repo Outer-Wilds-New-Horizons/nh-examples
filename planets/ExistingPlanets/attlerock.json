@@ -47,7 +47,11 @@
 		"fogDensity":0.3
 	},
 	"Orbit": {
-		"inclination": 90
+		"primaryBody": "Giant's Deep",
+		"semiMajorAxis": 2600,
+		"inclination": 5,
+		"longitudeOfAscendingNode": 90,
+		"trueAnomaly": 120
 	},
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/Attlerock.xml",

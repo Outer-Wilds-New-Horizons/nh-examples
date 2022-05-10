@@ -1,12 +1,17 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Giants Deep",
+	"Orbit" : 
+	{
+		"primaryBody": "Sun",
+		"semiMajorAxis": 13500
+	},
 	"Ring" :
 	{
 		"innerRadius" : 1800,
 		"outerRadius" : 2200,
-		"inclination" : 20,
-		"longitudeOfAscendingNode" : 80,
+		"inclination" : 5,
+		"longitudeOfAscendingNode" : 90,
 		"texture" : "planets/assets/default_rings.png",
 		"fluidType": "SAND"
 	},

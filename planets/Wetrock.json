@@ -11,14 +11,11 @@
 	},
 	"Orbit" : 
 	{
-		"semiMajorAxis" : 1300,
-		"inclination" : 0,
-		"primaryBody" : "TIMBER_HEARTH",
-		"isMoon" : true,
-		"isTidallyLocked" : true,
-		"longitudeOfAscendingNode" : 0,
-		"eccentricity" : 0,
-		"argumentOfPeriapsis": 0
+		"primaryBody": "Giant's Deep",
+		"semiMajorAxis": 2600,
+		"inclination": 5,
+		"longitudeOfAscendingNode": 90,
+		"trueAnomaly": 240
 	},
 	"Water": 
 	{

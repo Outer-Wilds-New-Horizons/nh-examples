@@ -2,7 +2,8 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
 	"name" : "Timber Hearth",
 	"Orbit": {
-		"semiMajorAxis": 12000,
+		"primaryBody": "Giants Deep",
+		"semiMajorAxis": 2600,
 		"inclination": 5,
 		"longitudeOfAscendingNode": 90,
 		"trueAnomaly": 180
