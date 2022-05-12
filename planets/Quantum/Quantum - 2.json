@@ -10,6 +10,7 @@
 	},
 	"Orbit" :
 	{
+		"semiMajorAxis" : 10000,
 		"primaryBody" : "Sun",
 		"trueAnomaly": 90
 	},
