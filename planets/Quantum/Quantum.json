@@ -1,0 +1,42 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"name" : "Quantum Planet",
+	"Base" : 
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 200,
+		"hasMapMarker" : true,
+		"groundSize": 200
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 10000,
+		"primaryBody" : "Sun",
+		"trueAnomaly": 0
+	},
+	"Atmosphere" :
+	{
+		"size" : 250,
+		"fogTint":
+		{
+			"R" : 255,
+			"G" : 125,
+			"B" : 50,
+			"A" : 255
+		},
+		"fogSize": 250,
+		"fogDensity":0.1
+	},
+	"Signal": {
+		"signals": [
+			{
+				"audioClip": "OW_QuantumSignal",
+				"frequency": "Quantum",
+				"detectionRadius": 400,
+				"identificationRadius": 250,
+				"sourceRadius": 200,
+				"name": "Quantum Planet"
+			}
+		]
+	}
+}
