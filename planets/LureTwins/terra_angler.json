@@ -17,10 +17,10 @@
 		"hasAtmosphere" : true,
 		"atmosphereTint" : 
 		{
-			"r" : 128,
-			"g" : 164,
-			"b" : 255,
-			"a" : 255
+			"R" : 128,
+			"G" : 164,
+			"B" : 255,
+			"A" : 255
 		}
 	},
 	"Orbit" :
@@ -28,7 +28,7 @@
 		"semiMajorAxis" : 0,
 		"inclination" : 4,
 		"primaryBody" : "Lures",
-		"tint": {"r": 78, "g": 78, "b": 52, "a": 255},
+		"tint": {"R": 78, "G": 78, "B": 52, "A": 255},
 		"isTidallyLocked": true,
 		"isMoon": true,
 		"alignmentAxis" : {"x": 0, "y": 0, "z": -1}
@@ -117,6 +117,23 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
 				"position" : {"x": 2.607613, "y": -29.848, "z": 1.419874},
 				"alignToNormal":true
+			}
+		],
+		"proxyDetails": [
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish",
+				"position" : {"x":0,"y":190,"z":100},
+				"rotation" : {"x":90, "y":180, "z":0},
+				"scale":1.5,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"position" : {"x":0,"y":190,"z":100},
+				"rotation" : {"x":90, "y":180, "z":0},
+				"scale":1.5
 			}
 		],
 		"dialogue" :
