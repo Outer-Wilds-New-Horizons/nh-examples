@@ -16,4 +16,4 @@ An example project showing what planets can be made with New Horizons
 
 ## Credits
 - Banner and thumbnail by [Classic](https://github.com/ClassicalBro)
-- Russian translation done by [Tllya](https://github.com/Tllya) and [GrayFix](https://github.com/GrayFix)
+- Russian translation done by [Tllya](https://github.com/Tllya)
