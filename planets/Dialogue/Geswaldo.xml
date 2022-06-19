@@ -61,6 +61,7 @@
 				<DialogueTarget>Main</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+		<SetCondition>EXAMPLES_INSULT</SetCondition>
 	</DialogueNode>
 
 	<DialogueNode>

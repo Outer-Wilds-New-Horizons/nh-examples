@@ -1,0 +1,17 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+    "AchievementTranslations" : {
+		"EXAMPLES_SIGNAL" : {
+			"Name" : "Not a Trap",
+			"Description" : "Discover a distress call"
+		},
+		"EXAMPLES_DIALOGUE" : {
+			"Name" : "You're a Bad Person",
+			"Description" : "Insult a jellyfish"
+		},
+		"EXAMPLES_FACTS" : {
+			"Name" : "Something Fishy",
+			"Description" : "Visit Giant's Deep"
+		}
+	}
+}
