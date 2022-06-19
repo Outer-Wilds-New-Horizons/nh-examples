@@ -7,10 +7,7 @@
 		<Dialogue>
 			<Page>You looking at something?</Page>
 		</Dialogue>
-		<RevealFacts>
-			<FactID>EXAMPLES_FRED</FactID>
-		</RevealFacts>
-		
+
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Aren't you guys all supposed to be dead?</Text>
@@ -29,6 +26,10 @@
 				<DialogueTarget>END</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_FRED</FactID>
+		</RevealFacts>
 	</DialogueNode>
 	
 	<DialogueNode>

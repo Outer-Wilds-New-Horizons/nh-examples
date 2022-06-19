@@ -7,10 +7,7 @@
 		<Dialogue>
 			<Page>Hey man how's it going?</Page>
 		</Dialogue>
-		<RevealFacts>
-			<FactID>EXAMPLES_BOB</FactID>
-		</RevealFacts>
-		
+
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Aren't you supposed to kill me?</Text>
@@ -25,6 +22,10 @@
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_BOB</FactID>
+		</RevealFacts>
 	</DialogueNode>
 	
 	<DialogueNode>
@@ -51,18 +52,12 @@
 	<DialogueNode>
 		<Name>3</Name>
 		<Dialogue>
-			<Page>I'm actually a magical wizard and I've been casting some <b>crazy</b> spells on your solar system.</Page>
+			<Page>I'm actually a magical wizard and I've been casting some <![CDATA[<b>crazy</b>]]> spells on your solar system.</Page>
 			<Page>I put a bunch of sand on some moon, I put rings on some big gas giant...</Page>
 			<Page>Oh yeah I gave you guys an extra blackhole-whitehole pair, so you're welcome.</Page>
-			<Page><b>Oh</b> and I threw your planet far from the sun so look out for falling temperatures killing you all in a few months.</Page>
+			<Page><![CDATA[<b>Oh</b>]]> and I threw your planet far from the sun so look out for falling temperatures killing you all in a few months.</Page>
 			<Page>Although you might not be too worried about that now that I think about it.</Page>
 		</Dialogue>
-
-		<RevealFacts>
-			<FactID>EXAMPLES_SAND</FactID>
-			<FactID>EXAMPLES_RINGS</FactID>
-			<FactID>EXAMPLES_LAVA</FactID>
-		</RevealFacts>
 
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -74,6 +69,12 @@
 				<DialogueTarget>4</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_SAND</FactID>
+			<FactID>EXAMPLES_RINGS</FactID>
+			<FactID>EXAMPLES_LAVA</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>

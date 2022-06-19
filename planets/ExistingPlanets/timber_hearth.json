@@ -39,6 +39,11 @@
 				"scale" : 0.08
 			},
 			{
+				"assetBundle": "planets/bundle/examples_trifid",
+				"path":"Assets/JellyfishLight (1).prefab",
+				"position": {"x": 28.63121, "y": -46.67, "z": 185.68}
+			},
+			{
 				"path": "Anglerfish_Body/Beast_Anglerfish",
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
 				"rotation": {"x":78, "y":189, "z":180},
@@ -201,13 +206,13 @@
 				"type": "scroll",
 				"seed": 10,
 				"arcInfo":[
-					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "child", "location":"A"},
-					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "stranger", "location":"B"},
-					{"position": {"x": -0.2968, "y":  1.7341}, "zRotation": 100, "type": "child", "location":"A"},
-					{"position": {"x": -0.7676, "y": 1.4533}, "zRotation": 160, "type": "adult", "location":"B"},
-					{"position": {"x": -1.0676, "y": 2.086}, "zRotation": 80, "type": "adult", "location":"B"},
-					{"position": {"x": -0.85, "y":  2.1}, "zRotation": 320, "type": "adult", "location":"B"},
-					{"position": {"x": 0.9988, "y": 1.7824}, "zRotation": 240, "type": "child", "location":"A"}
+					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "child"},
+					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "stranger"},
+					{"position": {"x": -0.2968, "y":  1.7341}, "zRotation": 100, "type": "child"},
+					{"position": {"x": -0.7676, "y": 1.4533}, "zRotation": 160, "type": "adult"},
+					{"position": {"x": -1.0676, "y": 2.086}, "zRotation": 80, "type": "adult"},
+					{"position": {"x": -0.85, "y":  2.1}, "zRotation": 320, "type": "adult"},
+					{"position": {"x": 0.9988, "y": 1.7824}, "zRotation": 240, "type": "child"}
 				]
 			},
 			{
