@@ -14,6 +14,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>I hate you.</Text>
+				<ConditionToSet>EXAMPLES_INSULT</ConditionToSet>
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -37,6 +38,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>I hate you.</Text>
+				<ConditionToSet>EXAMPLES_INSULT</ConditionToSet>
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>

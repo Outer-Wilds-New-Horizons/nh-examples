@@ -1,0 +1,19 @@
+{
+    "achievements" : [
+        {
+            "ID" : "EXAMPLES_SIGNAL",
+            "secret" : false,
+            "signalIDs" : ["Lure Distress Signal"]
+        },
+        {
+            "ID" : "EXAMPLES_DIALOGUE",
+            "secret" : false,
+            "conditionIDs" : ["EXAMPLES_INSULT"]
+        },
+        {
+            "ID" : "EXAMPLES_FACTS",
+            "secret" : false,
+            "factIDs" : ["EXAMPLES_GIANTS_DEEP_ANGLERS"]
+        }
+    ]
+}

@@ -7,10 +7,7 @@
 		<Dialogue>
 			<Page>Hey it's me Ernesto the magic talking anglerfish.</Page>
 		</Dialogue>
-		<RevealFacts>
-			<FactID>EXAMPLES_ERNESTO</FactID>
-		</RevealFacts>
-		
+
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Wow you can talk?</Text>
@@ -29,6 +26,10 @@
 				<DialogueTarget>4</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_ERNESTO</FactID>
+		</RevealFacts>
 	</DialogueNode>
 	
 	<DialogueNode>
@@ -63,15 +64,17 @@
 		<Dialogue>
 			<Page>Me and Geswaldo were visiting my cousin on Wetrock, I don't know about the other two. I don't know those guys.</Page>
 		</Dialogue>
-		<RevealFacts>
-			<FactID>EXAMPLES_ERNESTO_COUSIN_RUMOR</FactID>
-		</RevealFacts>
+
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Thanks for the info.</Text>
 				<DialogueTarget>START</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_ERNESTO_COUSIN_RUMOR</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>
