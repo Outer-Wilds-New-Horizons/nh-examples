@@ -3,8 +3,10 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"Base" :
 	{
-		"hasMapMarker" : true,
-		"sphereOfInfluence": 500
+		"hasMapMarker" : true
+	},
+	"ReferenceFrame": {
+		"enabled": false
 	},
 	"Orbit" :
 	{
@@ -15,7 +17,7 @@
 	},
 	"FocalPoint" :
 	{
-		"Primary" : "Terra Lure",
-		"Secondary" : "Luna Lure"
+		"primary" : "Terra Lure",
+		"secondary" : "Luna Lure"
 	}
 }

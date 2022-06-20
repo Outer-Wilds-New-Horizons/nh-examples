@@ -3,8 +3,10 @@
 	"name" : "Lava Twins",
 	"Base" :
 	{
-		"hasMapMarker" : true,
-		"sphereOfInfluence": 2000
+		"hasMapMarker" : true
+	},
+	"ReferenceFrame": {
+		"enabled": false
 	},
 	"Orbit" :
 	{
@@ -13,7 +15,7 @@
 	},
 	"FocalPoint" :
 	{
-		"Primary" : "Lava 1",
-		"Secondary" : "Lava 2"
+		"primary" : "Lava 1",
+		"secondary" : "Lava 2"
 	}
 }

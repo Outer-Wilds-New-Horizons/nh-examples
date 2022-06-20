@@ -19,14 +19,13 @@
 	"Star" :
 	{
 		"size" : 200,
-		"tint" : { "R" : 5, "G" : 38, "B" : 255, "A" : 255 },
-		"giantTint" : { "R" : 255, "G" : 38, "B" : 255, "A" : 255 },
-		"solarFlareTint" : {"R" : 5, "G" : 38, "B" : 255, "A" : 255 },
+		"tint" : { "r" : 5, "g" : 38, "b" : 255, "a" : 255 },
+		"endTint" : { "r" : 255, "g" : 38, "b" : 255, "a" : 255 },
 		"solarLuminosity" : 0.6,
-		"lifeSpan": 0.5,
 		"curve":[
 			{"time": 0, "value":1},
-			{"time": 0.5, "value":2}
+			{"time": 21.5, "value":1},
+			{"time": 22, "value":2}
 		]
 	},
 	"ShipLog" : {

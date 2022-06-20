@@ -1,11 +1,11 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>Dead fish</NameField>
+	<NameField>dead fish</NameField>
 
 	<DialogueNode>
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>I think this is Ernesto's cousin.</Page>
+			<Page>I think this was Ernesto's cousin.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>EXAMPLES_COUSIN_FOUND</FactID>

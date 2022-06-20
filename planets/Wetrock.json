@@ -4,10 +4,10 @@
 	"Base" : 
 	{
 		"groundSize" : 99,
-		"surfaceSize" : 101,
+		"surfaceSize" : 100,
 		"surfaceGravity" : 12,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"ambientLight": 1.4
 	},
 	"Orbit" : 
 	{
@@ -19,13 +19,13 @@
 	},
 	"Water": 
 	{
-		"size": 101,
+		"size": 100,
 		"tint": 
 		{
-			"R" : 128,
-			"G" : 255,
-			"B" : 200,
-			"A" : 255
+			"r" : 128,
+			"g" : 255,
+			"b" : 200,
+			"a" : 255
 		}
 	},
 	"Atmosphere" : 
@@ -33,10 +33,17 @@
 		"size" : 150,
 		"fogTint" : 
 		{
-			"R" : 200,
-			"G" : 255,
-			"B" : 255,
-			"A" : 255
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"atmosphereTint":
+		{
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
 		},
 		"fogSize": 150,
 		"fogDensity":0.2,
@@ -46,7 +53,7 @@
 	{
 		"scatter" : [
 			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)", "count" : 12, "scale" : 0.7},
-		        {"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B", "count" : 30}
+		    {"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B", "count" : 30}
 		],
 		"reveal" : [
 			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
@@ -69,30 +76,31 @@
 		[
 			{
 				"position" : {"x": 0, "y": 101, "z": 0},
-				"radius": 3,
+				"radius": 3.5,
+				"range": 3.5,
 				"xmlFile" : "planets/Dialogue/ErnestosCousin.xml"
 			}
 		],
 		"rafts": 
 		[
 			{
-				"position" : {"x": 101, "y": 0, "z": 0}
+				"position" : {"x": 100, "y": 0, "z": 0}
 			}
 		],
 		"tornados":
 		[
 			{
-				"elevation": 101,
+				"elevation": 100,
 				"height": 30,
 				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
 			},
 			{
-				"elevation": 101,
+				"elevation": 100,
 				"height": 30,
 				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
 			},
 			{
-				"elevation": 101,
+				"elevation": 100,
 				"height": 30,
 				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
 			}
@@ -101,7 +109,7 @@
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/Wetrock.xml",
 		"spriteFolder": "planets/ShipLogs/sprites",
-		"MapMode" : {
+		"mapMode" : {
 			"revealedSprite": "planets/ShipLogs/sprites/wetrock_map_mode.png",
 			"scale": 0.6,
 			"manualPosition": {
