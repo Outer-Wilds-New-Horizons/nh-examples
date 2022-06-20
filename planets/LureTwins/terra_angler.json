@@ -3,24 +3,23 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"Base" :
 	{
-		"sphereOfInfluence" : 500,
 		"surfaceGravity" : 6,
 		"surfaceSize" : 30,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "linear",
-		"hasAmbientLight": true
+		"ambientLight": 1.4
 	},
 	"Atmosphere" :
 	{
 		"size" : 50,
 		"hasOxygen" : true,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
-			"R" : 128,
-			"G" : 164,
-			"B" : 255,
-			"A" : 255
+			"r" : 128,
+			"g" : 164,
+			"b" : 255,
+			"a" : 255
 		}
 	},
 	"Orbit" :
@@ -28,7 +27,7 @@
 		"semiMajorAxis" : 0,
 		"inclination" : 4,
 		"primaryBody" : "Lures",
-		"tint": {"R": 78, "G": 78, "B": 52, "A": 255},
+		"tint": {"r": 78, "g": 78, "b": 52, "a": 255},
 		"isTidallyLocked": true,
 		"isMoon": true,
 		"alignmentAxis" : {"x": 0, "y": 0, "z": -1}

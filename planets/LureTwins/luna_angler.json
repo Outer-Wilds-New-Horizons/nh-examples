@@ -7,13 +7,13 @@
 		"surfaceSize" : 20,
 		"hasMapMarker" : true,
 		"gravityFallOff" : "linear",
-		"hasAmbientLight": true
+		"ambientLight": 1.4
 	},
 	"Atmosphere" :
 	{
 		"size" : 30,
 		"hasOxygen" : true,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
 			"r" : 128,
@@ -30,7 +30,7 @@
 		"isMoon" : true,
 		"tint": {"r": 26, "g": 26, "b": 26, "a": 255},
 		"isTidallyLocked": true,
-		"AlignmentAxis" : {"x": -1, "y": 0, "z": 0}
+		"alignmentAxis" : {"x": -1, "y": 0, "z": 0}
 	},
     "HeightMap": {
         "heightMap": "planets/assets/luna_heightmap.png",

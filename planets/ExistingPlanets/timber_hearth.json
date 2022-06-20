@@ -95,7 +95,7 @@
 				"position": {"x": 18.0605, "y": -50.5836, "z": 185.0414},
 				"xmlFile" : "planets/Dialogue/Nomai.xml",
 				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle(Clone)",
-				"lookAtRadius" : 5
+				"lookAtRadius" : 3
 			},
 			{
 				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
@@ -103,13 +103,14 @@
 			},
 			{
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
-				"xmlFile" : "planets/Dialogue/Ernesto.xml"
+				"xmlFile" : "planets/Dialogue/Ernesto.xml",
+				"radius": 1.5
 			},
 			{
 				"position": {"x": 18.2946, "y": -40.5167, "z": 186.9321},
 				"xmlFile" : "planets/Dialogue/Shale.xml",
 				"pathToAnimController": "Sector_TH/Villager_HEA_Slate(Clone)/Villager_HEA_Slate_ANIM_LogSit",
-				"lookAtRadius" : 5
+				"lookAtRadius" : 3
 			}
 		],
 		"slideShows" :

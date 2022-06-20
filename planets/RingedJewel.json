@@ -6,7 +6,7 @@
 		"surfaceGravity" : 12,
 		"surfaceSize" : 200,
 		"hasMapMarker" : true,
-		"hasAmbientLight" : true
+		"ambientLight": 1
 	},
 	"Orbit" :
 	{
@@ -25,16 +25,6 @@
 	"Atmosphere" :
 	{
 		"size" : 500,
-		"cloudTint" : 
-		{
-			"r" : 181,
-			"g" : 181,
-			"b" : 230,
-			"a" : 255
-		},
-		"cloud" : "planets/assets/ringed_jewel.png",
-		"cloudCap" : "planets/assets/ringed_jewel_cap.png",
-		"cloudFluidType": "PLASMA",
 		"fogTint" : 
 		{
 			"r" : 255,
@@ -44,13 +34,28 @@
 		},
 		"fogDensity": 0.4,
 		"fogSize": 450,
-		"hasAtmosphere" : true,
+		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
 			"r" : 140,
 			"g" : 65,
 			"b" : 140,
 			"a" : 255
+		},
+		"clouds": {
+			"outerCloudRadius": 500,
+			"innerCloudRadius": 450,
+			"texturePath": "planets/assets/ringed_jewel.png",
+			"capPath": "planets/assets/ringed_jewel_cap.png",
+			"tint":
+			{
+				"r" : 181,
+				"g" : 181,
+				"b" : 230,
+				"a" : 255
+			},
+			"fluidType": "plasma",
+			"hasLightning": true
 		}
 	},
 	"Ring" : 
@@ -58,7 +63,7 @@
 		"innerRadius" : 800,
 		"outerRadius" : 950,
 		"texture" : "planets/assets/planet_rings.png",
-		"fluidType": "WATER"
+		"fluidType": "water"
 	},
 	"ShipLog" : {
 		"xmlFile": "planets/ShipLogs/RingedJewel.xml",
@@ -96,35 +101,35 @@
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
-				"downwards": true,
+				"type": "downwards",
 				"wanderRate": 0.1
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
-				"downwards": true,
+				"type": "downwards",
 				"wanderRate": 0.1
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
-				"downwards": true,
+				"type": "downwards",
 				"wanderRate": 0.1
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
-				"downwards": true,
+				"type": "downwards",
 				"wanderRate": 0.1
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
-				"downwards": true,
+				"type": "downwards",
 				"wanderRate": 0.1
 			}
 		]
