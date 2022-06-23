@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Sequestered Luminary",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base" :
+	{
+		"surfaceGravity" : 100,
+		"surfaceSize" : 1000,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem": true
+	},
+	"Orbit" :
+	{
+		"showOrbitLine" : false,
+		"isStatic" : true
+	},
+	"Star" :
+	{
+		"size" : 200,
+        "tint" : 
+		{
+			"r" : 200,
+			"g" : 220,
+			"b" : 250,
+			"a" : 255
+		},
+		"solarLuminosity" : 0.6,
+        "goSupernova": false
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/sequestered_luminary_map_mode.png",
+			"scale": 0.75,
+			"manualPosition": {
+				"x": 0,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 0
+			}
+		}
+    }
+}
