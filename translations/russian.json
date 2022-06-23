@@ -1,4 +1,4 @@
-{
+﻿{
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
     "DialogueDictionary" :
     {
@@ -36,8 +36,8 @@
 		"Okay nevermind I hate you." : "Ладно, неважно, я ненавижу тебя.",
 		"Okay, say hi to Ernesto for me!" : "Ладно, передай привет Эрнесто!",
 		
-		"Dead fish" : "Мёртвый удильщик.",
-		"I think this is Ernesto's cousin." : "Я думаю это двоюродный брат Эрнесто.",
+		"dead fish" : "мёртвая рыба",
+		"I think this was Ernesto's cousin." : "Я думаю был двоюродный брат Эрнесто.",
 		
 		"Ernesto" : "Эрнесто",
 		"Hey it's me Ernesto the magic talking anglerfish." : "Хей, это я, Эрнесто, магический говорящий удильщик.",
@@ -159,6 +159,20 @@
 		"Devil's Maw" : "Дьявольская пасть",
 		"Light Gateway" : "Светлый путь",
 		"Dark Gateway" : "Тёмный путь", 
-		"Quantum planet" : "Квантовая планета"
-    }
+		"Quantum planet" : "Квантовая планета",
+    },
+    "AchievementTranslations" : {
+		"EXAMPLES_SIGNAL" : {
+			"Name" : "Не ловушка",
+			"Description" : "Обнаружить сигнал бедствия"
+		},
+		"EXAMPLES_DIALOGUE" : {
+			"Name" : "Ты плохой человек",
+			"Description" : "Обидеть медузу"
+		},
+		"EXAMPLES_FACTS" : {
+			"Name" : "Что-то рыбное",
+			"Description" : "Посетите Пучину Гиганта"
+		}
+	}
 }
