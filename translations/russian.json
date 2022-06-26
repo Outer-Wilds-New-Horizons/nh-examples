@@ -144,8 +144,10 @@
     },
 	"UIDictionary" :
     {
-		"Lure Distress Signal" : "Сигнал бедствия с Приманки",
-	    
+		"Gateway to Sequestered Luminary" : "Телепорт на Заточённый Светильник",
+	    "xen.NewHorizonsExamples" : "Заточённый Светильник",
+
+
 		"Wetrock" : "Галька",
 		"Lava Twins" : "Лавовые близнецы",
 		"Lava 1" : "Лава 1",
@@ -159,7 +161,15 @@
 		"Devil's Maw" : "Дьявольская пасть",
 		"Light Gateway" : "Светлый путь",
 		"Dark Gateway" : "Тёмный путь", 
-		"Quantum Planet" : "Квантовая планета"
+		"Quantum Planet" : "Квантовая планета",
+
+		"Frigid Pygmy" : "Фригидная Пигмея",
+		"Daunting Confidant" : "Бесстрашный Жнец",
+		"Sequestered Luminary" : "Заточённый Светильник",
+
+
+		"Lure Distress Signal" : "Сигнал бедствия с Приманки"
+		
     },
     "AchievementTranslations" : {
 		"EXAMPLES_SIGNAL" : {
