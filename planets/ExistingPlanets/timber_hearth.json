@@ -12,6 +12,28 @@
 	{
 		"surfaceSize" : 150
 	},
+	"Singularity" :
+	{
+		"type": "blackHole",
+        "targetStarSystem": "xen.NewHorizonsExamples",
+        "size": 4,
+        "position": {"x": 15, "y": -32, "z": 196}
+	},
+	"Signal" :
+	{
+		"signals" :
+		[
+			{ 
+				"frequency" : "Default",
+				"name" : "Gateway to Sequestered Luminary",
+				"audioClip" : "OW_NM_WhiteHoleAmbienceL", 
+				"sourceRadius" : 3, 
+				"position" : {"x": 15, "y": -32, "z": 196},
+				"identificationRadius" : 6,
+				"detectionRadius" : 10
+			}
+		]
+	},
 	"Props" : 
 	{
 		"details" :

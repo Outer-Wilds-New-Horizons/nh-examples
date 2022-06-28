@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Frigid Pygmy",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base" :
+	{
+		"surfaceGravity" : 6,
+		"surfaceSize" : 120,
+		"hasMapMarker" : true,
+		"ambientLight": 1.4
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 2000,
+		"primaryBody" : "Daunting Confidant",
+		"isMoon" : true,
+        "siderealPeriod": 1
+	},
+	"Atmosphere" :
+	{
+		"size" : 120,
+		"fogTint" : 
+		{
+			"r" : 255,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 120,
+		"hasOxygen" : true,
+		"hasSnow" : true,
+		"useAtmosphereShader": true,
+		"atmosphereTint" : 
+		{
+			"r" : 65,
+			"g" : 140,
+			"b" : 140,
+			"a" : 255
+		}
+	},
+	"HeightMap" :
+	{
+        "heightMap": "planets/assets/frigid_pygmy_heightmap.png",
+        "textureMap": "planets/assets/frigid_pygmy_texturemap.png",
+		"minHeight" : 98,
+		"maxHeight" : 100
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/frigid_pygmy_map_mode.png",
+			"scale": 0.9,
+			"manualPosition": {
+				"x": 280,
+				"y": 150
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 1
+			}
+		}
+    },
+	"Spawn" : 
+	{
+		"playerSpawnPoint": {
+		  "x": 0,
+		  "y": -98.8,
+		  "z": 10
+		},
+		"shipSpawnPoint": {
+		  "x": 0,
+		  "y": -99.1,
+		  "z": 0
+		},
+		"startWithSuit" : true
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Daunting Confidant",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base" :
+	{
+		"surfaceGravity" : 22,
+		"surfaceSize" : 550,
+		"hasMapMarker" : true,
+		"ambientLight": 2
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 28000,
+		"primaryBody" : "Sequestered Luminary",
+		"isMoon" : false,
+        "siderealPeriod": 2
+	},
+	"Lava" : 
+	{
+		"size": 200
+	},
+	"Water" : 
+	{
+		"size": 400
+	},
+	"Atmosphere" :
+	{
+		"size": 550,
+		"fogTint": {
+			"r": 255,
+			"g": 127,
+			"b": 127,
+			"a": 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 500,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 255,
+			"g": 127,
+			"b": 127,
+			"a": 255
+		},
+		"clouds": {
+			"outerCloudRadius": 550,
+			"innerCloudRadius": 500,
+			"texturePath": "planets/assets/daunting_confidant.png",
+            "capPath": "planets/assets/daunting_confidant_cap.png",
+			"tint": {
+				"r": 140,
+				"g": 70,
+				"b": 70,
+				"a": 255
+			},
+			"fluidType": "cloud",
+			"cloudsPrefab": "giantsDeep"
+		}
+	},
+	"ShipLog" : {
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/daunting_confidant_map_mode.png",
+			"scale": 1.6,
+			"manualPosition": {
+				"x": 280,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 0
+			}
+		}
+    }
+}
