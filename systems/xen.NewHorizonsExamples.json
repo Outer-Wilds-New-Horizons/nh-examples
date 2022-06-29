@@ -13,5 +13,10 @@
 		"x": 0,
 		"y": 0,
 		"z": 8000
+	},
+	"skybox": {
+		"assetBundle": "planets/bundle/examples.skybox",
+		"destroyStarField": true,
+		"path": "Assets/Free Skyboxes - Space/SBS Space 4/Large/Skybox_Space 4 Large.mat"
 	}
 }
