@@ -38,6 +38,11 @@
 	{
 		"details" :
 		[
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Interactibles_PrisonCell/PrisonerSequence/VisionTorchWallSocket/Prefab_IP_VisionTorchItem",
+				"position": {"x": 19.6589, "y": -49.67694, "z": 183.6397},
+				"rotation": {"x": 0.1034197, "y": -0.2596551, "z": 167.9601479}
+			},
 			{ 
 				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
 				"position" : {"x": 12.0282, "y": -45.4429,"z": 185.0175},  
@@ -185,6 +190,30 @@
 				"position": {"x": 38.0319, "y": -36.9151, "z": 185.9331},
 				"rotation": {"x": 85.3647, "y": 168.7207, "z": 155.2558},
 				"type": "autoProjector",
+				"slides": [
+					{"imagePath": "planets/assets/slides/nh.png"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
+				]
+			},
+			{
+				"position": {"x": 18.27021, "y": -50.37486, "z": 185.1447},
+				"type": "visionTorchTarget",
+				"slides": [
+					{"imagePath": "planets/assets/slides/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slides/prisoner.png"},
+					{"imagePath": "planets/assets/slides/MangledMica.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/feldspar.png"},
+					{"imagePath": "planets/assets/slides/angler.png", "beatAudio": "DBAnglerfishChasing_LP"},
+					{"imagePath": "planets/assets/slides/AmongUsDrip.png"}
+				]
+			},
+			{
+				"position": { "x": 12.1809855, "y": -39.9540329, "z": 186.246658},
+				"rotation": { "x": 42.27901, "y": 104.967056, "z": 106.829819},
+				"type": "standingVisionTorch",
 				"slides": [
 					{"imagePath": "planets/assets/slides/nh.png"},
 					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
