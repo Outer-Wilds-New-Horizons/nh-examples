@@ -257,6 +257,26 @@
 			}
 		]
 	},
+	"Bramble": {
+		"nodes": [
+		  {
+			"position": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+			"linksTo": "entranceDimension",
+			"name": "node1",
+			"fogTint":   {"r": 150, "g": 255, "b": 0, "a": 255},
+			"lightTint": {"r": 0,   "g": 255, "b": 0, "a": 255}
+		  },
+		  {
+			"position": {"x": 7.869108, "y": -55.75926, "z": 185.3436},
+			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+			"linksTo": "deepDimension",
+			"isSeed": true,
+			"fogTint":   {"r": 255, "g": 0,   "b": 255, "a": 255},
+			"lightTint": {"r": 0,   "g": 255, "b": 255, "a": 255}
+		  }
+		]
+	  },
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/TimberHearth.xml",
 		"spriteFolder": "planets/ShipLogs/sprites",

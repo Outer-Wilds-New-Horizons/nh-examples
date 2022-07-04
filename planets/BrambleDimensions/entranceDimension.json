@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  
+  "name": "entranceDimension",
+  "canShowOnTitle": false,
+
+  "Orbit": { 
+    "staticPosition": {"x": 6904, "y": 17048.44,"z": 5574.479}
+  },
+
+  "Bramble": {
+    "dimension": {
+      "fogTint": {"r": 0, "g": 255, "b": 0, "a": 10},
+      "linksTo": "node1"
+    },
+    "nodes": [
+      {
+        "position": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+        "rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+        "linksTo": "deepDimension",
+        "name": "node2",
+        "fogTint":   {"r": 0, "g": 255, "b": 255, "a": 255},
+        "lightTint": {"r": 0, "g": 255, "b": 0,   "a": 255}
+      }
+    ]
+  },
+
+  "Signal": {
+    "signals": [
+      {
+        "audioClip": "OW_NM_WhiteHoleAmbienceL",
+        "detectionRadius": 1000.0,
+        "frequency": "Traveler",
+        "identificationRadius": 100.0,
+        "name": "Custom Bramble Dimension - Entrance Dimension",
+        "position": {"x": 0, "y": 0, "z": 0},
+        "sourceRadius": 10.0
+      }
+    ]
+  }
+}
