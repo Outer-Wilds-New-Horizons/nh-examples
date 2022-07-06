@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+  "name": "deepDimension",
+  "canShowOnTitle": false,
+  
+  "Orbit": {
+    "staticPosition": { "x": 8904.48, "y": 17048.44, "z": 5574.479}
+  },
+
+  "Bramble": {
+    "dimension": {
+      "fogTint": {"r": 0, "g": 0, "b": 255, "a": 10},
+      "linksTo": "node1"
+    }
+  },
+  
+  "Signal": {
+    "signals": [
+      {
+        "audioClip": "OW_NM_WhiteHoleAmbienceL",
+        "detectionRadius": 1000.0,
+        "frequency": "EscapePod",
+        "identificationRadius": 100.0,
+        "name": "Custom Bramble Dimension - Deep Dimension",
+        "position": {"x": 0, "y": 0, "z": 0},
+        "sourceRadius": 10.0
+      }
+    ]
+  }
+}
