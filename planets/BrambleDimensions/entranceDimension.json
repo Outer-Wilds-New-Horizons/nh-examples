@@ -5,7 +5,7 @@
   "canShowOnTitle": false,
 
   "Orbit": { 
-    "staticPosition": {"x": 3000, "y": 20000,"z": 6000}
+    "staticPosition": {"x": 30000, "y": 30000,"z": 30000}
   },
 
   "Bramble": {
