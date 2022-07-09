@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
   
-  "name": "entranceDimension",
+  "name": "EntranceDimension",
   "canShowOnTitle": false,
 
   "Orbit": { 
-    "staticPosition": {"x": 6904, "y": 17048.44,"z": 5574.479}
+    "staticPosition": {"x": 3000, "y": 20000,"z": 6000}
   },
 
   "Bramble": {
@@ -17,7 +17,7 @@
       {
         "position": {"x": 65.2428, "y": -137.305, "z": 198.1078},
         "rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
-        "linksTo": "deepDimension",
+        "linksTo": "DeepDimension",
         "name": "node2",
         "fogTint":   {"r": 0, "g": 255, "b": 255, "a": 255},
         "lightTint": {"r": 0, "g": 255, "b": 0,   "a": 255}

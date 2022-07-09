@@ -291,7 +291,7 @@
 		  {
 			"position": {"x": 65.2428, "y": -137.305, "z": 198.1078},
 			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
-			"linksTo": "entranceDimension",
+			"linksTo": "EntranceDimension",
 			"name": "node1",
 			"fogTint":   {"r": 150, "g": 255, "b": 0, "a": 255},
 			"lightTint": {"r": 0,   "g": 255, "b": 0, "a": 255}
@@ -299,7 +299,7 @@
 		  {
 			"position": {"x": 18.9514, "y": -59.0629, "z": 186.5381},
 			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
-			"linksTo": "deepDimension",
+			"linksTo": "DeepDimension",
 			"isSeed": true,
 			"fogTint":   {"r": 255, "g": 0,   "b": 255, "a": 255},
 			"lightTint": {"r": 0,   "g": 255, "b": 255, "a": 255}

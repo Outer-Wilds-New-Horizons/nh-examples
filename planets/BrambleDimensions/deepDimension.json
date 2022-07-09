@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 
-  "name": "deepDimension",
+  "name": "DeepDimension",
   "canShowOnTitle": false,
   
   "Orbit": {
-    "staticPosition": { "x": 8904.48, "y": 17048.44, "z": 5574.479}
+    "staticPosition": { "x": 9000, "y": 20000, "z": 6000}
   },
 
   "Bramble": {
