@@ -121,7 +121,7 @@
 			{
 				"position": {"x": 18.0605, "y": -50.5836, "z": 185.0414},
 				"xmlFile" : "planets/Dialogue/Nomai.xml",
-				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle(Clone)",
+				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle",
 				"lookAtRadius" : 3
 			},
 			{
@@ -136,7 +136,7 @@
 			{
 				"position": {"x": 18.2946, "y": -40.5167, "z": 186.9321},
 				"xmlFile" : "planets/Dialogue/Shale.xml",
-				"pathToAnimController": "Sector_TH/Villager_HEA_Slate(Clone)/Villager_HEA_Slate_ANIM_LogSit",
+				"pathToAnimController": "Sector_TH/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
 				"lookAtRadius" : 3
 			}
 		],
