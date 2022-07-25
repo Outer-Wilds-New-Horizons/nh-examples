@@ -1,17 +1,27 @@
-
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"travelAudioFilePath": "planets/assets/Travel.mp3",
 	"canEnterViaWarpDrive": true,
 	"startHere": false,
-	"coords": {
-		"x": [ 4, 0, 3, 1 ],
-		"y": [ 0, 5, 4 ],
-		"z": [ 5, 4, 3, 2 ]
+	"Vessel": {
+		"coords": {
+			"x": [ 4, 0, 3, 1 ],
+			"y": [ 0, 5, 4 ],
+			"z": [ 5, 4, 3, 2 ]
+		},
+		"vesselPosition": {
+			"x": 0,
+			"y": 0,
+			"z": 8000
+		}
 	},
-	"vesselPosition": {
-		"x": 0,
-		"y": 0,
-		"z": 8000
+	"Skybox": {
+		"destroyStarField": true,
+		"rightPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Right_Large.png",
+		"leftPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Left_Large.png",
+		"topPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Up_Large.png",
+		"bottomPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Down_Large.png",
+		"frontPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Front_Large.png",
+		"backPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Back_Large.png"
 	}
 }

@@ -38,6 +38,11 @@
 	{
 		"details" :
 		[
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Interactibles_PrisonCell/PrisonerSequence/VisionTorchWallSocket/Prefab_IP_VisionTorchItem",
+				"position": {"x": 19.6589, "y": -49.67694, "z": 183.6397},
+				"rotation": {"x": 0.1034197, "y": -0.2596551, "z": 167.9601479}
+			},
 			{ 
 				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
 				"position" : {"x": 12.0282, "y": -45.4429,"z": 185.0175},  
@@ -116,7 +121,7 @@
 			{
 				"position": {"x": 18.0605, "y": -50.5836, "z": 185.0414},
 				"xmlFile" : "planets/Dialogue/Nomai.xml",
-				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle(Clone)",
+				"pathToAnimController": "Sector_TH/Nomai_ANIM_SkyWatching_Idle",
 				"lookAtRadius" : 3
 			},
 			{
@@ -131,7 +136,7 @@
 			{
 				"position": {"x": 18.2946, "y": -40.5167, "z": 186.9321},
 				"xmlFile" : "planets/Dialogue/Shale.xml",
-				"pathToAnimController": "Sector_TH/Villager_HEA_Slate(Clone)/Villager_HEA_Slate_ANIM_LogSit",
+				"pathToAnimController": "Sector_TH/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
 				"lookAtRadius" : 3
 			}
 		],
@@ -148,7 +153,7 @@
 					{"imagePath": "planets/assets/slides/MangledMica.png"},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
 					{"imagePath": "planets/assets/slides/feldspar.png"},
-					{"imagePath": "planets/assets/slides/angler.png", "beatAudio": "DBAnglerfishChasing_LP"},
+					{"imagePath": "planets/assets/slides/angler.png", "beatAudio": "VoiceMod/Ernesto START 0.wav"},
 					{"imagePath": "planets/assets/slides/AmongUsDrip.png"}
 				]
 			},
@@ -185,6 +190,30 @@
 				"position": {"x": 38.0319, "y": -36.9151, "z": 185.9331},
 				"rotation": {"x": 85.3647, "y": 168.7207, "z": 155.2558},
 				"type": "autoProjector",
+				"slides": [
+					{"imagePath": "planets/assets/slides/nh.png"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
+				]
+			},
+			{
+				"position": {"x": 18.27021, "y": -50.37486, "z": 185.1447},
+				"type": "visionTorchTarget",
+				"slides": [
+					{"imagePath": "planets/assets/slides/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
+					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slides/prisoner.png"},
+					{"imagePath": "planets/assets/slides/MangledMica.png"},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slides/feldspar.png"},
+					{"imagePath": "planets/assets/slides/angler.png", "beatAudio": "DBAnglerfishChasing_LP"},
+					{"imagePath": "planets/assets/slides/AmongUsDrip.png"}
+				]
+			},
+			{
+				"position": { "x": 12.1809855, "y": -39.9540329, "z": 186.246658},
+				"rotation": { "x": 42.27901, "y": 104.967056, "z": 106.829819},
+				"type": "standingVisionTorch",
 				"slides": [
 					{"imagePath": "planets/assets/slides/nh.png"},
 					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
@@ -241,7 +270,7 @@
 			{
 				"position": {"x": 15.479, "y": -50.6244, "z": 183.2454},
 				"xmlFile": "planets/Text/Computer.xml",
-				"type": "computer"
+				"type": "preCrashComputer"
 			},
 			{
 				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
@@ -257,6 +286,26 @@
 			}
 		]
 	},
+	"Bramble": {
+		"nodes": [
+		  {
+			"position": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+			"linksTo": "EntranceDimension",
+			"name": "node1",
+			"fogTint":   {"r": 150, "g": 255, "b": 0, "a": 255},
+			"lightTint": {"r": 0,   "g": 255, "b": 0, "a": 255}
+		  },
+		  {
+			"position": {"x": 18.9514, "y": -59.0629, "z": 186.5381},
+			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
+			"linksTo": "DeepDimension",
+			"isSeed": true,
+			"fogTint":   {"r": 255, "g": 0,   "b": 255, "a": 255},
+			"lightTint": {"r": 0,   "g": 255, "b": 255, "a": 255}
+		  }
+		]
+	  },
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/TimberHearth.xml",
 		"spriteFolder": "planets/ShipLogs/sprites",
