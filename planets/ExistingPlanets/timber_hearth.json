@@ -270,7 +270,7 @@
 			{
 				"position": {"x": 15.479, "y": -50.6244, "z": 183.2454},
 				"xmlFile": "planets/Text/Computer.xml",
-				"type": "computer"
+				"type": "preCrashComputer"
 			},
 			{
 				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
