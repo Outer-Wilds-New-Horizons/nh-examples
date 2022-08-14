@@ -19,10 +19,10 @@
 	{
 		"tornados" : 
 		[
-			{"elevation" : 150, "height": 50},
-			{"elevation" : 150, "height": 50},
-			{"elevation" : 150, "height": 50},
-			{"elevation" : 150, "height": 50}
+			{"elevation" : 40, "height": 100, "tint": {"r": 360, "g": 160, "b": 60, "a": 255}},
+			{"elevation" : 40, "height": 100, "tint": {"r": 360, "g": 160, "b": 60, "a": 255}},
+			{"elevation" : 40, "height": 100, "tint": {"r": 360, "g": 160, "b": 60, "a": 255}},
+			{"elevation" : 40, "height": 100, "tint": {"r": 360, "g": 159, "b": 60, "a": 255}}
 		],
 		"reveal": [
 			{"radius":400, "reveals": ["EXAMPLES_LAVA_FOUND"]}
