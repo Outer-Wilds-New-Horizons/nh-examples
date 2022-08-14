@@ -15,5 +15,10 @@
             "secret" : false,
             "factIDs" : ["EXAMPLES_GIANTS_DEEP_ANGLERS"]
         }
+    ],
+    "credits": [
+        "xen#Mod Creator\\n#Ernesto VA",
+        "Contributors:#Bwc9876\n#FreezeDriedMangos\n#TerrificTrifid\n#MegaPiggy\n#ClassicalBro\n#Hawkbat",
+        "Russian Localization:#Tllya"
     ]
 }
