@@ -10,7 +10,9 @@
 
   "Bramble": {
     "dimension": {
-      "fogTint": {"r": 0, "g": 255, "b": 0, "a": 10},
+      "radius": 750,
+      "fogTint": {"r": 83, "g": 255, "b": 129, "a": 255},
+      "fogDensity": 3,
       "linksTo": "node1"
     },
     "nodes": [
@@ -19,8 +21,8 @@
         "rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
         "linksTo": "DeepDimension",
         "name": "node2",
-        "fogTint":   {"r": 0, "g": 255, "b": 255, "a": 255},
-        "lightTint": {"r": 0, "g": 255, "b": 0,   "a": 255}
+        "fogTint":   {"r": 83, "g": 129, "b": 255, "a": 255},
+        "lightTint": {"r": 83, "g": 129, "b": 255, "a": 255}
       }
     ]
   },
