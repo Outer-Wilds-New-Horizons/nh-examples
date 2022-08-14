@@ -17,7 +17,7 @@
 		"type": "blackHole",
         "targetStarSystem": "xen.NewHorizonsExamples",
         "size": 4,
-        "position": {"x": 15, "y": -32, "z": 196}
+        "position": {"x": 27.3984, "y": -32.6472, "z": 197.1166}
 	},
 	"Signal" :
 	{
@@ -283,6 +283,29 @@
 				"rotation" : {"x": 17.0802, "y": 105.9782, "z": 102.4818},
 				"xmlFile": "planets/Text/Recorder.xml",
 				"type": "recorder"
+			}
+		],
+		"geysers": [
+			{
+				"position": {"x": 21.31966, "y": -31.97182, "z": 194.3654},
+				"tint": {"r": 255, "g": 0, "b": 0, "a": 255},
+				"activeDuration": 5.5,
+				"inactiveDuration": 2.5,
+				"volume": 0.3
+			},
+			{
+				"position": {"x": 15.40126, "y": -33.24347, "z": 193.8383},
+				"tint": {"r": 0, "g": 255, "b": 0, "a": 255},
+				"activeDuration": 7.5,
+				"inactiveDuration": 2.5,
+				"volume": 0.3
+			},
+			{
+				"position": {"x": 9.67914, "y": -34.34054, "z": 192.8101},
+				"tint": {"r": 0, "g": 0, "b": 255, "a": 255},
+				"activeDuration": 3.5,
+				"inactiveDuration": 2.5,
+				"volume": 0.3
 			}
 		]
 	},
