@@ -7,7 +7,6 @@
   "Orbit": {
     "staticPosition": { "x": -30000, "y": -30000, "z": -30000}
   },
-
   "Bramble": {
     "dimension": {
       "radius": 500,
@@ -16,11 +15,10 @@
       "linksTo": "node1"
     }
   },
-  
-  "Signal": {
+  "Props": {
     "signals": [
       {
-        "audioClip": "OW_NM_WhiteHoleAmbienceL",
+        "audio": "OW_NM_WhiteHoleAmbienceL",
         "detectionRadius": 1000.0,
         "frequency": "EscapePod",
         "identificationRadius": 100.0,

@@ -42,23 +42,20 @@
         "minHeight": 27,
         "maxHeight": 30
     },
-	"Signal" : 
+	"Props" :
 	{
 		"signals" : 
 		[
 			{ 
 				"frequency" : "EscapePod", 
 				"name" : "Lure Distress Signal", 
-				"audioClip" : "OW_NM_EscapePodDistressSignal", 
+				"audio" : "OW_NM_EscapePodDistressSignal", 
 				"sourceRadius" : 1, 
 				"detectionRadius" : 60,
 				"identificationRadius" : 5,
 				"position" : {"x": 0, "y": -30.25, "z": 0}
 			}
-		]
-	},
-	"Props" :
-	{
+		],
 		"scatter" :
 		[
 			{

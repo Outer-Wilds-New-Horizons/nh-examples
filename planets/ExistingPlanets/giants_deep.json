@@ -30,15 +30,6 @@
 	},
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/GiantsDeep.xml",
-		"spriteFolder": "planets/ShipLogs/sprites",
-		"entryPositions": [
-			{
-				"id": "EXAMPLES_GIANTS_DEEP",
-				"position": {
-					"x": 1000,
-					"y": -1100
-				}
-			}
-		]
+		"spriteFolder": "planets/ShipLogs/sprites"
 	}
 }

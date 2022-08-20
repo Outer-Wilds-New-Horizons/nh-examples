@@ -28,11 +28,15 @@
 		"fogSize": 250,
 		"fogDensity":0.3
 	},
-	"Singularity" :
+	"Props" :
 	{
-		"Size" : 200,
-		"Type" : "BlackHole",
-		"PairedSingularity" : "Light Gateway"
+		"singularities": [
+			{
+				"size" : 200,
+				"type" : "blackHole",
+				"pairedSingularity" : "Light Gateway"
+			}
+		]
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",

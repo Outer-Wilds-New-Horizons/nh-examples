@@ -12,30 +12,29 @@
 	{
 		"surfaceSize" : 150
 	},
-	"Singularity" :
+	"Props" : 
 	{
-		"type": "blackHole",
-        "targetStarSystem": "xen.NewHorizonsExamples",
-        "size": 4,
-        "position": {"x": 27.3984, "y": -32.6472, "z": 197.1166}
-	},
-	"Signal" :
-	{
+		"singularities" :
+		[
+			{
+				"type": "blackHole",
+				"targetStarSystem": "xen.NewHorizonsExamples",
+				"size": 4,
+				"position": {"x": 27.3984, "y": -32.6472, "z": 197.1166}
+			}
+		],
 		"signals" :
 		[
 			{ 
 				"frequency" : "Default",
 				"name" : "Gateway to Sequestered Luminary",
-				"audioClip" : "OW_NM_WhiteHoleAmbienceL", 
+				"audio" : "OW_NM_WhiteHoleAmbienceL", 
 				"sourceRadius" : 3, 
 				"position" : {"x": 15, "y": -32, "z": 196},
 				"identificationRadius" : 6,
 				"detectionRadius" : 10
 			}
-		]
-	},
-	"Props" : 
-	{
+		],
 		"details" :
 		[
 			{
@@ -167,7 +166,7 @@
 				"rotation": {"x": 288.4233, "y": 313.5344, "z": 236.3884},
 				"type": "slideReel",
 				"slides": [
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backDropFadeTime": 2},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backdropFadeTime": 2},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "blackFrameDuration": 1},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
@@ -345,35 +344,6 @@
 	  },
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/TimberHearth.xml",
-		"spriteFolder": "planets/ShipLogs/sprites",
-		"initialReveal": [
-			"EXAMPLES_VISITORS_RUMOR"
-		],
-		"Curiosities": [
-			{
-				"id": "EXAMPLES_UNEXPECTED_GUESTS",
-				"color": {
-					"R": 0,
-					"G": 255,
-					"B": 255,
-					"A": 255
-				},
-				"highlightColor": {
-					"R": 132,
-					"G": 255,
-					"B": 255,
-					"A": 255
-				}
-			}
-		],
-		"entryPositions": [
-			{
-				"id": "EXAMPLES_UNEXPECTED_GUESTS",
-				"position": {
-					"x": 800,
-					"y": -1400
-				}
-			}
-		]
+		"spriteFolder": "planets/ShipLogs/sprites"
     }
 }

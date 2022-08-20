@@ -120,15 +120,6 @@
 				"x": 2,
 				"y": 2
 			}
-		},
-		"entryPositions": [
-			{
-				"id": "EXAMPLES_WETROCK_ENTRY",
-				"position": {
-					"x": 500,
-					"y": -1250
-				}
-			}
-		]
+		}
     }
 }
