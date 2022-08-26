@@ -48,7 +48,8 @@
 		"fogSize": 150,
 		"fogDensity":0.2,
 		"hasRain" : true,
-		"hasOxygen": true
+		"hasOxygen": true,
+		"hasTrees": true
 	},
 	"Props" :
 	{

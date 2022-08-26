@@ -29,6 +29,7 @@
 		"fogDensity": 0.9,
 		"fogSize": 120,
 		"hasOxygen" : true,
+		"hasTrees": false,
 		"hasSnow" : true,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : 

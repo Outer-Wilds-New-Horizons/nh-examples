@@ -13,6 +13,7 @@
 	{
 		"size" : 50,
 		"hasOxygen" : true,
+		"hasTrees": true,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
