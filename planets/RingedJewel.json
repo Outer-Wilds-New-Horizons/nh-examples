@@ -93,35 +93,40 @@
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			}
 		]
 	}
