@@ -30,7 +30,7 @@
 				"name" : "Gateway to Sequestered Luminary",
 				"audio" : "OW_NM_WhiteHoleAmbienceL", 
 				"sourceRadius" : 3, 
-				"position" : {"x": 15, "y": -32, "z": 196},
+				"position" : {"x": 27.3984, "y": -32.6472, "z": 197.1166},
 				"identificationRadius" : 6,
 				"detectionRadius" : 10
 			}
