@@ -287,6 +287,12 @@
 				"rotation" : {"x": 17.0802, "y": 105.9782, "z": 102.4818},
 				"xmlFile": "planets/Text/Recorder.xml",
 				"type": "recorder"
+			},
+			{
+				"position": {"x": 12.21984, "y": -47.2570343, "z": 184.525375},
+				"rotation": {"x": 1.174564, "y": 93.83414, "z": 104.610825},
+				"xmlFile": "planets/Text/Trailmarker.xml",
+				"type": "trailmarker"
 			}
 		],
 		"geysers": [
