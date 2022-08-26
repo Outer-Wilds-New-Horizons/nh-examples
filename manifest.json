@@ -4,7 +4,7 @@
   "author": "xen",
   "name": "New Horizons Examples",
   "uniqueName": "xen.NewHorizonsExamples",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "owmlVersion": "2.5.2",
   "dependencies": [ "xen.NewHorizons" ]
 }
