@@ -27,8 +27,8 @@
 			{"time": 21.5, "value":1},
 			{"time": 22, "value":2}
 		],
-		"lifespan": 0.3,
-		"supernovaSize": 10000,
+		"lifespan": 4,
+		"supernovaSize": 20000,
 		"stellarRemnantType": "custom"
 	},
 	"ShipLog" : {

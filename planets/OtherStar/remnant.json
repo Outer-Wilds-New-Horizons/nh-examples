@@ -10,7 +10,8 @@
 		"solarLuminosity" : 0.6,
 		"curve":[
 			{"time": 0, "value":0},
-			{"time": 1, "value":1}
+			{"time": 4, "value":0},
+			{"time": 5, "value":1}
 		]
 	},
 	"Ring" :
