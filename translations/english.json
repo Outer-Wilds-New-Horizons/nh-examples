@@ -2,7 +2,9 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
     "UIDictionary": 
 	{
-		"xen.NewHorizonsExamples" : "Sequestered Luminary"
+		"xen.NewHorizonsExamples" : "Sequestered Luminary",
+		"EXAMPLES_REMOTE_TIMBER1": "Facepalm",
+		"EXAMPLES_REMOTE_TIMBER2": "Amogus"
 	},
 	"AchievementTranslations" : {
 		"EXAMPLES_SIGNAL" : {

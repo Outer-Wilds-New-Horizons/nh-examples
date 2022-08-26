@@ -326,6 +326,70 @@
 				"force": 27,
 				"volume": 0.3
 			}
+		],
+		"remotes": [
+			{
+				"id": "EXAMPLES_REMOTE_TIMBER1",
+				"decalPath": "planets/assets/facepalm.png",
+				"platform": {
+					"position": {"x": 39.4085, "y": -39.8123, "z": 184.7316},
+					"rotation": {"x": 289.478973, "y": 318.601959, "z": 231.8097},
+					"disableStructure": true,
+					"disablePool": true,
+					"rename": "ExamplesProjectionPlatformTimber1",
+					"reveals": "EXAMPLES_PROJECTION_TIMBER1"
+				},
+				"whiteboard": {
+					"position": {"x": 36.4735, "y": -16.5112, "z": 193.8339},
+					"rotation": {"x": 359.465637, "y": 279.1637, "z": 266.355957},
+					"rename": "ExamplesSharedWhiteboardTimber1",
+					"nomaiText": [
+						{
+							"id": "EXAMPLES_REMOTE_TIMBER2",
+							"location": "a",
+							"xmlFile": "planets/Text/Shared.xml"
+						}
+					]
+				},
+				"stones": [
+					{
+						"position": {"x": 7.22402, "y": -54.4195862, "z": 185.768341},
+						"rotation": {"x": 1.35759294, "y": 92.7467041, "z": 106.20575},
+						"rename": "ExamplesSharedStoneTimber1"
+					}
+				]
+			},
+			{
+				"id": "EXAMPLES_REMOTE_TIMBER2",
+				"decalPath": "planets/assets/amogus.png",
+				"platform": {
+					"position": {"x": 8.5665, "y": -56.4249, "z": 185.8045},
+					"rotation": {"x": 11.9805136, "y": 268.658081, "z": 252.742828},
+					"disableStructure": true,
+					"disablePool": true,
+					"rename": "ExamplesProjectionPlatformTimber2",
+					"reveals": "EXAMPLES_PROJECTION_TIMBER2"
+				},
+				"whiteboard": {
+					"position": {"x": 4.7737, "y": -61.2386, "z": 184.9187},
+					"rotation": {"x": 294.202423, "y": 46.0359077, "z": 138.124},
+					"rename": "ExamplesSharedWhiteboardTimber2",
+					"nomaiText": [
+						{
+							"id": "EXAMPLES_REMOTE_TIMBER1",
+							"location": "b",
+							"xmlFile": "planets/Text/Shared.xml"
+						}
+					]
+				},
+				"stones": [
+					{
+						"position": {"x": 38.02337, "y": -41.1080627, "z": 184.022812},
+						"rotation": {"x": 298.427917, "y": 305.448883, "z": 243.281342},
+						"rename": "ExamplesSharedStoneTimber2"
+					}
+				]
+			}
 		]
 	},
 	"Bramble": {
