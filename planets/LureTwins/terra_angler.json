@@ -137,7 +137,7 @@
 		[
 			{
 				"position": {"x": 2.6076, "y": -31.4881, "z": 1.4199},
-				"xmlFile" : "planets/Dialogue/BobsCousin.xml",
+				"xmlFile" : "planets/Dialogue/FredsCousin.xml",
 				"pathToAnimController": "Sector/Nomai_ANIM_SkyWatching_Idle"
 			}
 		]

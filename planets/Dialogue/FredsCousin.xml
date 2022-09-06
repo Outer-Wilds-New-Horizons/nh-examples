@@ -1,8 +1,8 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>Bob's Cousin</NameField>
+	<NameField>Fred's Cousin</NameField>
 
 	<DialogueNode>
-		<Name></Name>
+		<Name>START</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Oh wow, I didn't expect anyone to hear my distress call.</Page>
@@ -18,8 +18,8 @@
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<RequiredLogCondition>EXAMPLES_BOB</RequiredLogCondition>
-				<Text>Oh hey I met your cousin Bob on Timber Hearth!</Text>
+				<RequiredLogCondition>EXAMPLES_FRED</RequiredLogCondition>
+				<Text>Oh hey I met your cousin Fred on Timber Hearth!</Text>
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -42,7 +42,7 @@
 	<DialogueNode>
 		<Name>3</Name>
 		<Dialogue>
-			<Page>Who the hell is Bob?</Page>
+			<Page>Who the hell is Fred?</Page>
 		</Dialogue>
 	</DialogueNode>
 
