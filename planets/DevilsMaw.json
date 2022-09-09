@@ -28,7 +28,8 @@
 			"a" : 255
 		},
 		"fogSize": 250,
-		"fogDensity":0.3
+		"fogDensity":0.3,
+		"hasShockLayer": false
 	},
 	"Ring" : 
 	{
