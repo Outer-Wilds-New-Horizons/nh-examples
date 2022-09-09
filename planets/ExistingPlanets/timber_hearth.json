@@ -227,7 +227,7 @@
 		],
 		"nomaiText":[
 			{
-				"comment": "Behind Slate",
+				"rename": "Behind Slate",
 				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
 				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
 				"xmlFile": "planets/Text/Text.xml",
@@ -237,7 +237,7 @@
 				]
 			},
 			{
-				"comment": "On the ground by trees",
+				"rename": "On the ground by trees",
 				"position": {"x": 34.13071, "y": -27.06833, "z": 190.8683}, 
 				"normal": {"x": 0.06757314, "y": -0.472719, "z": 0.8786187},
 				"xmlFile": "planets/Text/Text.xml",
@@ -247,7 +247,7 @@
 				]
 			},
 			{
-				"comment": "On that one ledge",
+				"rename": "On that one ledge",
 				"position":  {"x": 11.834, "y": -55.0562, "z": 184.1439}, 
 				"normal" : {"x": 0.9072242, "y": 0.4202163, "z": 0.01904997},
 				"xmlFile": "planets/Text/Text.xml",
