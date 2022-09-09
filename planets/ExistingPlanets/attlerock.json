@@ -55,16 +55,7 @@
 	},
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/Attlerock.xml",
-		"spriteFolder": "planets/ShipLogs/sprites",
-		"entryPositions": [
-			{
-				"id": "EXAMPLES_ATTLEROCK",
-				"position": {
-					"x": 700,
-					"y": -1000
-				}
-			}
-		]
+		"spriteFolder": "planets/ShipLogs/sprites"
     },
 	"Props":{
 		"reveal": [

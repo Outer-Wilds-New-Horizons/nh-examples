@@ -28,6 +28,13 @@
 				"x": 500,
 				"y": -1250
 			}
+		},
+		{
+			"id": "EXAMPLES_ATTLEROCK",
+			"position": {
+				"x": 700,
+				"y": -1000
+			}
 		}
 	],
 	"curiosities": [
