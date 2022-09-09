@@ -23,9 +23,6 @@
 			{"elevation" : 40, "height": 100, "tint": {"r": 360, "g": 160, "b": 60, "a": 255}, "fluidType": "plasma"},
 			{"elevation" : 40, "height": 100, "tint": {"r": 360, "g": 160, "b": 60, "a": 255}, "fluidType": "plasma"},
 			{"elevation" : 40, "height": 100, "tint": {"r": 360, "g": 159, "b": 60, "a": 255}, "fluidType": "plasma"}
-		],
-		"reveal": [
-			{"radius":400, "reveals": ["EXAMPLES_LAVA_FOUND"]}
 		]
 	},
 	"Funnel" :
@@ -38,6 +35,11 @@
 			{"time":2, "value":1},
 			{"time":21, "value":1}, 
 			{"time":22, "value":0}
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{"radius":400, "reveals": ["EXAMPLES_LAVA_FOUND"]}
 		]
 	}
 }

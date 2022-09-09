@@ -83,9 +83,6 @@
     },
 	"Props" : 
 	{
-		"reveal": [
-			{"radius":500, "reveals": ["EXAMPLES_RINGED_JEWEL_VISIT"]}
-		],
 		"tornados":
 		[
 			{
@@ -127,6 +124,14 @@
 				"type": "downwards",
 				"wanderRate": 0.1,
 				"fluidType": "plasma"
+			}
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 500,
+				"reveals": ["EXAMPLES_RINGED_JEWEL_VISIT"]
 			}
 		]
 	}

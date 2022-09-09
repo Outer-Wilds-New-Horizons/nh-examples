@@ -57,9 +57,6 @@
 			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)", "count" : 12, "scale" : 0.7},
 		    {"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B", "count" : 30}
 		],
-		"reveal" : [
-			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
-		],
 		"details": [
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
@@ -123,5 +120,10 @@
 				"y": 2
 			}
 		}
-    }
+    },
+	"Volumes": {
+		"revealVolumes": [
+			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
+		]
+	}
 }

@@ -57,8 +57,8 @@
         "xmlFile": "planets/ShipLogs/Attlerock.xml",
 		"spriteFolder": "planets/ShipLogs/sprites"
     },
-	"Props":{
-		"reveal": [
+	"Volumes":{
+		"revealVolumes": [
 			{"radius":300, "reveals": ["EXAMPLES_SAND_FOUND"]}
 		]
 	}
