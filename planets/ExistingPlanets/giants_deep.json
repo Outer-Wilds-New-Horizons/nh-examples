@@ -30,6 +30,16 @@
 	},
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/GiantsDeep.xml",
-		"spriteFolder": "planets/ShipLogs/sprites"
+		"spriteFolder": "planets/ShipLogs/sprites",
+		"mapMode": {
+			"details": [
+				{
+					"revealedSprite": "planets/ShipLogs/sprites/giants_deep_detail.png",
+					"position": {"x": 0, "y": 0},
+					"scale": {"x": 3, "y": 3},
+					"invisibleWhenHidden": true
+				}
+			]
+		}
 	}
 }
