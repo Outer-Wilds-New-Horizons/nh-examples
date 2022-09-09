@@ -24,6 +24,11 @@
 			{"time": 0, "value": 0},
 			{"time": 4, "value": 0},
 			{"time": 22, "value": 1}
+		],
+		"opacityCurve": [
+			{"time": 0, "value": 0},
+			{"time": 4, "value": 0},
+			{"time": 22, "value": 1}
 		]
 	}
 }
