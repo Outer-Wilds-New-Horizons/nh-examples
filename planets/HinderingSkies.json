@@ -1,0 +1,119 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Hindering Skies",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 600,
+		"hasMapMarker" : true,
+		"ambientLight" : 1
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 40000,
+		"inclination": 180,
+		"primaryBody" : "Sun",
+		"trueAnomaly" : 69
+	},
+	"ProcGen": {
+		"scale": 300,
+		"color": {
+			"r": 0,
+			"g": 0,
+			"b": 255
+		}
+	},
+    "Water": {
+        "size": 450,
+		"tint": {
+			"r": 255,
+			"g": 0,
+			"b": 0
+		}
+    },
+	"Props": {
+		"rafts": [
+			{
+				"position": {"x": 0, "y": 460, "z": 0}
+			},
+			{
+				"position": {"x": 0, "y": -460, "z": 0}
+			},
+			{
+				"position": {"x": 460, "y": 0, "z": 0}
+			},
+			{
+				"position": {"x": -460, "y": 0, "z": 0}
+			},
+			{
+				"position": {"x": 0, "y": 0, "z": 460}
+			},
+			{
+				"position": {"x": 0, "y": 0, "z": -460}
+			}
+		]
+	},
+    "Atmosphere": {
+        "size": 600,
+		"useAtmosphereShader": true,
+		"hasRain": true,
+		"atmosphereTint": {
+			"r": 255,
+			"g": 0,
+			"b": 0
+		},
+		"clouds": {
+			"cloudsPrefab": "giantsDeep",
+			"innerCloudRadius": 550,
+			"outerCloudRadius": 600,
+			"texturePath": "planets/assets/hindering_skies.png",
+			"tint": {
+				"r": 130,
+				"g": 100,
+				"b": 150
+			}
+		}
+    },
+	"ShipLog" : {
+		"mapMode" : {
+			"revealedSprite": "planets/ShipLogs/sprites/hindering_skies_map_mode.png",
+			"outlineSprite": "planets/ShipLogs/sprites/hindering_skies_outline.png",
+			"scale": 1,
+			"manualPosition": {
+				"x": 1900,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 8,
+				"y": 1
+			}
+		}
+    },
+	"Volumes": {
+		"interferenceVolumes": [
+			{
+				"radius": 600
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 600
+			}
+		],
+		"hazardVolumes": [
+			{
+				"radius": 450,
+				"damagePerSecond": 10,
+				"type": "rapids"
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "PostCredits",
+				"loop": false,
+				"radius": 600,
+				"track": "music"
+			}
+		]
+	}
+}
