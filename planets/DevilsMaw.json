@@ -62,5 +62,21 @@
 				"y": 2
 			}
 		}
-    }
+    },
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"target": "all",
+				"radius": 1000,
+				"entryNotification": {
+					"displayMessage" : "WARNING: SINGULARITY DETECTED NEARBY!",
+					"duration": 3
+				},
+				"exitNotification": {
+					"displayMessage" : "SINGULARITY IS NO LONGER NEARBY.",
+					"duration": 3
+				}
+			}
+		]
+	}
 }
