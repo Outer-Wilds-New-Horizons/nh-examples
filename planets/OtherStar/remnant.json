@@ -20,9 +20,10 @@
 		"outerRadius" : 2200,
 		"inclination" : 0,
 		"texture" : "planets/assets/default_rings.png",
-		"curve": [
+		"scaleCurve": [
 			{"time": 0, "value": 0},
-			{"time": 1, "value": 1}
+			{"time": 4, "value": 0},
+			{"time": 22, "value": 1}
 		]
-	},
+	}
 }
