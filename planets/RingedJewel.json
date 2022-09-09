@@ -133,6 +133,13 @@
 				"radius": 500,
 				"reveals": ["EXAMPLES_RINGED_JEWEL_VISIT"]
 			}
+		],
+		"hazardVolumes": [
+			{
+				"type": "heat",
+				"damagePerSecond": 5,
+				"radius": 500
+			}
 		]
 	}
 }
