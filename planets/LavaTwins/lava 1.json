@@ -59,7 +59,15 @@
 			"manualNavigationPosition": {
 				"x": 7,
 				"y": 2
-			}
+			},
+			"details": [
+				{
+					"revealedSprite": "planets/ShipLogs/sprites/lava_twin_funnel.png",
+					"position": {"x": 0, "y": 40},
+					"scale": {"x": 0.5, "y": 0.5},
+					"invisibleWhenHidden": true
+				}
+			]
 		}
     },
 	"Props": {
