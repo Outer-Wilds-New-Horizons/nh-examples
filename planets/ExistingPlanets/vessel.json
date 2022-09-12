@@ -20,6 +20,18 @@
 				"path":"Assets/AnglerfishLight (1).prefab",
 				"position": {"x": 14.4275, "y": -4.3296, "z": -21.1429},
 				"scale": 0.5
+			},
+			{
+				"rename": "Geswaldo",
+				"path": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/HarmonicaZone/JellyfishLantern/Beast_GD_Jellyfish_v4",
+				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609},
+				"scale" : 0.08
+			},
+			{
+				"rename": "GeswaldoLight",
+				"assetBundle": "planets/bundle/examples_trifid",
+				"path":"Assets/JellyfishLight (1).prefab",
+				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609}
 			}
 		],
 		"dialogue": [
@@ -27,6 +39,10 @@
 				"position": {"x": 16.71222, "y": -5.809598, "z": -22.03942},
 				"xmlFile" : "planets/Dialogue/ErnestoEye.xml",
 				"radius": 2
+			},
+			{
+				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609},
+				"xmlFile" : "planets/Dialogue/Geswaldo.xml"
 			}
 		],
         "nomaiText": [
