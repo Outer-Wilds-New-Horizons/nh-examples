@@ -114,6 +114,11 @@
 				"path": "BackerSatellite_Body/Sector_BackerSatellite/Geometry_BackerSatellite",
 				"position" :{"x": 27.1177, "y": -55.1385, "z": 189.6429},
 				"rotation" :{"x": 0.8455, "y": 22.3547, "z": 0}
+			},
+			{
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
+				"position": {"x": 13.6137, "y": -46.7152, "z": 184.7818},
+				"rotation": {"x": 44.6486, "y": 325.24, "z": 30.4107}
 			}
 		],
 		"dialogue" :
