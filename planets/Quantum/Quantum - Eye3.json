@@ -16,9 +16,6 @@
 		"primaryBody" : "Eye",
 		"trueAnomaly": 180
 	},
-    "Cloak": {
-        "radius": 15000
-    },
 	"Lava" :
 	{
 		"size": 100
