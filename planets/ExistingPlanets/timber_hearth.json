@@ -227,7 +227,9 @@
 					{"imagePath": "planets/assets/slides/nh.png"},
 					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
-				]
+				],
+				"reveals": ["EXAMPLES_VISION"],
+				"playWithShipLogFacts": ["EXAMPLES_VISION"]
 			}
 		],
 		"nomaiText":[
