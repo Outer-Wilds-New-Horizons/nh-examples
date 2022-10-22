@@ -1,0 +1,84 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Vessel",
+	"starSystem" : "EyeOfTheUniverse",
+    "Props": {
+		"details": [
+			{
+				"rename": "Ernesto",
+				"path": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/HarmonicaZone/QuantumAnglerfishTrigger/QuantumAnglerfish/Beast_Anglerfish",
+				"position": {"x": 16.71222, "y": -5.809598, "z": -22.03942},
+				"rotation": {"x": 0.1316, "y": 291.4081, "z": 359.9733},
+				"scale": 0.02,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"rename": "ErnestoLight",
+				"assetBundle": "planets/bundle/examples_trifid",
+				"path":"Assets/AnglerfishLight (1).prefab",
+				"position": {"x": 14.4275, "y": -4.3296, "z": -21.1429},
+				"scale": 0.5
+			},
+			{
+				"rename": "Geswaldo",
+				"path": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/HarmonicaZone/JellyfishLantern/Beast_GD_Jellyfish_v4",
+				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609},
+				"scale" : 0.08
+			},
+			{
+				"rename": "GeswaldoLight",
+				"assetBundle": "planets/bundle/examples_trifid",
+				"path":"Assets/JellyfishLight (1).prefab",
+				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": 16.71222, "y": -5.809598, "z": -22.03942},
+				"xmlFile" : "planets/Dialogue/ErnestoEye.xml",
+				"radius": 2
+			},
+			{
+				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609},
+				"xmlFile" : "planets/Dialogue/Geswaldo.xml"
+			}
+		],
+        "nomaiText": [
+			{
+				"xmlFile": "planets/Text/EyeRecorder.xml",
+				"type": "preCrashRecorder",
+				"position": {
+					"x": 16.03139,
+					"y": -6.91788673,
+					"z": -18.5143223
+				},
+				"rotation": {
+					"x": 359.81073,
+					"y": 223.253128,
+					"z": 359.893951
+				}
+			},
+			{
+				"xmlFile": "planets/Text/Text.xml",
+				"type": "wall",
+				"normal": {
+					"x": -0.9875074,
+					"y": -0.00161791593,
+					"z": -0.157565832
+				},
+				"position": {
+					"x": 13.56,
+					"y": 14.6,
+					"z": -19.2
+				},
+				"rotation": {
+					"x": 0.09270022,
+					"y": 260.9344,
+					"z": 12.6681986
+				}
+			}
+        ]
+    }
+}

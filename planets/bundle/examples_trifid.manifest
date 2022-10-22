@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 20654554
+CRC: 2622832905
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bd72812a75b18fe28c71138e4e608027
+    Hash: 099aab8fe1541bc8a01ea86b3d0eb1d1
   TypeTreeHash:
     serializedVersion: 2
     Hash: 73be9529c660771824724b399f71d221
@@ -17,5 +17,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/AnglerfishLight (1).prefab
 - Assets/JellyfishLight (1).prefab
 Dependencies: []

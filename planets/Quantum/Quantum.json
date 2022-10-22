@@ -27,10 +27,10 @@
 		"fogSize": 250,
 		"fogDensity":0.1
 	},
-	"Signal": {
+	"Props": {
 		"signals": [
 			{
-				"audioClip": "OW_QuantumSignal",
+				"audio": "OW_QuantumSignal",
 				"frequency": "Quantum",
 				"detectionRadius": 400,
 				"identificationRadius": 250,

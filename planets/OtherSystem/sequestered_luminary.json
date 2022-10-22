@@ -26,7 +26,7 @@
 			"a" : 255
 		},
 		"solarLuminosity" : 0.6,
-        "goSupernova": false
+        "stellarDeathType": "none"
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",

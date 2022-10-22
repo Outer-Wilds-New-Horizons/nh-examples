@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"entryPositions": [
+		{
+			"id": "EXAMPLES_GIANTS_DEEP",
+			"position": {
+				"x": 1000,
+				"y": -1100
+			}
+		},
+		{
+			"id": "EXAMPLES_UNEXPECTED_GUESTS",
+			"position": {
+				"x": 800,
+				"y": -1400
+			}
+		},
+		{
+			"id": "EXAMPLES_RINGED_JEWEL",
+			"position": {
+				"x": 900,
+				"y": -850
+			}
+		},
+		{
+			"id": "EXAMPLES_WETROCK_ENTRY",
+			"position": {
+				"x": 500,
+				"y": -1250
+			}
+		},
+		{
+			"id": "EXAMPLES_ATTLEROCK",
+			"position": {
+				"x": 700,
+				"y": -1000
+			}
+		}
+	],
+	"curiosities": [
+		{
+			"id": "EXAMPLES_UNEXPECTED_GUESTS",
+			"color": {
+				"r": 0,
+				"g": 255,
+				"b": 255,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 132,
+				"g": 255,
+				"b": 255,
+				"a": 255
+			}
+		}
+	],
+	"initialReveal": [
+		"EXAMPLES_VISITORS_RUMOR"
+	]
+}

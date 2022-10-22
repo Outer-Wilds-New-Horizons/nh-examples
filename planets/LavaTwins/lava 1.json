@@ -59,22 +59,30 @@
 			"manualNavigationPosition": {
 				"x": 7,
 				"y": 2
-			}
+			},
+			"details": [
+				{
+					"revealedSprite": "planets/ShipLogs/sprites/lava_twin_funnel.png",
+					"position": {"x": 0, "y": 40},
+					"scale": {"x": 0.5, "y": 0.5},
+					"invisibleWhenHidden": true
+				}
+			]
 		}
     },
 	"Props": {
 		"volcanoes" : [
 			{
-				"position" : {"x": 105, "y": 0, "z": 0}, 
+				"position" : {"x": 70, "y": 0, "z": 0}, 
 				"lavaTint" : {"r" : 32, "g" : 255, "b" : 128, "a" : 255},
-				"minLaunchSpeed" : 35,
-				"maxLaunchSpeed" : 40
+				"minLaunchSpeed" : 28,
+				"maxLaunchSpeed" : 32
 			},
 			{
-				"position" : {"x": -105, "y": 0, "z": 0}, 
+				"position" : {"x": -70, "y": 0, "z": 0}, 
 				"lavaTint" : {"r" : 32, "g" : 255, "b" : 128, "a" : 255},
-				"minLaunchSpeed" : 35,
-				"maxLaunchSpeed" : 40
+				"minLaunchSpeed" : 28,
+				"maxLaunchSpeed" : 32
 			}
 		]
 	}

@@ -12,30 +12,29 @@
 	{
 		"surfaceSize" : 150
 	},
-	"Singularity" :
+	"Props" : 
 	{
-		"type": "blackHole",
-        "targetStarSystem": "xen.NewHorizonsExamples",
-        "size": 4,
-        "position": {"x": 15, "y": -32, "z": 196}
-	},
-	"Signal" :
-	{
+		"singularities" :
+		[
+			{
+				"type": "blackHole",
+				"targetStarSystem": "xen.NewHorizonsExamples",
+				"size": 4,
+				"position": {"x": 27.3984, "y": -32.6472, "z": 197.1166}
+			}
+		],
 		"signals" :
 		[
 			{ 
 				"frequency" : "Default",
 				"name" : "Gateway to Sequestered Luminary",
-				"audioClip" : "OW_NM_WhiteHoleAmbienceL", 
+				"audio" : "OW_NM_WhiteHoleAmbienceL", 
 				"sourceRadius" : 3, 
-				"position" : {"x": 15, "y": -32, "z": 196},
+				"position" : {"x": 27.3984, "y": -32.6472, "z": 197.1166},
 				"identificationRadius" : 6,
 				"detectionRadius" : 10
 			}
-		]
-	},
-	"Props" : 
-	{
+		],
 		"details" :
 		[
 			{
@@ -86,6 +85,11 @@
 				"scale" : 0.02
 			},
 			{
+				"assetBundle": "planets/bundle/examples_trifid",
+				"path":"Assets/AnglerfishLight (1).prefab",
+				"position": {"x": 24.1185, "y": -41.9897, "z": 187.1345}
+			},
+			{
 				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate", 
 				"position": {"x": 18.2547, "y": -40.6567, "z": 185.6922},
 				"rotation": {"x": 82.1106, "y": 107.3981, "z": 103.934},
@@ -110,6 +114,11 @@
 				"path": "BackerSatellite_Body/Sector_BackerSatellite/Geometry_BackerSatellite",
 				"position" :{"x": 27.1177, "y": -55.1385, "z": 189.6429},
 				"rotation" :{"x": 0.8455, "y": 22.3547, "z": 0}
+			},
+			{
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
+				"position": {"x": 13.6137, "y": -46.7152, "z": 184.7818},
+				"rotation": {"x": 44.6486, "y": 325.24, "z": 30.4107}
 			}
 		],
 		"dialogue" :
@@ -162,7 +171,7 @@
 				"rotation": {"x": 288.4233, "y": 313.5344, "z": 236.3884},
 				"type": "slideReel",
 				"slides": [
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backDropFadeTime": 2},
+					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backdropFadeTime": 2},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "blackFrameDuration": 1},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
@@ -218,12 +227,14 @@
 					{"imagePath": "planets/assets/slides/nh.png"},
 					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
 					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
-				]
+				],
+				"reveals": ["EXAMPLES_VISION"],
+				"playWithShipLogFacts": ["EXAMPLES_VISION"]
 			}
 		],
 		"nomaiText":[
 			{
-				"comment": "Behind Slate",
+				"rename": "Behind Slate",
 				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
 				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
 				"xmlFile": "planets/Text/Text.xml",
@@ -233,7 +244,7 @@
 				]
 			},
 			{
-				"comment": "On the ground by trees",
+				"rename": "On the ground by trees",
 				"position": {"x": 34.13071, "y": -27.06833, "z": 190.8683}, 
 				"normal": {"x": 0.06757314, "y": -0.472719, "z": 0.8786187},
 				"xmlFile": "planets/Text/Text.xml",
@@ -243,7 +254,7 @@
 				]
 			},
 			{
-				"comment": "On that one ledge",
+				"rename": "On that one ledge",
 				"position":  {"x": 11.834, "y": -55.0562, "z": 184.1439}, 
 				"normal" : {"x": 0.9072242, "y": 0.4202163, "z": 0.01904997},
 				"xmlFile": "planets/Text/Text.xml",
@@ -283,6 +294,108 @@
 				"rotation" : {"x": 17.0802, "y": 105.9782, "z": 102.4818},
 				"xmlFile": "planets/Text/Recorder.xml",
 				"type": "recorder"
+			},
+			{
+				"position": {"x": 12.21984, "y": -47.2570343, "z": 184.525375},
+				"rotation": {"x": 1.174564, "y": 93.83414, "z": 104.610825},
+				"xmlFile": "planets/Text/Trailmarker.xml",
+				"type": "trailmarker"
+			}
+		],
+		"geysers": [
+			{
+				"position": {"x": 21.31966, "y": -31.97182, "z": 194.3654},
+				"tint": {"r": 255, "g": 0, "b": 0, "a": 255},
+				"disableBubbles": true,
+				"disableShaft": true,
+				"activeDuration": 5.5,
+				"inactiveDuration": 2.5,
+				"force": 55,
+				"volume": 0.3
+			},
+			{
+				"position": {"x": 15.40126, "y": -33.24347, "z": 193.8383},
+				"tint": {"r": 0, "g": 255, "b": 0, "a": 255},
+				"disableBubbles": true,
+				"disableShaft": true,
+				"activeDuration": 7.5,
+				"inactiveDuration": 2.5,
+				"force": 110,
+				"volume": 0.3
+			},
+			{
+				"position": {"x": 9.67914, "y": -34.34054, "z": 192.8101},
+				"tint": {"r": 0, "g": 0, "b": 255, "a": 255},
+				"disableBubbles": true,
+				"disableShaft": true,
+				"activeDuration": 3.5,
+				"inactiveDuration": 2.5,
+				"force": 27,
+				"volume": 0.3
+			}
+		],
+		"remotes": [
+			{
+				"id": "EXAMPLES_REMOTE_TIMBER1",
+				"decalPath": "planets/assets/facepalm.png",
+				"platform": {
+					"position": {"x": 39.4085, "y": -39.8123, "z": 184.7316},
+					"rotation": {"x": 289.478973, "y": 318.601959, "z": 231.8097},
+					"disableStructure": true,
+					"disablePool": true,
+					"rename": "ExamplesProjectionPlatformTimber1",
+					"reveals": "EXAMPLES_PROJECTION_TIMBER1"
+				},
+				"whiteboard": {
+					"position": {"x": 36.4735, "y": -16.5112, "z": 193.8339},
+					"rotation": {"x": 359.465637, "y": 279.1637, "z": 266.355957},
+					"rename": "ExamplesSharedWhiteboardTimber1",
+					"nomaiText": [
+						{
+							"id": "EXAMPLES_REMOTE_TIMBER2",
+							"location": "a",
+							"xmlFile": "planets/Text/Shared.xml"
+						}
+					]
+				},
+				"stones": [
+					{
+						"position": {"x": 7.22402, "y": -54.4195862, "z": 185.768341},
+						"rotation": {"x": 1.35759294, "y": 92.7467041, "z": 106.20575},
+						"rename": "ExamplesSharedStoneTimber1"
+					}
+				]
+			},
+			{
+				"id": "EXAMPLES_REMOTE_TIMBER2",
+				"decalPath": "planets/assets/amogus.png",
+				"platform": {
+					"position": {"x": 8.5665, "y": -56.4249, "z": 185.8045},
+					"rotation": {"x": 11.9805136, "y": 268.658081, "z": 252.742828},
+					"disableStructure": true,
+					"disablePool": true,
+					"rename": "ExamplesProjectionPlatformTimber2",
+					"reveals": "EXAMPLES_PROJECTION_TIMBER2"
+				},
+				"whiteboard": {
+					"position": {"x": 4.7737, "y": -61.2386, "z": 184.9187},
+					"rotation": {"x": 294.202423, "y": 46.0359077, "z": 138.124},
+					"rename": "ExamplesSharedWhiteboardTimber2",
+					"nomaiText": [
+						{
+							"id": "EXAMPLES_REMOTE_TIMBER1",
+							"location": "b",
+							"xmlFile": "planets/Text/Shared.xml"
+						}
+					]
+				},
+				"stones": [
+					{
+						"position": {"x": 38.02337, "y": -41.1080627, "z": 184.022812},
+						"rotation": {"x": 298.427917, "y": 305.448883, "z": 243.281342},
+						"rename": "ExamplesSharedStoneTimber2"
+					}
+				]
 			}
 		]
 	},
@@ -293,50 +406,21 @@
 			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
 			"linksTo": "EntranceDimension",
 			"name": "node1",
-			"fogTint":   {"r": 150, "g": 255, "b": 0, "a": 255},
-			"lightTint": {"r": 0,   "g": 255, "b": 0, "a": 255}
+			"fogTint":   {"r": 83, "g": 255, "b": 129, "a": 255},
+			"lightTint": {"r": 83, "g": 255, "b": 129, "a": 255}
 		  },
 		  {
 			"position": {"x": 18.9514, "y": -59.0629, "z": 186.5381},
 			"rotation": {"x": 65.2428, "y": -137.305, "z": 198.1078},
 			"linksTo": "DeepDimension",
 			"isSeed": true,
-			"fogTint":   {"r": 255, "g": 0,   "b": 255, "a": 255},
-			"lightTint": {"r": 0,   "g": 255, "b": 255, "a": 255}
+			"fogTint":   {"r": 83, "g": 129, "b": 255, "a": 255},
+			"lightTint": {"r": 83, "g": 129, "b": 255, "a": 255}
 		  }
 		]
 	  },
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/TimberHearth.xml",
-		"spriteFolder": "planets/ShipLogs/sprites",
-		"initialReveal": [
-			"EXAMPLES_VISITORS_RUMOR"
-		],
-		"Curiosities": [
-			{
-				"id": "EXAMPLES_UNEXPECTED_GUESTS",
-				"color": {
-					"R": 0,
-					"G": 255,
-					"B": 255,
-					"A": 255
-				},
-				"highlightColor": {
-					"R": 132,
-					"G": 255,
-					"B": 255,
-					"A": 255
-				}
-			}
-		],
-		"entryPositions": [
-			{
-				"id": "EXAMPLES_UNEXPECTED_GUESTS",
-				"position": {
-					"x": 800,
-					"y": -1400
-				}
-			}
-		]
+		"spriteFolder": "planets/ShipLogs/sprites"
     }
 }

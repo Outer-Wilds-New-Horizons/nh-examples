@@ -73,28 +73,16 @@
 			"scale": 1.6,
 			"manualPosition": {
 				"x": 1040,
-				"y": 180
+				"y": 240
 			},
 			"manualNavigationPosition": {
 				"x": 5,
 				"y": 2
 			}
-		},
-		"entryPositions": [
-			{
-				"id": "EXAMPLES_RINGED_JEWEL",
-				"position": {
-					"x": 900,
-					"y": -850
-				}
-			}
-		]
+		}
     },
 	"Props" : 
 	{
-		"reveal": [
-			{"radius":500, "reveals": ["EXAMPLES_RINGED_JEWEL_VISIT"]}
-		],
 		"tornados":
 		[
 			{
@@ -102,35 +90,55 @@
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
 			},
 			{
 				"elevation": 200,
 				"height": 100,
 				"tint":{ "r": 255, "g": 0, "b": 0, "a": 255 },
 				"type": "downwards",
-				"wanderRate": 0.1
+				"wanderRate": 0.1,
+				"fluidType": "plasma"
+			}
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 500,
+				"reveals": ["EXAMPLES_RINGED_JEWEL_VISIT"]
+			}
+		],
+		"hazardVolumes": [
+			{
+				"type": "heat",
+				"damagePerSecond": 5,
+				"radius": 500
 			}
 		]
 	}

@@ -34,5 +34,9 @@
             <Text>Some sort of bird guy is here. Bob I think?</Text> 
         </ExploreFact>
 
+        <ExploreFact>
+            <ID>EXAMPLES_VISION</ID>
+            <Text>I saw a vision but I don't understand it, maybe some of these new guys left it for me.</Text> 
+        </ExploreFact>
     </Entry>
 </AstroObjectEntry>

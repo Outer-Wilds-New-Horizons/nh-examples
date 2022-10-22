@@ -1,0 +1,34 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Night Light",
+	"isStellarRemnant": true,
+	"Star" :
+	{
+		"size" : 400,
+		"tint" : { "r" : 5, "g" : 38, "b" : 255, "a" : 255 },
+		"endTint" : { "r" : 255, "g" : 38, "b" : 255, "a" : 255 },
+		"solarLuminosity" : 0.6,
+		"curve":[
+			{"time": 0, "value":0},
+			{"time": 4, "value":0},
+			{"time": 5, "value":1}
+		]
+	},
+	"Ring" :
+	{
+		"innerRadius" : 1800,
+		"outerRadius" : 2200,
+		"inclination" : 0,
+		"texture" : "planets/assets/default_rings.png",
+		"scaleCurve": [
+			{"time": 0, "value": 0},
+			{"time": 4, "value": 0},
+			{"time": 22, "value": 1}
+		],
+		"opacityCurve": [
+			{"time": 0, "value": 0},
+			{"time": 4, "value": 0},
+			{"time": 22, "value": 1}
+		]
+	}
+}

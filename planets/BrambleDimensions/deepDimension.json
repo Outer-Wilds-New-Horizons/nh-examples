@@ -7,18 +7,18 @@
   "Orbit": {
     "staticPosition": { "x": -30000, "y": -30000, "z": -30000}
   },
-
   "Bramble": {
     "dimension": {
-      "fogTint": {"r": 0, "g": 0, "b": 255, "a": 10},
+      "radius": 500,
+      "fogTint": {"r": 83, "g": 129, "b": 255, "a": 255},
+      "fogDensity": 3,
       "linksTo": "node1"
     }
   },
-  
-  "Signal": {
+  "Props": {
     "signals": [
       {
-        "audioClip": "OW_NM_WhiteHoleAmbienceL",
+        "audio": "OW_NM_WhiteHoleAmbienceL",
         "detectionRadius": 1000.0,
         "frequency": "EscapePod",
         "identificationRadius": 100.0,

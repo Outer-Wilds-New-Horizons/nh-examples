@@ -47,16 +47,15 @@
 		},
 		"fogSize": 150,
 		"fogDensity":0.2,
-		"hasRain" : true
+		"hasRain" : true,
+		"hasOxygen": true,
+		"hasTrees": true
 	},
 	"Props" :
 	{
 		"scatter" : [
 			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)", "count" : 12, "scale" : 0.7},
 		    {"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B", "count" : 30}
-		],
-		"reveal" : [
-			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
 		],
 		"details": [
 			{
@@ -120,15 +119,11 @@
 				"x": 2,
 				"y": 2
 			}
-		},
-		"entryPositions": [
-			{
-				"id": "EXAMPLES_WETROCK_ENTRY",
-				"position": {
-					"x": 500,
-					"y": -1250
-				}
-			}
+		}
+    },
+	"Volumes": {
+		"revealVolumes": [
+			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
 		]
-    }
+	}
 }

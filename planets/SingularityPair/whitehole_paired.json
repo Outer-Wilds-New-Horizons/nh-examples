@@ -15,11 +15,14 @@
 		"argumentOfPeriapsis" : 0,
 		"showOrbitLine" : false
 	},
-	"Singularity" :
-	{
-		"Size" : 200,
-		"Type" : "WhiteHole",
-		"PairedSingularity" : "Dark Gateway"
+	"Props":{
+		"singularities": [
+			{
+				"size" : 200,
+				"type" : "whiteHole",
+				"pairedSingularity" : "Dark Gateway"
+			}
+		]
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",
