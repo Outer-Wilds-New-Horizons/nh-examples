@@ -82,12 +82,13 @@
 				"scale":1.5,
 				"removeChildren" :[
 					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
-				]
+				],
+				"keepLoaded": true
 			},
 			{
 				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
-				"position" : {"x":0,"y":190,"z":100},
-				"rotation" : {"x":90, "y":180, "z":0},
+				"parentPath": "Sector/Beast_Anglerfish",
+				"isRelativeToParent": true,
 				"scale":1.5
 			},
 			{
@@ -125,12 +126,6 @@
 				"removeChildren" :[
 					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
 				]
-			},
-			{
-				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
-				"position" : {"x":0,"y":190,"z":100},
-				"rotation" : {"x":90, "y":180, "z":0},
-				"scale":1.5
 			}
 		],
 		"dialogue" :
