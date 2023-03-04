@@ -5,8 +5,7 @@
 	{
 		"surfaceGravity" : 12,
 		"surfaceSize" : 600,
-		"hasMapMarker" : true,
-		"ambientLight" : 1
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -27,8 +26,8 @@
         "size": 450,
 		"tint": {
 			"r": 255,
-			"g": 0,
-			"b": 0
+			"g": 32,
+			"b": 32
 		}
     },
 	"Props": {
@@ -74,6 +73,20 @@
 			}
 		}
     },
+	"AmbientLights": [
+		{
+			"outerRadius": 600,
+			"innerRadius": 450,
+			"intensity": 0.8,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 32,
+				"b" : 32,
+				"a" : 255
+			}
+		}
+	],
 	"ShipLog" : {
 		"mapMode" : {
 			"revealedSprite": "planets/ShipLogs/sprites/hindering_skies_map_mode.png",
