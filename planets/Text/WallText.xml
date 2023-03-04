@@ -40,4 +40,10 @@
 		<LocationA />
 		<Text>FRED: My name is Bob.</Text>
 	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>David Attenborough: Here we observe the wild Gennius Zius. This is a young specimen, calling out for companionship. The cry can carry for miles and often irritates older members of its species.</Text>
+	</TextBlock>
 </NomaiObject>

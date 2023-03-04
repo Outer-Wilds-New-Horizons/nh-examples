@@ -253,7 +253,7 @@
 				"playWithShipLogFacts": ["EXAMPLES_VISION"]
 			}
 		],
-		"nomaiText":[
+		"translatorText":[
 			{
 				"rename": "Behind Slate",
 				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
@@ -288,15 +288,16 @@
 				"position": {"x": 35.68043, "y": -42.78446, "z": 182.4819}, 
 				"xmlFile": "planets/Text/WallText.xml",
 				"type": "scroll",
-				"seed": 10,
+				"seed": 12,
 				"arcInfo":[
-					{"position": {"x": 0, "y": 0}, "zRotation": 340, "type": "child"},
-					{"position": {"x": 0.31270, "y":  1.2733}, "zRotation": 140, "type": "stranger"},
-					{"position": {"x": -0.2968, "y":  1.7341}, "zRotation": 100, "type": "child"},
-					{"position": {"x": -0.7676, "y": 1.4533}, "zRotation": 160, "type": "adult"},
-					{"position": {"x": -1.0676, "y": 2.086}, "zRotation": 80, "type": "adult"},
-					{"position": {"x": -0.85, "y":  2.1}, "zRotation": 320, "type": "adult"},
-					{"position": {"x": 0.9988, "y": 1.7824}, "zRotation": 240, "type": "child"}
+					{ "keepAutoPlacement": true, "type": "child" },
+					{ "keepAutoPlacement": true, "type": "adult" },
+					{ "keepAutoPlacement": true, "type": "child" },
+					{ "keepAutoPlacement": true, "type": "adult" },
+					{ "keepAutoPlacement": true, "type": "adult" },
+					{ "keepAutoPlacement": true, "type": "adult" },
+					{ "keepAutoPlacement": true, "type": "child" },
+					{ "position": {"x": 2.4364, "y": -0.7618}, "zRotation": 90, "type": "stranger" }
 				]
 			},
 			{
