@@ -6,8 +6,7 @@
 		"groundSize" : 99,
 		"surfaceSize" : 100,
 		"surfaceGravity" : 12,
-		"hasMapMarker" : true,
-		"ambientLight": 1.4
+		"hasMapMarker" : true
 	},
 	"Orbit" : 
 	{
@@ -51,6 +50,20 @@
 		"hasOxygen": true,
 		"hasTrees": true
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 150,
+			"innerRadius": 100,
+			"intensity": 0.8,
+			"tint" : 
+			{
+				"r" : 128,
+				"g" : 255,
+				"b" : 200,
+				"a" : 255
+			}
+		}
+	],
 	"Props" :
 	{
 		"scatter" : [

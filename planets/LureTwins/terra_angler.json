@@ -6,8 +6,7 @@
 		"surfaceGravity" : 6,
 		"surfaceSize" : 30,
 		"hasMapMarker" : true,
-		"gravityFallOff" : "linear",
-		"ambientLight": 1.4
+		"gravityFallOff" : "linear"
 	},
 	"Atmosphere" :
 	{
@@ -23,6 +22,13 @@
 			"a" : 255
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 60,
+			"innerRadius": 30,
+			"intensity": 1.4
+		}
+	],
 	"Orbit" :
 	{
 		"semiMajorAxis" : 0,
@@ -54,7 +60,8 @@
 				"sourceRadius" : 1, 
 				"detectionRadius" : 60,
 				"identificationRadius" : 5,
-				"position" : {"x": 0, "y": -30.25, "z": 0}
+				"position" : {"x": 0, "y": -30.25, "z": 0},
+				"onlyAudibleToScope": false
 			}
 		],
 		"scatter" :

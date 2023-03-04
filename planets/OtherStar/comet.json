@@ -6,7 +6,6 @@
 		"surfaceGravity" : 6,
 		"surfaceSize" : 100,
 		"hasMapMarker" : true,
-		"ambientLight": 0.6,
 		"hasCometTail" : true
 	},
 	"Orbit" :
@@ -43,6 +42,20 @@
 			"a" : 255
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 200,
+			"innerRadius": 100,
+			"intensity": 0.6,
+			"tint" : 
+			{
+				"r" : 65,
+				"g" : 140,
+				"b" : 140,
+				"a" : 255
+			}
+		}
+	],
 	"HeightMap" :
 	{
 		"heightMap" : "planets/assets/snowball_heightmap.png",	

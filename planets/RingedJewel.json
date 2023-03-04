@@ -5,8 +5,7 @@
 	{
 		"surfaceGravity" : 12,
 		"surfaceSize" : 200,
-		"hasMapMarker" : true,
-		"ambientLight": 1
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -58,6 +57,20 @@
 			"hasLightning": true
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 500,
+			"innerRadius": 450,
+			"intensity": 1,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 32,
+				"b" : 32,
+				"a" : 255
+			}
+		}
+	],
 	"Ring" : 
 	{
 		"innerRadius" : 800,

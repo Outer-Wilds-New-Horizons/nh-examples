@@ -6,8 +6,7 @@
 	{
 		"surfaceGravity" : 22,
 		"surfaceSize" : 550,
-		"hasMapMarker" : true,
-		"ambientLight": 2
+		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
@@ -57,6 +56,20 @@
 			"cloudsPrefab": "giantsDeep"
 		}
 	},
+	"AmbientLights": [
+		{
+			"outerRadius": 550,
+			"innerRadius": 400,
+			"intensity": 2,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 64,
+				"b" : 64,
+				"a" : 255
+			}
+		}
+	],
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",
 		"mapMode" : {
