@@ -444,5 +444,16 @@
 	"ShipLog" : {
         "xmlFile": "planets/ShipLogs/TimberHearth.xml",
 		"spriteFolder": "planets/ShipLogs/sprites"
-    }
+    },
+	"Volumes": {
+		"creditsVolume": [
+			{
+				"creditsType": "kazoo",
+				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
+				"radius": 1,
+				"gameOverText": "Ernesto beat you to death with a rock.",
+				"deathType": "CrushedByElevator"
+			}
+		]
+	}
 }
