@@ -153,9 +153,11 @@
 				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
 				"xmlFile" : "planets/Dialogue/Angry Geswaldo.xml",
 				"radius": 0,
-				"remoteTriggerPosition": {"x": 9.851137, "y": -42.59065, "z": 186.2374},
-				"remoteTriggerRadius": 3,
-				"remoteTriggerPrereqCondition": "EXAMPLES_INSULT"
+				"remoteTrigger": {
+					"position": {"x": 9.851137, "y": -42.59065, "z": 186.2374},
+					"radius": 3,
+					"prereqCondition": "EXAMPLES_INSULT"
+				}
 			},
 			{
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
