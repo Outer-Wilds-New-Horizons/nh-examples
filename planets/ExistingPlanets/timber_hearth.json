@@ -300,30 +300,32 @@
 					{ "keepAutoPlacement": true, "type": "adult" },
 					{ "keepAutoPlacement": true, "type": "child" },
 					{ "position": {"x": 2.4364, "y": -0.7618}, "zRotation": 90, "type": "stranger" }
-				]
+				],
+				"alignRadial": true
 			},
 			{
 				"position": {"x": 15.479, "y": -50.6244, "z": 183.2454},
 				"xmlFile": "planets/Text/Computer.xml",
-				"type": "preCrashComputer"
+				"type": "preCrashComputer",
+				"alignRadial": true
 			},
 			{
 				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
-				"rotation": {"x": 358.4885, "y": 276.013, "z": 257.7496},
 				"xmlFile": "planets/Text/Cairn.xml",
-				"type": "cairn"
+				"type": "cairn",
+				"alignRadial": true
 			},
 			{
 				"position" : {"x": 26.7683, "y": -39.872, "z": 186.0676},
-				"rotation" : {"x": 17.0802, "y": 105.9782, "z": 102.4818},
 				"xmlFile": "planets/Text/Recorder.xml",
-				"type": "recorder"
+				"type": "recorder",
+				"alignRadial": true
 			},
 			{
 				"position": {"x": 12.21984, "y": -47.2570343, "z": 184.525375},
-				"rotation": {"x": 1.174564, "y": 93.83414, "z": 104.610825},
 				"xmlFile": "planets/Text/Trailmarker.xml",
-				"type": "trailmarker"
+				"type": "trailmarker",
+				"alignRadial": true
 			}
 		],
 		"geysers": [
