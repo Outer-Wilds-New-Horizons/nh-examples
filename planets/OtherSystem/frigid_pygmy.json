@@ -116,7 +116,8 @@
 			{
 				"position": {"x": 22.42838, "y": -4.804573, "z": 97.18248},
 				"alignRadial": true,
-				"frequency": "Daunting"
+				"frequency": "Daunting",
+				"alignmentWindow": 10
 			}
 		],
 		"translatorText": [
