@@ -5,8 +5,9 @@
 	"Base" :
 	{
 		"surfaceGravity" : 22,
-		"surfaceSize" : 550,
-		"hasMapMarker" : true
+		"surfaceSize" : 400,
+		"hasMapMarker" : true,
+		"groundSize": 400
 	},
 	"Orbit" :
 	{
@@ -14,14 +15,6 @@
 		"primaryBody" : "Sequestered Luminary",
 		"isMoon" : false,
         "siderealPeriod": 2
-	},
-	"Lava" : 
-	{
-		"size": 200
-	},
-	"Water" : 
-	{
-		"size": 400
 	},
 	"Atmosphere" :
 	{
@@ -60,7 +53,7 @@
 		{
 			"outerRadius": 550,
 			"innerRadius": 400,
-			"intensity": 2,
+			"intensity": 1,
 			"tint" : 
 			{
 				"r" : 255,
@@ -84,5 +77,19 @@
 				"y": 0
 			}
 		}
-    }
+    },
+	"Props": {
+		"warpReceivers": [
+			{
+				"position": {"x": 400, "y": 0, "z": 0},
+				"alignRadial": true,
+				"frequency": "Daunting",
+				"detailed": true,
+				"computer": {
+					"position": {"x": 399.7093, "y": -4.78919, "z": 14.47684},
+					"alignRadial": true
+				}
+			}
+		]
+	}
 }

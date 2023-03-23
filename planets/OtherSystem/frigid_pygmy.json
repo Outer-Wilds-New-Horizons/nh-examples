@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 4000,
+		"semiMajorAxis" : 2000,
 		"primaryBody" : "Daunting Confidant",
 		"isMoon" : true,
         "siderealPeriod": 3
@@ -59,17 +59,6 @@
         "textureMap": "planets/assets/frigid_pygmy_texturemap.png",
 		"minHeight" : 98,
 		"maxHeight" : 100
-	},
-	"Props": {
-		"translatorText": [
-			{
-				"type": "whiteboard",
-				"xmlFile": "planets/Text/WallText.xml",
-				"seed": 532432,
-				"position": {"x": -14.27449, "y": 143.1031, "z": -23.21534},
-				"rotation": {"x": 0.001224785, "y": 89.88747, "z": 0.2021536}
-			}
-		]
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",
@@ -123,14 +112,48 @@
 				"alignRadial": true,
 				"frequency": "Pygmy",
 				"alignmentWindow": 360
+			},
+			{
+				"position": {"x": 22.42838, "y": -4.804573, "z": 97.18248},
+				"alignRadial": true,
+				"frequency": "Daunting"
 			}
 		],
 		"translatorText": [
 			{
 				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
-				"xmlFile": "planets/OtherSystem/Cairn.xml",
+				"xmlFile": "planets/OtherSystem/WideAlignmentTransmitter.xml",
 				"type": "cairn",
 				"alignRadial": true
+			},
+			{
+				"position": {"x": 28.59976, "y": -9.694084, "z": 95.17366},
+				"xmlFile": "planets/OtherSystem/DauntlessTransmitter.xml",
+				"type": "cairn",
+				"alignRadial": true
+			},
+			{
+				"type": "whiteboard",
+				"xmlFile": "planets/Text/WallText.xml",
+				"seed": 532432,
+				"position": {"x": -14.27449, "y": 143.1031, "z": -23.21534},
+				"rotation": {"x": 0.001224785, "y": 89.88747, "z": 0.2021536}
+			}
+		],
+		"signals": [
+			{ 
+				"frequency" : "WarpCore", 
+				"name" : "Dauntless Confidant Transmitter", 
+				"audio" : "OW_NM_WhiteHoleAmbienceL", 
+				"sourceRadius" : 0.5, 
+				"position": {"x": 22.42838, "y": -4.804573, "z": 97.18248}
+			},
+			{ 
+				"frequency" : "WarpCore", 
+				"name" : "Frigid Pygmy Transmitter", 
+				"audio" : "OW_NM_WhiteHoleAmbienceL", 
+				"sourceRadius" : 0.5, 
+				"position": {"x": 10.18783, "y": 96.69212, "z": 22.51841}
 			}
 		]
 	}
