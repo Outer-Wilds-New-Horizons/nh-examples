@@ -1,6 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Hindering Skies",
+	"starSystem": "xen.NewHorizonsExamples",
 	"Base" :
 	{
 		"surfaceGravity" : 12,
@@ -9,9 +10,9 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 40000,
+		"semiMajorAxis" : 18000,
 		"inclination": 180,
-		"primaryBody" : "Sun",
+		"primaryBody" : "Sequestered Luminary",
 		"trueAnomaly" : 69
 	},
 	"ProcGen": {

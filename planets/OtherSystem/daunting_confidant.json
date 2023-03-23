@@ -10,7 +10,7 @@
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 28000,
+		"semiMajorAxis" : 12000,
 		"primaryBody" : "Sequestered Luminary",
 		"isMoon" : false,
         "siderealPeriod": 2

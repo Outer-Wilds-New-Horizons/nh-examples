@@ -4,16 +4,16 @@
     "starSystem": "xen.NewHorizonsExamples",
 	"Base" :
 	{
-		"surfaceGravity" : 6,
+		"surfaceGravity" : 12,
 		"surfaceSize" : 100,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
 	{
-		"semiMajorAxis" : 2000,
+		"semiMajorAxis" : 4000,
 		"primaryBody" : "Daunting Confidant",
 		"isMoon" : true,
-        "siderealPeriod": 1
+        "siderealPeriod": 3
 	},
 	"Atmosphere" :
 	{
@@ -92,5 +92,35 @@
 				"z": 0
 			  }
 		}
+	},
+	"Props": {
+		"warpReceivers": [
+			{
+				"position": {"x": 1.013376, "y": 99.27505, "z": 0.6913356},
+				"alignRadial": true,
+				"frequency": "Pygmy",
+				"detailed": false,
+				"computer": {
+					"position": {"x": 10.06122, "y": 98.73846, "z": 2.477093},
+					"alignRadial": true
+				}
+			}
+		],
+		"warpTransmitters": [
+			{
+				"position": {"x": 10.18783, "y": 96.69212, "z": 22.51841},
+				"alignRadial": true,
+				"frequency": "Pygmy",
+				"alignmentWindow": 360
+			}
+		],
+		"translatorText": [
+			{
+				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
+				"xmlFile": "planets/OtherSystem/Cairn.xml",
+				"type": "cairn",
+				"alignRadial": true
+			}
+		]
 	}
 }
