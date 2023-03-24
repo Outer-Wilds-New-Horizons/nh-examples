@@ -258,7 +258,7 @@
 				"xmlFile": "planets/Text/Text.xml",
 				"seed":42,
 				"arcInfo":[
-					{"type": "child"}
+					{"type": "child", "mirror": false }
 				]
 			},
 			{
@@ -268,7 +268,7 @@
 				"xmlFile": "planets/Text/Text.xml",
 				"seed":1337,
 				"arcInfo":[
-					{"type": "child"}
+					{"type": "child", "mirror": false }
 				]
 			},
 			{
@@ -278,7 +278,7 @@
 				"xmlFile": "planets/Text/Text.xml",
 				"seed":54352,
 				"arcInfo":[
-					{"type": "child"}
+					{"type": "child", "mirror": false }
 				]
 			},
 			{
@@ -287,13 +287,13 @@
 				"type": "scroll",
 				"seed": 12,
 				"arcInfo":[
-					{ "keepAutoPlacement": true, "type": "child" },
-					{ "keepAutoPlacement": true, "type": "adult" },
-					{ "keepAutoPlacement": true, "type": "child" },
-					{ "keepAutoPlacement": true, "type": "adult" },
-					{ "keepAutoPlacement": true, "type": "adult" },
-					{ "keepAutoPlacement": true, "type": "adult" },
-					{ "keepAutoPlacement": true, "type": "child" },
+					{ "type": "child" },
+					{ "type": "adult" },
+					{ "type": "child" },
+					{ "type": "adult" },
+					{ "type": "adult" },
+					{ "type": "adult" },
+					{ "type": "child" },
 					{ "position": {"x": 2.4364, "y": -0.7618}, "zRotation": 90, "type": "stranger" }
 				],
 				"alignRadial": true
