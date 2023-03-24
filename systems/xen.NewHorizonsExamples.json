@@ -19,6 +19,12 @@
 				"y": 150,
 				"z": 0
 			}
+		},
+		"warpExit": {
+			"position": {"x": -4.556647, "y": 95.99126, "z": 25.85559},
+			"rotation": {"x": 355.4922, "y": 92.76053, "z": 5.80681},
+			"alignRadial": true,
+			"parentBody": "Frigid Pygmy"
 		}
 	},
 	"Skybox": {

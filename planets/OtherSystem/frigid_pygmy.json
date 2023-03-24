@@ -13,7 +13,8 @@
 		"semiMajorAxis" : 2000,
 		"primaryBody" : "Daunting Confidant",
 		"isMoon" : true,
-        "siderealPeriod": 3
+        "siderealPeriod": 6,
+		"axialTilt": 180
 	},
 	"Atmosphere" :
 	{
@@ -78,31 +79,22 @@
 	"Spawn" : 
 	{
 		"playerSpawn": {
-			"position": {
-				"x": 0,
-				"y": -98.8,
-				"z": 10
-			  },
-			  "startWithSuit" : true
+			"position": {"x": -8.564104, "y": 97.18401, "z": 18.41574},
+			"startWithSuit" : true
 		},
 		"shipSpawn": {
-			"position": {
-				"x": 0,
-				"y": -99.1,
-				"z": 0
-			  }
+			"position": {"x": 17.5113, "y": 97.54752, "z": 8.509671},
 		}
 	},
 	"Props": {
 		"warpReceivers": [
 			{
-				"position": {"x": 1.013376, "y": 99.27505, "z": 0.6913356},
-				"alignRadial": true,
+				"position": {"x": -0.09318542, "y": 143.1096, "z": -75.70591},
+				"rotation": {"x": -0.003517588, "y": 178.6452, "z": 359.8513},
 				"frequency": "Pygmy",
-				"detailed": false,
 				"computer": {
-					"position": {"x": 10.06122, "y": 98.73846, "z": 2.477093},
-					"alignRadial": true
+					"position": {"x": 8.119637, "y": 143.1098, "z": -35.68202},
+					"rotation": {"x": 0, "y": 322.3544, "z": 0}
 				}
 			}
 		],
@@ -122,10 +114,10 @@
 		],
 		"translatorText": [
 			{
-				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
+				"position": {"x": 1.983314, "y": 96.40941, "z": 25.28014},
+				"rotation": {"x": 4.44508, "y": 278.2993, "z": 349.1856},
 				"xmlFile": "planets/OtherSystem/WideAlignmentTransmitter.xml",
-				"type": "cairn",
-				"alignRadial": true
+				"type": "cairn"
 			},
 			{
 				"position": {"x": 28.59976, "y": -9.694084, "z": 95.17366},
@@ -135,7 +127,7 @@
 			},
 			{
 				"type": "whiteboard",
-				"xmlFile": "planets/Text/WallText.xml",
+				"xmlFile": "planets/OtherSystem/VesselWallText.xml",
 				"seed": 532432,
 				"position": {"x": -14.27449, "y": 143.1031, "z": -23.21534},
 				"rotation": {"x": 0.001224785, "y": 89.88747, "z": 0.2021536}
@@ -155,6 +147,14 @@
 				"audio" : "OW_NM_WhiteHoleAmbienceL", 
 				"sourceRadius" : 0.5, 
 				"position": {"x": 10.18783, "y": 96.69212, "z": 22.51841}
+			}
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"position": {"x": -0.05411148, "y": 143.1096, "z": -63.89166},
+				"radius": 50
 			}
 		]
 	}
