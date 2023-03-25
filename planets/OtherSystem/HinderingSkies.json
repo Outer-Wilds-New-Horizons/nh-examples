@@ -129,5 +129,22 @@
 				"track": "music"
 			}
 		]
-	}
+	},
+	"Rings": [
+		{
+			"outerRadius": 800,
+			"innerRadius": 700,
+			"texture": "planets/assets/planet_rings.png",
+			"opacityCurve": [
+				{
+					"time": 0,
+					"value": 1
+				},
+				{
+					"time": 1,
+					"value": 0
+				}
+			]
+		}
+	]
 }
