@@ -14,7 +14,8 @@
 		"primaryBody" : "Daunting Confidant",
 		"isMoon" : true,
         "siderealPeriod": 6,
-		"axialTilt": 180
+		"axialTilt": 180,
+		"inclination": 180
 	},
 	"Atmosphere" :
 	{
@@ -155,6 +156,23 @@
 			{
 				"position": {"x": -0.05411148, "y": 143.1096, "z": -63.89166},
 				"radius": 50
+			}
+		]
+	},
+	"CometTail": {
+		"primaryBody": "Sequestered Luminary",
+		"curve": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 1
 			}
 		]
 	}
