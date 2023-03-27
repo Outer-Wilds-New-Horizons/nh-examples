@@ -149,6 +149,12 @@
 				"sourceRadius" : 0.5, 
 				"position": {"x": 10.18783, "y": 96.69212, "z": 22.51841}
 			}
+		],
+		"audioSources": [
+			{
+				"position": {"x": 1.983314, "y": 96.40941, "z": 25.28014},
+				"audio" : "ow_kazoo_theme"
+			}
 		]
 	},
 	"Volumes": {
