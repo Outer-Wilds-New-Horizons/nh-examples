@@ -43,7 +43,13 @@
         "heightMap": "planets/assets/luna_heightmap.png",
         "textureMap": "planets/assets/luna_texturemap.png",
         "minHeight": 18,
-        "maxHeight": 22
+        "maxHeight": 22,
+		"baseTile": {
+			"size": 5,
+			"textureTile": "planets/assets/tiles/Moon_d2_mir.png",
+			"normalTile": "planets/assets/tiles/Moon_n_mir.png",
+			"normalStrength": 2
+		}
     },
 	"Props" :
 	{

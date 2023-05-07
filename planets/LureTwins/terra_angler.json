@@ -47,7 +47,29 @@
         "heightMap": "planets/assets/terra_heightmap.png",
         "textureMap": "planets/assets/terra_texturemap.png",
         "minHeight": 27,
-        "maxHeight": 30
+        "maxHeight": 30,
+		"smoothness": 0.5,
+		"smoothnessMap": "planets/assets/terra_smoothnessmap.png",
+		"tileBlendMap": "planets/assets/terra_blendmap.png",
+		"redTile": {
+			"size": 5,
+			"textureTile": "planets/assets/tiles/CraterForestFloorv2_d_mir.png",
+			"normalTile": "planets/assets/tiles/CraterForestFloorv2_n_mir.png",
+			"normalStrength": 1
+		},
+		"greenTile": {
+			"size": 10,
+			"textureTile": "planets/assets/tiles/GrassV2_d_mir.png",
+			"normalTile": "planets/assets/tiles/GrassDetailV1_n_mir.png",
+			"normalStrength": 3
+		},
+		"blueTile": {
+			"size": 10,
+			"textureTile": "planets/assets/tiles/Snow_d_mir.png",
+			"smoothnessTile": "planets/assets/tiles/Snow_s_mir.png",
+			"normalTile": "planets/assets/tiles/Snow_n_mir.png",
+			"normalStrength": 1
+		}
     },
 	"Props" :
 	{

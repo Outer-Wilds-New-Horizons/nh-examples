@@ -14,7 +14,8 @@
 		"primaryBody" : "Daunting Confidant",
 		"isMoon" : true,
         "siderealPeriod": 6,
-		"axialTilt": 180
+		"axialTilt": 180,
+		"inclination": 180
 	},
 	"Atmosphere" :
 	{
@@ -26,7 +27,7 @@
 			"b" : 255,
 			"a" : 255
 		},
-		"fogDensity": 0.9,
+		"fogDensity": 0.5,
 		"fogSize": 120,
 		"hasOxygen" : true,
 		"hasTrees": false,
@@ -44,12 +45,12 @@
 		{
 			"outerRadius": 120,
 			"innerRadius": 100,
-			"intensity": 0.8,
+			"intensity": 0.6,
 			"tint" : 
 			{
 				"r" : 100,
-				"g" : 140,
-				"b" : 140,
+				"g" : 100,
+				"b" : 100,
 				"a" : 255
 			}
 		}
@@ -59,7 +60,32 @@
         "heightMap": "planets/assets/frigid_pygmy_heightmap.png",
         "textureMap": "planets/assets/frigid_pygmy_texturemap.png",
 		"minHeight" : 98,
-		"maxHeight" : 100
+		"maxHeight" : 100,
+		"smoothness": 0.5,
+		"smoothnessMap": "planets/assets/frigid_pygmy_smoothnessmap.png",
+		"normalStrength": 0.5,
+		"normalMap": "planets/assets/frigid_pygmy_normalmap.png",
+		"tileBlendMap": "planets/assets/frigid_pygmy_blendmap.png",
+		"redTile": {
+			"size": 5,
+			"textureTile": "planets/assets/tiles/Ash_d.png",
+			"smoothnessTile": "planets/assets/tiles/Ash_s.png",
+			"normalTile": "planets/assets/tiles/Ash_n.png",
+			"normalStrength": 1
+		},
+		"greenTile": {
+			"size": 5,
+			"textureTile": "planets/assets/tiles/DirtShale_d.png",
+			"normalTile": "planets/assets/tiles/DirtShale_n.png",
+			"normalStrength": 2
+		},
+		"blueTile": {
+			"size": 10,
+			"textureTile": "planets/assets/tiles/Snow_d_mir.png",
+			"smoothnessTile": "planets/assets/tiles/Snow_s_mir.png",
+			"normalTile": "planets/assets/tiles/Snow_n_mir.png",
+			"normalStrength": 1
+		}
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",
@@ -83,7 +109,7 @@
 			"startWithSuit" : true
 		},
 		"shipSpawn": {
-			"position": {"x": 17.5113, "y": 97.54752, "z": 8.509671},
+			"position": {"x": 17.5113, "y": 97.54752, "z": 8.509671}
 		}
 	},
 	"Props": {
@@ -100,13 +126,13 @@
 		],
 		"warpTransmitters": [
 			{
-				"position": {"x": 10.18783, "y": 96.69212, "z": 22.51841},
+				"position": {"x": 6.454252, "y": 95.21429, "z": 24.06915},
 				"alignRadial": true,
 				"frequency": "Pygmy",
 				"alignmentWindow": 360
 			},
 			{
-				"position": {"x": 22.42838, "y": -4.804573, "z": 97.18248},
+				"position": {"x": 22.15487, "y": -4.748462, "z": 95.70348},
 				"alignRadial": true,
 				"frequency": "Daunting",
 				"alignmentWindow": 10
@@ -114,13 +140,13 @@
 		],
 		"translatorText": [
 			{
-				"position": {"x": 1.983314, "y": 96.40941, "z": 25.28014},
-				"rotation": {"x": 4.44508, "y": 278.2993, "z": 349.1856},
+				"position": {"x": -0.458406, "y": 96.36155, "z": 23.76476},
+				"rotation": {"x": 353.1564, "y": 249.8678, "z": 348.609},
 				"xmlFile": "planets/OtherSystem/WideAlignmentTransmitter.xml",
 				"type": "cairn"
 			},
 			{
-				"position": {"x": 28.59976, "y": -9.694084, "z": 95.17366},
+				"position": {"x": 27.08455, "y": -8.535811, "z": 94.15249},
 				"xmlFile": "planets/OtherSystem/DauntlessTransmitter.xml",
 				"type": "cairn",
 				"alignRadial": true
@@ -148,6 +174,12 @@
 				"sourceRadius" : 0.5, 
 				"position": {"x": 10.18783, "y": 96.69212, "z": 22.51841}
 			}
+		],
+		"audioSources": [
+			{
+				"position": {"x": 1.983314, "y": 96.40941, "z": 25.28014},
+				"audio" : "ow_kazoo_theme"
+			}
 		]
 	},
 	"Volumes": {
@@ -155,6 +187,23 @@
 			{
 				"position": {"x": -0.05411148, "y": 143.1096, "z": -63.89166},
 				"radius": 50
+			}
+		]
+	},
+	"CometTail": {
+		"primaryBody": "Sequestered Luminary",
+		"curve": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 1,
+				"value": 0
+			},
+			{
+				"time": 2,
+				"value": 1
 			}
 		]
 	}
