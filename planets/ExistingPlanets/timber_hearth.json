@@ -47,7 +47,14 @@
 				"rename": "Bob",
 				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
 				"position" : {"x": 12.0282, "y": -45.4429,"z": 185.0175},  
-				"rotation" : {"x":5.426, "y": 99.0692,"z": 105.8894}
+				"rotation" : {"x":5.426, "y": 99.0692,"z": 105.8894},
+				"deactivationCondition": "EXAMPLES_GHOST_BIRD_DIED"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_VillageCemetery/Props_VillageCemetery/OtherComponentsGroup/HEA_Backer_Tombstone/Props_HEA_TombStone",
+				"position": {"x": 12.6791, "y": -45.52128, "z": 184.9299},
+				"rotation": {"x": 352.311, "y": 276.1152, "z": 255.849},
+				"activationCondition": "EXAMPLES_GHOST_BIRD_DIED"
 			},
 			{ 
 				"rename": "Fred",

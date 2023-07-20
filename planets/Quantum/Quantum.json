@@ -5,7 +5,7 @@
 	{
 		"surfaceGravity" : 10,
 		"surfaceSize" : 200,
-		"hasMapMarker" : true,
+		"hasMapMarker" : false,
 		"groundSize": 200
 	},
 	"Orbit" :

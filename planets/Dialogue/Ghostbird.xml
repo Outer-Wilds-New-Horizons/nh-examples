@@ -21,11 +21,23 @@
 				<Text>What are you doing here?</Text>
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<Text>Die NOW!!!!!</Text>
+				<DialogueTarget>10</DialogueTarget>
+				<ConditionToSet>EXAMPLES_GHOST_BIRD_DIED</ConditionToSet>
+			</DialogueOption>
 		</DialogueOptionsList>
 
 		<RevealFacts>
 			<FactID>EXAMPLES_BOB</FactID>
 		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>10</Name>
+		<Dialogue>
+			<Page>Ok. Dies.</Page>
+		</Dialogue>
 	</DialogueNode>
 	
 	<DialogueNode>
