@@ -188,6 +188,15 @@
 				"position": {"x": -0.05411148, "y": 143.1096, "z": -63.89166},
 				"radius": 50
 			}
+		],
+		"dayNightAudioVolumes": [
+			{
+				"radius": 160,
+				"dayAudio": "OW New Raft Music 082321_4 AP theme",
+				"nightAudio": "Dreamworld Base Ambience 1",
+				"sun": "Sequestered Luminary",
+				"volume": 0.4
+			}
 		]
 	},
 	"CometTail": {
