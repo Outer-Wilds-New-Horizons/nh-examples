@@ -180,6 +180,29 @@
 				"position": {"x": 1.983314, "y": 96.40941, "z": 25.28014},
 				"audio" : "ow_kazoo_theme"
 			}
+		],
+		"gravityCannons": [
+			{
+				"position": {"x": -12.2329, "y": 0.2512, "z": 85.8149},
+				"rotation": {"x": 353.3698, "y": 239.3152, "z": 273.2367},
+				"detailed": false,
+				"shuttleID": "TEST",
+				"computer": {
+					"position": {"x": 1.357883, "y": -8.497148, "z": 97.96288},
+					"rotation": {"x": 10.26767, "y": 91.00811, "z": 94.72373}
+				},
+				"controls": {
+					"position": {"x": -4.950279, "y": -0.6047622, "z": 98.28176},
+					"rotation": {"x": 9.454912, "y": 87.54168, "z": 90.50004}
+				}
+			}
+		],
+		"shuttles": [
+			{
+				"id": "TEST",
+				"position": {"x": -35.62004, "y": 91.77274, "z": 3.917076},
+				"rotation": {"x": 350.4765, "y": 19.39383, "z": 19.14424}
+			}
 		]
 	},
 	"Volumes": {
@@ -187,6 +210,15 @@
 			{
 				"position": {"x": -0.05411148, "y": 143.1096, "z": -63.89166},
 				"radius": 50
+			}
+		],
+		"dayNightAudioVolumes": [
+			{
+				"radius": 160,
+				"dayAudio": "OW New Raft Music 082321_4 AP theme",
+				"nightAudio": "Dreamworld Base Ambience 1",
+				"sun": "Sequestered Luminary",
+				"volume": 0.4
 			}
 		]
 	},
