@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Giants Deep",
+	"Orbit" : 
+	{
+		"primaryBody": "Sun",
+		"semiMajorAxis": 13500
+	},
+	"Rings" :
+	[
+		{
+			"innerRadius" : 1800,
+			"outerRadius" : 2200,
+			"inclination" : 5,
+			"longitudeOfAscendingNode" : 90,
+			"texture" : "planets/SolarSystem/Giants Deep Assets/default_rings.png",
+			"fluidType": "sand"
+		}
+	],
+	"Props" :
+	{
+		"rafts": [
+			{
+				"position": {"x": 510, "y": 0, "z": 0},
+				"acceleration": 50
+			}
+		]
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/SolarSystem/Giants Deep Ship Log/GiantsDeep.xml",
+		"spriteFolder": "planets/SolarSystem/Giants Deep Ship Log/sprites",
+		"mapMode": {
+			"details": [
+				{
+					"revealedSprite": "planets/SolarSystem/Giants Deep Ship Log/giants_deep_detail.png",
+					"position": {"x": 0, "y": 0},
+					"scale": {"x": 3, "y": 3},
+					"invisibleWhenHidden": true
+				}
+			]
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius":2500, 
+				"reveals": ["EXAMPLES_RINGS_FOUND"]
+			}
+		]
+	}
+}

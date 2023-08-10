@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "xen.NewHorizonsExamples",
+	"name" : "Hearthian Satellite",
+	"Base" : 
+	{
+		"hasMapMarker" : true,
+		"showMinimap": false,
+		"addPhysics": true
+	},
+	"Orbit" : 
+	{
+		"primaryBody": "Frigid Pygmy",
+		"semiMajorAxis": 400,
+		"dottedOrbitLine": true
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Geometry_HearthianMapSatellite",
+				"keepLoaded": true
+			}
+		]
+	}
+}

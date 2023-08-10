@@ -1,0 +1,22 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>GIANTS_DEEP</ID>
+
+    <Entry>
+        <ID>EXAMPLES_GIANTS_DEEP</ID>
+        <Name>Rings</Name>
+
+        <Curiosity>EXAMPLES_UNEXPECTED_GUESTS</Curiosity>
+    
+        <RumorFact>
+            <ID>EXAMPLES_RINGS</ID> 
+            <SourceID>EXAMPLES_UNEXPECTED_GUESTS</SourceID> 
+            <RumorName>Rings</RumorName> 
+            <Text>Fred put some rings on Giant's Deep for some reason.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_RINGS_FOUND</ID> 
+            <Text>I have determined to my satisfaction that there are indeed rings here.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

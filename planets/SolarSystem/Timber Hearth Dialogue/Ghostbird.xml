@@ -1,0 +1,95 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Bob</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey man how's it going?</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Aren't you supposed to kill me?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Hey.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing here?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Die NOW!!!!!</Text>
+				<DialogueTarget>10</DialogueTarget>
+				<ConditionToSet>EXAMPLES_GHOST_BIRD_DIED</ConditionToSet>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_BOB</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>10</Name>
+		<Dialogue>
+			<Page>Ok. Dies.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Oh yeah dude I totally forgot about that, maybe next time.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Hey.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Yeah.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>I'm actually a magical wizard and I've been casting some <![CDATA[<b>crazy</b>]]> spells on your solar system.</Page>
+			<Page>Specifically, I changed the orbit of your planet and put some rings around Giant's Deep.</Page>
+			<Page>Can't help it being a gemini tee hee.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What?</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing here?</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_RINGS</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>... Bro I literally just told you.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
