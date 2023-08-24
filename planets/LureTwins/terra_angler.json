@@ -202,6 +202,28 @@
 				}
 			],
 			"rename": "Effects_TA_Leaves"
+		},
+		{
+			"type": "fireflies",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 15,
+					"height": 27
+				},
+				{
+					"density": 15,
+					"height": 40
+				},
+				{
+					"density": 0,
+					"height": 50
+				}
+			],
+			"rename": "Effects_TA_Fireflies"
 		}
 	]
 }
