@@ -32,7 +32,6 @@
 		},
 		"fogDensity": 0.1,
 		"fogSize": 120,
-		"hasSnow" : true,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
@@ -85,5 +84,29 @@
 				"y": 3
 			}
 		}
-    }
+    },
+	"VectionFields": [
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 50,
+					"height": 100
+				},
+				{
+					"density": 50,
+					"height": 120
+				},
+				{
+					"density": 0,
+					"height": 150
+				}
+			],
+			"rename": "Effects_SB_SnowflakesHeavy"
+		}
+	]
 }
