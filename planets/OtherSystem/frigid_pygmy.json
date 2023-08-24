@@ -238,7 +238,7 @@
 			}
 		]
 	},
-	"VectionFields": [
+	"ParticleFields": [
 		{
 			"type": "snowflakesLight",
 			"densityByHeightCurve": [

@@ -139,7 +139,7 @@
 			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
 		]
 	},
-	"VectionFields": [
+	"ParticleFields": [
 		{
 			"type": "leaves",
 			"densityByHeightCurve": [

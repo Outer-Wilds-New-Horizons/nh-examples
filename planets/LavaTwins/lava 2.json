@@ -58,7 +58,7 @@
 			}
 		}
     },
-	"VectionFields": [
+	"ParticleFields": [
 		{
 			"type": "embers",
 			"densityByHeightCurve": [

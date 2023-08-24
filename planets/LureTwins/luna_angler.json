@@ -115,7 +115,7 @@
 			}
 		}
     },
-	"VectionFields": [
+	"ParticleFields": [
 		{
 			"type": "leaves",
 			"densityByHeightCurve": [
