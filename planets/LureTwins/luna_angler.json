@@ -114,5 +114,29 @@
 				"y": 3
 			}
 		}
-    }
+    },
+	"VectionFields": [
+		{
+			"type": "leaves",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 5,
+					"height": 18
+				},
+				{
+					"density": 5,
+					"height": 30
+				},
+				{
+					"density": 0,
+					"height": 50
+				}
+			],
+			"rename": "Effects_LA_Leaves"
+		}
+	]
 }

@@ -179,5 +179,29 @@
 				"y": 2
 			}
 		}
-    }
+    },
+	"VectionFields": [
+		{
+			"type": "leaves",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 10,
+					"height": 27
+				},
+				{
+					"density": 10,
+					"height": 50
+				},
+				{
+					"density": 0,
+					"height": 75
+				}
+			],
+			"rename": "Effects_TA_Leaves"
+		}
+	]
 }

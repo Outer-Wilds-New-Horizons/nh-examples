@@ -138,5 +138,29 @@
 		"revealVolumes": [
 			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
 		]
-	}
+	},
+	"VectionFields": [
+		{
+			"type": "leaves",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 10,
+					"height": 99
+				},
+				{
+					"density": 10,
+					"height": 150
+				},
+				{
+					"density": 0,
+					"height": 200
+				}
+			],
+			"rename": "Effects_WR_Leaves"
+		}
+	]
 }
