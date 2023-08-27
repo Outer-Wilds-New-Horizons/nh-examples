@@ -57,5 +57,25 @@
 				"y": 3
 			}
 		}
-    }
+    },
+	"ParticleFields": [
+		{
+			"type": "embers",
+			"densityByHeightCurve": [
+				{
+					"density": 50,
+					"height": 0
+				},
+				{
+					"density": 50,
+					"height": 50
+				},
+				{
+					"density": 0,
+					"height": 150
+				}
+			],
+			"rename": "Effects_LT2_Embers"
+		}
+	]
 }
