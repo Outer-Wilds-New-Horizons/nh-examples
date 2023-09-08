@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Timber Hearth",
 	"Orbit": {
 		"primaryBody": "Giants Deep",
@@ -14,6 +14,37 @@
 	},
 	"Props" : 
 	{
+		"quantumGroups": [
+			{
+				"id": "socketsGroupExample",
+				"type": "sockets",
+				"sockets": [
+					{
+						"position": {"x": 22.85241, "y": -44.60034, "z": 184.1749},
+						"rotation": {"x": 24.33897, "y": 270.6493, "z": 255.3102}
+					},
+					{
+						"position": {"x": 18.48812, "y": -49.57165, "z": 183.391},
+						"rotation": {"x": 286.4675, "y": 30.04419, "z": 156.3873}
+					},
+					{
+						"position": {"x": 15.23117, "y": -43.92106, "z": 185.1216},
+						"rotation": {"x": 32.38852, "y": 103.5428, "z": 105.9536}
+					}
+				]
+			},
+			{
+				"id": "statesGroupExample",
+				"type": "states",
+				"loop": true
+			},
+			{
+				"id": "sequentialStateExample",
+				"type": "states",
+				"loop": false,
+				"sequential": true
+			}
+		],
 		"singularities" :
 		[
 			{
@@ -37,6 +68,62 @@
 		],
 		"details" :
 		[
+			{
+				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
+				"quantumGroupID": "socketsGroupExample"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/Rock_TH_Observatory_QRock",
+				"quantumGroupID": "statesGroupExample",
+				"position": {"x": 26.321, "y": -47.6301, "z": 184.1755},
+				"rotation": {"x": 16.0248, "y": 1.5196, "z": 265.5753}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumShard/Rock_TH_Grove_QRock",
+				"quantumGroupID": "statesGroupExample",
+				"position": {"x": 26.321, "y": -47.6301, "z": 182.9635}, 
+				"rotation": {"x": 305.0612, "y": 299.5856, "z": 244.3752} 
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Interactables_NorthUnderground/QuantumEntanglementRock/Rocks_HCT_QuantumEntanglement_v2",
+				"quantumGroupID": "statesGroupExample",
+				"position": {"x": 27.4776, "y": -46.9521, "z": 182.8351},
+				"rotation": {"x": 73.4483, "y": 165.6926, "z": 176.565} 
+			},
+			
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSaplings/QuantumSapling_Root/Prefab_TH_Sapling",
+				"quantumGroupID": "sequentialStateExample",
+				"position": {"x": 22.1975, "y": -48.3298, "z": 183.3109},
+				"rotation": {"x": 285.8842, "y": 341.9059, "z": 204.0626},
+				"scale": 0.5
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSaplings/QuantumSapling_Root/Prefab_TH_Sapling",
+				"quantumGroupID": "sequentialStateExample",
+				"position": {"x": 22.1975, "y": -48.3298, "z": 183.3109},
+				"rotation": {"x": 285.8842, "y": 341.9059, "z": 204.0626},
+				"scale": 0.5
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSaplings/QuantumSapling_Root/Prefab_TH_Sapling",
+				"quantumGroupID": "sequentialStateExample",
+				"position": {"x": 22.1975, "y": -48.3298, "z": 183.3109},
+				"rotation": {"x": 285.8842, "y": 341.9059, "z": 204.0626}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSequoias/QuantumTree_Root/Prefab_TH_Redwood",
+				"quantumGroupID": "sequentialStateExample",
+				"position": {"x": 22.1975, "y": -48.3298, "z": 183.3109},
+				"rotation": {"x": 285.8842, "y": 341.9059, "z": 204.0626}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/Tree_TH_Stump",
+				"quantumGroupID": "sequentialStateExample",
+				"position": {"x": 22.1975, "y": -48.3298, "z": 183.3109},
+				"rotation": {"x": 285.8842, "y": 341.9059, "z": 204.0626},
+				"scale": 0.5
+			},
 			{
 				"rename": "VisionTorch",
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Interactibles_PrisonCell/PrisonerSequence/VisionTorchWallSocket/Prefab_IP_VisionTorchItem",

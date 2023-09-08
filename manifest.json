@@ -4,7 +4,8 @@
   "author": "xen",
   "name": "New Horizons Examples",
   "uniqueName": "xen.NewHorizonsExamples",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "owmlVersion": "2.5.2",
-  "dependencies": [ "xen.NewHorizons" ]
+  "dependencies": [ "xen.NewHorizons" ],
+  "pathsToPreserve": [ ".git", ".github", ".gitignore", "README.md", "LICENSE" ]
 }

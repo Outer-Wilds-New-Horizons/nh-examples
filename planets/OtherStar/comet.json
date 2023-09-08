@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Snowball",
 	"Base" :
 	{
@@ -32,7 +32,6 @@
 		},
 		"fogDensity": 0.1,
 		"fogSize": 120,
-		"hasSnow" : true,
 		"useAtmosphereShader": true,
 		"atmosphereTint" : 
 		{
@@ -85,5 +84,29 @@
 				"y": 3
 			}
 		}
-    }
+    },
+	"ParticleFields": [
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 50,
+					"height": 100
+				},
+				{
+					"density": 50,
+					"height": 120
+				},
+				{
+					"density": 0,
+					"height": 150
+				}
+			],
+			"rename": "Effects_SB_SnowflakesHeavy"
+		}
+	]
 }

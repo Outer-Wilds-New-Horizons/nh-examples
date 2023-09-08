@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Lava 2",
 	"Base" :
 	{
@@ -57,5 +57,25 @@
 				"y": 3
 			}
 		}
-    }
+    },
+	"ParticleFields": [
+		{
+			"type": "embers",
+			"densityByHeightCurve": [
+				{
+					"density": 50,
+					"height": 0
+				},
+				{
+					"density": 50,
+					"height": 50
+				},
+				{
+					"density": 0,
+					"height": 150
+				}
+			],
+			"rename": "Effects_LT2_Embers"
+		}
+	]
 }
