@@ -35,6 +35,13 @@
 				"x": 700,
 				"y": -1000
 			}
+		},
+		{
+			"id": "EXAMPLES_VASE",
+			"position": {
+				"x": 1000,
+				"y": -1000
+			}
 		}
 	],
 	"curiosities": [

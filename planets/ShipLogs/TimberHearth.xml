@@ -38,5 +38,10 @@
             <ID>EXAMPLES_VISION</ID>
             <Text>I saw a vision but I don't understand it, maybe some of these new guys left it for me.</Text> 
         </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_VASE</ID>
+            <Text>I pulled a weird vase off the ground.</Text> 
+        </ExploreFact>
     </Entry>
 </AstroObjectEntry>
