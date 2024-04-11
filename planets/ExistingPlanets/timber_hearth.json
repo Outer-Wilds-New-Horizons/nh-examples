@@ -232,6 +232,10 @@
 					"droppable": true,
 					"dropOffset": {"x": 0, "y": 0, "z": 0},
 					"dropNormal": {"x":0, "y": 1, "z": 0},
+					"holdOffset": {"x": 0, "y": -0.3, "z": 0},
+					"holdRotation": {"x": 0, "y": 45, "z": 0},
+					"socketOffset": {"x": 0, "y": 0.2, "z": 0},
+					"socketRotation": {"x": 0, "y": 45, "z": 0},
 					"pickupAudio": "ToolProbeRetrieve",
 					"dropAudio": "ToolProbeLaunch",
 					"socketAudio": "PlayerSuitLockOn",
@@ -254,6 +258,8 @@
 					"droppable": true,
 					"dropOffset": {"x": 0, "y": 0, "z": 0},
 					"dropNormal": {"x":0, "y": 1, "z": 0},
+					"holdOffset": {"x": 0, "y": 0.1, "z": 0.1},
+					"holdRotation": {"x": 0, "y": 90, "z": 275},
 					"pickupAudio": "TapeRecorder_Start",
 					"dropAudio": "TapeRecorder_Stop"
 				}
