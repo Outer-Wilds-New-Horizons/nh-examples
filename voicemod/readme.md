@@ -1,3 +1,5 @@
+## Voice Mod
+
 New Horizons includes support for the [Voice Acting Mod](https://outerwildsmods.com/mods/voiceactingmod/)! Simply add a folder to your mod with this name, and start adding recorded dialogue to it.
 
 To match up the audio with a character's dialogue, you must name the file in the form "[DialogueTree->NameField] [DialogueTree->DialogueNode->Name] [DialogueTree->DialogueNode->Page number]"

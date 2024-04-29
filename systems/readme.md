@@ -1,3 +1,5 @@
+## Systems
+
 The systems folder contains config files for each star system in your mod. These files are optional.
 
 In `SolarSystem.json` you can see modifications we make to the base game solar system. Specifically, we are positioning our new custom ship logs.
