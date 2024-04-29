@@ -134,7 +134,7 @@
 		{
 			"outerRadius": 800,
 			"innerRadius": 700,
-			"texture": "planets/assets/clouds/planet_rings.png",
+			"texture": "planets/assets/rings/planet_rings.png",
 			"opacityCurve": [
 				{
 					"time": 0,

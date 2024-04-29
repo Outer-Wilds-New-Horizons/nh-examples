@@ -323,6 +323,10 @@
 				"xmlFile" : "planets/assets/dialogue/Shale.xml",
 				"pathToAnimController": "Sector_TH/Shale/Villager_HEA_Slate_ANIM_LogSit",
 				"lookAtRadius" : 3
+			},
+			{
+				"xmlFile": "planets/assets/dialogue/SlateNewDialogue.xml",
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci"
 			}
 		],
 		"slideShows" :
@@ -470,7 +474,7 @@
 			{
 				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
 				"xmlFile": "planets/assets/nomaitext/Cairn.xml",
-				"type": "cairn",
+				"type": "cairnTH",
 				"alignRadial": true
 			},
 			{
@@ -614,7 +618,7 @@
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
 				"radius": 1,
 				"gameOverText": "Ernesto beat you to death with a rock.",
-				"deathType": "CrushedByElevator"
+				"deathType": "crushedByElevator"
 			}
 		]
 	}
