@@ -56,33 +56,33 @@
 	],
 	"HeightMap" :
 	{
-        "heightMap": "planets/assets/frigid_pygmy_heightmap.png",
-        "textureMap": "planets/assets/frigid_pygmy_texturemap.png",
+        "heightMap": "planets/assets/terrain/frigid_pygmy_heightmap.png",
+        "textureMap": "planets/assets/terrain/frigid_pygmy_texturemap.png",
 		"minHeight" : 98,
 		"maxHeight" : 100,
 		"smoothness": 0.5,
-		"smoothnessMap": "planets/assets/frigid_pygmy_smoothnessmap.png",
+		"smoothnessMap": "planets/assets/terrain/frigid_pygmy_smoothnessmap.png",
 		"normalStrength": 0.5,
-		"normalMap": "planets/assets/frigid_pygmy_normalmap.png",
-		"tileBlendMap": "planets/assets/frigid_pygmy_blendmap.png",
+		"normalMap": "planets/assets/terrain/frigid_pygmy_normalmap.png",
+		"tileBlendMap": "planets/assets/terrain/frigid_pygmy_blendmap.png",
 		"redTile": {
 			"size": 5,
-			"textureTile": "planets/assets/tiles/Ash_d.png",
-			"smoothnessTile": "planets/assets/tiles/Ash_s.png",
-			"normalTile": "planets/assets/tiles/Ash_n.png",
+			"textureTile": "planets/assets/terrain/tiles/Ash_d.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Ash_s.png",
+			"normalTile": "planets/assets/terrain/tiles/Ash_n.png",
 			"normalStrength": 1
 		},
 		"greenTile": {
 			"size": 5,
-			"textureTile": "planets/assets/tiles/DirtShale_d.png",
-			"normalTile": "planets/assets/tiles/DirtShale_n.png",
+			"textureTile": "planets/assets/terrain/tiles/DirtShale_d.png",
+			"normalTile": "planets/assets/terrain/tiles/DirtShale_n.png",
 			"normalStrength": 2
 		},
 		"blueTile": {
 			"size": 10,
-			"textureTile": "planets/assets/tiles/Snow_d_mir.png",
-			"smoothnessTile": "planets/assets/tiles/Snow_s_mir.png",
-			"normalTile": "planets/assets/tiles/Snow_n_mir.png",
+			"textureTile": "planets/assets/terrain/tiles/Snow_d_mir.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Snow_s_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/Snow_n_mir.png",
 			"normalStrength": 1
 		}
 	},
@@ -142,12 +142,12 @@
 				"position": {"x": -0.458406, "y": 96.36155, "z": 23.76476},
 				"rotation": {"x": 353.1564, "y": 249.8678, "z": 348.609},
 				"xmlFile": "planets/OtherSystem/WideAlignmentTransmitter.xml",
-				"type": "cairn"
+				"type": "cairnTH"
 			},
 			{
 				"position": {"x": 27.08455, "y": -8.535811, "z": 94.15249},
 				"xmlFile": "planets/OtherSystem/DauntlessTransmitter.xml",
-				"type": "cairn",
+				"type": "cairnTH",
 				"alignRadial": true
 			},
 			{

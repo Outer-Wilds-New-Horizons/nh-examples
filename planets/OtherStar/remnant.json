@@ -14,21 +14,23 @@
 			{"time": 5, "value":1}
 		]
 	},
-	"Ring" :
-	{
-		"innerRadius" : 1800,
-		"outerRadius" : 2200,
-		"inclination" : 0,
-		"texture" : "planets/assets/default_rings.png",
-		"scaleCurve": [
-			{"time": 0, "value": 0},
-			{"time": 4, "value": 0},
-			{"time": 22, "value": 1}
-		],
-		"opacityCurve": [
-			{"time": 0, "value": 0},
-			{"time": 4, "value": 0},
-			{"time": 22, "value": 1}
-		]
-	}
+	"Rings" : 
+	[
+		{
+			"innerRadius" : 1800,
+			"outerRadius" : 2200,
+			"inclination" : 0,
+			"texture" : "planets/assets/rings/default_rings.png",
+			"scaleCurve": [
+				{"time": 0, "value": 0},
+				{"time": 4, "value": 0},
+				{"time": 22, "value": 1}
+			],
+			"opacityCurve": [
+				{"time": 0, "value": 0},
+				{"time": 4, "value": 0},
+				{"time": 22, "value": 1}
+			]
+		}
+	]
 }

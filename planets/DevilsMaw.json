@@ -36,7 +36,7 @@
 		"innerRadius" : 550,
 		"outerRadius" : 800,
 		"inclination" : 10,
-		"texture" : "planets/assets/accretion_disk.png",
+		"texture" : "planets/assets/rings/accretion_disk.png",
 		"unlit" : true,
 		"fluidType": "plasma"
 	},

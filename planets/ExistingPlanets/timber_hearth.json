@@ -332,14 +332,14 @@
 				"rotation": {"x": 287.2072, "y": 65.1164, "z": 127.4015},
 				"type": "slideReel",
 				"slides": [
-					{"imagePath": "planets/assets/slides/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
-					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
-					{"imagePath": "planets/assets/slides/prisoner.png"},
-					{"imagePath": "planets/assets/slides/MangledMica.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/feldspar.png"},
-					{"imagePath": "planets/assets/slides/angler.png", "beatAudio": "VoiceMod/Ernesto START 0.wav"},
-					{"imagePath": "planets/assets/slides/AmongUsDrip.png"}
+					{"imagePath": "planets/assets/slide reels/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/prisoner.png"},
+					{"imagePath": "planets/assets/slide reels/MangledMica.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/feldspar.png"},
+					{"imagePath": "planets/assets/slide reels/angler.png", "beatAudio": "VoiceMod/Ernesto START 0.wav"},
+					{"imagePath": "planets/assets/slide reels/AmongUsDrip.png"}
 				]
 			},
 			{
@@ -347,19 +347,19 @@
 				"rotation": {"x": 288.4233, "y": 313.5344, "z": 236.3884},
 				"type": "slideReel",
 				"slides": [
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backdropFadeTime": 2},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png", "blackFrameDuration": 1},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/SlateWithAGun.png"}
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backdropFadeTime": 2},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png", "blackFrameDuration": 1},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"}
 				]
 			},
 			{
@@ -367,8 +367,8 @@
 				"rotation": {"x": 297.2245, "y": 301.7512, "z": 246.6633},
 				"type": "slideReel",
 				"slides": [
-					{"imagePath": "planets/assets/slides/nh.png"},
-					{"imagePath": "planets/assets/slides/SlateWithAGun.png"}
+					{"imagePath": "planets/assets/slide reels/nh.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"}
 				]
 			},
 			{
@@ -376,23 +376,23 @@
 				"rotation": {"x": 85.3647, "y": 168.7207, "z": 155.2558},
 				"type": "autoProjector",
 				"slides": [
-					{"imagePath": "planets/assets/slides/nh.png"},
-					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
+					{"imagePath": "planets/assets/slide reels/nh.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"}
 				]
 			},
 			{
 				"position": {"x": 18.27021, "y": -50.37486, "z": 185.1447},
 				"type": "visionTorchTarget",
 				"slides": [
-					{"imagePath": "planets/assets/slides/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
-					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
-					{"imagePath": "planets/assets/slides/prisoner.png"},
-					{"imagePath": "planets/assets/slides/MangledMica.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"},
-					{"imagePath": "planets/assets/slides/feldspar.png"},
-					{"imagePath": "planets/assets/slides/angler.png", "beatAudio": "DBAnglerfishChasing_LP"},
-					{"imagePath": "planets/assets/slides/AmongUsDrip.png"}
+					{"imagePath": "planets/assets/slide reels/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/prisoner.png"},
+					{"imagePath": "planets/assets/slide reels/MangledMica.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/feldspar.png"},
+					{"imagePath": "planets/assets/slide reels/angler.png", "beatAudio": "DBAnglerfishChasing_LP"},
+					{"imagePath": "planets/assets/slide reels/AmongUsDrip.png"}
 				]
 			},
 			{
@@ -400,9 +400,9 @@
 				"rotation": { "x": 42.27901, "y": 104.967056, "z": 106.829819},
 				"type": "standingVisionTorch",
 				"slides": [
-					{"imagePath": "planets/assets/slides/nh.png"},
-					{"imagePath": "planets/assets/slides/SlateWithAGun.png"},
-					{"imagePath": "planets/assets/slides/HearthianFlushed.png"}
+					{"imagePath": "planets/assets/slide reels/nh.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"}
 				],
 				"reveals": ["EXAMPLES_VISION"],
 				"playWithShipLogFacts": ["EXAMPLES_VISION"]
@@ -521,7 +521,7 @@
 		"remotes": [
 			{
 				"id": "EXAMPLES_REMOTE_TIMBER1",
-				"decalPath": "planets/assets/facepalm.png",
+				"decalPath": "planets/assets/projection pools/facepalm.png",
 				"platform": {
 					"position": {"x": 39.4085, "y": -39.8123, "z": 184.7316},
 					"rotation": {"x": 289.478973, "y": 318.601959, "z": 231.8097},
@@ -552,7 +552,7 @@
 			},
 			{
 				"id": "EXAMPLES_REMOTE_TIMBER2",
-				"decalPath": "planets/assets/amogus.png",
+				"decalPath": "planets/assets/projection pools/amogus.png",
 				"platform": {
 					"position": {"x": 8.5665, "y": -56.4249, "z": 185.8045},
 					"rotation": {"x": 11.9805136, "y": 268.658081, "z": 252.742828},

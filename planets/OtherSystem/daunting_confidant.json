@@ -38,8 +38,8 @@
 		"clouds": {
 			"outerCloudRadius": 550,
 			"innerCloudRadius": 500,
-			"texturePath": "planets/assets/daunting_confidant.png",
-            "capPath": "planets/assets/daunting_confidant_cap.png",
+			"texturePath": "planets/assets/clouds/daunting_confidant.png",
+            "capPath": "planets/assets/clouds/daunting_confidant_cap.png",
 			"tint": {
 				"r": 140,
 				"g": 70,

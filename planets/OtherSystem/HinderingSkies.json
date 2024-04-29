@@ -66,7 +66,7 @@
 			"cloudsPrefab": "giantsDeep",
 			"innerCloudRadius": 550,
 			"outerCloudRadius": 600,
-			"texturePath": "planets/assets/hindering_skies.png",
+			"texturePath": "planets/assets/clouds/hindering_skies.png",
 			"tint": {
 				"r": 130,
 				"g": 100,
@@ -134,7 +134,7 @@
 		{
 			"outerRadius": 800,
 			"innerRadius": 700,
-			"texture": "planets/assets/planet_rings.png",
+			"texture": "planets/assets/clouds/planet_rings.png",
 			"opacityCurve": [
 				{
 					"time": 0,

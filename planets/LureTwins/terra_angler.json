@@ -44,30 +44,30 @@
 		"size" : 28.5
 	},
     "HeightMap": {
-        "heightMap": "planets/assets/terra_heightmap.png",
-        "textureMap": "planets/assets/terra_texturemap.png",
+        "heightMap": "planets/assets/terrain/terra_heightmap.png",
+        "textureMap": "planets/assets/terrain/terra_texturemap.png",
         "minHeight": 27,
         "maxHeight": 30,
 		"smoothness": 0.5,
-		"smoothnessMap": "planets/assets/terra_smoothnessmap.png",
-		"tileBlendMap": "planets/assets/terra_blendmap.png",
+		"smoothnessMap": "planets/assets/terrain/terra_smoothnessmap.png",
+		"tileBlendMap": "planets/assets/terrain/terra_blendmap.png",
 		"redTile": {
 			"size": 5,
-			"textureTile": "planets/assets/tiles/CraterForestFloorv2_d_mir.png",
-			"normalTile": "planets/assets/tiles/CraterForestFloorv2_n_mir.png",
+			"textureTile": "planets/assets/terrain/tiles/CraterForestFloorv2_d_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/CraterForestFloorv2_n_mir.png",
 			"normalStrength": 1
 		},
 		"greenTile": {
 			"size": 10,
-			"textureTile": "planets/assets/tiles/GrassV2_d_mir.png",
-			"normalTile": "planets/assets/tiles/GrassDetailV1_n_mir.png",
+			"textureTile": "planets/assets/terrain/tiles/GrassV2_d_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/GrassDetailV1_n_mir.png",
 			"normalStrength": 3
 		},
 		"blueTile": {
 			"size": 10,
-			"textureTile": "planets/assets/tiles/Snow_d_mir.png",
-			"smoothnessTile": "planets/assets/tiles/Snow_s_mir.png",
-			"normalTile": "planets/assets/tiles/Snow_n_mir.png",
+			"textureTile": "planets/assets/terrain/tiles/Snow_d_mir.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Snow_s_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/Snow_n_mir.png",
 			"normalStrength": 1
 		}
     },
@@ -128,22 +128,22 @@
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/Props_NOM_Transponder", 
 				"position" : {"x":0,"y":-29.75,"z":0},
-				"alignToNormal":true
+				"alignRadial":true
 			},
 			{
 				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_EscapePod/Interactables_EscapePod/EscapePod_VisibleFrom_Far/DistressBeaconTransmitter/LightBeam", 
 				"position" : {"x":0,"y":-29.75,"z":0},
-				"alignToNormal":true
+				"alignRadial":true
 			},
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Geometry_FossilCave/OtherComponentsGroup/Child Skeletons/Prefab_NOM_Skeleton_Child_Pile_A",
 				"position" : {"x": -2.950979, "y": -29.65235, "z": 3.441322},
-				"alignToNormal":true
+				"alignRadial":true
 			},
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
 				"position" : {"x": 2.607613, "y": -29.848, "z": 1.419874},
-				"alignToNormal":true
+				"alignRadial":true
 			}
 		],
 		"proxyDetails": [

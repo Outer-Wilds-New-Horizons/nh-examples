@@ -6,15 +6,17 @@
 		"primaryBody": "Sun",
 		"semiMajorAxis": 13500
 	},
-	"Ring" :
-	{
-		"innerRadius" : 1800,
-		"outerRadius" : 2200,
-		"inclination" : 5,
-		"longitudeOfAscendingNode" : 90,
-		"texture" : "planets/assets/default_rings.png",
-		"fluidType": "sand"
-	},
+	"Rings" :
+	[
+		{
+			"innerRadius" : 1800,
+			"outerRadius" : 2200,
+			"inclination" : 5,
+			"longitudeOfAscendingNode" : 90,
+			"texture" : "planets/assets/rings/default_rings.png",
+			"fluidType": "sand"
+		}
+	],
 	"Props" :
 	{
 		"rafts": [

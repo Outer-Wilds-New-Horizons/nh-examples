@@ -57,7 +57,7 @@
 	],
 	"HeightMap" :
 	{
-		"heightMap" : "planets/assets/snowball_heightmap.png",	
+		"heightMap" : "planets/assets/terrain/snowball_heightmap.png",	
 		"minHeight" : 100,
 		"maxHeight" : 100
 	},

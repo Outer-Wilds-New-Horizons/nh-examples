@@ -44,8 +44,8 @@
 		"clouds": {
 			"outerCloudRadius": 500,
 			"innerCloudRadius": 450,
-			"texturePath": "planets/assets/ringed_jewel.png",
-			"capPath": "planets/assets/ringed_jewel_cap.png",
+			"texturePath": "planets/assets/clouds/ringed_jewel.png",
+			"capPath": "planets/assets/clouds/ringed_jewel_cap.png",
 			"tint":
 			{
 				"r" : 181,
@@ -71,13 +71,15 @@
 			}
 		}
 	],
-	"Ring" : 
-	{
-		"innerRadius" : 800,
-		"outerRadius" : 950,
-		"texture" : "planets/assets/planet_rings.png",
-		"fluidType": "water"
-	},
+	"Rings" : 
+	[
+		{
+			"innerRadius" : 800,
+			"outerRadius" : 950,
+			"texture" : "planets/assets/rings/planet_rings.png",
+			"fluidType": "water"
+		}
+	],
 	"ShipLog" : {
 		"xmlFile": "planets/ShipLogs/RingedJewel.xml",
 		"spriteFolder": "planets/ShipLogs/sprites",
