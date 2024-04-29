@@ -161,14 +161,14 @@
 		[
 			{
 				"position": {"x": 2.6076, "y": -31.4881, "z": 1.4199},
-				"xmlFile" : "planets/Dialogue/FredsCousin.xml",
+				"xmlFile" : "planets/assets/dialogue/FredsCousin.xml",
 				"pathToAnimController": "Sector/Nomai_ANIM_SkyWatching_Idle"
 			}
 		]
 	},
 	"ShipLog" : {
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/terra_lure_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/terra_lure_map_mode.png",
 			"scale": 1,
 			"manualPosition": {
 				"x": 780,

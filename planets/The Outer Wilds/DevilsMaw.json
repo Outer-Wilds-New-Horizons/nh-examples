@@ -49,9 +49,9 @@
 		]
 	},
 	"ShipLog" : {
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/blackhole_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/blackhole_map_mode.png",
 			"scale": 0.5,
 			"manualPosition": {
 				"x": 1240,

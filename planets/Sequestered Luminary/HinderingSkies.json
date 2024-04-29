@@ -90,8 +90,8 @@
 	],
 	"ShipLog" : {
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/hindering_skies_map_mode.png",
-			"outlineSprite": "planets/ShipLogs/sprites/hindering_skies_outline.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/hindering_skies_map_mode.png",
+			"outlineSprite": "planets/assets/shiplogs/sprites/hindering_skies_outline.png",
 			"scale": 1,
 			"manualPosition": {
 				"x": 1900,

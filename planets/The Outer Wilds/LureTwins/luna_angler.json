@@ -103,7 +103,7 @@
 	},
 	"ShipLog" : {
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/luna_lure_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/luna_lure_map_mode.png",
 			"scale": 1,
 			"manualPosition": {
 				"x": 780,

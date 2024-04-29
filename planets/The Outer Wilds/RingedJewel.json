@@ -81,10 +81,10 @@
 		}
 	],
 	"ShipLog" : {
-		"xmlFile": "planets/ShipLogs/RingedJewel.xml",
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/assets/shiplogs/RingedJewel.xml",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/ringed_jewel_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/ringed_jewel_map_mode.png",
 			"scale": 1.6,
 			"manualPosition": {
 				"x": 1040,

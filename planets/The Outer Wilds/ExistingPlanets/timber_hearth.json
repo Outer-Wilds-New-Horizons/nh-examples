@@ -289,22 +289,22 @@
 		[
 			{
 				"position": {"x": 13.2082, "y": -46.2829, "z": 187.4374},
-				"xmlFile" : "planets/Dialogue/Ghostbird.xml",
+				"xmlFile" : "planets/assets/dialogue/Ghostbird.xml",
 				"pathToAnimController": "Sector_TH/Bob"
 			},
 			{
 				"position": {"x": 18.0605, "y": -50.5836, "z": 185.0414},
-				"xmlFile" : "planets/Dialogue/Nomai.xml",
+				"xmlFile" : "planets/assets/dialogue/Nomai.xml",
 				"pathToAnimController": "Sector_TH/Fred",
 				"lookAtRadius" : 3
 			},
 			{
 				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
-				"xmlFile" : "planets/Dialogue/Geswaldo.xml"
+				"xmlFile" : "planets/assets/dialogue/Geswaldo.xml"
 			},
 			{
 				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
-				"xmlFile" : "planets/Dialogue/Angry Geswaldo.xml",
+				"xmlFile" : "planets/assets/dialogue/Angry Geswaldo.xml",
 				"radius": 0,
 				"remoteTrigger": {
 					"position": {"x": 9.851137, "y": -42.59065, "z": 186.2374},
@@ -314,13 +314,13 @@
 			},
 			{
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
-				"xmlFile" : "planets/Dialogue/Ernesto.xml",
+				"xmlFile" : "planets/assets/dialogue/Ernesto.xml",
 				"radius": 1.5,
 				"pathToAnimController": "Sector_TH/Ernesto"
 			},
 			{
 				"position": {"x": 18.2946, "y": -40.5167, "z": 186.9321},
-				"xmlFile" : "planets/Dialogue/Shale.xml",
+				"xmlFile" : "planets/assets/dialogue/Shale.xml",
 				"pathToAnimController": "Sector_TH/Shale/Villager_HEA_Slate_ANIM_LogSit",
 				"lookAtRadius" : 3
 			}
@@ -413,7 +413,7 @@
 				"rename": "Behind Slate",
 				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
 				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
-				"xmlFile": "planets/Text/Text.xml",
+				"xmlFile": "planets/assets/nomaitext/Text.xml",
 				"seed":42,
 				"arcInfo":[
 					{"type": "child", "mirror": false }
@@ -423,7 +423,7 @@
 				"rename": "On the ground by trees",
 				"position": {"x": 34.13071, "y": -27.06833, "z": 190.8683}, 
 				"normal": {"x": 0.06757314, "y": -0.472719, "z": 0.8786187},
-				"xmlFile": "planets/Text/Text.xml",
+				"xmlFile": "planets/assets/nomaitext/Text.xml",
 				"seed":1337,
 				"arcInfo":[
 					{"type": "child", "mirror": false }
@@ -433,7 +433,7 @@
 				"rename": "On that one ledge",
 				"position":  {"x": 11.834, "y": -55.0562, "z": 184.1439}, 
 				"normal" : {"x": 0.9072242, "y": 0.4202163, "z": 0.01904997},
-				"xmlFile": "planets/Text/Text.xml",
+				"xmlFile": "planets/assets/nomaitext/Text.xml",
 				"seed":54352,
 				"arcInfo":[
 					{"type": "child", "mirror": false }
@@ -441,7 +441,7 @@
 			},
 			{
 				"position": {"x": 35.68043, "y": -42.78446, "z": 182.4819}, 
-				"xmlFile": "planets/Text/WallText.xml",
+				"xmlFile": "planets/assets/nomaitext/WallText.xml",
 				"type": "scroll",
 				"seed": 12,
 				"arcInfo":[
@@ -463,25 +463,25 @@
 			},
 			{
 				"position": {"x": 15.479, "y": -50.6244, "z": 183.2454},
-				"xmlFile": "planets/Text/Computer.xml",
+				"xmlFile": "planets/assets/nomaitext/Computer.xml",
 				"type": "preCrashComputer",
 				"alignRadial": true
 			},
 			{
 				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
-				"xmlFile": "planets/Text/Cairn.xml",
+				"xmlFile": "planets/assets/nomaitext/Cairn.xml",
 				"type": "cairn",
 				"alignRadial": true
 			},
 			{
 				"position" : {"x": 26.7683, "y": -39.872, "z": 186.0676},
-				"xmlFile": "planets/Text/Recorder.xml",
+				"xmlFile": "planets/assets/nomaitext/Recorder.xml",
 				"type": "recorder",
 				"alignRadial": true
 			},
 			{
 				"position": {"x": 12.21984, "y": -47.2570343, "z": 184.525375},
-				"xmlFile": "planets/Text/Trailmarker.xml",
+				"xmlFile": "planets/assets/nomaitext/Trailmarker.xml",
 				"type": "trailmarker",
 				"alignRadial": true
 			}
@@ -538,7 +538,7 @@
 						{
 							"id": "EXAMPLES_REMOTE_TIMBER2",
 							"location": "a",
-							"xmlFile": "planets/Text/Shared.xml"
+							"xmlFile": "planets/assets/nomaitext/Shared.xml"
 						}
 					]
 				},
@@ -569,7 +569,7 @@
 						{
 							"id": "EXAMPLES_REMOTE_TIMBER1",
 							"location": "b",
-							"xmlFile": "planets/Text/Shared.xml"
+							"xmlFile": "planets/assets/nomaitext/Shared.xml"
 						}
 					]
 				},
@@ -604,8 +604,8 @@
 		]
 	  },
 	"ShipLog" : {
-        "xmlFile": "planets/ShipLogs/TimberHearth.xml",
-		"spriteFolder": "planets/ShipLogs/sprites"
+        "xmlFile": "planets/assets/shiplogs/TimberHearth.xml",
+		"spriteFolder": "planets/assets/shiplogs/sprites"
     },
 	"Volumes": {
 		"creditsVolume": [

@@ -61,9 +61,9 @@
 		]
 	},
 	"ShipLog" : {
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/lava_twin_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/lava_twin_map_mode.png",
 			"scale": 0.9,
 			"manualPosition": {
 				"x": 1440,
@@ -75,7 +75,7 @@
 			},
 			"details": [
 				{
-					"revealedSprite": "planets/ShipLogs/sprites/lava_twin_funnel.png",
+					"revealedSprite": "planets/assets/shiplogs/sprites/lava_twin_funnel.png",
 					"position": {"x": 0, "y": 40},
 					"scale": {"x": 0.5, "y": 0.5},
 					"invisibleWhenHidden": true

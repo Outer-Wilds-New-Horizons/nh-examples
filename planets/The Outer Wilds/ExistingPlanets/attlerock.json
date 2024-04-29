@@ -54,8 +54,8 @@
 		"trueAnomaly": 120
 	},
 	"ShipLog" : {
-        "xmlFile": "planets/ShipLogs/Attlerock.xml",
-		"spriteFolder": "planets/ShipLogs/sprites"
+        "xmlFile": "planets/assets/shiplogs/Attlerock.xml",
+		"spriteFolder": "planets/assets/shiplogs/sprites"
     },
 	"Volumes":{
 		"revealVolumes": [

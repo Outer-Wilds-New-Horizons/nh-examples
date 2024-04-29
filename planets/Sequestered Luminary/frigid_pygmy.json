@@ -87,9 +87,9 @@
 		}
 	},
 	"ShipLog" : {
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/frigid_pygmy_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/frigid_pygmy_map_mode.png",
 			"scale": 0.9,
 			"manualPosition": {
 				"x": 280,

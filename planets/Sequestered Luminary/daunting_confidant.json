@@ -65,9 +65,9 @@
 		}
 	],
 	"ShipLog" : {
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/daunting_confidant_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/daunting_confidant_map_mode.png",
 			"scale": 1.6,
 			"manualPosition": {
 				"x": 280,

@@ -32,9 +32,9 @@
 		"stellarRemnantType": "custom"
 	},
 	"ShipLog" : {
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/night_light_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/night_light_map_mode.png",
 			"scale": 1,
 			"manualPosition": {
 				"x": 250,

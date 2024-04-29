@@ -1,9 +1,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Light Gateway",
+	"name" : "Dark Gateway",
 	"Base" : 
 	{
-		"surfaceGravity" : 0,
+		"surfaceGravity" : 10,
 		"surfaceSize" : 200,
 		"hasMapMarker" : true
 	},
@@ -12,30 +12,45 @@
 		"semiMajorAxis" : 30000,
 		"primaryBody" : "Sun",
 		"isStatic" : true,
-		"argumentOfPeriapsis" : 0,
+		"argumentOfPeriapsis" : 180,
 		"showOrbitLine" : false
 	},
-	"Props":{
+	"Atmosphere" :
+	{
+		"size" : 300,
+		"fogTint":
+		{
+			"r" : 50,
+			"g" : 10,
+			"b" : 50,
+			"a" : 255
+		},
+		"fogSize": 250,
+		"fogDensity":0.3,
+		"hasShockLayer": false
+	},
+	"Props" :
+	{
 		"singularities": [
 			{
 				"size" : 200,
-				"type" : "whiteHole",
-				"pairedSingularity" : "Dark Gateway"
+				"type" : "blackHole",
+				"pairedSingularity" : "Light Gateway"
 			}
 		]
 	},
 	"ShipLog" : {
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/light_gateway_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/blackhole_map_mode.png",
 			"scale": 0.5,
 			"manualPosition": {
 				"x": 1670,
-				"y": 250
+				"y": 180
 			},
 			"manualNavigationPosition": {
 				"x": 8,
-				"y": 3
+				"y": 2
 			}
 		}
     }

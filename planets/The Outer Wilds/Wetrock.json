@@ -90,7 +90,7 @@
 				"position" : {"x": 0, "y": 101, "z": 0},
 				"radius": 3.5,
 				"range": 3.5,
-				"xmlFile" : "planets/Dialogue/ErnestosCousin.xml"
+				"xmlFile" : "planets/assets/dialogue/ErnestosCousin.xml"
 			}
 		],
 		"rafts": 
@@ -119,10 +119,10 @@
 		]
 	},
 	"ShipLog" : {
-        "xmlFile": "planets/ShipLogs/Wetrock.xml",
-		"spriteFolder": "planets/ShipLogs/sprites",
+        "xmlFile": "planets/assets/shiplogs/Wetrock.xml",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/wetrock_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/wetrock_map_mode.png",
 			"scale": 0.6,
 			"manualPosition": {
 				"x": 582,

@@ -37,17 +37,17 @@
 		"dialogue": [
 			{
 				"position": {"x": 16.71222, "y": -5.809598, "z": -22.03942},
-				"xmlFile" : "planets/Dialogue/ErnestoEye.xml",
+				"xmlFile" : "planets/assets/dialogue/ErnestoEye.xml",
 				"radius": 2
 			},
 			{
 				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609},
-				"xmlFile" : "planets/Dialogue/Geswaldo.xml"
+				"xmlFile" : "planets/assets/dialogue/Geswaldo.xml"
 			}
 		],
         "nomaiText": [
 			{
-				"xmlFile": "planets/Text/EyeRecorder.xml",
+				"xmlFile": "planets/assets/nomaitext/EyeRecorder.xml",
 				"type": "preCrashRecorder",
 				"position": {
 					"x": 16.03139,
@@ -61,7 +61,7 @@
 				}
 			},
 			{
-				"xmlFile": "planets/Text/Text.xml",
+				"xmlFile": "planets/assets/nomaitext/Text.xml",
 				"type": "wall",
 				"normal": {
 					"x": -0.9875074,

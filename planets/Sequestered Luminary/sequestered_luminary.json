@@ -29,9 +29,9 @@
         "stellarDeathType": "none"
 	},
 	"ShipLog" : {
-		"spriteFolder": "planets/ShipLogs/sprites",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/ShipLogs/sprites/sequestered_luminary_map_mode.png",
+			"revealedSprite": "planets/assets/shiplogs/sprites/sequestered_luminary_map_mode.png",
 			"scale": 0.75,
 			"manualPosition": {
 				"x": 0,
