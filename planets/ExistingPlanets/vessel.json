@@ -16,7 +16,7 @@
 			},
 			{
 				"rename": "ErnestoLight",
-				"assetBundle": "planets/bundle/examples_trifid",
+				"assetBundle": "assetbundles/examples_trifid",
 				"path":"Assets/AnglerfishLight (1).prefab",
 				"position": {"x": 14.4275, "y": -4.3296, "z": -21.1429},
 				"scale": 0.5
@@ -29,7 +29,7 @@
 			},
 			{
 				"rename": "GeswaldoLight",
-				"assetBundle": "planets/bundle/examples_trifid",
+				"assetBundle": "assetbundles/examples_trifid",
 				"path":"Assets/JellyfishLight (1).prefab",
 				"position": {"x": 11.0571, "y": 15.9449, "z": -39.0609}
 			}

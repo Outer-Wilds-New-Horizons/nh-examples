@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
-	"travelAudio": "planets/assets/Travel.mp3",
+	"travelAudio": "systems/New System Assets/Travel.mp3",
 	"canEnterViaWarpDrive": true,
 	"startHere": false,
 	"Vessel": {
@@ -29,11 +29,11 @@
 	},
 	"Skybox": {
 		"destroyStarField": true,
-		"rightPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Right_Large.png",
-		"leftPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Left_Large.png",
-		"topPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Up_Large.png",
-		"bottomPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Down_Large.png",
-		"frontPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Front_Large.png",
-		"backPath": "planets/assets/Free Skyboxes - Space/SBS Space 4/Large/Back_Large.png"
+		"rightPath": "systems/New System Assets/Skybox/Right_Large.png",
+		"leftPath": "systems/New System Assets/Skybox/Left_Large.png",
+		"topPath": "systems/New System Assets/Skybox/Up_Large.png",
+		"bottomPath": "systems/New System Assets/Skybox/Down_Large.png",
+		"frontPath": "systems/New System Assets/Skybox/Front_Large.png",
+		"backPath": "systems/New System Assets/Skybox/Back_Large.png"
 	}
 }

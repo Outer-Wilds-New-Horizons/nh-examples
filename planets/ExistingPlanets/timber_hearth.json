@@ -150,7 +150,7 @@
 				"rotation" : {"x":311.8565, "y": 287.9388, "z": 254.72}
 			},
 			{
-				"assetBundle": "planets/bundle/test",
+				"assetBundle": "assetbundles/test",
 				"path":"Assets/Prefabs/ArtificialGravity.prefab",
 				"position": {"x": 400,"y": 0,"z": 0},
 				"scale" : 50
@@ -164,7 +164,7 @@
 			},
 			{
 				"rename": "GeswaldoLight",
-				"assetBundle": "planets/bundle/examples_trifid",
+				"assetBundle": "assetbundles/examples_trifid",
 				"path":"Assets/JellyfishLight (1).prefab",
 				"parentPath": "Sector_TH/Geswaldo",
 				"position": {"x": 28.63121, "y": -46.67, "z": 185.68}
@@ -188,7 +188,7 @@
 			},
 			{
 				"rename": "ErnestoLight",
-				"assetBundle": "planets/bundle/examples_trifid",
+				"assetBundle": "assetbundles/examples_trifid",
 				"path":"Assets/AnglerfishLight (1).prefab",
 				"parentPath": "Sector_TH/Ernesto",
 				"position": {"x": 24.1185, "y": -41.9897, "z": 187.1345}
