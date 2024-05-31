@@ -219,6 +219,70 @@
 				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
 				"position": {"x": 13.6137, "y": -46.7152, "z": 184.7818},
 				"rotation": {"x": 44.6486, "y": 325.24, "z": 30.4107}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThick",
+				"position": {"x": -33.30206, "y": -79.12967, "z": 182.912},
+				"rotation": {"x": 300.8207, "y": 32.93826, "z": 141.4214},
+				"item": {
+					"name": "Nomai Vase",
+					"itemType": "Decoration",
+					"interactRange": 3,
+					"colliderRadius": 0,
+					"droppable": true,
+					"dropOffset": {"x": 0, "y": 0, "z": 0},
+					"dropNormal": {"x":0, "y": 1, "z": 0},
+					"holdOffset": {"x": 0, "y": -0.3, "z": 0},
+					"holdRotation": {"x": 0, "y": 45, "z": 0},
+					"socketOffset": {"x": 0, "y": 0.2, "z": 0},
+					"socketRotation": {"x": 0, "y": 45, "z": 0},
+					"pickupAudio": "ToolProbeRetrieve",
+					"dropAudio": "ToolProbeLaunch",
+					"socketAudio": "PlayerSuitLockOn",
+					"unsocketAudio": "PlayerSuitLockOff",
+					"pickupCondition": "VASE_PICKED_UP",
+					"clearPickupConditionOnDrop": true,
+					"pickupFact": "EXAMPLES_VASE",
+					"pathToInitialSocket": "Sector_TH/Strucutre_NOM_Shelf"
+				}
+			},
+			{
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+				"position": {"x": -35.30206, "y": -79.12967, "z": 182.912},
+				"rotation": {"x": 300.8207, "y": 32.93826, "z": 141.4214},
+				"item": {
+					"name": "Tape Recorder",
+					"itemType": "Decoration",
+					"interactRange": 2,
+					"colliderRadius": 0.5,
+					"droppable": true,
+					"dropOffset": {"x": 0, "y": 0, "z": 0},
+					"dropNormal": {"x":0, "y": 1, "z": 0},
+					"holdOffset": {"x": 0, "y": 0.1, "z": 0.1},
+					"holdRotation": {"x": 0, "y": 90, "z": 275},
+					"pickupAudio": "TapeRecorder_Start",
+					"dropAudio": "TapeRecorder_Stop"
+				}
+			},
+			{
+				"path": "QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Interactables_FinalRoom/FinalRoom_QProps/FinalRoom_Shelf/Q_Shelf/Prefab_NOM_Shelf/Strucutre_NOM_Shelf",
+				"position": {"x": -29.89541, "y": -79.87562, "z": 183.1785},
+				"rotation": {"x": 314.8642, "y": 286.1038, "z": 235.4039},
+				"itemSocket": {
+					"socketPath": "",
+					"itemType": "Decoration",
+					"interactRange": 3,
+					"useGiveTakePrompts": true,
+					"insertCondition": "VASE_INSERTED",
+					"removalCondition": "VASE_REMOVED",
+					"isRelativeToParent": true
+				}
+			},
+			{
+				"path": "StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/SafetyBeams/Prefab_NOM_SafetyTractorBeam",
+				"position": {"x": -29.07362, "y": -75.34698, "z": 184.1421},
+				"rotation": {"x": 348.1494, "y": 256.7715, "z": 249.3466},
+				"activationCondition": "VASE_PICKED_UP"
 			}
 		],
 		"dialogue" :
