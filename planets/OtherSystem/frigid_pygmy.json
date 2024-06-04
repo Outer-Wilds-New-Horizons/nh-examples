@@ -347,7 +347,7 @@
                     { "imagePath": "planets/assets/slides/atlas/15.png" },
                     { "imagePath": "planets/assets/slides/atlas/16.png" }
                 ]
-            },
+            }
         ],
 		"warpReceivers": [
 			{
