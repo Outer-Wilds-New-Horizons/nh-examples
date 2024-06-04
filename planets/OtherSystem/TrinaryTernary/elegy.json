@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/mapMarker/NewHorizons/Schemas/body_schema.json",
+	"name": "Elegy",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base": {
+		"gravityFallOff": "linear",
+		"surfaceGravity": 4,
+		"surfaceSize": 20
+	},
+	"Orbit": {
+		"primaryBody": "Hymn",
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"semiMajorAxis": 400,
+		"tint": {
+			"r": 89,
+			"g": 122,
+			"b": 157
+		},
+		"orbitLineFadeStartDistance": 6500
+	},
+	"ProcGen": {
+		"scale": 20,
+		"color": {
+			"r": 89,
+			"g": 122,
+			"b": 157
+		}
+	},
+	"AmbientLights": [
+		{
+			"intensity": 0.5
+		}
+	],
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": 0,
+		"maxDisplayDistanceOverride": 6500
+	}
+}

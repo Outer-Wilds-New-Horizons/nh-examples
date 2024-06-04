@@ -1,0 +1,39 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/mapMarker/NewHorizons/Schemas/body_schema.json",
+	"name": "Rondo",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base": {
+		"gravityFallOff": "linear",
+		"surfaceGravity": 8,
+		"surfaceSize": 30
+	},
+	"Orbit": {
+		"primaryBody": "Waltz",
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"tint": {
+			"r": 81,
+			"g": 86,
+			"b": 177
+		},
+		"orbitLineFadeStartDistance": 3250
+	},
+	"ProcGen": {
+		"scale": 30,
+		"color": {
+			"r": 81,
+			"g": 86,
+			"b": 177
+		}
+	},
+	"AmbientLights": [
+		{
+			"intensity": 0.5
+		}
+	],
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": 0,
+		"maxDisplayDistanceOverride": 3250
+	}
+}

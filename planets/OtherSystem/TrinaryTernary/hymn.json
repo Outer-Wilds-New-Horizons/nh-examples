@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/mapMarker/NewHorizons/Schemas/body_schema.json",
+	"name": "Hymn",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base": {
+		"gravityFallOff": "linear",
+		"invulnerableToSun": true,
+		"surfaceGravity": 16,
+		"surfaceSize": 0,
+		"soiOverride": 600
+	},
+	"FocalPoint": {
+		"primary": "Waltz",
+		"secondary": "Elegy"
+	},
+	"Orbit": {
+		"primaryBody": "Sequestered Luminary",
+		"semiMajorAxis": 24000,
+		"trueAnomaly" : 121,
+		"tint": {
+			"r": 49,
+			"g": 16,
+			"b": 207
+		}
+	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"bracketRadius": 400,
+		"targetColliderRadius": 400
+	},
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": 6500,
+		"maxDisplayDistanceOverride": 50000
+	}
+}

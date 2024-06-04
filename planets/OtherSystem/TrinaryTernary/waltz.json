@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/mapMarker/NewHorizons/Schemas/body_schema.json",
+	"name": "Waltz",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base": {
+		"gravityFallOff": "linear",
+		"invulnerableToSun": true,
+		"surfaceGravity": 12,
+		"surfaceSize": 0,
+		"soiOverride": 300
+	},
+	"FocalPoint": {
+		"primary": "Rondo",
+		"secondary": "Requiem"
+	},
+	"Orbit": {
+		"primaryBody": "Hymn",
+		"tint": {
+			"r": 122,
+			"g": 140,
+			"b": 154
+		},
+		"orbitLineFadeStartDistance": 6500,
+		"showOrbitLine": false
+	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"bracketRadius": 200,
+		"targetColliderRadius": 200
+	},
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": 3250,
+		"maxDisplayDistanceOverride": 6500
+	}
+}
