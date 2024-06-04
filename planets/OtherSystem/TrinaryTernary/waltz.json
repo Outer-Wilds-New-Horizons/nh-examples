@@ -28,6 +28,11 @@
 		"bracketRadius": 200,
 		"targetColliderRadius": 200
 	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove": true
+		}
+    },
 	"MapMarker": {
 		"enabled": true,
 		"minDisplayDistanceOverride": 3250,

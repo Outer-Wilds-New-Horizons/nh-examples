@@ -32,6 +32,19 @@
 			"intensity": 0.5
 		}
 	],
+	"ShipLog" : {
+		"mapMode" : {
+			"scale": 0.5,
+			"manualPosition": {
+				"x": 560,
+				"y": 150
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 2
+			}
+		}
+    },
 	"MapMarker": {
 		"enabled": true,
 		"minDisplayDistanceOverride": 0,
