@@ -1,0 +1,16 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Frigid Pygmy</ID>
+
+    <Entry>
+        <ID>EXAMPLES_OTHER_SYSTEM</ID>
+        <Name>Other System</Name>
+
+        <Curiosity>EXAMPLES_OTHER_SYSTEM</Curiosity>
+		<IsCuriosity/>
+    
+        <ExploreFact>
+            <ID>EXAMPLES_REEL</ID>
+            <Text>I saw a slide reel full of numbers.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>
