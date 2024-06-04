@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/mapMarker/NewHorizons/Schemas/body_schema.json",
+	"name": "Requiem",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base": {
+		"gravityFallOff": "linear",
+		"surfaceGravity": 4,
+		"surfaceSize": 20
+	},
+	"Orbit": {
+		"primaryBody": "Waltz",
+		"isMoon": true,
+		"isTidallyLocked": true,
+		"semiMajorAxis": 200,
+		"tint": {
+			"r": 159,
+			"g": 169,
+			"b": 96
+		},
+		"orbitLineFadeStartDistance": 3250
+	},
+	"ProcGen": {
+		"scale": 20,
+		"color": {
+			"r": 159,
+			"g": 169,
+			"b": 96
+		}
+	},
+	"AmbientLights": [
+		{
+			"intensity": 0.5
+		}
+	],
+	"ShipLog" : {
+		"mapMode" : {
+			"scale": 0.5,
+			"manualPosition": {
+				"x": 560,
+				"y": 50
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 1
+			}
+		}
+    },
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": 0,
+		"maxDisplayDistanceOverride": 3250
+	}
+}
