@@ -115,7 +115,14 @@
     "Props": {
 		"details": [
 			{
+				"rename": "SlideReelPrefabExamples",
+				"position": {"x": -7.364246, "y": 92.39944, "z": 33.4837},
+				"rotation": {"x": 339.3453, "y": 147.6249, "z": 7.897686},
+			},
+			{
+				"rename": "SlideProjectorRing",
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring",
+				"parentPath": "Sector/SlideReelPrefabExamples",
 				"rotation": {
 					"x": 21.0,
 					"y": 348.6,
@@ -129,7 +136,9 @@
 				"keepLoaded": true
 			},
 			{
+				"rename": "SimpleLanternItem",
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5",
+				"parentPath": "Sector/SlideReelPrefabExamples",
 				"position": {
 					"x": -8.4536,
 					"y": 92.2193,
@@ -143,49 +152,42 @@
 				"keepLoaded": true
 			},
 			{
+				"rename": "Stairs",
+				"parentPath": "Sector/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem",
+				"scale": 1.25,
+				"rotation": {
+					"x": 19.4001,
+					"y": 349.5469,
+					"z": 359.6704
+				},
+				"position": {
+					"x": -3.1384,
+					"y": 91.8084,
+					"z": 28.459
+				}
+			},
+			{
+				"rename": "Stairs_Solid_Middle",
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District4/Geometry_HangingCity_District4/OtherComponentsGroup/Prefab_NOM_Stairs_Solid_Middle",
-				"scale": 1.25,
-				"rotation": {
-					"x": 19.4001,
-					"y": 349.5469,
-					"z": 359.6704
-				},
-				"position": {
-					"x": -3.1384,
-					"y": 91.8084,
-					"z": 28.459
-				}
+				"parentPath": "Sector/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem/Stairs",
+				"isRelativeToParent": true
 			},
 			{
+				"rename": "Stairs_Solid_L_COL",
 				"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_3/Core_CannonPath_3/Geometry_Core_CannonPath_3/Architecture_CannonPath_3/OtherComponentsGroup/Prefab_NOM_Stairs_Solid_L",
-				"scale": 1.25,
-				"rotation": {
-					"x": 19.4001,
-					"y": 349.5469,
-					"z": 359.6704
-				},
-				"position": {
-					"x": -3.1384,
-					"y": 91.8084,
-					"z": 28.459
-				}
+				"parentPath": "Sector/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem/Stairs",
+				"isRelativeToParent": true
 			},
 			{
+				"rename": "Stairs_Solid_R_COL",
 				"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_3/Core_CannonPath_3/Geometry_Core_CannonPath_3/Architecture_CannonPath_3/OtherComponentsGroup/Prefab_NOM_Stairs_Solid_R",
-				"scale": 1.25,
-				"rotation": {
-					"x": 19.4001,
-					"y": 349.5469,
-					"z": 359.6704
-				},
-				"position": {
-					"x": -3.1384,
-					"y": 91.8084,
-					"z": 28.459
-				}
+				"parentPath": "Sector/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem/Stairs",
+				"isRelativeToParent": true
 			},
 			{
+				"rename": "TheaterScreenBacking",
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/Props_Grove/Cube",
+				"parentPath": "Sector/SlideReelPrefabExamples/SlideProjectorRing/ProjectionPivot/BuildingKitPivot",
 				"stretch": {
 					"x": 10.5,
 					"y": 10.5,
@@ -203,7 +205,9 @@
 				}
 			},
 			{
+				"rename": "CampfireForBurningReels",
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"parentPath": "Sector/SlideReelPrefabExamples",
 				"rotation": {
 					"x": 344.0258,
 					"y": 185.318329,
@@ -218,6 +222,7 @@
 		],
         "slideShows": [
             {
+				"parentPath": "Sector/SlideReelPrefabExamples",
                 "position": {
                     "x": -12.4198,
                     "y": 91.9596,
@@ -253,6 +258,7 @@
                 ]
             },
             {
+				"parentPath": "Sector/SlideReelPrefabExamples",
                 "position": {
                     "x": -11.5118,
                     "y": 91.9585,
@@ -288,6 +294,7 @@
                 ]
             },
             {
+				"parentPath": "Sector/SlideReelPrefabExamples",
                 "position": {
                     "x": -10.6049,
                     "y": 92.0552,
@@ -323,6 +330,7 @@
                 ]
             },
             {
+				"parentPath": "Sector/SlideReelPrefabExamples",
                 "position": {
                     "x": -9.7993,
                     "y": 92.1407,
