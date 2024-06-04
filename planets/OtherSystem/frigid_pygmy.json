@@ -88,6 +88,7 @@
 	},
 	"ShipLog" : {
 		"spriteFolder": "planets/ShipLogs/sprites",
+		"xmlFile": "planets/ShipLogs/FrigidPygmy.xml",
 		"mapMode" : {
 			"revealedSprite": "planets/ShipLogs/sprites/frigid_pygmy_map_mode.png",
 			"scale": 0.9,
@@ -230,6 +231,8 @@
                 "type": "slideReel",
                 "reelModel": "sixSlides",
                 "reelCondition": "rusted",
+                "reveals": ["EXAMPLES_REEL"],
+                "playWithShipLogFacts": ["EXAMPLES_REEL"],
                 "slides": [
                     { "imagePath": "planets/assets/slides/atlas/1.png" },
                     { "imagePath": "planets/assets/slides/atlas/2.png" },
@@ -263,6 +266,8 @@
                 "type": "slideReel",
                 "reelModel": "sevenSlides",
                 "reelCondition": "pristine",
+                "reveals": ["EXAMPLES_REEL"],
+                "playWithShipLogFacts": ["EXAMPLES_REEL"],
                 "slides": [
                     { "imagePath": "planets/assets/slides/atlas/1.png" },
                     { "imagePath": "planets/assets/slides/atlas/2.png" },
@@ -296,6 +301,8 @@
                 "type": "slideReel",
                 "reelModel": "whole",
                 "reelCondition": "antique",
+                "reveals": ["EXAMPLES_REEL"],
+                "playWithShipLogFacts": ["EXAMPLES_REEL"],
                 "slides": [
                     { "imagePath": "planets/assets/slides/atlas/1.png" },
                     { "imagePath": "planets/assets/slides/atlas/2.png" },
@@ -329,6 +336,8 @@
                 "type": "slideReel",
                 "reelModel": "eightSlides",
                 "reelCondition": "antique",
+                "reveals": ["EXAMPLES_REEL"],
+                "playWithShipLogFacts": ["EXAMPLES_REEL"],
                 "slides": [
                     { "imagePath": "planets/assets/slides/atlas/1.png" },
                     { "imagePath": "planets/assets/slides/atlas/2.png" },
