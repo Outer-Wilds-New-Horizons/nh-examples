@@ -240,16 +240,16 @@
                     { "imagePath": "planets/assets/slides/atlas/4.png" },
                     { "imagePath": "planets/assets/slides/atlas/5.png" },
                     { "imagePath": "planets/assets/slides/atlas/6.png" },
-                    { "imagePath": "planets/assets/slides/atlas/7.png" },
-                    { "imagePath": "planets/assets/slides/atlas/8.png" },
-                    { "imagePath": "planets/assets/slides/atlas/9.png" },
-                    { "imagePath": "planets/assets/slides/atlas/10.png" },
-                    { "imagePath": "planets/assets/slides/atlas/11.png" },
-                    { "imagePath": "planets/assets/slides/atlas/12.png" },
-                    { "imagePath": "planets/assets/slides/atlas/13.png" },
-                    { "imagePath": "planets/assets/slides/atlas/14.png" },
-                    { "imagePath": "planets/assets/slides/atlas/15.png" },
-                    { "imagePath": "planets/assets/slides/atlas/16.png" }
+                    { "imagePath": "planets/assets/slides/atlas/7.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/8.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/9.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/10.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/11.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/12.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/13.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/14.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/15.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/16.png", "rotate": false }
                 ]
             },
             {
@@ -276,15 +276,15 @@
                     { "imagePath": "planets/assets/slides/atlas/5.png" },
                     { "imagePath": "planets/assets/slides/atlas/6.png" },
                     { "imagePath": "planets/assets/slides/atlas/7.png" },
-                    { "imagePath": "planets/assets/slides/atlas/8.png" },
-                    { "imagePath": "planets/assets/slides/atlas/9.png" },
-                    { "imagePath": "planets/assets/slides/atlas/10.png" },
-                    { "imagePath": "planets/assets/slides/atlas/11.png" },
-                    { "imagePath": "planets/assets/slides/atlas/12.png" },
-                    { "imagePath": "planets/assets/slides/atlas/13.png" },
-                    { "imagePath": "planets/assets/slides/atlas/14.png" },
-                    { "imagePath": "planets/assets/slides/atlas/15.png" },
-                    { "imagePath": "planets/assets/slides/atlas/16.png" }
+                    { "imagePath": "planets/assets/slides/atlas/8.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/9.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/10.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/11.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/12.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/13.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/14.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/15.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/16.png", "rotate": false }
                 ]
             },
             {
@@ -311,15 +311,15 @@
                     { "imagePath": "planets/assets/slides/atlas/5.png" },
                     { "imagePath": "planets/assets/slides/atlas/6.png" },
                     { "imagePath": "planets/assets/slides/atlas/7.png" },
-                    { "imagePath": "planets/assets/slides/atlas/8.png" },
-                    { "imagePath": "planets/assets/slides/atlas/9.png" },
-                    { "imagePath": "planets/assets/slides/atlas/10.png" },
-                    { "imagePath": "planets/assets/slides/atlas/11.png" },
-                    { "imagePath": "planets/assets/slides/atlas/12.png" },
-                    { "imagePath": "planets/assets/slides/atlas/13.png" },
-                    { "imagePath": "planets/assets/slides/atlas/14.png" },
-                    { "imagePath": "planets/assets/slides/atlas/15.png" },
-                    { "imagePath": "planets/assets/slides/atlas/16.png" }
+                    { "imagePath": "planets/assets/slides/atlas/8.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/9.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/10.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/11.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/12.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/13.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/14.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/15.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/16.png", "rotate": false }
                 ]
             },
             {
@@ -347,14 +347,14 @@
                     { "imagePath": "planets/assets/slides/atlas/6.png" },
                     { "imagePath": "planets/assets/slides/atlas/7.png" },
                     { "imagePath": "planets/assets/slides/atlas/8.png" },
-                    { "imagePath": "planets/assets/slides/atlas/9.png" },
-                    { "imagePath": "planets/assets/slides/atlas/10.png" },
-                    { "imagePath": "planets/assets/slides/atlas/11.png" },
-                    { "imagePath": "planets/assets/slides/atlas/12.png" },
-                    { "imagePath": "planets/assets/slides/atlas/13.png" },
-                    { "imagePath": "planets/assets/slides/atlas/14.png" },
-                    { "imagePath": "planets/assets/slides/atlas/15.png" },
-                    { "imagePath": "planets/assets/slides/atlas/16.png" }
+                    { "imagePath": "planets/assets/slides/atlas/9.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/10.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/11.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/12.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/13.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/14.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/15.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/16.png", "rotate": false }
                 ]
             }
         ],
