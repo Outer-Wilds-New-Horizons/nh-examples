@@ -1,5 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"GlobalMusic": {
+		"endTimesAudio": "planets/assets/EndTimes.mp3",
+		"endTimesDreamAudio": "planets/assets/EndTimesMuted.mp3",
+		"brambleDimensionAudio": "planets/assets/BrambleDimension.mp3",
+		"finalEndTimesIntroAudio": "planets/assets/FinalEndTimesIntro.mp3",
+		"finalEndTimesLoopAudio": "planets/assets/FinalEndTimesLoop.mp3",
+		"finalEndTimesBrambleDimensionAudio": "planets/assets/FinalEndTimesDB.mp3"
+	},
 	"entryPositions": [
 		{
 			"id": "EXAMPLES_GIANTS_DEEP",
