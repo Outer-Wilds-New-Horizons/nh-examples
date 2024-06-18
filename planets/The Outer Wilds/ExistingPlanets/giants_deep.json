@@ -24,12 +24,6 @@
 				"position": {"x": 510, "y": 0, "z": 0},
 				"acceleration": 50
 			}
-		],
-		"details": [
-			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":300,"y":0,"z":0}, "scale": 0.8, "removeChildren": ["Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow"]},
-			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":-300,"y":0,"z":0}, "scale": 0.8, "removeChildren": ["Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow"]},
-			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":0,"y":0,"z":300}, "scale": 0.8, "removeChildren": ["Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow"]},
-			{"path" : "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body", "position": {"x":0,"y":0,"z":-300}, "scale": 0.8, "removeChildren": ["Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow"]}
 		]
 	},
 	"ShipLog" : {
@@ -48,8 +42,7 @@
 	},
 	"Volumes": {
 		"revealVolumes": [
-			{"radius":2500, "reveals": ["EXAMPLES_RINGS_FOUND", "EXAMPLES_RINGED_JEWEL_RUMOR"]},
-			{"radius":850, "reveals": ["EXAMPLES_GIANTS_DEEP_ANGLERS"]}
+			{"radius":2500, "reveals": ["EXAMPLES_RINGS_FOUND", "EXAMPLES_RINGED_JEWEL_RUMOR"]}
 		]
 	}
 }

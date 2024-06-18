@@ -1,16 +1,16 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Dark Gateway",
+	"starSystem": "xen.NewHorizonsExamples",
 	"Base" : 
 	{
 		"surfaceGravity" : 10,
-		"surfaceSize" : 200,
-		"hasMapMarker" : true
+		"surfaceSize" : 200
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 30000,
-		"primaryBody" : "Sun",
+		"primaryBody" : "Sequestered Luminary",
 		"isStatic" : true,
 		"argumentOfPeriapsis" : 180,
 		"showOrbitLine" : false
@@ -42,16 +42,7 @@
 	"ShipLog" : {
 		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/assets/shiplogs/sprites/blackhole_map_mode.png",
-			"scale": 0.5,
-			"manualPosition": {
-				"x": 1670,
-				"y": 180
-			},
-			"manualNavigationPosition": {
-				"x": 8,
-				"y": 2
-			}
+			"revealedSprite": "planets/assets/shiplogs/sprites/blackhole_map_mode.png"
 		}
     }
 }

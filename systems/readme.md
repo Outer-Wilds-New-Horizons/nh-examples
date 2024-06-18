@@ -9,3 +9,5 @@ In `xen.NewHorizonsExamples.json` we use the unique name of our mod to ensure ou
 - We enabled `canEnterViaWarpDrive`. New Horizons adds a warp drive mechanic which allows multiple mods to be installed at once, and you use your ship log to target which system to explore next. For some mods you might not want the warp drive to function, and instead include your own custom puzzle for entering the new system. In that case, set this to false.
 - The `Vessel` object allows us to warp into this system using the vessel trapped in Dark Bramble. We have set `alwaysPresent` to true meaning this vessel will always be found orbiting around our custom planet, "Frigid Pygmy".
 - The `Skybox` object replaces the skybox in our system with some custom images we've included.
+
+To set the image used in the ship log to show a new solar system, include a `png` file in this folder with the same name as the system! For example here we have `xen.NewHorizonsExamples.png`

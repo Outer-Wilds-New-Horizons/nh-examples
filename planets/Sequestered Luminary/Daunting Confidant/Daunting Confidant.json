@@ -6,7 +6,6 @@
 	{
 		"surfaceGravity" : 22,
 		"surfaceSize" : 400,
-		"hasMapMarker" : true,
 		"groundSize": 400,
 		"gravityFallOff": "inverseSquared"
 	},
