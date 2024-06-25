@@ -1,0 +1,48 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Giants Deep",
+	"Orbit" : 
+	{
+		"primaryBody": "Sun",
+		"semiMajorAxis": 13500
+	},
+	"Rings" :
+	[
+		{
+			"innerRadius" : 1800,
+			"outerRadius" : 2200,
+			"inclination" : 5,
+			"longitudeOfAscendingNode" : 90,
+			"texture" : "planets/assets/rings/default_rings.png",
+			"fluidType": "sand"
+		}
+	],
+	"Props" :
+	{
+		"rafts": [
+			{
+				"position": {"x": 510, "y": 0, "z": 0},
+				"acceleration": 50
+			}
+		]
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/assets/shiplogs/GiantsDeep.xml",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
+		"mapMode": {
+			"details": [
+				{
+					"revealedSprite": "planets/assets/shiplogs/sprites/giants_deep_detail.png",
+					"position": {"x": 0, "y": 0},
+					"scale": {"x": 3, "y": 3},
+					"invisibleWhenHidden": true
+				}
+			]
+		}
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{"radius":2500, "reveals": ["EXAMPLES_RINGS_FOUND", "EXAMPLES_RINGED_JEWEL_RUMOR"]}
+		]
+	}
+}

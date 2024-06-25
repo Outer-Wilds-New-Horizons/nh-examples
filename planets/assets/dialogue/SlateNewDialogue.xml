@@ -1,0 +1,35 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<DialogueNode>
+		<Name>Scientist5</Name>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are all these guys?</Text>
+				<DialogueTarget>examples_visitors</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Give me an example of reusing all my current dialogue options.</Text>
+				<DialogueTarget>examples_reuse_dialogue_options</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>examples_visitors</Name>
+		<Dialogue>
+			<Page>Oh, you can see them too? Thought I had just eaten some bad marshmallows.</Page>
+			<Page>Actually, maybe I did and you're not here either. Yeah it's probably that. Yeah.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>examples_reuse_dialogue_options</Name>
+		<Dialogue>
+			<Page>Sure thing bud.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<ReuseDialogueOptionsListFrom>Scientist5</ReuseDialogueOptionsListFrom>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+</DialogueTree>
