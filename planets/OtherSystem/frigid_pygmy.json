@@ -218,6 +218,50 @@
 					"y": 93.64475,
 					"z": 29.20017
 				}
+			},
+			{
+				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
+				"rename": "Geb",
+				"position": {"x": -13.00789, "y": 94.75275, "z": 24.02298},
+				"rotation": {"x": 344.537, "y": 119.0557, "z": 8.157801}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "planets/Dialogue/Geb.xml",
+				"parentPath": "Sector/Geb",
+				"isRelativeToParent": true,
+				"radius": 1.5,
+				"position": {
+					"y": 2
+				},
+				"pathToAnimController": "Sector/Geb",
+				"attentionPoint": {
+					"isRelativeToParent": true,
+					"offset": { "x": 0, "y": 1.5, "z": 0 }
+				},
+				"swappedAttentionPoints": [
+					{
+						"parentPath": "Sector/SlideReelPrefabExamples/SlideProjectorRing",
+						"isRelativeToParent": true,
+						"dialogueNode": "MAIN",
+						"dialoguePage": 2,
+						"offset": { "x": 0, "y": 1, "z": 0 }
+					},
+					{
+						"parentPath": "Sector/Prefab_QM_Shuttle",
+						"isRelativeToParent": true,
+						"dialogueNode": "MAIN",
+						"dialoguePage": 3,
+						"offset": { "x": 0, "y": 3, "z": 0 }
+					},
+					{
+						"isRelativeToParent": true,
+						"dialogueNode": "MAIN",
+						"dialoguePage": 4,
+						"offset": { "x": 0, "y": 1.5, "z": 0 }
+					}
+				]
 			}
 		],
         "slideShows": [
