@@ -1,0 +1,49 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Geb</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello.</Page>
+			<Page>Do you prefer...</Page>
+			<Page>My peoples' technology?</Page>
+			<Page>Or the Nomai's technology?</Page>
+			<Page>The choice is yours.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Your tech!</Text>
+				<DialogueTarget>OWLK</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nomai tech!</Text>
+				<DialogueTarget>NOMAI</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>OWLK</Name>
+		<Dialogue>
+			<Page>I'm glad you agree.</Page>
+		</Dialogue>
+		<DialogueTarget>END</DialogueTarget>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>NOMAI</Name>
+		<Dialogue>
+			<Page>Agree to disagree.</Page>
+		</Dialogue>
+		<DialogueTarget>END</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>
