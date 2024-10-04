@@ -12,7 +12,7 @@
     "dimension": {
       "radius": 750,
       "fogTint": {"r": 83, "g": 255, "b": 129, "a": 255},
-      "fogDensity": 3,
+      "fogDensity": 0,
       "linksTo": "node1"
     },
     "nodes": [
