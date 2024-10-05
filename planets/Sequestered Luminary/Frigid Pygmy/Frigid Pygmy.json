@@ -119,7 +119,8 @@
 				"position": {"x": -7.779288, "y": 143.0886, "z": -19.14252},
 				"rotation": {"x": 359.8035, "y": 166.6936, "z": 0.04733263},
 				"startWithSuit": true,
-				"id": "examples_vessel_spawn"
+				"id": "examples_vessel_spawn",
+				"parentPath": "Sector/Vessel_Body/Sector_VesselBridge"
 			}
 		],
 		"shipSpawnPoints": [
