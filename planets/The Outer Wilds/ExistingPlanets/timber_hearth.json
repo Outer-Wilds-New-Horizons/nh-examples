@@ -1,0 +1,519 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Timber Hearth",
+	"Orbit": {
+		"primaryBody": "Giants Deep",
+		"semiMajorAxis": 2600,
+		"inclination": 5,
+		"longitudeOfAscendingNode": 90,
+		"trueAnomaly": 180
+	},
+	"Base" : 
+	{
+		"surfaceSize" : 150
+	},
+	"Props" : 
+	{
+		"singularities" :
+		[
+			{
+				"type": "blackHole",
+				"targetStarSystem": "xen.NewHorizonsExamples",
+				"size": 4,
+				"position": {"x": 27.3984, "y": -32.6472, "z": 197.1166},
+				"spawnPointID": "examples_vessel_spawn"
+			}
+		],
+		"signals" :
+		[
+			{ 
+				"frequency" : "Default",
+				"name" : "Gateway to Sequestered Luminary",
+				"audio" : "OW_NM_WhiteHoleAmbienceL", 
+				"sourceRadius" : 3, 
+				"position" : {"x": 27.3984, "y": -32.6472, "z": 197.1166},
+				"identificationRadius" : 6,
+				"detectionRadius" : 10
+			}
+		],
+		"details" :
+		[
+			{
+				"rename": "VisionTorch",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Interactibles_PrisonCell/PrisonerSequence/VisionTorchWallSocket/Prefab_IP_VisionTorchItem",
+				"position": {"x": 19.6589, "y": -49.67694, "z": 183.6397},
+				"rotation": {"x": 0.1034197, "y": -0.2596551, "z": 167.9601479}
+			},
+			{ 
+				"rename": "Bob",
+				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
+				"position" : {"x": 12.0282, "y": -45.4429,"z": 185.0175},  
+				"rotation" : {"x":5.426, "y": 99.0692,"z": 105.8894},
+				"deactivationCondition": "EXAMPLES_GHOST_BIRD_DIED"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_VillageCemetery/Props_VillageCemetery/OtherComponentsGroup/HEA_Backer_Tombstone/Props_HEA_TombStone",
+				"position": {"x": 12.6791, "y": -45.52128, "z": 184.9299},
+				"rotation": {"x": 352.311, "y": 276.1152, "z": 255.849},
+				"activationCondition": "EXAMPLES_GHOST_BIRD_DIED"
+			},
+			{ 
+				"rename": "Fred",
+				"path" : "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle", 
+				"position" : {"x": 18.06051, "y": -50.64357, "z": 183.141},  
+				"rotation" : {"x":311.8565, "y": 287.9388, "z": 254.72}
+			},
+			{
+				"assetBundle": "assetbundles/test",
+				"path":"Assets/Prefabs/ArtificialGravity.prefab",
+				"position": {"x": 400,"y": 0,"z": 0},
+				"scale" : 50
+			},
+			{
+				"rename": "Geswaldo",
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (1)/Jellyfish_Body/Beast_GD_Jellyfish_v4",
+				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
+				"rotation": {"x":78, "y":189, "z":180},
+				"scale" : 0.08
+			},
+			{
+				"rename": "GeswaldoLight",
+				"assetBundle": "assetbundles/examples_trifid",
+				"path":"Assets/JellyfishLight (1).prefab",
+				"parentPath": "Sector_TH/Geswaldo",
+				"position": {"x": 28.63121, "y": -46.67, "z": 185.68}
+			},
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
+				"rotation": {"x":78, "y":189, "z":180},
+				"scale" : 0.02,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				],
+				"rename": "Ernesto"
+			},
+			{
+				"rename": "ErnestoCollision",
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"scale" : 0.02,
+				"parentPath": "Sector_TH/Ernesto",
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "ErnestoLight",
+				"assetBundle": "assetbundles/examples_trifid",
+				"path":"Assets/AnglerfishLight (1).prefab",
+				"parentPath": "Sector_TH/Ernesto",
+				"position": {"x": 24.1185, "y": -41.9897, "z": 187.1345}
+			},
+			{
+				"rename": "Shale",
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate", 
+				"position": {"x": 18.2547, "y": -40.6567, "z": 185.6922},
+				"rotation": {"x": 82.1106, "y": 107.3981, "z": 103.934},
+				"removeChildren": ["ConversationZone_RSci"]
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring",
+				"position": {"x": 32.1645, "y": -32.99, "z": 189.1096},
+				"rotation": {"x": 350.6663, "y": 80.1437, "z": 111.6283}
+			},
+			{
+				"path":"RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5",
+				"position": {"x": 32.2473, "y": -29.1062, "z": 189.7523},
+				"rotation": {"x": 4.5687, "y": 266.861, "z": 237.4793}
+			},
+			{
+				"path": "BackerSatellite_Body/Sector_BackerSatellite/Geometry_BackerSatellite",
+				"position" :{"x": 27.1177, "y": -55.1385, "z": 189.6429},
+				"rotation" :{"x": 0.8455, "y": 22.3547, "z": 0}
+			},
+			{
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel",
+				"position": {"x": 13.6137, "y": -46.7152, "z": 184.7818},
+				"rotation": {"x": 44.6486, "y": 325.24, "z": 30.4107}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThick",
+				"position": {"x": -33.30206, "y": -79.12967, "z": 182.912},
+				"rotation": {"x": 300.8207, "y": 32.93826, "z": 141.4214},
+				"item": {
+					"name": "Nomai Vase",
+					"itemType": "Decoration",
+					"interactRange": 3,
+					"colliderRadius": 0,
+					"droppable": true,
+					"dropOffset": {"x": 0, "y": 0, "z": 0},
+					"dropNormal": {"x":0, "y": 1, "z": 0},
+					"holdOffset": {"x": 0, "y": -0.3, "z": 0},
+					"holdRotation": {"x": 0, "y": 45, "z": 0},
+					"socketOffset": {"x": 0, "y": 0.2, "z": 0},
+					"socketRotation": {"x": 0, "y": 45, "z": 0},
+					"pickupAudio": "ToolProbeRetrieve",
+					"dropAudio": "ToolProbeLaunch",
+					"socketAudio": "PlayerSuitLockOn",
+					"unsocketAudio": "PlayerSuitLockOff",
+					"pickupCondition": "VASE_PICKED_UP",
+					"clearPickupConditionOnDrop": true,
+					"pickupFact": "EXAMPLES_VASE",
+					"pathToInitialSocket": "Sector_TH/Strucutre_NOM_Shelf"
+				}
+			},
+			{
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder/Props_HEA_Recorder_Geo",
+				"position": {"x": -35.30206, "y": -79.12967, "z": 182.912},
+				"rotation": {"x": 300.8207, "y": 32.93826, "z": 141.4214},
+				"item": {
+					"name": "Tape Recorder",
+					"itemType": "Decoration",
+					"interactRange": 2,
+					"colliderRadius": 0.5,
+					"droppable": true,
+					"dropOffset": {"x": 0, "y": 0, "z": 0},
+					"dropNormal": {"x":0, "y": 1, "z": 0},
+					"holdOffset": {"x": 0, "y": 0.1, "z": 0.1},
+					"holdRotation": {"x": 0, "y": 90, "z": 275},
+					"pickupAudio": "TapeRecorder_Start",
+					"dropAudio": "TapeRecorder_Stop"
+				}
+			},
+			{
+				"path": "QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Interactables_FinalRoom/FinalRoom_QProps/FinalRoom_Shelf/Q_Shelf/Prefab_NOM_Shelf/Strucutre_NOM_Shelf",
+				"position": {"x": -29.89541, "y": -79.87562, "z": 183.1785},
+				"rotation": {"x": 314.8642, "y": 286.1038, "z": 235.4039},
+				"itemSocket": {
+					"socketPath": "",
+					"itemType": "Decoration",
+					"interactRange": 3,
+					"useGiveTakePrompts": true,
+					"insertCondition": "VASE_INSERTED",
+					"removalCondition": "VASE_REMOVED",
+					"isRelativeToParent": true
+				}
+			},
+			{
+				"path": "StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/SafetyBeams/Prefab_NOM_SafetyTractorBeam",
+				"position": {"x": -29.07362, "y": -75.34698, "z": 184.1421},
+				"rotation": {"x": 348.1494, "y": 256.7715, "z": 249.3466},
+				"activationCondition": "VASE_PICKED_UP"
+			}
+		],
+		"dialogue" :
+		[
+			{
+				"position": {"x": 13.2082, "y": -46.2829, "z": 187.4374},
+				"xmlFile" : "planets/assets/dialogue/Ghostbird.xml",
+				"pathToAnimController": "Sector_TH/Bob"
+			},
+			{
+				"position": {"x": 18.0605, "y": -50.5836, "z": 185.0414},
+				"xmlFile" : "planets/assets/dialogue/Nomai.xml",
+				"pathToAnimController": "Sector_TH/Fred",
+				"lookAtRadius" : 3
+			},
+			{
+				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
+				"xmlFile" : "planets/assets/dialogue/Geswaldo.xml"
+			},
+			{
+				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
+				"xmlFile" : "planets/assets/dialogue/Angry Geswaldo.xml",
+				"radius": 0,
+				"remoteTrigger": {
+					"position": {"x": 9.851137, "y": -42.59065, "z": 186.2374},
+					"radius": 3,
+					"prereqCondition": "EXAMPLES_INSULT"
+				}
+			},
+			{
+				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
+				"xmlFile" : "planets/assets/dialogue/Ernesto.xml",
+				"radius": 1.5,
+				"pathToAnimController": "Sector_TH/Ernesto"
+			},
+			{
+				"position": {"x": 18.2946, "y": -40.5167, "z": 186.9321},
+				"xmlFile" : "planets/assets/dialogue/Shale.xml",
+				"pathToAnimController": "Sector_TH/Shale/Villager_HEA_Slate_ANIM_LogSit",
+				"lookAtRadius" : 3
+			},
+			{
+				"xmlFile": "planets/assets/dialogue/SlateNewDialogue.xml",
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci"
+			}
+		],
+		"slideShows" :
+		[
+			{
+				"position": {"x": 36.3886, "y": -35.1931, "z": 187.0995},
+				"rotation": {"x": 287.2072, "y": 65.1164, "z": 127.4015},
+				"type": "slideReel",
+				"slides": [
+					{"imagePath": "planets/assets/slide reels/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/prisoner.png"},
+					{"imagePath": "planets/assets/slide reels/MangledMica.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/feldspar.png"},
+					{"imagePath": "planets/assets/slide reels/angler.png", "beatAudio": "VoiceMod/Ernesto START 0.wav"},
+					{"imagePath": "planets/assets/slide reels/AmongUsDrip.png"}
+				]
+			},
+			{
+				"position": {"x": 36.7838, "y": -33.9397, "z": 187.2504},
+				"rotation": {"x": 288.4233, "y": 313.5344, "z": 236.3884},
+				"type": "slideReel",
+				"slides": [
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png", "beatAudio": "Death_Instant", "backdropAudio": "TravelerEnd_All_Prisoner", "backdropFadeTime": 2},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png", "blackFrameDuration": 1},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"}
+				]
+			},
+			{
+				"position": {"x": 36.1593, "y": -36.479, "z": 186.9064},
+				"rotation": {"x": 297.2245, "y": 301.7512, "z": 246.6633},
+				"type": "slideReel",
+				"slides": [
+					{"imagePath": "planets/assets/slide reels/nh.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"}
+				]
+			},
+			{
+				"position": {"x": 38.0319, "y": -36.9151, "z": 185.9331},
+				"rotation": {"x": 85.3647, "y": 168.7207, "z": 155.2558},
+				"type": "autoProjector",
+				"slides": [
+					{"imagePath": "planets/assets/slide reels/nh.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"}
+				]
+			},
+			{
+				"position": {"x": 18.27021, "y": -50.37486, "z": 185.1447},
+				"type": "visionTorchTarget",
+				"slides": [
+					{"imagePath": "planets/assets/slide reels/nh.png", "backdropAudio": "EYE_ForestOfGalaxies"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/prisoner.png"},
+					{"imagePath": "planets/assets/slide reels/MangledMica.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"},
+					{"imagePath": "planets/assets/slide reels/feldspar.png"},
+					{"imagePath": "planets/assets/slide reels/angler.png", "beatAudio": "DBAnglerfishChasing_LP"},
+					{"imagePath": "planets/assets/slide reels/AmongUsDrip.png"}
+				]
+			},
+			{
+				"position": { "x": 12.1809855, "y": -39.9540329, "z": 186.246658},
+				"rotation": { "x": 42.27901, "y": 104.967056, "z": 106.829819},
+				"type": "standingVisionTorch",
+				"slides": [
+					{"imagePath": "planets/assets/slide reels/nh.png"},
+					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
+					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"}
+				],
+				"reveals": ["EXAMPLES_VISION"],
+				"playWithShipLogFacts": ["EXAMPLES_VISION"]
+			}
+		],
+		"translatorText":[
+			{
+				"rename": "Behind Slate",
+				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
+				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
+				"xmlFile": "planets/assets/nomaitext/Text.xml",
+				"seed":42,
+				"arcInfo":[
+					{"type": "child", "mirror": false }
+				]
+			},
+			{
+				"rename": "On the ground by trees",
+				"position": {"x": 34.13071, "y": -27.06833, "z": 190.8683}, 
+				"normal": {"x": 0.06757314, "y": -0.472719, "z": 0.8786187},
+				"xmlFile": "planets/assets/nomaitext/Text.xml",
+				"seed":1337,
+				"arcInfo":[
+					{"type": "child", "mirror": false }
+				]
+			},
+			{
+				"rename": "On that one ledge",
+				"position":  {"x": 11.834, "y": -55.0562, "z": 184.1439}, 
+				"normal" : {"x": 0.9072242, "y": 0.4202163, "z": 0.01904997},
+				"xmlFile": "planets/assets/nomaitext/Text.xml",
+				"seed":54352,
+				"arcInfo":[
+					{"type": "child", "mirror": false }
+				]
+			},
+			{
+				"position": {"x": 35.68043, "y": -42.78446, "z": 182.4819}, 
+				"xmlFile": "planets/assets/nomaitext/WallText.xml",
+				"type": "scroll",
+				"seed": 12,
+				"arcInfo":[
+					{ "type": "child" },
+					{ "type": "adult" },
+					{ "type": "child" },
+					{ "type": "adult" },
+					{ "type": "adult" },
+					{ "type": "adult" },
+					{ "type": "child" },
+					{ "position": {"x": 2.4364, "y": -0.7618}, "zRotation": 90, "type": "stranger" }
+				],
+				"alignRadial": true
+			},
+			{
+				"position": {"x": 33.1276, "y": -37.9262, "z": 184.553},
+				"rotation": {"x": 80, "y": 191.1707, "z": 180},
+				"type": "whiteboard"
+			},
+			{
+				"position": {"x": 15.479, "y": -50.6244, "z": 183.2454},
+				"xmlFile": "planets/assets/nomaitext/Computer.xml",
+				"type": "preCrashComputer",
+				"alignRadial": true
+			},
+			{
+				"position": {"x": 28.2821, "y": -41.8313, "z": 183.9214},
+				"xmlFile": "planets/assets/nomaitext/Cairn.xml",
+				"type": "cairnTH",
+				"alignRadial": true
+			},
+			{
+				"position" : {"x": 26.7683, "y": -39.872, "z": 186.0676},
+				"xmlFile": "planets/assets/nomaitext/Recorder.xml",
+				"type": "recorder",
+				"alignRadial": true
+			},
+			{
+				"position": {"x": 12.21984, "y": -47.2570343, "z": 184.525375},
+				"xmlFile": "planets/assets/nomaitext/Trailmarker.xml",
+				"type": "trailmarker",
+				"alignRadial": true
+			}
+		],
+		"geysers": [
+			{
+				"position": {"x": 21.31966, "y": -31.97182, "z": 194.3654},
+				"tint": {"r": 255, "g": 0, "b": 0, "a": 255},
+				"disableBubbles": true,
+				"disableShaft": true,
+				"activeDuration": 5.5,
+				"inactiveDuration": 2.5,
+				"force": 55,
+				"volume": 0.3
+			},
+			{
+				"position": {"x": 15.40126, "y": -33.24347, "z": 193.8383},
+				"tint": {"r": 0, "g": 255, "b": 0, "a": 255},
+				"disableBubbles": true,
+				"disableShaft": true,
+				"activeDuration": 7.5,
+				"inactiveDuration": 2.5,
+				"force": 110,
+				"volume": 0.3
+			},
+			{
+				"position": {"x": 9.67914, "y": -34.34054, "z": 192.8101},
+				"tint": {"r": 0, "g": 0, "b": 255, "a": 255},
+				"disableBubbles": true,
+				"disableShaft": true,
+				"activeDuration": 3.5,
+				"inactiveDuration": 2.5,
+				"force": 27,
+				"volume": 0.3
+			}
+		],
+		"remotes": [
+			{
+				"id": "EXAMPLES_REMOTE_TIMBER1",
+				"decalPath": "planets/assets/projection pools/facepalm.png",
+				"platform": {
+					"position": {"x": 39.4085, "y": -39.8123, "z": 184.7316},
+					"rotation": {"x": 289.478973, "y": 318.601959, "z": 231.8097},
+					"disableStructure": true,
+					"disablePool": true,
+					"rename": "ExamplesProjectionPlatformTimber1",
+					"reveals": "EXAMPLES_PROJECTION_TIMBER1"
+				},
+				"whiteboard": {
+					"position": {"x": 36.4735, "y": -16.5112, "z": 193.8339},
+					"rotation": {"x": 359.465637, "y": 279.1637, "z": 266.355957},
+					"rename": "ExamplesSharedWhiteboardTimber1",
+					"nomaiText": [
+						{
+							"id": "EXAMPLES_REMOTE_TIMBER2",
+							"location": "a",
+							"xmlFile": "planets/assets/nomaitext/Shared.xml"
+						}
+					]
+				},
+				"stones": [
+					{
+						"position": {"x": 7.22402, "y": -54.4195862, "z": 185.768341},
+						"rotation": {"x": 1.35759294, "y": 92.7467041, "z": 106.20575},
+						"rename": "ExamplesSharedStoneTimber1"
+					}
+				]
+			},
+			{
+				"id": "EXAMPLES_REMOTE_TIMBER2",
+				"decalPath": "planets/assets/projection pools/amogus.png",
+				"platform": {
+					"position": {"x": 8.5665, "y": -56.4249, "z": 185.8045},
+					"rotation": {"x": 11.9805136, "y": 268.658081, "z": 252.742828},
+					"disableStructure": true,
+					"disablePool": true,
+					"rename": "ExamplesProjectionPlatformTimber2",
+					"reveals": "EXAMPLES_PROJECTION_TIMBER2"
+				},
+				"whiteboard": {
+					"position": {"x": 4.7737, "y": -61.2386, "z": 184.9187},
+					"rotation": {"x": 294.202423, "y": 46.0359077, "z": 138.124},
+					"rename": "ExamplesSharedWhiteboardTimber2",
+					"nomaiText": [
+						{
+							"id": "EXAMPLES_REMOTE_TIMBER1",
+							"location": "b",
+							"xmlFile": "planets/assets/nomaitext/Shared.xml"
+						}
+					]
+				},
+				"stones": [
+					{
+						"position": {"x": 38.02337, "y": -41.1080627, "z": 184.022812},
+						"rotation": {"x": 298.427917, "y": 305.448883, "z": 243.281342},
+						"rename": "ExamplesSharedStoneTimber2"
+					}
+				]
+			}
+		]
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/assets/shiplogs/TimberHearth.xml",
+		"spriteFolder": "planets/assets/shiplogs/sprites"
+    },
+	"Volumes": {
+		"creditsVolume": [
+			{
+				"creditsType": "kazoo",
+				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
+				"radius": 1,
+				"gameOverText": "Ernesto beat you to death with a rock.",
+				"deathType": "crushedByElevator"
+			}
+		]
+	}
+}
