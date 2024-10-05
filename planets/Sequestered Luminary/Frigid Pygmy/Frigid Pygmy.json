@@ -647,7 +647,7 @@
 					"y": 249.8678,
 					"z": 348.609
 				},
-				"xmlFile": "planets/Sequestered Luminary/Wide Alignment Transmitter.xml",
+				"xmlFile": "planets/Sequestered Luminary/Frigid Pygmy/Wide Alignment Transmitter.xml",
 				"type": "cairnTH"
 			},
 			{
@@ -656,13 +656,13 @@
 					"y": -8.535811,
 					"z": 94.15249
 				},
-				"xmlFile": "planets/Sequestered Luminary/Daunting Transmitter.xml",
+				"xmlFile": "planets/Sequestered Luminary/Frigid Pygmy/Daunting Transmitter.xml",
 				"type": "cairnTH",
 				"alignRadial": true
 			},
 			{
 				"type": "whiteboard",
-				"xmlFile": "planets/Sequestered Luminary/Vessel Wall Text.xml",
+				"xmlFile": "planets/Sequestered Luminary/Frigid Pygmy/Vessel Wall Text.xml",
 				"seed": 532432,
 				"position": {
 					"x": -14.27449,
