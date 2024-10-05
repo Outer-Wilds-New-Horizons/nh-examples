@@ -1,0 +1,142 @@
+{
+	"name" : "Luna Lure",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"Base" :
+	{
+		"surfaceGravity" : 4,
+		"surfaceSize" : 20,
+		"hasMapMarker" : true,
+		"gravityFallOff" : "linear"
+	},
+	"Atmosphere" :
+	{
+		"size" : 30,
+		"hasOxygen" : true,
+		"hasTrees": true,
+		"useAtmosphereShader": true,
+		"atmosphereTint" : 
+		{
+			"r" : 128,
+			"g" : 164,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 40,
+			"innerRadius": 20,
+			"intensity": 1.4
+		}
+	],
+	"Orbit" :
+	{
+		"semiMajorAxis" : 440,
+		"inclination" : 4,
+		"primaryBody" : "Lures",
+		"isMoon" : true,
+		"tint": {"r": 26, "g": 26, "b": 26, "a": 255},
+		"isTidallyLocked": true,
+		"alignmentAxis" : {"x": -1, "y": 0, "z": 0}
+	},
+    "HeightMap": {
+        "heightMap": "planets/assets/terrain/luna_heightmap.png",
+        "textureMap": "planets/assets/terrain/luna_texturemap.png",
+        "minHeight": 18,
+        "maxHeight": 22,
+		"baseTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/Moon_d2_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/Moon_n_mir.png",
+			"normalStrength": 2
+		}
+    },
+	"Props" :
+	{
+		"scatter" :
+		[
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L",
+				"count" : 20,
+				"scale" : 0.5
+			}
+		],
+		"details": [
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish",
+				"position" : {"x":0,"y":95,"z": -50},
+				"rotation" : {"x":90, "y":0, "z":0},
+				"scale":0.75,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				],
+				"keepLoaded": true
+			},
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"parentPath": "Sector/Beast_Anglerfish",
+				"isRelativeToParent": true,
+				"scale":0.75
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire", 
+				"position" : {"x": 5.664703, "y": 16.86613, "z": 4.126942},
+				"alignToNormal" : true
+			},
+			{
+				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume", 
+				"position" : {"x": 1.841939, "y": -18.10435, "z": 2.636243},
+				"alignToNormal" : true
+			}
+		],
+		"proxyDetails": [
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish",
+				"position" : {"x":0,"y":95,"z": -50},
+				"rotation" : {"x":90, "y":0, "z":0},
+				"scale":0.75,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			}
+		]
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"revealedSprite": "planets/assets/shiplogs/sprites/luna_lure_map_mode.png",
+			"scale": 1,
+			"manualPosition": {
+				"x": 780,
+				"y": 240
+			},
+			"manualNavigationPosition": {
+				"x": 4,
+				"y": 3
+			}
+		}
+    },
+	"ParticleFields": [
+		{
+			"type": "leaves",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 5,
+					"height": 18
+				},
+				{
+					"density": 5,
+					"height": 30
+				},
+				{
+					"density": 0,
+					"height": 50
+				}
+			],
+			"rename": "Effects_LA_Leaves"
+		}
+	]
+}

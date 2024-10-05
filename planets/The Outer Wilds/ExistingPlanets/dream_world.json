@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Dream World",
+	"Props": {
+		"slideShows": [
+            {
+                "position": {
+                    "x": 94,
+                    "y": 2,
+                    "z": -815
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 60,
+                    "z": 0
+                },
+                "type": "slideReel",
+                "reelModel": "whole",
+                "reelCondition": "pristine",
+                "slides": [
+                    { "imagePath": "planets/assets/slides/atlas/1.png" },
+                    { "imagePath": "planets/assets/slides/atlas/2.png" },
+                    { "imagePath": "planets/assets/slides/atlas/3.png" },
+                    { "imagePath": "planets/assets/slides/atlas/4.png" },
+                    { "imagePath": "planets/assets/slides/atlas/5.png" },
+                    { "imagePath": "planets/assets/slides/atlas/6.png" },
+                    { "imagePath": "planets/assets/slides/atlas/7.png" },
+                    { "imagePath": "planets/assets/slides/atlas/8.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/9.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/10.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/11.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/12.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/13.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/14.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/15.png", "rotate": false },
+                    { "imagePath": "planets/assets/slides/atlas/16.png", "rotate": false }
+                ]
+            }
+		],
+		"dreamArrivalPoints": [
+			{
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
+				"id": "DW_Underground",
+                "position": {"x": -16.78043, "y": -290.8658, "z": 522.3541},
+                "rotation": {"x": -2.953186E-05, "y": 140.4348, "z": -4.888376E-05}
+			}
+		]
+	}
+}
