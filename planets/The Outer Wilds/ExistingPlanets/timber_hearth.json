@@ -20,7 +20,8 @@
 				"type": "blackHole",
 				"targetStarSystem": "xen.NewHorizonsExamples",
 				"size": 4,
-				"position": {"x": 27.3984, "y": -32.6472, "z": 197.1166}
+				"position": {"x": 27.3984, "y": -32.6472, "z": 197.1166},
+				"spawnPointID": "examples_vessel_spawn"
 			}
 		],
 		"signals" :

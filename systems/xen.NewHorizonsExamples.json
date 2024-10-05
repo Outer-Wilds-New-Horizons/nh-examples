@@ -2,8 +2,9 @@
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"canEnterViaWarpDrive": true,
 	"startHere": false,
+	"respawnHere": true,
 	"GlobalMusic": {
-		"travelAudio": "planets/assets/Travel.mp3",
+		"travelAudio": "planets/assets/Travel Audio.mp3",
 		"endTimesAudio": "planets/assets/EndTimes.mp3",
 		"endTimesDreamAudio": "planets/assets/EndTimesMuted.mp3",
 		"brambleDimensionAudio": "planets/assets/BrambleDimension.mp3",

@@ -82,8 +82,8 @@
 		}
 	},
 	"ShipLog": {
-		"spriteFolder": "planets/ShipLogs/sprites",
-		"xmlFile": "planets/ShipLogs/FrigidPygmy.xml",
+		"spriteFolder": "planets/assets/ShipLogs/sprites",
+		"xmlFile": "planets/assets/ShipLogs/FrigidPygmy.xml",
 		"mapMode": {
 			"revealedSprite": "planets/assets/shiplogs/sprites/frigid_pygmy_map_mode.png",
 			"scale": 0.9,
@@ -98,21 +98,45 @@
 		}
 	},
 	"Spawn": {
-		"playerSpawn": {
-			"position": {
-				"x": -8.564104,
-				"y": 97.18401,
-				"z": 18.41574
+		"playerSpawnPoints": [
+			{
+				"position": {
+					"x": -8.564104,
+					"y": 97.18401,
+					"z": 18.41574
+				},
+				"startWithSuit": true,
+				"isDefault": true,
+				"alignRadial": true
 			},
-			"startWithSuit": true
-		},
-		"shipSpawn": {
-			"position": {
-				"x": 17.5113,
-				"y": 97.54752,
-				"z": 8.509671
+			{
+				"position": {"x": -12.18447, "y": 18.77191, "z": 95.80204},
+				"startWithSuit": true,
+				"makeDefaultIfPersistentCondition": "NH_EXAMPLES_OTHER_SPAWN",
+				"alignRadial": true
+			},
+			{
+				"position": {"x": -7.779288, "y": 143.0886, "z": -19.14252},
+				"rotation": {"x": 359.8035, "y": 166.6936, "z": 0.04733263},
+				"startWithSuit": true,
+				"id": "examples_vessel_spawn"
 			}
-		}
+		],
+		"shipSpawnPoints": [
+			{
+				"position": {
+					"x": 17.5113,
+					"y": 97.54752,
+					"z": 8.509671
+				},
+				"alignRadial": true
+			},
+			{
+				"position": {"x": -33.96926, "y": 27.65399, "z": 88.07869},
+				"makeDefaultIfPersistentCondition": "NH_EXAMPLES_OTHER_SPAWN",
+				"alignRadial": true
+			}
+		]
 	},
 	"Props": {
 		"details": [
@@ -228,6 +252,12 @@
 					"y": 93.64475,
 					"z": 29.20017
 				}
+			},
+			{ 
+				"rename": "Bob",
+				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
+				"position": {"x": -17.70835, "y": 10.56756, "z": 96.19407},
+				"rotation": {"x": 276.0514, "y": 181.5417, "z": 348.3951}
 			}
 		],
 		"slideShows": [
@@ -734,8 +764,19 @@
 					"z": 19.14424
 				}
 			}
+		],
+		"dialogue" :
+		[
+			{
+				"position": {"x": 0, "y": 3, "z": 0},
+				"range": 4,
+				"isRelativeToParent": true,
+				"xmlFile" : "planets/Sequestered Luminary/Frigid Pygmy/GhostbirdDialogue.xml",
+				"pathToAnimController": "Sector/Bob"
+			}
 		]
 	},
+
 	"Volumes": {
 		"zeroGravityVolumes": [
 			{

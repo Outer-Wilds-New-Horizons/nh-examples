@@ -1,0 +1,54 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Bob</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey man want to move your spawn point?</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I want to spawn here!</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I want to spawn under the vessel.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No thanks!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+		<RevealFacts>
+			<FactID>EXAMPLES_BOB</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<SetPersistentCondition>NH_EXAMPLES_OTHER_SPAWN</SetPersistentCondition>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Ok! Consider it done.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<DisablePersistentCondition>NH_EXAMPLES_OTHER_SPAWN</DisablePersistentCondition>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Ok! Consider it done.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Okay, let me know if you change your mind.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
