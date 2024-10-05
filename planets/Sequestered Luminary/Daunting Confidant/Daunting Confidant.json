@@ -9,6 +9,9 @@
 		"groundSize": 400,
 		"gravityFallOff": "inverseSquared"
 	},
+	"MapMarker": {
+		"enabled": true
+	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 12000,

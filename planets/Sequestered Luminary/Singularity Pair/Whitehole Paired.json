@@ -7,10 +7,13 @@
 		"surfaceGravity" : 0,
 		"surfaceSize" : 200
 	},
+	"MapMarker": {
+		"enabled": true
+	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 30000,
-		"primaryBody" : "Sun",
+		"primaryBody" : "Sequestered Luminary",
 		"isStatic" : true,
 		"argumentOfPeriapsis" : 0,
 		"showOrbitLine" : false

@@ -6,6 +6,9 @@
 		"surfaceGravity": 12,
 		"surfaceSize": 100
 	},
+	"MapMarker": {
+		"enabled": true
+	},
 	"Orbit": {
 		"semiMajorAxis": 2000,
 		"primaryBody": "Daunting Confidant",
@@ -781,42 +784,8 @@
 	"Bramble": {
 		"nodes": [
 			{
-				"position": {
-					"x": 65.2428,
-					"y": -137.305,
-					"z": 198.1078
-				},
-				"rotation": {
-					"x": 65.2428,
-					"y": -137.305,
-					"z": 198.1078
-				},
-				"linksTo": "EntranceDimension",
-				"name": "node1",
-				"fogTint": {
-					"r": 83,
-					"g": 255,
-					"b": 129,
-					"a": 255
-				},
-				"lightTint": {
-					"r": 83,
-					"g": 255,
-					"b": 129,
-					"a": 255
-				}
-			},
-			{
-				"position": {
-					"x": 18.9514,
-					"y": -59.0629,
-					"z": 186.5381
-				},
-				"rotation": {
-					"x": 65.2428,
-					"y": -137.305,
-					"z": 198.1078
-				},
+				"position": {"x": 12.43463, "y": 25.83496, "z": 94.07639},
+				"rotation": {"x": 40.56275, "y": 290.3204, "z": 289.4009},
 				"linksTo": "DeepDimension",
 				"isSeed": true,
 				"fogTint": {
