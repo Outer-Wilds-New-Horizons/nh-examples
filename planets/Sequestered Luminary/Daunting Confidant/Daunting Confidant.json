@@ -81,10 +81,6 @@
 			}
 		}
     },
-	"Dream": {
-		"inDreamWorld": true,
-		"generateSimulationMeshes": true
-	},
 	"Props": {
 		"details": [
 			{
