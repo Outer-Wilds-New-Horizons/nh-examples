@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Bunch of Quantum Stuff",
+    "starSystem": "xen.NewHorizonsExamplesQuantumTest",
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 200,
+		"gravityFallOff" : "inverseSquared",
+		"centerOfSolarSystem": true,
+		"groundSize": 200
+	},
+	"Atmosphere": {
+		"hasOxygen": true,
+		"size": 300,
+		"fogSize": 300,
+		"fogDensity": 0.4
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 300
+		}
+	],
+	"Orbit" :
+	{
+		"showOrbitLine" : false,
+		"isStatic" : true
+	},
+	"HeightMap": {
+		"minHeight": 200,
+		"maxHeight": 200,
+		"smoothness": 0.5,
+		"smoothnessMap": "planets/assets/terrain/frigid_pygmy_smoothnessmap.png",
+		"normalStrength": 0.5,
+		"normalMap": "planets/assets/terrain/frigid_pygmy_normalmap.png",
+		"tileBlendMap": "planets/assets/terrain/frigid_pygmy_blendmap.png",
+		"redTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/Ash_d.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Ash_s.png",
+			"normalTile": "planets/assets/terrain/tiles/Ash_n.png",
+			"normalStrength": 1
+		},
+		"greenTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/DirtShale_d.png",
+			"normalTile": "planets/assets/terrain/tiles/DirtShale_n.png",
+			"normalStrength": 2
+		},
+		"blueTile": {
+			"size": 10,
+			"textureTile": "planets/assets/terrain/tiles/Snow_d_mir.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Snow_s_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/Snow_n_mir.png",
+			"normalStrength": 1
+		}
+	},
+	"Spawn": {
+		"playerSpawn":{
+			"position": { "y": 200 }
+		},
+		"shipSpawn": {
+			"position": { "x": 200 }
+		}
+	}
+}
