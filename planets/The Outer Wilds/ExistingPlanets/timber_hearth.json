@@ -516,7 +516,33 @@
 					}
 				]
 			}
-		]
+		],
+        "grappleTotems": [
+            {
+				"allowFlashlight": true,
+                "position": {"x": 9.741312, "y": -57.74007, "z": 184.6571},
+				"rotation": {"x": 306.7674, "y": 70.27897, "z": 118.4319}
+            }
+        ],
+		"dreamCandles": [
+			{
+				"position": {"x": 3.863231, "y": -6.037002, "z": 187.0237},
+				"rotation": {"x": 340.7649, "y": 90.54005, "z": 91.90112},
+				"startLit": true
+			}
+		],
+        "projectionTotems": [
+            {
+                "startLit": true,
+                "extinguishOnly": false,
+				"toggleProjectedObjectsActive": true,
+                "pathsToProjectedObjects": [
+                    "Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Arkose_GhostMatter"
+                ],
+                "position": {"x": 30.03829, "y": 37.7279, "z": 228.1098},
+				"rotation": {"x": 63.25298, "y": 78.70207, "z": 68.12181}
+            }
+        ]
 	},
 	"ShipLog" : {
         "xmlFile": "planets/assets/shiplogs/TimberHearth.xml",

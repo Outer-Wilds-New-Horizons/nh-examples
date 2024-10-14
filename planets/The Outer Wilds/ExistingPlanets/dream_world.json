@@ -37,13 +37,169 @@
                 ]
             }
 		],
+        "dreamCampfires": [
+            {
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
+                "id": "DW_EasterEgg",
+                "position": {"x": 8.292572, "y": -290.9471, "z": 698.1771},
+                "rotation": {"x": 0.2723752, "y": 211.2009, "z": 359.9885}
+            }
+        ],
 		"dreamArrivalPoints": [
 			{
                 "parentPath": "Sector_DreamWorld/Sector_Underground",
 				"id": "DW_Underground",
                 "position": {"x": -16.78043, "y": -290.8658, "z": 522.3541},
                 "rotation": {"x": -2.953186E-05, "y": 140.4348, "z": -4.888376E-05}
-			}
-		]
+			},
+            {
+                "id": "DW_EasterEgg",
+                "position": {"x": -66.97601, "y": 10.76, "z": -594.35},
+                "rotation": {"x": 0, "y": 0, "z": 0}
+            }
+		],
+        "grappleTotems": [
+            {
+                "minDistance": 10,
+                "arrivalDistance": 10,
+                "maxAngle": 90,
+                "maxDistance": 100,
+                "position": {"x": -35.30022, "y": -290.8658, "z": 514.4943},
+                "rotation": {"x": -5.603183E-05, "y": 70.33109, "z": 1.112276E-05}
+            }
+        ],
+        "alarmTotems": [
+            {
+                "sightDistance": 45,
+                "sightAngle": 60,
+                "position": {"x": -5.193062, "y": -290.8658, "z": 458.3376},
+                "rotation": {"x": 0, "y": 356.8367, "z": 0}
+            }
+        ],
+        "portholes": [
+            {
+                "revealFacts": [],
+                "fieldOfView": 90,
+                "position": {"x": 0, "y": -290, "z": 520},
+                "rotation": {"x": 0, "y": 270, "z": 0},
+                "target": {
+                    "parentBody": "RingWorld",
+                    "parentPath": "Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+                    "position": {"x": -133.8915, "y": -50.86169, "z": -250.5952},
+                    "rotation": {"x": 21.10493, "y": 299.7081, "z": 269.679}
+                }
+            }
+        ],
+        "dreamCandles": [
+            {
+                "type": "ground",
+                "position": {"x":0,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "groundSmall",
+                "position": {"x":2,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "groundLarge",
+                "position": {"x":4,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0},
+                "startLit": true
+            },
+            {
+                "type": "groundSingle",
+                "position": {"x":6,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "wall",
+                "position": {"x":8,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "wallLargeFlame",
+                "position": {"x":10,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "wallBigWick",
+                "position": {"x":12,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "standing",
+                "position": {"x":14,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "pile",
+                "position": {"x":16,"y":-290.8658,"z":535},
+                "rotation": {"x":0,"y":0,"z":0}
+            },
+            {
+                "type": "groundLarge",
+                "startLit": true,
+                "position": {"x": -1.089264, "y": -290.8658, "z": 524.7776},
+                "rotation": {"x": 0, "y": 320, "z": 0}
+            },
+            {
+                "type": "groundLarge",
+                "startLit": true,
+                "position": {"x": -33.57645, "y": -290.8658, "z": 513.209},
+                "rotation": {"x": 0, "y": 60, "z": 0}
+            },
+            {
+                "type": "groundLarge",
+                "startLit": true,
+                "position": {"x": -2.879364, "y": -290.8658, "z": 460.1997},
+                "rotation": {"x": 0, "y": 60, "z": 0}
+            },
+            {
+                "type": "groundLarge",
+                "startLit": true,
+                "position": {"x": -21.12698, "y": -290.8658, "z": 473.3741},
+                "rotation": {"x": 0, "y": 348.5224, "z": 0}
+            },
+            {
+                "startLit": true,
+                "type": "ground",
+                "parentPath": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2",
+                "position": {"x": -14.40343, "y": -290.8658, "z": 441.677},
+                "rotation": {"x": 0, "y": 348.7847, "z": 0}
+            },
+            {
+                "startLit": true,
+                "type": "ground",
+                "parentPath": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2",
+                "position": {"x": -15.26809, "y": -290.8658, "z": 446.2592},
+                "rotation": {"x": 0, "y": 349.1519, "z": 0}
+            },
+            {
+                "startLit": true,
+                "type": "ground",
+                "parentPath": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2",
+                "position": {"x": -16.05914, "y": -290.8658, "z": 450.3045},
+                "rotation": {"x": 0, "y": 349.5194, "z": 0}
+            }
+        ],
+        "projectionTotems": [
+            {
+                "startLit": true,
+                "extinguishOnly": false,
+                "pathToAlarmTotem": "Sector_DreamWorld/Prefab_AlarmTotem",
+                "pathsToDreamCandles": [
+                    "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2"
+                ],
+                "pathsToProjectionTotems": [
+                    
+                ],
+                "pathsToProjectedObjects": [
+                    "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2"
+                ],
+                "position": {"x": -17.5176, "y": -290.8658, "z": 470.9344},
+                "rotation": {"x": 0, "y": 170, "z": 0}
+            }
+        ]
 	}
 }
