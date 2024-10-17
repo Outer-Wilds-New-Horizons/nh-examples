@@ -1,0 +1,124 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Daunting Confidant",
+    "starSystem": "xen.NewHorizonsExamples",
+	"Base" :
+	{
+		"surfaceGravity" : 22,
+		"surfaceSize" : 400,
+		"groundSize": 400,
+		"gravityFallOff": "inverseSquared"
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 12000,
+		"primaryBody" : "Sequestered Luminary",
+		"isMoon" : false,
+        "siderealPeriod": 2
+	},
+	"Atmosphere" :
+	{
+		"size": 550,
+		"fogTint": {
+			"r": 255,
+			"g": 127,
+			"b": 127,
+			"a": 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 500,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 255,
+			"g": 127,
+			"b": 127,
+			"a": 255
+		},
+		"clouds": {
+			"outerCloudRadius": 550,
+			"innerCloudRadius": 500,
+			"texturePath": "planets/assets/clouds/daunting_confidant.png",
+            "capPath": "planets/assets/clouds/daunting_confidant_cap.png",
+			"tint": {
+				"r": 140,
+				"g": 70,
+				"b": 70,
+				"a": 255
+			},
+			"fluidType": "cloud",
+			"cloudsPrefab": "giantsDeep"
+		}
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 550,
+			"innerRadius": 400,
+			"intensity": 0,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 64,
+				"b" : 64,
+				"a" : 255
+			}
+		}
+	],
+	"ShipLog" : {
+		"spriteFolder": "planets/assets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/shiplogs/sprites/daunting_confidant_map_mode.png",
+			"scale": 1.6,
+			"manualPosition": {
+				"x": 280,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 0
+			}
+		}
+    },
+	"Props": {
+		"details": [
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
+				"position": {"x": 399.4909, "y": -1.562098, "z": 20.11444},
+				"rotation": {"x": 30.31569, "y": 356.9868, "z": 269.7408}
+			}
+		],
+		"warpReceivers": [
+			{
+				"position": {"x": 400, "y": 0, "z": 0},
+				"alignRadial": true,
+				"frequency": "Daunting",
+				"detailed": true,
+				"computer": {
+					"position": {"x": 399.7093, "y": -4.78919, "z": 14.47684},
+					"alignRadial": true
+				}
+			}
+		],
+		"dreamArrivalPoints": [
+			{
+				"id": "CampLink",
+				"position": {"x": 399.6479, "y": 0.4851837, "z": 16.77206},
+				"rotation": {"x": 25.51674, "y": 357.6301, "z": 270.077},
+				"generateSimulationMeshes": true
+			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"position": {"x": 399.4909, "y": -1.562098, "z": 20.11444},
+				"rotation": {"x": 30.31569, "y": 356.9868, "z": 269.7408},
+				"radius": 30,
+				"treeVolume": true,
+				"playRefillAudio": true
+			}
+		]
+	}
+}

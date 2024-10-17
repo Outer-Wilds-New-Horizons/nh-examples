@@ -1,0 +1,173 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Wetrock",
+	"Base" : 
+	{
+		"groundSize" : 99,
+		"surfaceSize" : 100,
+		"surfaceGravity" : 12
+	},
+	"Orbit" : 
+	{
+		"primaryBody": "Giant's Deep",
+		"semiMajorAxis": 2600,
+		"inclination": 5,
+		"longitudeOfAscendingNode": 90,
+		"trueAnomaly": 240
+	},
+	"Water": 
+	{
+		"size": 100,
+		"tint": 
+		{
+			"r" : 128,
+			"g" : 255,
+			"b" : 200,
+			"a" : 255
+		}
+	},
+	"Atmosphere" : 
+	{
+		"size" : 150,
+		"fogTint" : 
+		{
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"atmosphereTint":
+		{
+			"r" : 200,
+			"g" : 255,
+			"b" : 255,
+			"a" : 255
+		},
+		"fogSize": 150,
+		"fogDensity":0.2,
+		"hasRain" : true,
+		"hasOxygen": true,
+		"hasTrees": true
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 150,
+			"innerRadius": 100,
+			"intensity": 0.8,
+			"tint" : 
+			{
+				"r" : 128,
+				"g" : 255,
+				"b" : 200,
+				"a" : 255
+			}
+		}
+	],
+	"Props" :
+	{
+		"scatter" : [
+			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)", "count" : 12, "scale" : 0.7},
+		    {"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B", "count" : 30}
+		],
+		"details": [
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position" : {"x": 0, "y": 101, "z": 0},
+				"scale" : 0.1,
+				"alignRadial" : true
+			},
+			{
+				"path" : "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
+				"position" : {"x": 0, "y": 101, "z": 0},
+				"scale" : 0.1,
+				"alignRadial" : true
+			}
+		],
+		"dialogue" :
+		[
+			{
+				"position" : {"x": 0, "y": 101, "z": 0},
+				"radius": 3.5,
+				"range": 3.5,
+				"xmlFile" : "planets/assets/dialogue/ErnestosCousin.xml"
+			}
+		],
+		"rafts": 
+		[
+			{
+				"position" : {"x": 100, "y": 0, "z": 0}
+			}
+		],
+		"tornados":
+		[
+			{
+				"elevation": 100,
+				"height": 30,
+				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
+			},
+			{
+				"elevation": 100,
+				"height": 30,
+				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
+			},
+			{
+				"elevation": 100,
+				"height": 30,
+				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
+			}
+		],
+		"dreamArrivalPoints": [
+			{
+				"id": "WetrockDream",
+				"position": {"x": -0.246635, "y": 97.49072, "z": 17.21913},
+				"rotation": {"x": 10.017, "y": 358.6211, "z": 359.9029},
+				"generateSimulationMeshes": true
+			}
+		]
+	},
+	"ShipLog" : {
+        "xmlFile": "planets/assets/shiplogs/Wetrock.xml",
+		"spriteFolder": "planets/assets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/shiplogs/sprites/wetrock_map_mode.png",
+			"scale": 0.6,
+			"manualPosition": {
+				"x": 582,
+				"y": 100
+			},
+			"manualNavigationPosition": {
+				"x": 2,
+				"y": 2
+			}
+		}
+    },
+	"Volumes": {
+		"revealVolumes": [
+			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
+		]
+	},
+	"ParticleFields": [
+		{
+			"type": "leaves",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 10,
+					"height": 99
+				},
+				{
+					"density": 10,
+					"height": 150
+				},
+				{
+					"density": 0,
+					"height": 200
+				}
+			],
+			"rename": "Effects_WR_Leaves"
+		}
+	]
+}
