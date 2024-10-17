@@ -197,6 +197,23 @@
 				"position": {"x": -29.07362, "y": -75.34698, "z": 184.1421},
 				"rotation": {"x": 348.1494, "y": 256.7715, "z": 249.3466},
 				"activationCondition": "VASE_PICKED_UP"
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
+				"position": {"x": 8.504248, "y": -10.79452, "z": 186.6455},
+				"rotation": {"x": 341.1762, "y": 90.9774, "z": 93.48647}
+			}
+		],
+		"dreamCampfires": [
+			{
+				"id": "DW_Underground",
+				"position": {"x": 5.958428, "y": -8.873922, "z": 186.8561},
+				"rotation": {"x": 304.7703, "y": 275.7916, "z": 265.0268}
+			},
+			{
+				"id": "WetrockDream",
+				"position": {"x": -19.95653, "y": 4.435316, "z": 188.6851},
+				"rotation": {"x": 356.1093, "y": 84.09064, "z": 88.87032}
 			}
 		],
 		"dialogue" :
@@ -499,7 +516,33 @@
 					}
 				]
 			}
-		]
+		],
+        "grappleTotems": [
+            {
+				"allowFlashlight": true,
+                "position": {"x": 9.741312, "y": -57.74007, "z": 184.6571},
+				"rotation": {"x": 306.7674, "y": 70.27897, "z": 118.4319}
+            }
+        ],
+		"dreamCandles": [
+			{
+				"position": {"x": 3.863231, "y": -6.037002, "z": 187.0237},
+				"rotation": {"x": 340.7649, "y": 90.54005, "z": 91.90112},
+				"startLit": true
+			}
+		],
+        "projectionTotems": [
+            {
+                "startLit": true,
+                "extinguishOnly": false,
+				"toggleProjectedObjectsActive": true,
+                "pathsToProjectedObjects": [
+                    "Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Arkose_GhostMatter"
+                ],
+                "position": {"x": 30.03829, "y": 37.7279, "z": 228.1098},
+				"rotation": {"x": 63.25298, "y": 78.70207, "z": 68.12181}
+            }
+        ]
 	},
 	"ShipLog" : {
         "xmlFile": "planets/assets/shiplogs/TimberHearth.xml",

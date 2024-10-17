@@ -265,6 +265,11 @@
 				"rename": "Geb",
 				"position": {"x": -13.00789, "y": 94.75275, "z": 24.02298},
 				"rotation": {"x": 344.537, "y": 119.0557, "z": 8.157801}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
+				"position": {"x": -1.27108, "y": 97.43928, "z": 19.01327},
+				"rotation": {"x": 348.4935, "y": 184.8616, "z": 358.867}
 			}
 		],
 		"slideShows": [
@@ -816,6 +821,18 @@
 						"offset": { "x": 0, "y": 1.5, "z": 0 }
 					}
 				]
+			}
+		],
+		"dreamCampfires": [
+			{
+				"id": "CampLink",
+				"position": {"x": -3.804941, "y": 97.07468, "z": 20.45352},
+				"rotation": {"x": 348.3116, "y": 171.9813, "z": 0.01027958}
+			},
+			{
+				"id": "CampLink_2",
+				"position": {"x": 2.075204, "y": 93.2397, "z": 31.74467},
+				"rotation": {"x": 343.2405, "y": 203.3198, "z": 355.0326}
 			}
 		]
 	},

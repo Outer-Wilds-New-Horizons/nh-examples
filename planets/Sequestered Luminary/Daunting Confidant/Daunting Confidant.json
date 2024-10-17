@@ -56,7 +56,7 @@
 		{
 			"outerRadius": 550,
 			"innerRadius": 400,
-			"intensity": 1,
+			"intensity": 0,
 			"tint" : 
 			{
 				"r" : 255,
@@ -82,6 +82,13 @@
 		}
     },
 	"Props": {
+		"details": [
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
+				"position": {"x": 399.4909, "y": -1.562098, "z": 20.11444},
+				"rotation": {"x": 30.31569, "y": 356.9868, "z": 269.7408}
+			}
+		],
 		"warpReceivers": [
 			{
 				"position": {"x": 400, "y": 0, "z": 0},
@@ -92,6 +99,25 @@
 					"position": {"x": 399.7093, "y": -4.78919, "z": 14.47684},
 					"alignRadial": true
 				}
+			}
+		],
+		"dreamArrivalPoints": [
+			{
+				"id": "CampLink",
+				"position": {"x": 399.6479, "y": 0.4851837, "z": 16.77206},
+				"rotation": {"x": 25.51674, "y": 357.6301, "z": 270.077},
+				"generateSimulationMeshes": true
+			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"position": {"x": 399.4909, "y": -1.562098, "z": 20.11444},
+				"rotation": {"x": 30.31569, "y": 356.9868, "z": 269.7408},
+				"radius": 30,
+				"treeVolume": true,
+				"playRefillAudio": true
 			}
 		]
 	}

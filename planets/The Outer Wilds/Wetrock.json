@@ -115,6 +115,14 @@
 				"height": 30,
 				"tint":{ "r": 128, "g": 255, "b": 200, "a": 255 }
 			}
+		],
+		"dreamArrivalPoints": [
+			{
+				"id": "WetrockDream",
+				"position": {"x": -0.246635, "y": 97.49072, "z": 17.21913},
+				"rotation": {"x": 10.017, "y": 358.6211, "z": 359.9029},
+				"generateSimulationMeshes": true
+			}
 		]
 	},
 	"ShipLog" : {
