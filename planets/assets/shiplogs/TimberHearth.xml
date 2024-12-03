@@ -44,4 +44,21 @@
             <Text>I pulled a weird vase off the ground.</Text> 
         </ExploreFact>
     </Entry>
+
+    <Entry>
+        <ID>TH_VILLAGE</ID>
+        <Name>Name Doesn't Matter</Name>
+        <ExploreFact>
+            <ID>EXAMPLES_VILLAGE</ID>
+            <Text>A lot of unfamiliar characters are hanging around the village now.</Text>
+        </ExploreFact>
+        <Entry>
+            <ID>EXAMPLES_DREAM</ID>
+            <Name>Wetrock Dream</Name>
+            <ExploreFact>
+                <ID>EXAMPLES_DREAM_EXPLORED</ID>
+                <Text>I dreamed about Wetrock using a green campfire.</Text>
+            </ExploreFact>
+        </Entry>
+    </Entry>
 </AstroObjectEntry>
