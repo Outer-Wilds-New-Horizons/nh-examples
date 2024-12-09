@@ -50,6 +50,13 @@
 				"x": 1000,
 				"y": -1000
 			}
+		},
+		{
+			"id": "EXAMPLES_DREAM",
+			"position": {
+				"x": 1411,
+				"y": 822
+			}
 		}
 	],
 	"curiosities": [
@@ -70,6 +77,7 @@
 		}
 	],
 	"initialReveal": [
-		"EXAMPLES_VISITORS_RUMOR"
+		"EXAMPLES_VISITORS_RUMOR",
+		"EXAMPLES_VILLAGE"
 	]
 }
