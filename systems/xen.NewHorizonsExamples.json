@@ -52,6 +52,13 @@
 				"x": 0,
 				"y": 0
 			}
+		},
+		{
+			"id": "EXAMPLE_RUMOR_FACT",
+			"position": {
+				"x": 0,
+				"y": 300
+			}
 		}
 	],
 	"curiosities": [
@@ -70,5 +77,6 @@
 				"a": 255
 			}
 		}
-	]
+	],
+	"initialReveal": ["EXAMPLES_2_FACT"]
 }

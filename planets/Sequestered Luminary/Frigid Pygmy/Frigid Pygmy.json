@@ -834,6 +834,21 @@
 				"position": {"x": 2.075204, "y": 93.2397, "z": 31.74467},
 				"rotation": {"x": 343.2405, "y": 203.3198, "z": 355.0326}
 			}
+		],
+		"entryLocation": [
+			{
+				"id": "EXAMPLES_OTHER_SYSTEM",
+				"position": {
+					"x": -10.6049,
+					"y": 92.0552,
+					"z": 33.6463
+				},
+				"cloaked": false
+			},
+			{
+                "id": "EXAMPLES_2",
+                "cloaked": false
+            }
 		]
 	},
 
