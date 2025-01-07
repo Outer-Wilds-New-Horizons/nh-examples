@@ -187,44 +187,6 @@
 				"keepLoaded": true
 			},
 			{
-				"rename": "Quantum1",
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
-				"keepLoaded": true,
-				"quantumGroupID": "Shuffle"
-			},
-			{
-				"rename": "Quantum2",
-				"path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal_Cracked",
-				"keepLoaded": true,
-				"quantumGroupID": "Shuffle"
-			},
-			{
-				"rename": "Quantum3",
-				"path": "Comet_Body/Sector_CO/Sector_CometInterior/Props_CometInterior/Prefab_NOM_Box",
-				"keepLoaded": true,
-				"quantumGroupID": "Shuffle"
-			},
-			{
-				"rename": "QuantumLightningTree",
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
-				"keepLoaded": true,
-				"quantumGroupID": "Lightning",
-				"position": {"x": 35.43359, "y": 85.86271, "z": 32.91581},
-				"rotation": {"x": 331.0478, "y": 221.3728, "z": 1.339349}
-			},
-			{
-				"rename": "QuantumLightningRock",
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/EYEState_QuantumObjects/EYE_Q_Arch_B/EYE_Q_ArchB/Rocks_EYE_Arch_B",
-				"keepLoaded": true,
-				"quantumGroupID": "Lightning"
-			},
-			{
-				"rename": "Quantum4",
-				"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Props_GravityCannon/OtherComponentsGroup/Prefab_NOM_SmallBowl",
-				"keepLoaded": true,
-				"quantumGroupID": "Shuffle"
-			},
-			{
 				"rename": "Stairs",
 				"parentPath": "Sector/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem",
 				"scale": 1.25,
@@ -894,11 +856,11 @@
 				"sockets": [
 					{
 						"position": {"x": 9.101795, "y": 91.72594, "z": 34.61857},
-						"rotation": {"x": 343.0854, "y": 150.1757, "z": 14.16059}
+						//"rotation": {"x": 343.0854, "y": 150.1757, "z": 14.16059}
 					},
 					{
 						"position": {"x": 10.38917, "y": 91.50874, "z": 34.83393},
-						"rotation": {"x": 339.5127, "y": 172.38, "z": 10.03634}	
+						//"rotation": {"x": 339.5127, "y": 172.38, "z": 10.03634}	
 					},
 					{
 						"position": {"x": 11.82384, "y": 91.37481, "z": 34.68539},
@@ -908,12 +870,50 @@
 						"position": {"x": 13.30961, "y": 91.40807, "z": 34.07758},
 						"rotation": {"x": 339.0766, "y": 222.5181, "z": 352.0677}
 					}
+				],
+				"details": [
+					{
+						"rename": "Quantum1",
+						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+						"keepLoaded": true,
+						"alignWithGravity": false
+					},
+					{
+						"rename": "Quantum2",
+						"path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal_Cracked",
+						"keepLoaded": true
+					},
+					{
+						"rename": "Quantum3",
+						"path": "Comet_Body/Sector_CO/Sector_CometInterior/Props_CometInterior/Prefab_NOM_Box",
+						"keepLoaded": true,
+						"alignWithGravity": false
+					},
+					{
+						"rename": "Quantum4",
+						"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Props_GravityCannon/OtherComponentsGroup/Prefab_NOM_SmallBowl",
+						"keepLoaded": true
+					}
 				]
 			}
 		],
 		"lightningQuantumGroups": [
 			{
-				"id": "Lightning"
+				"name": "Lightning",
+				"details": [
+					{
+						"rename": "QuantumLightningTree",
+						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+						"keepLoaded": true,
+						"position": {"x": 35.43359, "y": 85.86271, "z": 32.91581},
+						"rotation": {"x": 331.0478, "y": 221.3728, "z": 1.339349}
+					},
+					{
+						"rename": "QuantumLightningRock",
+						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/EYEState_QuantumObjects/EYE_Q_Arch_B/EYE_Q_ArchB/Rocks_EYE_Arch_B",
+						"keepLoaded": true
+					}
+				]
 			}
 		]
 	},
