@@ -852,7 +852,7 @@
 		],
 		"socketQuantumGroups": [
 			{
-				"id": "Shuffle",
+				"rename": "Shuffle",
 				"sockets": [
 					{
 						"position": {"x": 9.101795, "y": 91.72594, "z": 34.61857},
@@ -899,7 +899,7 @@
 		],
 		"lightningQuantumGroups": [
 			{
-				"name": "Lightning",
+				"rename": "Lightning",
 				"details": [
 					{
 						"rename": "QuantumLightningTree",
