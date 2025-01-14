@@ -1,0 +1,14 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Frigid Pygmy Moon",
+	"starSystem": "xen.NewHorizonsExamples",
+	"isQuantumState": true,
+	"Orbit": {
+		"semiMajorAxis": 1500,
+		"primaryBody": "Sequestered Luminary",
+		"isMoon": true,
+		"siderealPeriod": 18,
+		"axialTilt": 180,
+		"inclination": 180
+	}
+}
