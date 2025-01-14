@@ -270,6 +270,27 @@
 				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
 				"position": {"x": -1.27108, "y": 97.43928, "z": 19.01327},
 				"rotation": {"x": 348.4935, "y": 184.8616, "z": 358.867}
+			},
+			{
+				"rename": "Shard",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
+				"removeComponents": true,
+				"position": {"x": 0, "y": 1, "z": 0},
+				"scale": 1.7,
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"removeChildren": ["Signal_Quantum"],
+				"parentPath": "Sector/QuantumShardRoot"
+			},
+			{
+				"rename": "Base",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
+				"parentPath": "Sector/QuantumShardRoot/Shard",
+				"position": {"x": -0.0557, "y": -0.4886, "z": -0.3576},
+				"rotation": {"x": 347.2702, "y": 218.5882, "z": 357.354},
+				"stretch": {"x": 0.7, "y": 0.8, "z": 0.8},
+				"keepLoaded": true,
+				"isRelativeToParent": true
 			}
 		],
 		"slideShows": [
@@ -710,6 +731,18 @@
 					"y": 96.69212,
 					"z": 22.51841
 				}
+			},
+			{
+				"rename": "QuantumSignal",
+				"frequency": "Quantum",
+				"name": "Frigid Pygmy Shard",
+				"audio": "QuantumAmbience_LP",
+				"sourceRadius": 0.8,
+				"identificationRadius": 10,
+				"detectionRadius": 59.7,
+				"parentPath": "Sector/QuantumShardRoot/Shard",
+				"position": {"x": 0.02, "y": 0.288, "z": 0.018},
+				"isRelativeToParent": true
 			}
 		],
 		"audioSources": [
@@ -846,9 +879,42 @@
 				"cloaked": false
 			},
 			{
-                "id": "EXAMPLES_2",
-                "cloaked": false
-            }
+				"id": "EXAMPLES_2",
+				"cloaked": false
+			}
+		],
+		"socketQuantumGroups": [
+			{
+				"rename": "PygmyShardSockets",
+				"details": [
+					{
+						"rename": "QuantumShardRoot",
+						"isRelativeToParent": true
+					}
+				],
+				"sockets": [
+					{
+						"position": {"x": -32.71805, "y": 85.54369, "z": 36.19691},
+						"rotation": {"x": 4.827964, "y": 235.1626, "z": 328.9396},
+						"probability": 1
+					},
+					{
+						"position": {"x": 10.63854, "y": 90.69299, "z": 36.79784},
+						"rotation": {"x": 16.99503, "y": 63.6204, "z": 17.83908},
+						"probability": 1
+					},
+					{
+						"position": {"x": -7.727432, "y": 98.79259, "z": 6.023658},
+						"rotation": {"x": 4.658319, "y": 266.9055, "z": 356.5509},
+						"probability": 1
+					},
+					{
+						"position": {"x": 13.09055, "y": -1.795159, "z": 97.47773},
+						"rotation": {"x": 291.1833, "y": 93.72022, "z": 94.87845},
+						"probability": 5
+					}
+				]
+			}
 		]
 	},
 
