@@ -3,7 +3,7 @@
 
     <Entry>
         <ID>EXAMPLES_OTHER_SYSTEM</ID>
-        <Name>Other System</Name>
+        <Name>Some slide reels</Name>
 
         <Curiosity>EXAMPLES_OTHER_SYSTEM</Curiosity>
 		<IsCuriosity/>
@@ -11,6 +11,19 @@
         <ExploreFact>
             <ID>EXAMPLES_REEL</ID>
             <Text>I saw a slide reel full of numbers.</Text> 
+        </ExploreFact>
+    </Entry>
+
+    
+    <Entry>
+        <ID>EXAMPLES_2</ID>
+        <Name>Frigid Pygmy</Name>
+
+        <Curiosity>EXAMPLES_OTHER_SYSTEM</Curiosity>
+    
+        <ExploreFact>
+            <ID>EXAMPLES_2_FACT</ID>
+            <Text>Wow a whole new system with a cool planet!</Text> 
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>
