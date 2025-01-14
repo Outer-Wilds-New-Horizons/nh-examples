@@ -143,7 +143,14 @@
     },
 	"Volumes": {
 		"revealVolumes": [
-			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"}
+			{"radius":150,"reveals":["EXAMPLES_WETROCK_LANDING"],"revealOn":"enter"},
+			{
+				"radius": 10,
+				"reveals": ["EXAMPLES_DREAM_EXPLORED"],
+				"position": {"x": -0.246635, "y": 97.49072, "z": 17.21913},
+				"revealFor": "player",
+				"revealOn": "enter"
+			}
 		]
 	},
 	"ParticleFields": [
