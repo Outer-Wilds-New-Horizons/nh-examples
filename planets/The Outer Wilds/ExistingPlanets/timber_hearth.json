@@ -66,6 +66,7 @@
 			{
 				"assetBundle": "assetbundles/test",
 				"path":"Assets/Prefabs/ArtificialGravity.prefab",
+				"rename": "ArtificialGravity",
 				"position": {"x": 400,"y": 0,"z": 0},
 				"scale" : 50
 			},
@@ -549,6 +550,17 @@
 		"spriteFolder": "planets/assets/shiplogs/sprites"
     },
 	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 50,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"rename": "EXAMPLES_ARTIFICIAL_GRAVITY",
+				"reveals": ["EXAMPLES_ARTIFICIAL_GRAVITY"],
+				"parentPath": "Sector_TH/ArtificialGravity",
+				"isRelativeToParent": true
+			}
+		],
 		"creditsVolume": [
 			{
 				"creditsType": "kazoo",
