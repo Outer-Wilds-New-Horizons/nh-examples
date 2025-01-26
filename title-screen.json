@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/title-screen-config/NewHorizons/Schemas/title_screen_schema.json",
+  "disableNHPlanets": true,
+  "factRequiredForTitle": "EXAMPLES_ARTIFICIAL_GRAVITY",
+  "shareTitleScreen": true,
+  "menuTextTint": {
+    "r": 128,
+    "g": 128,
+    "b": 255
+  },
+  "music": "planets/assets/Travel Audio.mp3",
+  "ambience": "planets/assets/BrambleDimension.mp3",
+  "rotationSpeed": 10,
+  "Skybox": {
+    "destroyStarField": true,
+    "rightPath": "systems/New System Assets/Skybox/Right_Large.png",
+    "leftPath": "systems/New System Assets/Skybox/Left_Large.png",
+    "topPath": "systems/New System Assets/Skybox/Up_Large.png",
+    "bottomPath": "systems/New System Assets/Skybox/Down_Large.png",
+    "frontPath": "systems/New System Assets/Skybox/Front_Large.png",
+    "backPath": "systems/New System Assets/Skybox/Back_Large.png"
+  },
+  "MenuPlanet": {
+    "destroyMenuPlanet": false,
+    "removeChildren": ["PlanetRoot/Props"],
+    "details": [
+      {
+        "assetBundle": "assetbundles/test",
+        "path": "Assets/Prefabs/ArtificialGravity.prefab",
+        "removeChildren": ["Gravity"],
+        "parentPath": "PlanetRoot",
+        "position": {"x": 0, "y": 32, "z": 0},
+        "rotation": {"x": 90, "y": 0, "z": 0},
+        "scale": 10
+      }
+    ],
+    "rotationSpeed": 20
+  }
+}
