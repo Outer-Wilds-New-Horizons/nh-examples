@@ -43,6 +43,11 @@
             <ID>EXAMPLES_VASE</ID>
             <Text>I pulled a weird vase off the ground.</Text> 
         </ExploreFact>
+
+        <ExploreFact>
+            <ID>EXAMPLES_ARTIFICIAL_GRAVITY</ID>
+            <Text>I found 2 rectangles floating above Timber Hearth. There seems to be some artificial gravity when you go between them.</Text> 
+        </ExploreFact>
     </Entry>
 
     <Entry>
