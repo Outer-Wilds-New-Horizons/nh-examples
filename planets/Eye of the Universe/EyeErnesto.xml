@@ -1,0 +1,82 @@
+<DialogueTree xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NameField>Ernesto</NameField>
+  <DialogueNode>
+    <Name>WAITING_FOR_OTHERS</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hi.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>Play music, NOW!</Text>
+            <DialogueTarget>PARTICIPATING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Bye Bye.</Text>
+            <DialogueTarget>BYE</DialogueTarget>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+    <DialogueNode>
+    <Name>BYE</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Bye Bye.</Page>
+    </Dialogue>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>ANY_GATHERED</Name>
+    <EntryCondition>AnyTravelersGathered</EntryCondition>
+    <Dialogue>
+      <Page>Go get the others.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>You're going to join in, right?</Text>
+            <DialogueTarget>PARTICIPATING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Bye bye.</Text>
+            <DialogueTarget>BYE</DialogueTarget>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>PARTICIPATING</Name>
+    <Dialogue>
+        <Page>Yes.</Page>
+    </Dialogue>
+    <SetCondition>EyeErnestoParticipating</SetCondition>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>READY_TO_PLAY</Name>
+    <EntryCondition>AllTravelersGathered</EntryCondition>
+    <Dialogue>
+      <Page>Hi.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>Play music, NOW!</Text>
+            <DialogueTarget>START_PLAYING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Bye Bye.</Text>
+            <DialogueTarget>BYE</DialogueTarget>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>START_PLAYING</Name>
+    <Dialogue>
+        <Page>Ok.</Page>
+    </Dialogue>
+    <SetCondition>EyeErnestoPlaying</SetCondition>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>FAREWELL</Name>
+    <EntryCondition>JamSessionIsOver</EntryCondition>
+    <Dialogue>
+      <Page>Don't look up the word for anglerfish in Spanish. Worst mistake of my life.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

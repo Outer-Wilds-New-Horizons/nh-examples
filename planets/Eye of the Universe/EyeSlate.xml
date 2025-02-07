@@ -1,0 +1,79 @@
+<DialogueTree xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NameField>Slate, Probably</NameField>
+  <DialogueNode>
+    <Name>WAITING_FOR_OTHERS</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>It's me, definitely Slate and not a dreamstalker in disguise.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>You're going to join in, right?</Text>
+            <DialogueTarget>PARTICIPATING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Okay then...</Text>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>ANY_GATHERED</Name>
+    <EntryCondition>AnyTravelersGathered</EntryCondition>
+    <Dialogue>
+      <Page>You still have other travelers to gather.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>You're going to join in, right?</Text>
+            <DialogueTarget>PARTICIPATING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Okay then...</Text>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>PARTICIPATING</Name>
+    <Dialogue>
+        <Page>Sure.</Page>
+    </Dialogue>
+    <SetCondition>EyeSlateParticipating</SetCondition>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>READY_TO_PLAY</Name>
+    <EntryCondition>AllTravelersGathered</EntryCondition>
+    <Dialogue>
+      <Page>We're all here. Time to start the music.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Ready to go.</Text>
+        <DialogueTarget>START_PLAYING</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Not yet.</Text>
+        <DialogueTarget>NOT_YET</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>START_PLAYING</Name>
+    <Dialogue>
+        <Page>Let's begin.</Page>
+    </Dialogue>
+    <SetCondition>EyeSlatePlaying</SetCondition>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>NOT_YET</Name>
+    <Dialogue>
+      <Page>Whenever you're ready.</Page>
+    </Dialogue>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>FAREWELL</Name>
+    <EntryCondition>JamSessionIsOver</EntryCondition>
+    <Dialogue>
+      <Page>It's rewind time.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>
