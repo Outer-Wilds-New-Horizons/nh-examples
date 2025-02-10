@@ -60,7 +60,7 @@
             <DialogueTarget>START_PLAYING</DialogueTarget>
         </DialogueOption>
         <DialogueOption>
-            <Text>Bye Bye.</Text>
+            <Text>Bye bye.</Text>
             <DialogueTarget>BYE</DialogueTarget>
         </DialogueOption>
     </DialogueOptionsList>
@@ -76,7 +76,8 @@
     <Name>FAREWELL</Name>
     <EntryCondition>JamSessionIsOver</EntryCondition>
     <Dialogue>
-      <Page>Don't look up the word for anglerfish in Spanish. Worst mistake of my life.</Page>
+      <Page>Bye bye forever this time!</Page>
+      <Page>Just kidding you can reload the game later, the finality of this moment is ruined!</Page>
     </Dialogue>
   </DialogueNode>
 </DialogueTree>
