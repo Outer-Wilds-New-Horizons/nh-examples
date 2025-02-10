@@ -76,7 +76,7 @@
     <Name>FAREWELL</Name>
     <EntryCondition>JamSessionIsOver</EntryCondition>
     <Dialogue>
-      <Page> </Page>
+      <Page>Don't look up the word for anglerfish in Spanish. Worst mistake of my life.</Page>
     </Dialogue>
   </DialogueNode>
 </DialogueTree>
