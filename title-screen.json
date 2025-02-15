@@ -10,7 +10,6 @@
   },
   "music": "planets/assets/Travel Audio.mp3",
   "ambience": "planets/assets/BrambleDimension.mp3",
-  "rotationSpeed": 10,
   "Skybox": {
     "destroyStarField": true,
     "rightPath": "systems/New System Assets/Skybox/Right_Large.png",
@@ -19,6 +18,9 @@
     "bottomPath": "systems/New System Assets/Skybox/Down_Large.png",
     "frontPath": "systems/New System Assets/Skybox/Front_Large.png",
     "backPath": "systems/New System Assets/Skybox/Back_Large.png"
+  },
+  "Background": {
+    "rotationSpeed": 10
   },
   "MenuPlanet": {
     "destroyMenuPlanet": false,
