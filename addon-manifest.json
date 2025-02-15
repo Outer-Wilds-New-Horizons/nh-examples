@@ -21,5 +21,18 @@
         "xen#Mod Creator\\n#Ernesto VA",
         "Contributors:#Bwc9876\n#FreezeDriedMangos\n#Trifid\n#MegaPiggy\n#ClassicalBro\n#Hawkbat",
         "Russian Localization:#Tllya"
+    ],
+    "gameOver": [
+        {
+            "text": "You made Bob die this loop why did you do that?",
+            "colour": {
+                "R": 255,
+                "G": 0,
+                "B": 0,
+                "A": 255
+            },
+            "condition": "EXAMPLES_GHOST_BIRD_DIED",
+            "creditsType": "none"
+        }
     ]
 }
