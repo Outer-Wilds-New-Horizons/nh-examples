@@ -1002,13 +1002,13 @@
 		"lightningQuantumGroups": [
 			{
 				"rename": "Lightning",
+				"position": {"x": 35.43359, "y": 85.86271, "z": 32.91581},
+				"rotation": {"x": 331.0478, "y": 221.3728, "z": 1.339349},
 				"details": [
 					{
 						"rename": "QuantumLightningTree",
 						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
-						"keepLoaded": true,
-						"position": {"x": 35.43359, "y": 85.86271, "z": 32.91581},
-						"rotation": {"x": 331.0478, "y": 221.3728, "z": 1.339349}
+						"keepLoaded": true
 					},
 					{
 						"rename": "QuantumLightningRock",
