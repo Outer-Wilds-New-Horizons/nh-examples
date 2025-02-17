@@ -8,8 +8,8 @@
         },
         {
             "disableNHPlanets": true,
-            "factRequiredForTitle": "EXAMPLES_ARTIFICIAL_GRAVITY",
             "shareTitleScreen": true,
+            "factRequiredForTitle": "EXAMPLES_ARTIFICIAL_GRAVITY",
             "menuTextTint": {
                 "r": 128,
                 "g": 128,
