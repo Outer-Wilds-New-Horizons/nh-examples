@@ -117,6 +117,9 @@
             {
                 "rename": "LockboxClosed",
                 "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Interactibles_WhiteholeStation/Prefab_NOM_Airlock",
+                "removeChildren": [
+                    "Structure_NOM_Airlock_new/Airlcok_MidSphere/Structure_NOM_Airlock_Switch/Slots/NomaiInterfaceOrb_Body"
+                ],
                 "position": {
                     "x": 0,
                     "y": 0,
@@ -133,6 +136,9 @@
             {
                 "rename": "LockboxOpen",
                 "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Interactibles_WhiteholeStation/Prefab_NOM_Airlock",
+                "removeChildren": [
+                    "Structure_NOM_Airlock_new/Airlcok_MidSphere/Structure_NOM_Airlock_Switch/Slots/NomaiInterfaceOrb_Body"
+                ],
                 "position": {
                     "x": 0,
                     "y": 0,
