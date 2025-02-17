@@ -2,6 +2,11 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/title_screen_schema.json",
     "titleScreens": [
         {
+            "disableNHPlanets": false,
+            "shareTitleScreen": true,
+            "music": "planets/assets/Travel Audio.mp3"
+        },
+        {
             "disableNHPlanets": true,
             "factRequiredForTitle": "EXAMPLES_ARTIFICIAL_GRAVITY",
             "shareTitleScreen": true,
