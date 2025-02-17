@@ -1,0 +1,151 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Puzzle Station",
+	"starSystem": "xen.NewHorizonsExamples",
+	"Base": {
+		"surfaceGravity": 3,
+		"surfaceSize": 50
+	},
+    "Orbit": {
+        "primaryBody": "Frigid Pygmy",
+        "semiMajorAxis": 700,
+        "isMoon": true
+    },
+    "Volumes": {
+        "zeroGravityVolumes": [
+            {
+                "radius": 100,
+                "priority": 2
+            }
+        ],
+        "audioVolumes": [
+            {
+                "rename": "LockboxOpenAudio",
+                "parentPath": "Sector/LockboxOpen",
+                "loop": false,
+                "audio": "NomaiAirlockSlide_LP",
+                "radius": 50
+            }
+        ]
+    },
+    "Props": {
+        "details": [
+            {
+                "path": "WhiteholeStation_Body/Sector_WhiteholeStation",
+                "removeComponents": true,
+                "removeChildren": [
+                    "Props_WhiteHoleStation",
+                    "SectorTrigger_WhiteHoleStation",
+                    "Interactibles_WhiteholeStation/Prefab_NOM_WarpTransmitter",
+                    "Interactibles_WhiteholeStation/Arc_WH_WarpTowerInstructions",
+                    "Interactibles_WhiteholeStation/Prefab_NOM_SharedStone",
+                    "Interactibles_WhiteholeStation/Prefab_NOM_Tablet",
+                    "Interactibles_WhiteholeStation/Prefab_NOM_WhiteHolePetroglyphBoard",
+                    "Interactibles_WhiteholeStation/StationRotationInterface"
+                ],
+                "rename": "WhiteHoleStation",
+                "keepLoaded": true
+            },
+            {
+                "path": "WhiteholeStationSuperstructure_Body/Geometry_WhiteholeStationSuperstructure/ControlledByProxy_WhiteholeStation",
+                "rename": "WhiteHoleStationRails",
+                "keepLoaded": true
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/WarpCoreWallSockets/WarpCoreSocket (1)/Props_NOM_WarpCoreBlack (2)",
+                "removeComponents": true,
+                "rename": "Black Hole Key",
+                "position": {"x": 0.8934275, "y": -5.753483, "z": -15.49364},
+                "rotation": {"x": 5.015856, "y": 180, "z": 90},
+                "item": {
+                    "itemType": "Key",
+                    "colliderRadius": 0.25
+                }
+            },
+            {
+                "path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/WarpCoreWallSockets/WarpCoreSocket (2)/Props_NOM_WarpCoreWhite (1)",
+                "removeComponents": true,
+                "rename": "White Hole Key",
+                "position": {"x": 0.4904749, "y": 6.166938, "z": -15.49394},
+                "rotation": {"x": 28.61482, "y": 180, "z": 90},
+                "scale": 2,
+                "item": {
+                    "itemType": "Key",
+                    "colliderRadius": 0.25
+                }
+            },
+            {
+                "rename": "Key Socket A",
+                "position": {
+                    "x": -3,
+                    "y": 0,
+                    "z": -25
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 180
+                },
+                "itemSocket": {
+                    "itemType": "Key",
+                    "insertCondition": "PUZZLE_KEY_SOCKET_A_FILLED",
+                    "colliderRadius": 1,
+                    "interactRange": 2,
+                    "isRelativeToParent": true
+                }
+            },
+            {
+                "rename": "Key Socket B",
+                "position": {
+                    "x": 3,
+                    "y": 0,
+                    "z": -25
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 180
+                },
+                "itemSocket": {
+                    "itemType": "Key",
+                    "insertCondition": "PUZZLE_KEY_SOCKET_B_FILLED",
+                    "colliderRadius": 1,
+                    "interactRange": 2,
+                    "isRelativeToParent": true
+                }
+            },
+            {
+                "rename": "LockboxClosed",
+                "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Interactibles_WhiteholeStation/Prefab_NOM_Airlock",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -16
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 270,
+                    "z": 0
+                },
+                "deactivationCondition": "PUZZLE_LOCKBOX_OPEN",
+                "blinkWhenActiveChanged": false
+            },
+            {
+                "rename": "LockboxOpen",
+                "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Interactibles_WhiteholeStation/Prefab_NOM_Airlock",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -16
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 0
+                },
+                "activationCondition": "PUZZLE_LOCKBOX_OPEN",
+                "blinkWhenActiveChanged": false
+            }
+        ]
+    }
+}

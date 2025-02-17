@@ -45,6 +45,17 @@
 		"frontPath": "systems/New System Assets/Skybox/Front_Large.png",
 		"backPath": "systems/New System Assets/Skybox/Back_Large.png"
 	},
+	"conditionalChecks": [
+		{
+			"check": {
+				"allConditionsSet": ["PUZZLE_KEY_SOCKET_A_FILLED", "PUZZLE_KEY_SOCKET_B_FILLED"]
+			},
+			"then": {
+				"setConditions": ["PUZZLE_LOCKBOX_OPEN"],
+				"reversible": true
+			}
+		}
+	],
 	"entryPositions": [
 		{
 			"id": "EXAMPLES_OTHER_SYSTEM",
