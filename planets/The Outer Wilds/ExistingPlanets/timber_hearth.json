@@ -66,6 +66,7 @@
 			{
 				"assetBundle": "assetbundles/test",
 				"path":"Assets/Prefabs/ArtificialGravity.prefab",
+				"rename": "ArtificialGravity",
 				"position": {"x": 400,"y": 0,"z": 0},
 				"scale" : 50
 			},
@@ -549,12 +550,32 @@
 		"spriteFolder": "planets/assets/shiplogs/sprites"
     },
 	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 50,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"rename": "EXAMPLES_ARTIFICIAL_GRAVITY",
+				"reveals": ["EXAMPLES_ARTIFICIAL_GRAVITY"],
+				"parentPath": "Sector_TH/ArtificialGravity",
+				"isRelativeToParent": true
+			}
+		],
 		"creditsVolume": [
 			{
-				"creditsType": "kazoo",
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
 				"radius": 1,
-				"gameOverText": "Ernesto beat you to death with a rock.",
+				"gameOver": {
+					"text": "Ernesto beat you to death with a rock.",
+					"colour": {
+						"R": 255,
+						"G": 255,
+						"B": 255,
+						"A": 255
+					},
+					"condition": "EXAMPLES_INSULT",
+					"creditsType": "none"
+				},
 				"deathType": "crushedByElevator"
 			}
 		]

@@ -1,0 +1,84 @@
+<DialogueTree xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NameField>Ernesto</NameField>
+  <DialogueNode>
+    <Name>WAITING_FOR_OTHERS</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hey it's me Ernesto waiting for the jam session to start.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>Play music, NOW!</Text>
+            <DialogueTarget>PARTICIPATING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Bye bye.</Text>
+            <DialogueTarget>BYE</DialogueTarget>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+    <DialogueNode>
+    <Name>BYE</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Bye bye.</Page>
+    </Dialogue>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>ANY_GATHERED</Name>
+    <EntryCondition>AnyTravelersGathered</EntryCondition>
+    <Dialogue>
+      <Page>Hey it's me etc, go get the others! We need everyone.</Page>
+      <Page>Everyone except Geswaldo apparently, who isn't even here. What's up with that!</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>Hi Ernesto, you're joining the jam session?</Text>
+            <DialogueTarget>PARTICIPATING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Bye bye.</Text>
+            <DialogueTarget>BYE</DialogueTarget>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>PARTICIPATING</Name>
+    <Dialogue>
+        <Page>Yes, thanks to the power of modding.</Page>
+    </Dialogue>
+    <SetCondition>EyeErnestoParticipating</SetCondition>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>READY_TO_PLAY</Name>
+    <EntryCondition>AllTravelersGathered</EntryCondition>
+    <Dialogue>
+      <Page>Hey it's me Ernesto, is it time to play music?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+        <DialogueOption>
+            <Text>Play music, NOW!</Text>
+            <DialogueTarget>START_PLAYING</DialogueTarget>
+        </DialogueOption>
+        <DialogueOption>
+            <Text>Bye bye.</Text>
+            <DialogueTarget>BYE</DialogueTarget>
+        </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>START_PLAYING</Name>
+    <Dialogue>
+        <Page>Jeez okay no need to yell.</Page>
+    </Dialogue>
+    <SetCondition>EyeErnestoPlaying</SetCondition>
+  </DialogueNode>
+  <DialogueNode>
+    <Name>FAREWELL</Name>
+    <EntryCondition>JamSessionIsOver</EntryCondition>
+    <Dialogue>
+      <Page>Bye bye forever this time!</Page>
+      <Page>Just kidding you can reload the game later, the finality of this moment is ruined!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

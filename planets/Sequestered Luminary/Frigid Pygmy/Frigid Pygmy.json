@@ -279,8 +279,16 @@
 				"scale": 1.7,
 				"keepLoaded": true,
 				"isRelativeToParent": true,
-				"removeChildren": ["Signal_Quantum"],
+				"removeChildren": ["Signal_Quantum", "VisibilityTracker", "Rock_TH_Observatory_QRock/Collider_TH_Observatory_QRock"],
 				"parentPath": "Sector/QuantumShardRoot"
+			},
+			{
+				"rename":"BetterVisibilityTracker",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+				"parentPath": "Sector/QuantumShardRoot/Shard",
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"scale": 0.5
 			},
 			{
 				"rename": "Base",
@@ -291,6 +299,36 @@
 				"stretch": {"x": 0.7, "y": 0.8, "z": 0.8},
 				"keepLoaded": true,
 				"isRelativeToParent": true
+			},
+			{
+				"rename":"ColliderTop",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"parentPath": "Sector/QuantumShardRoot/Shard",
+				"position": {"x": -0.0641, "y": 0.4107, "z": 0.0061},
+				"rotation": {"x": 1.6257, "y": 301.7532, "z": 0.4284},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"stretch": {"x":0.4,"y":0.7,"z":0.5}
+			},
+			{
+				"rename":"ColliderMid",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"parentPath": "Sector/QuantumShardRoot/Shard",
+				"position": {"x": -0.0151, "y": -0.1893, "z": 0.0279},
+				"rotation": {"x": 359.5255, "y": 245.0298, "z": 357.7007},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"stretch": {"x":0.5,"y":0.8,"z":0.3}
+			},
+			{
+				"rename":"ColliderBase",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"parentPath": "Sector/QuantumShardRoot/Shard",
+				"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
+				"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"stretch": {"x":0.7,"y":0.2,"z":0.7}
 			}
 		],
 		"slideShows": [
@@ -899,8 +937,8 @@
 						"probability": 1
 					},
 					{
-						"position": {"x": 10.63854, "y": 90.69299, "z": 36.79784},
-						"rotation": {"x": 16.99503, "y": 63.6204, "z": 17.83908},
+						"position": {"x": 7.538975, "y": 87.68747, "z": 43.95703},
+						"rotation": {"x": 351.9866, "y": 262.6315, "z": 333.8677},
 						"probability": 1
 					},
 					{
@@ -964,13 +1002,13 @@
 		"lightningQuantumGroups": [
 			{
 				"rename": "Lightning",
+				"position": {"x": 35.43359, "y": 85.86271, "z": 32.91581},
+				"rotation": {"x": 331.0478, "y": 221.3728, "z": 1.339349},
 				"details": [
 					{
 						"rename": "QuantumLightningTree",
 						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
-						"keepLoaded": true,
-						"position": {"x": 35.43359, "y": 85.86271, "z": 32.91581},
-						"rotation": {"x": 331.0478, "y": 221.3728, "z": 1.339349}
+						"keepLoaded": true
 					},
 					{
 						"rename": "QuantumLightningRock",
