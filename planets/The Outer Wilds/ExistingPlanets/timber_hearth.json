@@ -64,13 +64,6 @@
 				"rotation" : {"x":311.8565, "y": 287.9388, "z": 254.72}
 			},
 			{
-				"assetBundle": "assetbundles/test",
-				"path":"Assets/Prefabs/ArtificialGravity.prefab",
-				"rename": "ArtificialGravity",
-				"position": {"x": 400,"y": 0,"z": 0},
-				"scale" : 50
-			},
-			{
 				"rename": "Geswaldo",
 				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (1)/Jellyfish_Body/Beast_GD_Jellyfish_v4",
 				"position": {"x": 28.63121, "y": -46.67, "z": 185.68},
@@ -550,17 +543,6 @@
 		"spriteFolder": "planets/assets/shiplogs/sprites"
     },
 	"Volumes": {
-		"revealVolumes": [
-			{
-				"radius": 50,
-				"revealOn": "enter",
-				"revealFor": "player",
-				"rename": "EXAMPLES_ARTIFICIAL_GRAVITY",
-				"reveals": ["EXAMPLES_ARTIFICIAL_GRAVITY"],
-				"parentPath": "Sector_TH/ArtificialGravity",
-				"isRelativeToParent": true
-			}
-		],
 		"creditsVolume": [
 			{
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
