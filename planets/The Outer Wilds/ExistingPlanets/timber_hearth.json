@@ -66,6 +66,7 @@
 			{
 				"assetBundle": "assetbundles/test",
 				"path":"Assets/Prefabs/ArtificialGravity.prefab",
+				"rename": "ArtificialGravity",
 				"position": {"x": 400,"y": 0,"z": 0},
 				"scale" : 50
 			},
@@ -311,9 +312,131 @@
 				"rotation": {"x": 85.3647, "y": 168.7207, "z": 155.2558},
 				"type": "autoProjector",
 				"slides": [
-					{"imagePath": "planets/assets/slide reels/nh.png"},
-					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
-					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"}
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (1).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (2).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (3).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (4).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (5).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (6).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (7).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (8).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (9).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (10).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (11).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (12).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (13).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (14).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (15).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (16).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (17).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (18).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (19).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (20).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (21).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (22).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (23).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (24).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (25).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (26).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (27).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (28).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (29).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (30).png",
+						"playTimeDuration": 0.0303
+					},
+					{
+						"imagePath": "planets/assets/slide reels/Funny/slide (31).png",
+						"playTimeDuration": 0.0303
+					}
+
 				]
 			},
 			{
@@ -335,9 +458,343 @@
 				"rotation": { "x": 42.27901, "y": 104.967056, "z": 106.829819},
 				"type": "standingVisionTorch",
 				"slides": [
-					{"imagePath": "planets/assets/slide reels/nh.png"},
-					{"imagePath": "planets/assets/slide reels/SlateWithAGun.png"},
-					{"imagePath": "planets/assets/slide reels/HearthianFlushed.png"}
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (1).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (2).png",
+						"playTimeDuration": 0.0334,
+						"beatAudio": "planets/assets/joe audio.ogg"
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (3).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (4).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (5).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (6).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (7).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (8).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (9).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (10).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (11).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (12).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (13).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (14).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (15).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (16).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (17).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (18).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (19).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (20).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (21).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (22).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (23).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (24).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (25).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (26).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (27).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (28).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (29).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (30).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (31).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (32).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (33).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (34).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (35).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (36).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (37).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (38).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (39).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (40).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (41).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (42).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (43).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (44).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (45).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (46).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (47).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (48).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (49).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (50).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (51).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (52).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (53).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (54).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (55).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (56).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (57).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (58).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (59).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (60).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (61).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (62).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (63).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (64).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (65).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (66).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (67).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (68).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (69).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (70).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (71).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (72).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (73).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (74).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (75).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (76).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (77).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (78).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (79).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (80).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (81).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (82).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (83).png",
+						"playTimeDuration": 0.0334
+					},
+					{
+						"imagePath": "planets/assets/slide reels/John/joe (84).png",
+						"playTimeDuration": 0.0334
+					}
 				],
 				"reveals": ["EXAMPLES_VISION"],
 				"playWithShipLogFacts": ["EXAMPLES_VISION"]
@@ -549,12 +1006,32 @@
 		"spriteFolder": "planets/assets/shiplogs/sprites"
     },
 	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 50,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"rename": "EXAMPLES_ARTIFICIAL_GRAVITY",
+				"reveals": ["EXAMPLES_ARTIFICIAL_GRAVITY"],
+				"parentPath": "Sector_TH/ArtificialGravity",
+				"isRelativeToParent": true
+			}
+		],
 		"creditsVolume": [
 			{
-				"creditsType": "kazoo",
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},
 				"radius": 1,
-				"gameOverText": "Ernesto beat you to death with a rock.",
+				"gameOver": {
+					"text": "Ernesto beat you to death with a rock.",
+					"colour": {
+						"R": 255,
+						"G": 255,
+						"B": 255,
+						"A": 255
+					},
+					"condition": "EXAMPLES_INSULT",
+					"creditsType": "none"
+				},
 				"deathType": "crushedByElevator"
 			}
 		]

@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Quantum Planet",
+    "starSystem": "xen.NewHorizonsExamples",
+	"isQuantumState": true,
+	"Base" : 
+	{
+		"surfaceGravity" : 10,
+		"surfaceSize" : 200,
+        "ambientLight": 1,
+		"hasMapMarker" : true
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 28000,
+		"primaryBody" : "Sequestered Luminary",
+		"trueAnomaly": 270
+	},
+	"Sand" :
+	{
+		"size": 200
+	},
+	"Props": {
+		"dreamArrivalPoints": [
+			{
+				"id": "CampLinkQ",
+				"position": {
+					"x": -151.1451,
+					"y": 14.4967,
+					"z": 130.173
+				},
+				"rotation": {
+					"x": 6.379611,
+					"y": 221.2021,
+					"z": 274.1826
+				},
+				"generateSimulationMeshes": true
+			}
+		],
+		"signals": [
+			{
+				"audio": "OW_QuantumSignal",
+				"frequency": "Quantum",
+				"detectionRadius": 400,
+				"identificationRadius": 250,
+				"sourceRadius": 200,
+				"name": "Quantum Planet"
+			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"playRefillAudio": false,
+				"radius": 250
+			}
+		]
+	}
+}

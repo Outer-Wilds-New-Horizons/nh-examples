@@ -4,11 +4,11 @@
     <Name>WAITING_FOR_OTHERS</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>It's me, definitely Slate and not a dreamstalker in disguise.</Page>
+      <Page>It's me, definitely Slate and not a Dreamstalker in disguise.</Page>
     </Dialogue>
     <DialogueOptionsList>
         <DialogueOption>
-            <Text>You're going to join in, right?</Text>
+            <Text>Hi Slate and not a Dreamstalker in disguise. You're going to join in, right?</Text>
             <DialogueTarget>PARTICIPATING</DialogueTarget>
         </DialogueOption>
         <DialogueOption>
@@ -20,7 +20,7 @@
     <Name>ANY_GATHERED</Name>
     <EntryCondition>AnyTravelersGathered</EntryCondition>
     <Dialogue>
-      <Page>You still have other travelers to gather.</Page>
+      <Page>We can't start yet. You still have other travelers to gather.</Page>
     </Dialogue>
     <DialogueOptionsList>
         <DialogueOption>
@@ -35,7 +35,7 @@
   <DialogueNode>
     <Name>PARTICIPATING</Name>
     <Dialogue>
-        <Page>Sure.</Page>
+        <Page>Sure, why else would I be here!</Page>
     </Dialogue>
     <SetCondition>EyeSlateParticipating</SetCondition>
   </DialogueNode>
@@ -43,7 +43,7 @@
     <Name>READY_TO_PLAY</Name>
     <EntryCondition>AllTravelersGathered</EntryCondition>
     <Dialogue>
-      <Page>We're all here. Time to start the music.</Page>
+      <Page>We're all here. Time to start the music. Should I start?</Page>
     </Dialogue>
     <DialogueOptionsList>
       <DialogueOption>
@@ -74,6 +74,8 @@
     <EntryCondition>JamSessionIsOver</EntryCondition>
     <Dialogue>
       <Page>It's rewind time.</Page>
+      <Page>...</Page>
+      <Page>I'm sorry I said that.</Page>
     </Dialogue>
   </DialogueNode>
 </DialogueTree>

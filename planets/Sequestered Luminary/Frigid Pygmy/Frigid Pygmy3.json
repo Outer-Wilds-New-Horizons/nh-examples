@@ -1,0 +1,1104 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Frigid Pygmy",
+	"starSystem": "xen.NewHorizonsExamples",
+	"isQuantumState": true,
+	"Base": {
+		"surfaceGravity": 18,
+		"surfaceSize": 100
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Atmosphere": {
+		"size": 150,
+		"fogTint": {
+			"r": 255,
+			"g": 255,
+			"b": 255,
+			"a": 255
+		},
+		"fogDensity": 1,
+		"fogSize": 120,
+		"hasOxygen": true,
+		"hasTrees": false,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 65,
+			"g": 140,
+			"b": 140,
+			"a": 255
+		},
+		"clouds": {
+			"outerCloudRadius": 140,
+			"innerCloudRadius": 120,
+			"texturePath": "planets/assets/clouds/ringed_jewel.png",
+			"capPath": "planets/assets/clouds/ringed_jewel_cap.png",
+			"tint": {
+				"r": 181,
+				"g": 181,
+				"b": 230,
+				"a": 255
+			},
+			"fluidType": "plasma",
+			"hasLightning": true
+		}
+	},
+	"Orbit": {
+		"semiMajorAxis": 2400,
+		"primaryBody": "Daunting Confidant",
+		"isMoon": true,
+		"siderealPeriod": 6,
+		"trueAnomaly": 180,
+		"axialTilt": 180,
+		"inclination": 180
+	},
+	"AmbientLights": [
+		{
+			"outerRadius": 120,
+			"innerRadius": 100,
+			"intensity": 0.6,
+			"tint": {
+				"r": 100,
+				"g": 100,
+				"b": 100,
+				"a": 255
+			}
+		}
+	],
+	"HeightMap": {
+		"heightMap": "planets/assets/terrain/frigid_pygmy_heightmap.png",
+		"textureMap": "planets/assets/terrain/frigid_pygmy_texturemap.png",
+		"minHeight": 98,
+		"maxHeight": 100,
+		"smoothness": 0.5,
+		"smoothnessMap": "planets/assets/terrain/frigid_pygmy_smoothnessmap.png",
+		"normalStrength": 0.5,
+		"normalMap": "planets/assets/terrain/frigid_pygmy_normalmap.png",
+		"tileBlendMap": "planets/assets/terrain/frigid_pygmy_blendmap.png",
+		"redTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/Ash_d.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Ash_s.png",
+			"normalTile": "planets/assets/terrain/tiles/Ash_n.png",
+			"normalStrength": 1
+		},
+		"greenTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/DirtShale_d.png",
+			"normalTile": "planets/assets/terrain/tiles/DirtShale_n.png",
+			"normalStrength": 2
+		},
+		"blueTile": {
+			"size": 10,
+			"textureTile": "planets/assets/terrain/tiles/Snow_d_mir.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Snow_s_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/Snow_n_mir.png",
+			"normalStrength": 1
+		}
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"position": {
+					"x": -8.564104,
+					"y": 97.18401,
+					"z": 18.41574
+				},
+				"startWithSuit": true,
+				"isDefault": true,
+				"alignRadial": true
+			},
+			{
+				"position": {
+					"x": -12.18447,
+					"y": 18.77191,
+					"z": 95.80204
+				},
+				"startWithSuit": true,
+				"makeDefaultIfPersistentCondition": "NH_EXAMPLES_OTHER_SPAWN",
+				"alignRadial": true
+			}
+		],
+		"shipSpawnPoints": [
+			{
+				"position": {
+					"x": 17.5113,
+					"y": 97.54752,
+					"z": 8.509671
+				},
+				"alignRadial": true
+			},
+			{
+				"position": {
+					"x": -33.96926,
+					"y": 27.65399,
+					"z": 88.07869
+				},
+				"makeDefaultIfPersistentCondition": "NH_EXAMPLES_OTHER_SPAWN",
+				"alignRadial": true
+			}
+		]
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "SlideReelPrefabExamples",
+				"position": {
+					"x": -7.364246,
+					"y": 92.39944,
+					"z": 33.4837
+				},
+				"rotation": {
+					"x": 339.3453,
+					"y": 147.6249,
+					"z": 7.897686
+				}
+			},
+			{
+				"rename": "SlideProjectorRing",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring",
+				"parentPath": "Sector-5/SlideReelPrefabExamples",
+				"rotation": {
+					"x": 21.0,
+					"y": 348.6,
+					"z": 359.0
+				},
+				"position": {
+					"x": -4.077401,
+					"y": 95.0825,
+					"z": 34.1887054
+				},
+				"keepLoaded": true
+			},
+			{
+				"rename": "SimpleLanternItem",
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5",
+				"parentPath": "Sector-5/SlideReelPrefabExamples",
+				"position": {
+					"x": -8.4536,
+					"y": 92.2193,
+					"z": 33.7267
+				},
+				"rotation": {
+					"x": 15.5051,
+					"y": 35.8677,
+					"z": 15.8766
+				},
+				"keepLoaded": true
+			},
+			{
+				"rename": "Stairs",
+				"parentPath": "Sector-5/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem",
+				"scale": 1.25,
+				"rotation": {
+					"x": 19.4001,
+					"y": 349.5469,
+					"z": 359.6704
+				},
+				"position": {
+					"x": -3.1384,
+					"y": 91.8084,
+					"z": 28.459
+				}
+			},
+			{
+				"rename": "Stairs_Solid_Middle",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District4/Geometry_HangingCity_District4/OtherComponentsGroup/Prefab_NOM_Stairs_Solid_Middle",
+				"parentPath": "Sector-5/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem/Stairs",
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Stairs_Solid_L_COL",
+				"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_3/Core_CannonPath_3/Geometry_Core_CannonPath_3/Architecture_CannonPath_3/OtherComponentsGroup/Prefab_NOM_Stairs_Solid_L",
+				"parentPath": "Sector-5/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem/Stairs",
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Stairs_Solid_R_COL",
+				"path": "BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_3/Core_CannonPath_3/Geometry_Core_CannonPath_3/Architecture_CannonPath_3/OtherComponentsGroup/Prefab_NOM_Stairs_Solid_R",
+				"parentPath": "Sector-5/SlideReelPrefabExamples/SlideProjectorRing/Props_IP_SlideProjectorTotem/Stairs",
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "TheaterScreenBacking",
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/Props_Grove/Cube",
+				"parentPath": "Sector-5/SlideReelPrefabExamples/SlideProjectorRing/ProjectionPivot/BuildingKitPivot",
+				"stretch": {
+					"x": 10.5,
+					"y": 10.5,
+					"z": 1
+				},
+				"rotation": {
+					"x": 339,
+					"y": 168.6001,
+					"z": 1
+				},
+				"position": {
+					"x": -6.0482,
+					"y": 92.234,
+					"z": 44.0411
+				}
+			},
+			{
+				"rename": "CampfireForBurningReels",
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"parentPath": "Sector-5/SlideReelPrefabExamples",
+				"rotation": {
+					"x": 344.0258,
+					"y": 185.318329,
+					"z": 349.991821
+				},
+				"position": {
+					"x": -9.915058,
+					"y": 93.64475,
+					"z": 29.20017
+				}
+			},
+			{
+				"rename": "Bob",
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM",
+				"position": {
+					"x": -17.70835,
+					"y": 10.56756,
+					"z": 96.19407
+				},
+				"rotation": {
+					"x": 276.0514,
+					"y": 181.5417,
+					"z": 348.3951
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Ghosts_DreamZone_1/GhostNodeMap_Forest/Prefab_IP_GhostBird_EnkiTwo/Ghostbird_IP_ANIM",
+				"rename": "Geb",
+				"position": {
+					"x": -13.00789,
+					"y": 94.75275,
+					"z": 24.02298
+				},
+				"rotation": {
+					"x": 344.537,
+					"y": 119.0557,
+					"z": 8.157801
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
+				"position": {
+					"x": -1.27108,
+					"y": 97.43928,
+					"z": 19.01327
+				},
+				"rotation": {
+					"x": 348.4935,
+					"y": 184.8616,
+					"z": 358.867
+				}
+			},
+			{
+				"rename": "Shard",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
+				"removeComponents": true,
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"scale": 1.7,
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"removeChildren": [ "Signal_Quantum", "VisibilityTracker", "Rock_TH_Observatory_QRock/Collider_TH_Observatory_QRock" ],
+				"parentPath": "Sector-5/QuantumShardRoot"
+			},
+			{
+				"rename": "BetterVisibilityTracker",
+				"path": "QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+				"parentPath": "Sector-5/QuantumShardRoot/Shard",
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"scale": 0.5
+			},
+			{
+				"rename": "Base",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
+				"parentPath": "Sector-5/QuantumShardRoot/Shard",
+				"position": {
+					"x": -0.0557,
+					"y": -0.4886,
+					"z": -0.3576
+				},
+				"rotation": {
+					"x": 347.2702,
+					"y": 218.5882,
+					"z": 357.354
+				},
+				"stretch": {
+					"x": 0.7,
+					"y": 0.8,
+					"z": 0.8
+				},
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "ColliderTop",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"parentPath": "Sector-5/QuantumShardRoot/Shard",
+				"position": {
+					"x": -0.0641,
+					"y": 0.4107,
+					"z": 0.0061
+				},
+				"rotation": {
+					"x": 1.6257,
+					"y": 301.7532,
+					"z": 0.4284
+				},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"stretch": {
+					"x": 0.4,
+					"y": 0.7,
+					"z": 0.5
+				}
+			},
+			{
+				"rename": "ColliderMid",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"parentPath": "Sector-5/QuantumShardRoot/Shard",
+				"position": {
+					"x": -0.0151,
+					"y": -0.1893,
+					"z": 0.0279
+				},
+				"rotation": {
+					"x": 359.5255,
+					"y": 245.0298,
+					"z": 357.7007
+				},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"stretch": {
+					"x": 0.5,
+					"y": 0.8,
+					"z": 0.3
+				}
+			},
+			{
+				"rename": "ColliderBase",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"parentPath": "Sector-5/QuantumShardRoot/Shard",
+				"position": {
+					"x": -0.0567,
+					"y": -0.5421,
+					"z": -0.3031
+				},
+				"rotation": {
+					"x": 359.4102,
+					"y": 15.4367,
+					"z": 358.1976
+				},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"stretch": {
+					"x": 0.7,
+					"y": 0.2,
+					"z": 0.7
+				}
+			}
+		],
+		"slideShows": [
+			{
+				"parentPath": "Sector-5/SlideReelPrefabExamples",
+				"position": {
+					"x": -12.4198,
+					"y": 91.9596,
+					"z": 33.35
+				},
+				"rotation": {
+					"x": 352.3192,
+					"y": 230.0394,
+					"z": 341.2417
+				},
+				"type": "slideReel",
+				"reelModel": "sixSlides",
+				"reelCondition": "rusted",
+				"reveals": [
+					"EXAMPLES_REEL"
+				],
+				"playWithShipLogFacts": [
+					"EXAMPLES_REEL"
+				],
+				"slides": [
+					{
+						"imagePath": "planets/assets/slides/atlas/1.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/2.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/3.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/4.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/5.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/6.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/7.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/8.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/9.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/10.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/11.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/12.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/13.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/14.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/15.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/16.png",
+						"rotate": false
+					}
+				]
+			},
+			{
+				"parentPath": "Sector-5/SlideReelPrefabExamples",
+				"position": {
+					"x": -11.5118,
+					"y": 91.9585,
+					"z": 33.6239
+				},
+				"rotation": {
+					"x": 353.9409,
+					"y": 239.3087,
+					"z": 337.9321
+				},
+				"type": "slideReel",
+				"reelModel": "sevenSlides",
+				"reelCondition": "pristine",
+				"reveals": [
+					"EXAMPLES_REEL"
+				],
+				"playWithShipLogFacts": [
+					"EXAMPLES_REEL"
+				],
+				"slides": [
+					{
+						"imagePath": "planets/assets/slides/atlas/1.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/2.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/3.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/4.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/5.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/6.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/7.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/8.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/9.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/10.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/11.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/12.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/13.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/14.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/15.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/16.png",
+						"rotate": false
+					}
+				]
+			},
+			{
+				"parentPath": "Sector-5/SlideReelPrefabExamples",
+				"position": {
+					"x": -10.6049,
+					"y": 92.0552,
+					"z": 33.6463
+				},
+				"rotation": {
+					"x": 353.7823,
+					"y": 238.9148,
+					"z": 337.9742
+				},
+				"type": "slideReel",
+				"reelModel": "whole",
+				"reelCondition": "antique",
+				"reveals": [
+					"EXAMPLES_REEL"
+				],
+				"playWithShipLogFacts": [
+					"EXAMPLES_REEL"
+				],
+				"slides": [
+					{
+						"imagePath": "planets/assets/slides/atlas/1.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/2.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/3.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/4.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/5.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/6.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/7.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/8.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/9.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/10.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/11.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/12.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/13.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/14.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/15.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/16.png",
+						"rotate": false
+					}
+				]
+			},
+			{
+				"parentPath": "Sector-5/SlideReelPrefabExamples",
+				"position": {
+					"x": -9.7993,
+					"y": 92.1407,
+					"z": 33.6651
+				},
+				"rotation": {
+					"x": 356.7067,
+					"y": 250.9262,
+					"z": 338.1839
+				},
+				"type": "slideReel",
+				"reelModel": "eightSlides",
+				"reelCondition": "antique",
+				"reveals": [
+					"EXAMPLES_REEL"
+				],
+				"playWithShipLogFacts": [
+					"EXAMPLES_REEL"
+				],
+				"slides": [
+					{
+						"imagePath": "planets/assets/slides/atlas/1.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/2.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/3.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/4.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/5.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/6.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/7.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/8.png"
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/9.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/10.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/11.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/12.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/13.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/14.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/15.png",
+						"rotate": false
+					},
+					{
+						"imagePath": "planets/assets/slides/atlas/16.png",
+						"rotate": false
+					}
+				]
+			}
+		],
+		"signals": [
+			{
+				"frequency": "WarpCore",
+				"name": "Dauntless Confidant Transmitter",
+				"audio": "OW_NM_WhiteHoleAmbienceL",
+				"sourceRadius": 0.5,
+				"position": {
+					"x": 22.42838,
+					"y": -4.804573,
+					"z": 97.18248
+				}
+			},
+			{
+				"frequency": "WarpCore",
+				"name": "Frigid Pygmy Transmitter",
+				"audio": "OW_NM_WhiteHoleAmbienceL",
+				"sourceRadius": 0.5,
+				"position": {
+					"x": 10.18783,
+					"y": 96.69212,
+					"z": 22.51841
+				}
+			},
+			{
+				"rename": "QuantumSignal",
+				"frequency": "Quantum",
+				"name": "Frigid Pygmy Shard",
+				"audio": "QuantumAmbience_LP",
+				"sourceRadius": 0.8,
+				"identificationRadius": 10,
+				"detectionRadius": 59.7,
+				"parentPath": "Sector-5/QuantumShardRoot/Shard",
+				"position": {
+					"x": 0.02,
+					"y": 0.288,
+					"z": 0.018
+				},
+				"isRelativeToParent": true
+			}
+		],
+		"audioSources": [
+			{
+				"position": {
+					"x": 1.983314,
+					"y": 96.40941,
+					"z": 25.28014
+				},
+				"audio": "ow_kazoo_theme"
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 0,
+					"y": 3,
+					"z": 0
+				},
+				"range": 4,
+				"isRelativeToParent": true,
+				"xmlFile": "planets/Sequestered Luminary/Frigid Pygmy/GhostbirdDialogue.xml",
+				"pathToAnimController": "Sector-5/Bob"
+			},
+			{
+				"xmlFile": "planets/Sequestered Luminary/Frigid Pygmy/Geb2.xml",
+				"parentPath": "Sector-5/Geb",
+				"isRelativeToParent": true,
+				"radius": 1.5,
+				"position": {
+					"y": 2
+				},
+				"pathToAnimController": "Sector-5/Geb",
+				"attentionPoint": {
+					"isRelativeToParent": true,
+					"offset": {
+						"x": 0,
+						"y": 1.5,
+						"z": 0
+					}
+				}
+			}
+		],
+		"dreamCampfires": [
+			{
+				"id": "CampLinkQ",
+				"position": {
+					"x": -3.804941,
+					"y": 97.07468,
+					"z": 20.45352
+				},
+				"rotation": {
+					"x": 348.3116,
+					"y": 171.9813,
+					"z": 0.01027958
+				}
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "EXAMPLES_OTHER_SYSTEM",
+				"position": {
+					"x": -10.6049,
+					"y": 92.0552,
+					"z": 33.6463
+				},
+				"cloaked": false
+			},
+			{
+				"id": "EXAMPLES_2",
+				"cloaked": false
+			}
+		],
+		"socketQuantumGroups": [
+			{
+				"rename": "PygmyShardSockets",
+				"details": [
+					{
+						"rename": "QuantumShardRoot",
+						"isRelativeToParent": true
+					}
+				],
+				"sockets": [
+					{
+						"position": {
+							"x": -32.71805,
+							"y": 85.54369,
+							"z": 36.19691
+						},
+						"rotation": {
+							"x": 4.827964,
+							"y": 235.1626,
+							"z": 328.9396
+						},
+						"probability": 1
+					},
+					{
+						"position": {
+							"x": 7.538975,
+							"y": 87.68747,
+							"z": 43.95703
+						},
+						"rotation": {
+							"x": 351.9866,
+							"y": 262.6315,
+							"z": 333.8677
+						},
+						"probability": 1
+					},
+					{
+						"position": {
+							"x": -7.727432,
+							"y": 98.79259,
+							"z": 6.023658
+						},
+						"rotation": {
+							"x": 4.658319,
+							"y": 266.9055,
+							"z": 356.5509
+						},
+						"probability": 1
+					},
+					{
+						"position": {
+							"x": 13.09055,
+							"y": -1.795159,
+							"z": 97.47773
+						},
+						"rotation": {
+							"x": 291.1833,
+							"y": 93.72022,
+							"z": 94.87845
+						},
+						"probability": 5
+					}
+				]
+			},
+			{
+				"rename": "Shuffle",
+				"sockets": [
+					{
+						"position": {
+							"x": 9.101795,
+							"y": 91.72594,
+							"z": 34.61857
+						}
+						//"rotation": {"x": 343.0854, "y": 150.1757, "z": 14.16059}
+					},
+					{
+						"position": {
+							"x": 10.38917,
+							"y": 91.50874,
+							"z": 34.83393
+						}
+						//"rotation": {"x": 339.5127, "y": 172.38, "z": 10.03634}	
+					},
+					{
+						"position": {
+							"x": 11.82384,
+							"y": 91.37481,
+							"z": 34.68539
+						},
+						"rotation": {
+							"x": 338.1136,
+							"y": 195.9972,
+							"z": 0.7251983
+						}
+					},
+					{
+						"position": {
+							"x": 13.30961,
+							"y": 91.40807,
+							"z": 34.07758
+						},
+						"rotation": {
+							"x": 339.0766,
+							"y": 222.5181,
+							"z": 352.0677
+						}
+					}
+				],
+				"details": [
+					{
+						"rename": "Quantum1",
+						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+						"keepLoaded": true,
+						"alignWithGravity": false
+					},
+					{
+						"rename": "Quantum2",
+						"path": "BrittleHollow_Body/Sector_BH/Sector Quantum Pole Path/Fragment QuantumPolePath 2/Interactables_QPP2/Prefab_NOM_GravityCrystal_Cracked",
+						"keepLoaded": true
+					},
+					{
+						"rename": "Quantum3",
+						"path": "Comet_Body/Sector_CO/Sector_CometInterior/Props_CometInterior/Prefab_NOM_Box",
+						"keepLoaded": true,
+						"alignWithGravity": false
+					},
+					{
+						"rename": "Quantum4",
+						"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Props_GravityCannon/OtherComponentsGroup/Prefab_NOM_SmallBowl",
+						"keepLoaded": true
+					}
+				]
+			}
+		],
+		"lightningQuantumGroups": [
+			{
+				"rename": "Lightning",
+				"position": {
+					"x": 35.43359,
+					"y": 85.86271,
+					"z": 32.91581
+				},
+				"rotation": {
+					"x": 331.0478,
+					"y": 221.3728,
+					"z": 1.339349
+				},
+				"details": [
+					{
+						"rename": "QuantumLightningTree",
+						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+						"keepLoaded": true
+					},
+					{
+						"rename": "QuantumLightningRock",
+						"path": "QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/EYEState_QuantumObjects/EYE_Q_Arch_B/EYE_Q_ArchB/Rocks_EYE_Arch_B",
+						"keepLoaded": true
+					}
+				]
+			}
+		]
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"position": {
+					"x": -0.05411148,
+					"y": 143.1096,
+					"z": -63.89166
+				},
+				"radius": 50
+			}
+		],
+		"dayNightAudioVolumes": [
+			{
+				"radius": 160,
+				"dayAudio": "OW New Raft Music 082321_4 AP theme",
+				"nightAudio": "Dreamworld Base Ambience 1",
+				"sun": "Sequestered Luminary",
+				"volume": 0.4
+			}
+		],
+		"creditsVolume": [
+			{
+				"gameOver": {
+					"condition": "NHExamples_Chiro",
+					"colour": {
+						"r": 255,
+						"g": 0,
+						"b": 0,
+						"a": 255
+					},
+					"text": "YOU GOT A FREE CHIROPRACTOR APPOINTMENT",
+					"creditsType": "kazoo"
+				},
+				"radius": 4,
+				"parentPath": "Sector-5/Geb",
+				"isRelativeToParent": true,
+				"deathType": "crushedByElevator"
+			}
+		]
+	},
+	"ParticleFields": [
+		{
+			"type": "snowflakesLight",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 0
+				},
+				{
+					"density": 50,
+					"height": 98
+				},
+				{
+					"density": 50,
+					"height": 120
+				},
+				{
+					"density": 0,
+					"height": 150
+				}
+			],
+			"rename": "Effects_FP_SnowflakesLight"
+		}
+	],
+	"Bramble": {
+		"nodes": [
+			{
+				"position": {
+					"x": 12.43463,
+					"y": 25.83496,
+					"z": 94.07639
+				},
+				"rotation": {
+					"x": 40.56275,
+					"y": 290.3204,
+					"z": 289.4009
+				},
+				"linksTo": "DeepDimension",
+				"isSeed": true,
+				"fogTint": {
+					"r": 83,
+					"g": 129,
+					"b": 255,
+					"a": 255
+				},
+				"lightTint": {
+					"r": 83,
+					"g": 129,
+					"b": 255,
+					"a": 255
+				}
+			}
+		]
+	}
+}

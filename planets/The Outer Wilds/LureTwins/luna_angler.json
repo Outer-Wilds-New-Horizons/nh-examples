@@ -64,6 +64,7 @@
 		"details": [
 			{
 				"path" : "Anglerfish_Body/Beast_Anglerfish",
+				"rename": "Beast_Anglerfish",
 				"position" : {"x":0,"y":95,"z": -50},
 				"rotation" : {"x":90, "y":0, "z":0},
 				"scale":0.75,
@@ -74,6 +75,7 @@
 			},
 			{
 				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"rename": "Beast_Anglerfish_Collision",
 				"parentPath": "Sector/Beast_Anglerfish",
 				"isRelativeToParent": true,
 				"scale":0.75
@@ -92,6 +94,7 @@
 		"proxyDetails": [
 			{
 				"path" : "Anglerfish_Body/Beast_Anglerfish",
+				"rename": "Beast_Anglerfish",
 				"position" : {"x":0,"y":95,"z": -50},
 				"rotation" : {"x":90, "y":0, "z":0},
 				"scale":0.75,

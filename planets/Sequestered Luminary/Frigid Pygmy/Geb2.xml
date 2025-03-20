@@ -1,0 +1,40 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Geb</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello.</Page>
+			<Page>There used to be filthy Nomai tech here...</Page>
+			<Page>...but I managed to delete it from this probability!</Page>
+			<Page>You gotta admit, our technology is better anyway. Don't you say?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yes</Text>
+				<DialogueTarget>OWLK</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No</Text>
+				<DialogueTarget>NOMAI</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>OWLK</Name>
+		<Dialogue>
+			<Page>I'm glad you agree.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>NOMAI</Name>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+		<SetCondition>NHExamples_Chiro</SetCondition>
+	</DialogueNode>
+</DialogueTree>
