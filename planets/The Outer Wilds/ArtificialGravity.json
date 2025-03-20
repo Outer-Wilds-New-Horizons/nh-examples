@@ -2,7 +2,10 @@
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Artificial Gravity",
 	"Base": {
-		"surfaceSize": 50
+		"surfaceSize": 50,
+		"soiOverride": 80,
+		"hideProxy": true,
+		"showMinimap": false
 	},
 	"Orbit": {
 		"primaryBody": "Timber Hearth",
