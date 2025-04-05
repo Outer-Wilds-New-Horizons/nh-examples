@@ -1,0 +1,48 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Planet of Death",
+    "Base":
+    {
+        "surfaceGravity": 200,
+        "surfaceSize": 350,
+        "groundSize": 100,
+        "hasMapMarker": true
+    },
+    "Orbit":{
+        "primaryBody": "Sun",
+        "semiMajorAxis": 35000
+    },
+    "Atmosphere": {
+        "size": 600,
+        "useAtmosphereShader": true,
+        "atmosphereTint": {
+            "r": 35,
+            "g": 5,
+            "b": 5
+        },
+        "atmosphereSunIntensity": 0.5,
+        "hasOxygen": true,
+        "clouds": {
+            "texturePath": "planets/assets/clouds/death_planet.png",
+            "hasLightning": true,
+            "innerCloudRadius": 10,
+            "outerCloudRadius": 600
+        }
+    },
+    "Volumes": {
+        "creditsVolume": [
+            {
+                "deathType": "crushedByElevator",
+                "radius": 105,
+                "gameOver": {
+                    "creditsType": "custom",
+                    "text": "You were eaten by the Planet of Death.\nIf only someone had warned you...",
+                    "audio": "planets/assets/CreditsFASTLoop.ogg",
+                    "audioVolume": 0.75,
+                    "audioLooping": true,
+                    "length": "25"
+                }
+            }
+        ]
+    }
+}
