@@ -33,6 +33,15 @@
             },
             "condition": "EXAMPLES_GHOST_BIRD_DIED",
             "creditsType": "none"
+        },
+        {
+            "condition": "EXAMPLES_SHOW_CUSTOM_CREDITS",
+            "creditsType": "custom",
+            "text": "Time for custom credits music!",
+            "audio": "OW New Raft Music 082321_4 AP theme",
+            "audioVolume": 0.75,
+            "audioLooping": true,
+            "length": "120"
         }
     ]
 }
