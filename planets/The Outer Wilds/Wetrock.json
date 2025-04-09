@@ -100,7 +100,8 @@
 			},
 			{
 				"dockPath": "Sector/FullDock",
-				"rename": "DockedRaft_Body",
+				"pristine": true,
+				"rename": "DockedCleanRaft_Body",
 				"acceleration": 15
 			}
 		],
