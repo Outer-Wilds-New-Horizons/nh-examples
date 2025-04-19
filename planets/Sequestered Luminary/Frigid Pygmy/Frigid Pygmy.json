@@ -339,6 +339,27 @@
 				"position": {"x": 0, "y": -150, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 270},
 				"scale": 10
+			},
+			{
+				"rename": "BrokenDoorExample",
+				"position": {"x": -54.10744, "y": 13.41949, "z": 80.99606},
+				"rotation": {"x": 310.6865, "y": 64.0166, "z": 78.45911}
+			},
+			{
+				"rename": "BrokenDoor_Damaged",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Tower_SS_VisibleFrom_TowerTwin/Doors/Prefab_NOM_RotatingDoor_Broken",
+				"parentPath": "Sector/BrokenDoorExample",
+				"isRelativeToParent": true,
+				"deactivationCondition": "BROKEN_DOOR_REPAIRED",
+				"blinkWhenActiveChanged": false
+			},
+			{
+				"rename": "BrokenDoor_Repaired",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
+				"parentPath": "Sector/BrokenDoorExample",
+				"isRelativeToParent": true,
+				"activationCondition": "BROKEN_DOOR_REPAIRED",
+				"blinkWhenActiveChanged": false
 			}
 		],
 		"slideShows": [
@@ -1085,7 +1106,25 @@
 					"rotation": { "x": 180, "y": 0, "z": 0 }
 				}
 			]
-		}
+		},
+		"repairVolumes": [
+			{
+				"rename": "BrokenDoorRepairVolume",
+				"name": "Broken Door Mechanism",
+				"shape": {
+					"type": "capsule",
+					"direction": "y",
+					"height": 5,
+					"radius": 2
+				},
+				"repairFraction": 0.23,
+				"repairTime": 2.5,
+				"repairDistance": 5,
+				"repairedCondition": "BROKEN_DOOR_REPAIRED",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/BrokenDoorExample"
+			}
+		]
 	},
 	"ParticleFields": [
 		{
