@@ -6,7 +6,8 @@
 		[
 			{
 				"dockPath": "Sector_RingInterior/Sector_Zone1/Structures_Zone1/RaftHouse_DFH_Zone1/Interactables_RaftHouse_DFH_Zone1/Prefab_IP_RaftDock",
-				"rename": "DockedRaft_Body"
+				"rename": "DockedRaft_Body",
+				"acceleration": 20
 			}
 		]
 	}
