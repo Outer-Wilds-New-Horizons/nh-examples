@@ -4,10 +4,11 @@
 	"Props": {
 		"slideShows": [
             {
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {
-                    "x": 94,
-                    "y": 2,
-                    "z": -815
+                    "x": -8.6272,
+                    "y": -290.8658,
+                    "z": 528.0372
                 },
                 "rotation": {
                     "x": 0,
