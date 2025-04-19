@@ -329,6 +329,16 @@
 				"keepLoaded": true,
 				"isRelativeToParent": true,
 				"stretch": {"x":0.7,"y":0.2,"z":0.7}
+			},
+			{
+				"rename": "ThunderdomeStructure",
+                "path": "WhiteholeStation_Body/Sector_WhiteholeStation/Interactibles_WhiteholeStation/Prefab_NOM_Airlock",
+                "removeChildren": [
+                    "Structure_NOM_Airlock_new/Airlcok_MidSphere/Structure_NOM_Airlock_Switch/Slots/NomaiInterfaceOrb_Body"
+                ],
+				"position": {"x": 0, "y": -150, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 270},
+				"scale": 10
 			}
 		],
 		"slideShows": [
@@ -745,6 +755,12 @@
 					"y": 89.88747,
 					"z": 0.2021536
 				}
+			},
+			{
+				"type": "trailmarker",
+				"xmlFile": "planets/Sequestered Luminary/Frigid Pygmy/Thunderdome.xml",
+				"position": {"x": -5.146111, "y": -99.00531, "z": -3.207613},
+				"alignRadial": true
 			}
 		],
 		"signals": [
@@ -1039,7 +1055,37 @@
 				"sun": "Sequestered Luminary",
 				"volume": 0.4
 			}
-		]
+		],
+		"forces": {
+			"radialVolumes": [
+				{
+					"rename": "ThunderdomeInnerGravity",
+					"force": 5,
+					"shape": {
+						"type": "sphere",
+						"radius": 40
+					},
+					"fallOff": "constant",
+					"position": {"x": 0, "y": -150, "z": 0}
+				}
+			],
+			"directionalVolumes": [
+				{
+					"rename": "ThunderdomeEntranceLift",
+					"priority": 2,
+					"force": 8,
+					"affectsAlignment": false,
+					"playGravityCrystalAudio": true,
+					"shape": {
+						"type": "cylinder",
+						"radius": 8,
+						"height": 25
+					},
+					"position": { "x": 0, "y": -110, "z": 0 },
+					"rotation": { "x": 180, "y": 0, "z": 0 }
+				}
+			]
+		}
 	},
 	"ParticleFields": [
 		{
