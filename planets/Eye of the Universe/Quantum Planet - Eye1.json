@@ -8,21 +8,14 @@
 		"surfaceGravity" : 10,
 		"surfaceSize" : 200,
 		"ambientLight": 1,
-		"hasMapMarker" : true
+		"hasMapMarker" : true,
+		"groundSize": 200
 	},
 	"Orbit" :
 	{
 		"semiMajorAxis" : 10000,
 		"primaryBody" : "Eye",
-		"trueAnomaly": 180
-	},
-	"Lava" :
-	{
-		"size": 100
-	},
-	"Water" :
-	{
-		"size": 200
+		"trueAnomaly": 90
 	},
 	"Props": {
 		"signals": [
