@@ -1,13 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Quantum Planet",
-    "starSystem": "EyeOfTheUniverse",
+	"starSystem": "EyeOfTheUniverse",
 	"isQuantumState": true,
 	"Base" : 
 	{
 		"surfaceGravity" : 10,
 		"surfaceSize" : 200,
-        "ambientLight": 1,
+		"ambientLight": 1,
 		"hasMapMarker" : true
 	},
 	"Orbit" :
@@ -16,14 +16,14 @@
 		"primaryBody" : "Eye",
 		"trueAnomaly": 90
 	},
-    "ProcGen": {
-        "scale": 200,
-        "color": {
-            "r": 83,
-            "g": 98,
-            "b": 187
-        }
-    },
+	"ProcGen": {
+		"scale": 200,
+		"color": {
+			"r": 83,
+			"g": 98,
+			"b": 187
+		}
+	},
 	"Props": {
 		"signals": [
 			{

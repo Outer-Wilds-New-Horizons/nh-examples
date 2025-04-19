@@ -81,11 +81,6 @@
 				"position" : {"x": 0, "y": 101, "z": 0},
 				"scale" : 0.1,
 				"alignRadial" : true
-			},
-			{
-				"position": { "x": 0, "y": -105, "z": 0},
-				"alignRadial": true,
-				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Structures_Zone1/RaftHouse_ArrivalPatio_Zone1/Interactables_RaftHouse_ArrivalPatio_Zone1/Prefab_IP_RaftDock"
 			}
 		],
 		"dialogue" :
@@ -100,7 +95,26 @@
 		"rafts": 
 		[
 			{
-				"position" : {"x": 100, "y": 0, "z": 0}
+				"position" : {"x": 100, "y": 0, "z": 0},
+				"rename": "FreeFloatingRaft_Body"
+			},
+			{
+				"dockPath": "Sector/FullDock",
+				"pristine": true,
+				"rename": "DockedCleanRaft_Body",
+				"acceleration": 15
+			}
+		],
+		"raftDocks": [
+			{
+				"position": { "x": 0, "y": -105, "z": 0},
+				"alignRadial": true,
+				"rename": "EmptyDock"
+			},
+			{
+				"position": { "x": 0, "y": 0, "z": -105},
+				"alignRadial": true,
+				"rename": "FullDock"
 			}
 		],
 		"tornados":

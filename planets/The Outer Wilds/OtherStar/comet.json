@@ -4,9 +4,7 @@
 	"Base" :
 	{
 		"surfaceGravity" : 6,
-		"surfaceSize" : 100,
-		"hasMapMarker" : true,
-		"hasCometTail" : true
+		"surfaceSize" : 100
 	},
 	"Orbit" :
 	{
@@ -108,5 +106,22 @@
 			],
 			"rename": "Effects_SB_SnowflakesHeavy"
 		}
-	]
+	],
+	"MapMarker": {
+		"enabled": true
+	},
+	"CometTail": {
+		"dustTint": {
+			"r": 255,
+			"g": 0,
+			"b": 0,
+			"a": 255
+		},
+		"gasTint": {
+			"r": 128,
+			"g": 60,
+			"b": 0,
+			"a": 60
+		}
+	}
 }

@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Artificial Gravity",
+	"Base": {
+		"surfaceSize": 50,
+		"soiOverride": 80,
+		"hideProxy": true,
+		"showMinimap": false
+	},
+	"Orbit": {
+		"primaryBody": "Timber Hearth",
+		"semiMajorAxis": 400,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x": 1, "y": 0, "z": 0}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assetbundles/test",
+				"path": "Assets/Prefabs/ArtificialGravity.prefab",
+				"rename": "ArtificialGravity",
+				"scale": 50,
+				"keepLoaded": true
+			},
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 80,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"rename": "EXAMPLES_ARTIFICIAL_GRAVITY",
+				"reveals": [
+					"EXAMPLES_ARTIFICIAL_GRAVITY"
+				],
+				"isRelativeToParent": true
+			}
+		],
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"id": "ArtificialGravity",
+				"position": {"x": 0, "y": -10, "z": 0},
+				"startWithSuit": true,
+				"makeDefaultIfFactRevealed": "EXAMPLES_ARTIFICIAL_GRAVITY"
+			}
+		]
+	}
+}

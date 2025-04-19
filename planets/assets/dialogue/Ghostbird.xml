@@ -22,6 +22,11 @@
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
+				<Text>I want to trigger the credits when I die with custom audio please</Text>
+				<DialogueTarget>credits</DialogueTarget>
+				<ConditionToSet>EXAMPLES_SHOW_CUSTOM_CREDITS</ConditionToSet>
+			</DialogueOption>
+			<DialogueOption>
 				<Text>Die NOW!!!!!</Text>
 				<DialogueTarget>10</DialogueTarget>
 				<ConditionToSet>EXAMPLES_GHOST_BIRD_DIED</ConditionToSet>
@@ -60,6 +65,13 @@
 			<Page>Yeah.</Page>
 		</Dialogue>
 	</DialogueNode>
+
+	<DialogueNode>
+		<Name>credits</Name>
+		<Dialogue>
+			<Page>Consider it done. But maybe if you kill me it'd get overriden I don't know!</Page>
+		</Dialogue>
+	</DialogueNode>
 	
 	<DialogueNode>
 		<Name>3</Name>
@@ -69,6 +81,7 @@
 			<Page>Oh yeah I gave you guys an extra blackhole-whitehole pair, so you're welcome.</Page>
 			<Page><![CDATA[<b>Oh</b>]]> and I threw your planet far from the sun so look out for falling temperatures killing you all in a few months.</Page>
 			<Page>Although you might not be too worried about that now that I think about it.</Page>
+			<Page>Also I think this dialogue is outdated now on this version of New Horizons Examples whoops!</Page>
 		</Dialogue>
 
 		<DialogueOptionsList>
