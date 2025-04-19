@@ -8,5 +8,16 @@
 		"semiMajorAxis" : 8800,
 		"inclination" : 10,
 		"trueAnomaly": 180
+	},
+	"Volumes": {
+		"speedLimiterVolumes": [
+			{
+				"radius": 800,
+				"rename": "SpeedLimiter",
+				"maxSpeed": 10,
+				"stoppingDistance": 100,
+				"maxEntryAngle": 60
+			}
+		]
 	}
 }
