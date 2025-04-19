@@ -40,7 +40,7 @@
                     "audio": "planets/assets/CreditsFASTLoop.ogg",
                     "audioVolume": 0.75,
                     "audioLooping": true,
-                    "length": "25"
+                    "length": 25
                 }
             }
         ]
