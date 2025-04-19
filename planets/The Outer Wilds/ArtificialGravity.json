@@ -5,6 +5,7 @@
 		"surfaceSize": 50,
 		"soiOverride": 80,
 		"hideProxy": true,
+		"hasFluidDetector": false,
 		"showMinimap": false
 	},
 	"Orbit": {
