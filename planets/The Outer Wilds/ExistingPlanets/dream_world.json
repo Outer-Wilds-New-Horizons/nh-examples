@@ -35,6 +35,27 @@
                     { "imagePath": "planets/assets/slides/atlas/15.png", "rotate": false },
                     { "imagePath": "planets/assets/slides/atlas/16.png", "rotate": false }
                 ]
+            },
+            {
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
+                "position": {
+                    "x": -25,
+                    "y": -291,
+                    "z": 530
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                },
+                "type": "standingVisionTorch",
+                "reelCondition": "pristine",
+                "slides": [
+                    { "imagePath": "planets/assets/slide reels/Dream/ChickenJockey.png", "beatAudio": "planets/assets/slide reels/Dream/ChickenJockey.mp3" },
+                    { "imagePath": "planets/assets/slide reels/Dream/RouterMiles.png" },
+                    { "imagePath": "planets/assets/slide reels/Dream/LouderChilds.jpg" },
+                    { "imagePath": "planets/assets/slide reels/Dream/SolanumWithAGun.png" }
+                ]
             }
 		],
         "dreamCampfires": [
