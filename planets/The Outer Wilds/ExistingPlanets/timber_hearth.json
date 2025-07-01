@@ -534,7 +534,12 @@
                     "Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Arkose_GhostMatter"
                 ],
                 "position": {"x": 30.03829, "y": 37.7279, "z": 228.1098},
-				"rotation": {"x": 63.25298, "y": 78.70207, "z": 68.12181}
+				"rotation": {"x": 63.25298, "y": 78.70207, "z": 68.12181},
+				"condition": {
+					"condition": "NH_EXAMPLES_ARKOSE_VANISHED",
+					"onExtinguish": true,
+					"reversible": true
+				}
             }
         ]
 	},
