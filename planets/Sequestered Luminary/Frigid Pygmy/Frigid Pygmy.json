@@ -1124,6 +1124,15 @@
 				"isRelativeToParent": true,
 				"parentPath": "Sector/BrokenDoorExample"
 			}
+		],
+		"conditionTriggerVolumes": [
+			{
+				"rename": "ThunderdomeConditionTrigger",
+				"position": {"x": 0, "y": -150, "z": 0},
+				"radius": 50,
+				"condition": "NH_EXAMPLES_THUNDERDOME_VISITED",
+				"player": true
+			}
 		]
 	},
 	"ParticleFields": [
