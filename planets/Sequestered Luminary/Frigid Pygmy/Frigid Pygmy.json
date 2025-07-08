@@ -360,6 +360,14 @@
 				"isRelativeToParent": true,
 				"activationCondition": "BROKEN_DOOR_REPAIRED",
 				"blinkWhenActiveChanged": false
+			},
+			{
+				"rename": "Bob_Scarer",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_VillageCemetery/Props_VillageCemetery/OtherComponentsGroup/HEA_Backer_Tombstone/Props_HEA_TombStone",
+				"deactivationCondition": "NH_EXAMPLES_BOB_SCARED",
+				"blinkWhenActiveChanged": false,
+				"position": {"x": -24.22235, "y": 12.67696, "z": 94.5578},
+				"rotation": {"x": 340.8828, "y": 254.3237, "z": 276.1493}
 			}
 		],
 		"slideShows": [
@@ -1123,6 +1131,31 @@
 				"repairedCondition": "BROKEN_DOOR_REPAIRED",
 				"isRelativeToParent": true,
 				"parentPath": "Sector/BrokenDoorExample"
+			}
+		],
+		"conditionTriggerVolumes": [
+			{
+				"rename": "ThunderdomeConditionTrigger",
+				"position": {"x": 0, "y": -150, "z": 0},
+				"radius": 50,
+				"condition": "NH_EXAMPLES_THUNDERDOME_VISITED",
+				"player": true
+			}
+		],
+		"interactionVolumes": [
+			{
+				"rename": "BobScareInteractVolume",
+				"prompt": "Scare Bob",
+				"radius": 2,
+				"range": 4,
+				"reusable": true,
+				"condition": "NH_EXAMPLES_BOB_SCARED",
+				"persistent": false,
+				"audio": "DBAnglerfishDetectTarget",
+				"pathToAnimator": "Sector/Bob",
+				"animationTrigger": "Death",
+				"position": {"x": -24.22235, "y": 12.67696, "z": 94.5578},
+				"rotation": {"x": 340.8828, "y": 254.3237, "z": 276.1493}
 			}
 		]
 	},

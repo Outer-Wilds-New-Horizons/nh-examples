@@ -2,7 +2,7 @@
 	<NameField>Bob</NameField>
 
 	<DialogueNode>
-		<Name></Name>
+		<Name>Default</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hey man want to move your spawn point?</Page>
@@ -49,6 +49,21 @@
 		<Dialogue>
 			<Page>Okay, let me know if you change your mind.</Page>
 		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Scared</Name>
+		<EntryCondition>NH_EXAMPLES_BOB_SCARED</EntryCondition>
+		<Dialogue>
+			<Page>Agh, you scared me!</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sorry.</Text>
+				<ConditionToCancel>NH_EXAMPLES_BOB_SCARED</ConditionToCancel>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 
 </DialogueTree>
