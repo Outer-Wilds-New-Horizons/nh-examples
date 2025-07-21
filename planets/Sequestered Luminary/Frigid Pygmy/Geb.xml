@@ -1,9 +1,18 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
 	<NameField>Geb</NameField>
+	
+	<DialogueNode>
+		<Name>NO_THUNDERDOME_VISIT</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Do you get to the Thunderdome very often?</Page>
+			<Page>Oh, what am I saying. Of course you don't.</Page>
+		</Dialogue>
+	</DialogueNode>
 
 	<DialogueNode>
 		<Name>MAIN</Name>
-		<EntryCondition>DEFAULT</EntryCondition>
+		<EntryCondition>NH_EXAMPLES_THUNDERDOME_VISITED</EntryCondition>
 		<Dialogue>
 			<Page>Hello.</Page>
 			<Page>Do you prefer...</Page>

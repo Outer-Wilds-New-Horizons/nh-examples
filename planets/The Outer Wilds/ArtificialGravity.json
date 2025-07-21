@@ -5,6 +5,7 @@
 		"surfaceSize": 50,
 		"soiOverride": 80,
 		"hideProxy": true,
+		"hasFluidDetector": false,
 		"showMinimap": false
 	},
 	"Orbit": {
@@ -20,8 +21,9 @@
 				"path": "Assets/Prefabs/ArtificialGravity.prefab",
 				"rename": "ArtificialGravity",
 				"scale": 50,
-				"keepLoaded": true
-			},
+				"keepLoaded": true,
+				"removeChildren": ["Gravity"]
+			}
 		]
 	},
 	"Volumes": {
@@ -37,6 +39,36 @@
 				"isRelativeToParent": true
 			}
 		],
+		"forces": {
+			"directionalVolumes": [
+				{
+					"rename": "ForceVolume",
+					"affectsAlignment": true,
+					"force": 5,
+					"normal": {
+						"x": 0,
+						"y": -1,
+						"z": 0
+					},
+					"offsetCentripetalForce": false,
+					"playGravityCrystalAudio": true,
+					"alignmentPriority": 0,
+					"inheritable": true,
+					"layer": 0,
+					"priority": 1,
+					"parentPath": "Sector/ArtificialGravity",
+					"isRelativeToParent": true,
+					"position": {"x": 0, "y": 0, "z": 0},
+					"rotation": {"x": 0, "y": 0, "z": 0},
+					"shape": {
+						"type": "box",
+						"useShape": false,
+						"hasCollision": false,
+						"size": {"x": 50, "y": 24.22, "z": 50}
+					}
+				}
+			]
+		}
 	},
 	"ShipLog": {
 		"mapMode": {

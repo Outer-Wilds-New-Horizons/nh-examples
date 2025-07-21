@@ -339,6 +339,35 @@
 				"position": {"x": 0, "y": -150, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 270},
 				"scale": 10
+			},
+			{
+				"rename": "BrokenDoorExample",
+				"position": {"x": -54.10744, "y": 13.41949, "z": 80.99606},
+				"rotation": {"x": 310.6865, "y": 64.0166, "z": 78.45911}
+			},
+			{
+				"rename": "BrokenDoor_Damaged",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Tower_SS_VisibleFrom_TowerTwin/Doors/Prefab_NOM_RotatingDoor_Broken",
+				"parentPath": "Sector/BrokenDoorExample",
+				"isRelativeToParent": true,
+				"deactivationCondition": "BROKEN_DOOR_REPAIRED",
+				"blinkWhenActiveChanged": false
+			},
+			{
+				"rename": "BrokenDoor_Repaired",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Interactables_Tower_TH/Doors/Prefab_NOM_RotatingDoor",
+				"parentPath": "Sector/BrokenDoorExample",
+				"isRelativeToParent": true,
+				"activationCondition": "BROKEN_DOOR_REPAIRED",
+				"blinkWhenActiveChanged": false
+			},
+			{
+				"rename": "Bob_Scarer",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_VillageCemetery/Props_VillageCemetery/OtherComponentsGroup/HEA_Backer_Tombstone/Props_HEA_TombStone",
+				"deactivationCondition": "NH_EXAMPLES_BOB_SCARED",
+				"blinkWhenActiveChanged": false,
+				"position": {"x": -24.22235, "y": 12.67696, "z": 94.5578},
+				"rotation": {"x": 340.8828, "y": 254.3237, "z": 276.1493}
 			}
 		],
 		"slideShows": [
@@ -1085,7 +1114,50 @@
 					"rotation": { "x": 180, "y": 0, "z": 0 }
 				}
 			]
-		}
+		},
+		"repairVolumes": [
+			{
+				"rename": "BrokenDoorRepairVolume",
+				"name": "Broken Door Mechanism",
+				"shape": {
+					"type": "capsule",
+					"direction": "y",
+					"height": 5,
+					"radius": 2
+				},
+				"repairFraction": 0.23,
+				"repairTime": 2.5,
+				"repairDistance": 5,
+				"repairedCondition": "BROKEN_DOOR_REPAIRED",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/BrokenDoorExample"
+			}
+		],
+		"conditionTriggerVolumes": [
+			{
+				"rename": "ThunderdomeConditionTrigger",
+				"position": {"x": 0, "y": -150, "z": 0},
+				"radius": 50,
+				"condition": "NH_EXAMPLES_THUNDERDOME_VISITED",
+				"player": true
+			}
+		],
+		"interactionVolumes": [
+			{
+				"rename": "BobScareInteractVolume",
+				"prompt": "Scare Bob",
+				"radius": 2,
+				"range": 4,
+				"reusable": true,
+				"condition": "NH_EXAMPLES_BOB_SCARED",
+				"persistent": false,
+				"audio": "DBAnglerfishDetectTarget",
+				"pathToAnimator": "Sector/Bob",
+				"animationTrigger": "Death",
+				"position": {"x": -24.22235, "y": 12.67696, "z": 94.5578},
+				"rotation": {"x": 340.8828, "y": 254.3237, "z": 276.1493}
+			}
+		]
 	},
 	"ParticleFields": [
 		{

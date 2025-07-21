@@ -4,10 +4,11 @@
 	"Props": {
 		"slideShows": [
             {
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {
-                    "x": 94,
-                    "y": 2,
-                    "z": -815
+                    "x": -8.6272,
+                    "y": -290.8658,
+                    "z": 528.0372
                 },
                 "rotation": {
                     "x": 0,
@@ -35,6 +36,27 @@
                     { "imagePath": "planets/assets/slides/atlas/15.png", "rotate": false },
                     { "imagePath": "planets/assets/slides/atlas/16.png", "rotate": false }
                 ]
+            },
+            {
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
+                "position": {
+                    "x": -25,
+                    "y": -291,
+                    "z": 530
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 150,
+                    "z": 0
+                },
+                "type": "standingVisionTorch",
+                "reelCondition": "pristine",
+                "slides": [
+                    { "imagePath": "planets/assets/slide reels/Dream/ChickenJockey.png", "beatAudio": "planets/assets/slide reels/Dream/ChickenJockey.mp3" },
+                    { "imagePath": "planets/assets/slide reels/Dream/RouterMiles.png" },
+                    { "imagePath": "planets/assets/slide reels/Dream/LouderChilds.jpg" },
+                    { "imagePath": "planets/assets/slide reels/Dream/SolanumWithAGun.png" }
+                ]
             }
 		],
         "dreamCampfires": [
@@ -53,6 +75,7 @@
                 "rotation": {"x": -2.953186E-05, "y": 140.4348, "z": -4.888376E-05}
 			},
             {
+                "parentPath": "Sector_DreamWorld/Sector_DreamZone_1",
                 "id": "DW_EasterEgg",
                 "position": {"x": -66.97601, "y": 10.76, "z": -594.35},
                 "rotation": {"x": 0, "y": 0, "z": 0}
@@ -64,6 +87,7 @@
                 "arrivalDistance": 10,
                 "maxAngle": 90,
                 "maxDistance": 100,
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x": -35.30022, "y": -290.8658, "z": 514.4943},
                 "rotation": {"x": -5.603183E-05, "y": 70.33109, "z": 1.112276E-05}
             }
@@ -72,6 +96,7 @@
             {
                 "sightDistance": 45,
                 "sightAngle": 60,
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x": -5.193062, "y": -290.8658, "z": 458.3376},
                 "rotation": {"x": 0, "y": 356.8367, "z": 0}
             }
@@ -80,6 +105,7 @@
             {
                 "revealFacts": [],
                 "fieldOfView": 90,
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x": 0, "y": -290, "z": 520},
                 "rotation": {"x": 0, "y": 270, "z": 0},
                 "target": {
@@ -93,71 +119,84 @@
         "dreamCandles": [
             {
                 "type": "ground",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":0,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "groundSmall",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":2,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "groundLarge",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":4,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0},
                 "startLit": true
             },
             {
                 "type": "groundSingle",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":6,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "wall",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":8,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "wallLargeFlame",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":10,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "wallBigWick",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":12,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "standing",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":14,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "pile",
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x":16,"y":-290.8658,"z":535},
                 "rotation": {"x":0,"y":0,"z":0}
             },
             {
                 "type": "groundLarge",
                 "startLit": true,
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x": -1.089264, "y": -290.8658, "z": 524.7776},
                 "rotation": {"x": 0, "y": 320, "z": 0}
             },
             {
                 "type": "groundLarge",
                 "startLit": true,
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x": -33.57645, "y": -290.8658, "z": 513.209},
                 "rotation": {"x": 0, "y": 60, "z": 0}
             },
             {
                 "type": "groundLarge",
                 "startLit": true,
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x": -2.879364, "y": -290.8658, "z": 460.1997},
                 "rotation": {"x": 0, "y": 60, "z": 0}
             },
             {
                 "type": "groundLarge",
                 "startLit": true,
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "position": {"x": -21.12698, "y": -290.8658, "z": 473.3741},
                 "rotation": {"x": 0, "y": 348.5224, "z": 0}
             },
@@ -185,9 +224,10 @@
         ],
         "projectionTotems": [
             {
+                "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "startLit": true,
                 "extinguishOnly": false,
-                "pathToAlarmTotem": "Sector_DreamWorld/Prefab_AlarmTotem",
+                "pathToAlarmTotem": "Sector_DreamWorld/Sector_Underground/Prefab_AlarmTotem",
                 "pathsToDreamCandles": [
                     "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2"
                 ],
