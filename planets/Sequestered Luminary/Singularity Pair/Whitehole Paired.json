@@ -21,7 +21,9 @@
 	"Props":{
 		"singularities": [
 			{
-				"size" : 200,
+				//"size": 200,
+				"horizonRadius" : 80,
+				"distortRadius" : 560,
 				"type" : "whiteHole",
 				"pairedSingularity" : "Dark Gateway"
 			}
@@ -31,7 +33,15 @@
 		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
 			"revealedSprite": "planets/assets/shiplogs/sprites/light_gateway_map_mode.png",
-			"scale": 0.5
+			"scale": 0.5,
+			"manualPosition": {
+				"x": 840,
+				"y": 60
+			},
+			"manualNavigationPosition": {
+				"x": 5,
+				"y": 1
+			}
 		}
     }
 }

@@ -36,11 +36,11 @@
 		"mapMode" : {
 			"scale": 0.5,
 			"manualPosition": {
-				"x": 560,
+				"x": 700,
 				"y": 150
 			},
 			"manualNavigationPosition": {
-				"x": 3,
+				"x": 4,
 				"y": 2
 			}
 		}

@@ -66,12 +66,12 @@
 			"revealedSprite": "planets/assets/shiplogs/sprites/lava_twin_map_mode.png",
 			"scale": 0.9,
 			"manualPosition": {
-				"x": 1440,
-				"y": 180
+				"x": 560,
+				"y": 0
 			},
 			"manualNavigationPosition": {
-				"x": 7,
-				"y": 2
+				"x": 3,
+				"y": 0
 			},
 			"details": [
 				{

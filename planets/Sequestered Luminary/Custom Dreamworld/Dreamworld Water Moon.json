@@ -19,5 +19,10 @@
   },
   "Water": {
 	"size": 20
-  }
+  },
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
 }

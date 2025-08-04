@@ -153,5 +153,10 @@
                 "blinkWhenActiveChanged": false
             }
         ]
-    }
+    },
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
 }

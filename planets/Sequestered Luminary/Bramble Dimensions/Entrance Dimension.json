@@ -39,5 +39,10 @@
         "sourceRadius": 10.0
       }
     ]
-  }
+  },
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	}
 }

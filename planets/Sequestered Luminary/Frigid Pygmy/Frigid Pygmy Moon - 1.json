@@ -33,5 +33,10 @@
 				}
 			}
 		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
 	}
 }

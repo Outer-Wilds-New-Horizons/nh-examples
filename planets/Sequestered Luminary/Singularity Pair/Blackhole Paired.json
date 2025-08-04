@@ -36,7 +36,9 @@
 	{
 		"singularities": [
 			{
-				"size" : 200,
+				//"size": 200,
+				"horizonRadius" : 80,
+				"distortRadius" : 190,
 				"type" : "blackHole",
 				"pairedSingularity" : "Light Gateway"
 			}
@@ -45,7 +47,15 @@
 	"ShipLog" : {
 		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
-			"revealedSprite": "planets/assets/shiplogs/sprites/blackhole_map_mode.png"
+			"revealedSprite": "planets/assets/shiplogs/sprites/blackhole_map_mode.png",
+			"manualPosition": {
+				"x": 840,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 5,
+				"y": 0
+			}
 		}
     }
 }
