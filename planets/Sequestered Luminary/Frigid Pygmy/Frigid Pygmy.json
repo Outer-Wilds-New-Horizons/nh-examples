@@ -7,7 +7,9 @@
 		"surfaceSize": 100
 	},
 	"MapMarker": {
-		"enabled": true
+		"enabled": true,
+		"minDisplayDistanceOverride": 0,
+		"maxDisplayDistanceOverride": 6500
 	},
 	"Orbit": {
 		"semiMajorAxis": 2000,

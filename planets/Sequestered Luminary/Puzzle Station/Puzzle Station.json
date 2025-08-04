@@ -158,5 +158,10 @@
 		"mapMode": {
 			"remove": true
 		}
+	},
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": 0,
+		"maxDisplayDistanceOverride": 3250
 	}
 }
