@@ -33,6 +33,8 @@
 	],
 	"ShipLog" : {
 		"mapMode" : {
+			"revealedSprite": "planets/assets/shiplogs/sprites/rondo_map_mode.png",
+			"outlineSprite": "planets/assets/shiplogs/sprites/hymn_outline.png",
 			"scale": 0.625,
 			"manualPosition": {
 				"x": 700,

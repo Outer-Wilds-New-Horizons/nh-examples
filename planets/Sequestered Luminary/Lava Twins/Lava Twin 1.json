@@ -64,6 +64,7 @@
 		"spriteFolder": "planets/assets/shiplogs/sprites",
 		"mapMode" : {
 			"revealedSprite": "planets/assets/shiplogs/sprites/lava_twin_map_mode.png",
+			"outlineSprite": "planets/assets/shiplogs/sprites/lava_twin_outline.png",
 			"scale": 0.9,
 			"manualPosition": {
 				"x": 560,

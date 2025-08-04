@@ -34,6 +34,8 @@
 	],
 	"ShipLog" : {
 		"mapMode" : {
+			"revealedSprite": "planets/assets/shiplogs/sprites/elegy_map_mode.png",
+			"outlineSprite": "planets/assets/shiplogs/sprites/hymn_outline.png",
 			"scale": 0.5,
 			"manualPosition": {
 				"x": 700,
