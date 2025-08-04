@@ -2,17 +2,40 @@
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name" : "Lava Twins",
 	"starSystem": "xen.NewHorizonsExamples",
-	"ReferenceFrame": {
-		"enabled": false
+	"Base": {
+		"gravityFallOff": "linear",
+		"invulnerableToSun": true,
+		"surfaceGravity": 16,
+		"surfaceSize": 0,
+		"soiOverride": 600
 	},
-	"Orbit" :
-	{
+	"FocalPoint" : {
+		"primary" : "Viridian Flow",
+		"secondary" : "Jade Maw"
+	},
+	"Orbit": {
+		"primaryBody" : "Sequestered Luminary",
 		"semiMajorAxis" : 22000,
-		"primaryBody" : "Sequestered Luminary"
+		"trueAnomaly" : 242,
+		"tint": {
+			"r" : 32,
+			"g" : 255,
+			"b" : 128
+		}
 	},
-	"FocalPoint" :
-	{
-		"primary" : "Lava 1",
-		"secondary" : "Lava 2"
+	"ReferenceFrame": {
+		"enabled": false,
+		"bracketRadius": 400,
+		"targetColliderRadius": 400
+	},
+	"ShipLog" : {
+		"mapMode" : {
+			"remove": true
+		}
+    },
+	"MapMarker": {
+		"enabled": true,
+		"minDisplayDistanceOverride": 5000,
+		"maxDisplayDistanceOverride": 50000
 	}
 }
