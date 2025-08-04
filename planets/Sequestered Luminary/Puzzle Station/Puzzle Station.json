@@ -154,9 +154,19 @@
             }
         ]
     },
-	"ShipLog": {
-		"mapMode": {
-			"remove": true
+	"ShipLog" : {
+		"spriteFolder": "planets/assets/shiplogs/sprites",
+		"mapMode" : {
+			"revealedSprite": "planets/assets/shiplogs/sprites/puzzle_station_map_mode.png",
+			"outlineSprite": "planets/assets/shiplogs/sprites/puzzle_station_outline.png",
+			"manualPosition": {
+				"x": 280,
+				"y": 240
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 2
+			}
 		}
 	},
 	"MapMarker": {
