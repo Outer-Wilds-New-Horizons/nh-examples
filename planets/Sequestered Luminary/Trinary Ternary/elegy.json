@@ -19,9 +19,9 @@
 		},
 		"orbitLineFadeStartDistance": 6500
 	},
-	"ProcGen": {
-		"scale": 20,
-		"color": {
+	"Sand": {
+		"size": 20,
+		"tint": {
 			"r": 89,
 			"g": 122,
 			"b": 157
