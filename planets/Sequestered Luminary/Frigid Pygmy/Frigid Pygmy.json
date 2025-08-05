@@ -1149,6 +1149,9 @@
 				"rename": "BobScareInteractVolume",
 				"prompt": "Scare Bob",
 				"radius": 2,
+				"shape": {
+					"useShape": false
+				},
 				"range": 4,
 				"reusable": true,
 				"condition": "NH_EXAMPLES_BOB_SCARED",
