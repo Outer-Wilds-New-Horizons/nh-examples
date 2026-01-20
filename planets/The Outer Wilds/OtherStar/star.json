@@ -21,6 +21,7 @@
 		"size" : 200,
 		"tint" : { "r" : 5, "g" : 38, "b" : 255, "a" : 255 },
 		"endTint" : { "r" : 255, "g" : 38, "b" : 255, "a" : 255 },
+		"lightTint" : { "r" : 128, "g" : 38, "b" : 255, "a" : 255 },
 		"solarLuminosity" : 0.6,
 		"curve":[
 			{"time": 0, "value":1},

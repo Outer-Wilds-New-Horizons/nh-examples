@@ -24,6 +24,13 @@
 			"b" : 250,
 			"a" : 255
 		},
+        "lightTint" : 
+		{
+			"r" : 200,
+			"g" : 220,
+			"b" : 250,
+			"a" : 255
+		},
 		"solarLuminosity" : 0.6,
         "stellarDeathType": "none"
 	},
@@ -33,6 +40,10 @@
 			"revealedSprite": "planets/assets/shiplogs/sprites/sequestered_luminary_map_mode.png",
 			"scale": 0.75,
 			"manualPosition": {
+				"x": 0,
+				"y": 0
+			},
+			"manualNavigationPosition": {
 				"x": 0,
 				"y": 0
 			},

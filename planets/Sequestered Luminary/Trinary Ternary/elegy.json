@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/mapMarker/NewHorizons/Schemas/body_schema.json",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Elegy",
     "starSystem": "xen.NewHorizonsExamples",
 	"Base": {
@@ -19,9 +19,9 @@
 		},
 		"orbitLineFadeStartDistance": 6500
 	},
-	"ProcGen": {
-		"scale": 20,
-		"color": {
+	"Sand": {
+		"size": 20,
+		"tint": {
 			"r": 89,
 			"g": 122,
 			"b": 157
@@ -34,13 +34,15 @@
 	],
 	"ShipLog" : {
 		"mapMode" : {
+			"revealedSprite": "planets/assets/shiplogs/sprites/elegy_map_mode.png",
+			"outlineSprite": "planets/assets/shiplogs/sprites/hymn_outline.png",
 			"scale": 0.5,
 			"manualPosition": {
-				"x": 560,
+				"x": 700,
 				"y": 150
 			},
 			"manualNavigationPosition": {
-				"x": 3,
+				"x": 4,
 				"y": 2
 			}
 		}
