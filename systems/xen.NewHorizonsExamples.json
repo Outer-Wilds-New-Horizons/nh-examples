@@ -89,5 +89,11 @@
 			}
 		}
 	],
-	"initialReveal": ["EXAMPLES_2_FACT"]
+	"initialReveal": ["EXAMPLES_2_FACT"],
+	"StarChart": {
+		"position": {
+			"x": -10,
+			"y": -10
+		}
+	}
 }
