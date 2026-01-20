@@ -24,6 +24,13 @@
 			"b" : 250,
 			"a" : 255
 		},
+        "lightTint" : 
+		{
+			"r" : 200,
+			"g" : 220,
+			"b" : 250,
+			"a" : 255
+		},
 		"solarLuminosity" : 0.6,
         "stellarDeathType": "none"
 	},
