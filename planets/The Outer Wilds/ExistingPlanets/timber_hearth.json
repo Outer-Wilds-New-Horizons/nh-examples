@@ -342,10 +342,15 @@
 				"rename": "Behind Slate",
 				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
 				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
-				"xmlFile": "planets/assets/nomaitext/Text.xml",
+				"xmlFile": "planets/assets/nomaitext/Gorp.xml",
 				"seed":42,
 				"arcInfo":[
-					{"type": "child", "mirror": false }
+					{ 
+						"mirror": false, 
+						"customTextImage": "planets/assets/alienText.png", 
+						"legiblePersistentCondition": "EXAMPLES_CAN_READ_GORP",
+						"customLanguageName": "GORP"
+					}
 				]
 			},
 			{
