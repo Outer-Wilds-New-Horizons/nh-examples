@@ -365,11 +365,18 @@
 			{
 				"rename": "On the ground by trees",
 				"position": {"x": 34.13071, "y": -27.06833, "z": 190.8683}, 
-				"normal": {"x": 0.06757314, "y": -0.472719, "z": 0.8786187},
-				"xmlFile": "planets/assets/nomaitext/Text.xml",
-				"seed":1337,
+				"rotation": {"x": 29, "y": 0, "z": 344},
+				"xmlFile": "planets/assets/nomaitext/Untranslatable.xml",
 				"arcInfo":[
-					{"type": "child", "mirror": false }
+					{
+						"customTextImage": "planets/assets/untranslatableText.png",
+						"legiblePersistentCondition": "UNTRANSLATABLE",
+						"overrideUnreadColor": {
+							"r": 255,
+							"g": 150,
+							"b": 150
+						}
+					}
 				]
 			},
 			{
