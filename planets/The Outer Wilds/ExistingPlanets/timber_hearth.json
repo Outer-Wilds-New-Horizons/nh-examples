@@ -478,7 +478,7 @@
 					"disableStructure": true,
 					"disablePool": true,
 					"rename": "ExamplesProjectionPlatformTimber1",
-					"reveals": "EXAMPLES_PROJECTION_TIMBER1"
+					"reveals": "EXAMPLES_PROJECTION_TIMBER"
 				},
 				"whiteboard": {
 					"position": {"x": 36.4735, "y": -16.5112, "z": 193.8339},
@@ -488,7 +488,11 @@
 						{
 							"id": "EXAMPLES_REMOTE_TIMBER2",
 							"location": "a",
-							"xmlFile": "planets/assets/nomaitext/Shared.xml"
+							"xmlFile": "planets/assets/nomaitext/Shared.xml",
+							"arcInfo":[
+								{"type": "adult" },
+								{"type": "teenager" }
+							]
 						}
 					]
 				},
@@ -509,7 +513,7 @@
 					"disableStructure": true,
 					"disablePool": true,
 					"rename": "ExamplesProjectionPlatformTimber2",
-					"reveals": "EXAMPLES_PROJECTION_TIMBER2"
+					"reveals": "EXAMPLES_PROJECTION_TIMBER"
 				},
 				"whiteboard": {
 					"position": {"x": 4.7737, "y": -61.2386, "z": 184.9187},
@@ -519,7 +523,11 @@
 						{
 							"id": "EXAMPLES_REMOTE_TIMBER1",
 							"location": "b",
-							"xmlFile": "planets/assets/nomaitext/Shared.xml"
+							"xmlFile": "planets/assets/nomaitext/Shared.xml",
+							"arcInfo":[
+								{"type": "adult" },
+								{"type": "teenager" }
+							]
 						}
 					]
 				},
