@@ -340,16 +340,25 @@
 		"translatorText":[
 			{
 				"rename": "Behind Slate",
-				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
-				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
+				"position":{"x": 16.9002, "y": -37.3938, "z": 187.8057}, 
+				"normal": {"x": 0.1845787, "y": -0.9674962, "z": -0.1728638},
 				"xmlFile": "planets/assets/nomaitext/Gorp.xml",
-				"seed":42,
 				"arcInfo":[
 					{ 
 						"mirror": false, 
 						"customTextImage": "planets/assets/alienText.png", 
 						"legiblePersistentCondition": "EXAMPLES_CAN_READ_GORP",
-						"customLanguageName": "GORP"
+						"customLanguageName": "GORP",
+						"overrideUnreadColor": {
+							"r": 0,
+							"g": 255,
+							"b": 25
+						},
+						"overrideTranslatedColor": {
+							"r": 47,
+							"g": 102,
+							"b": 137
+						}
 					}
 				]
 			},
