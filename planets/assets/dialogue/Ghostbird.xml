@@ -27,6 +27,10 @@
 				<ConditionToSet>EXAMPLES_SHOW_CUSTOM_CREDITS</ConditionToSet>
 			</DialogueOption>
 			<DialogueOption>
+				<Text>Can you teach me how to read gorp?</Text>
+				<DialogueTarget>gorp</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
 				<Text>Die NOW!!!!!</Text>
 				<DialogueTarget>10</DialogueTarget>
 				<ConditionToSet>EXAMPLES_GHOST_BIRD_DIED</ConditionToSet>
@@ -43,6 +47,14 @@
 		<Dialogue>
 			<Page>Ok. Dies.</Page>
 		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>gorp</Name>
+		<Dialogue>
+			<Page>Yeah, when it says "gorp" that means "gorp".</Page>
+		</Dialogue>
+		<SetPersistentCondition>EXAMPLES_CAN_READ_GORP</SetPersistentCondition>
 	</DialogueNode>
 	
 	<DialogueNode>

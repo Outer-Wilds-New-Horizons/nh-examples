@@ -340,22 +340,43 @@
 		"translatorText":[
 			{
 				"rename": "Behind Slate",
-				"position":{"x": 18.05325, "y": -36.55494, "z": 188.295}, 
-				"normal": {"x": 0.3281521, "y": -0.9155942, "z": -0.2323863},
-				"xmlFile": "planets/assets/nomaitext/Text.xml",
-				"seed":42,
+				"position":{"x": 16.9002, "y": -37.3938, "z": 187.8057}, 
+				"normal": {"x": 0.1845787, "y": -0.9674962, "z": -0.1728638},
+				"xmlFile": "planets/assets/nomaitext/Gorp.xml",
 				"arcInfo":[
-					{"type": "child", "mirror": false }
+					{ 
+						"mirror": false, 
+						"customTextImage": "planets/assets/alienText.png", 
+						"legiblePersistentCondition": "EXAMPLES_CAN_READ_GORP",
+						"customLanguageName": "GORP",
+						"overrideUnreadColor": {
+							"r": 0,
+							"g": 255,
+							"b": 25
+						},
+						"overrideTranslatedColor": {
+							"r": 47,
+							"g": 102,
+							"b": 137
+						}
+					}
 				]
 			},
 			{
 				"rename": "On the ground by trees",
 				"position": {"x": 34.13071, "y": -27.06833, "z": 190.8683}, 
-				"normal": {"x": 0.06757314, "y": -0.472719, "z": 0.8786187},
-				"xmlFile": "planets/assets/nomaitext/Text.xml",
-				"seed":1337,
+				"rotation": {"x": 29, "y": 0, "z": 344},
+				"xmlFile": "planets/assets/nomaitext/Untranslatable.xml",
 				"arcInfo":[
-					{"type": "child", "mirror": false }
+					{
+						"customTextImage": "planets/assets/untranslatableText.png",
+						"legiblePersistentCondition": "UNTRANSLATABLE",
+						"overrideUnreadColor": {
+							"r": 255,
+							"g": 150,
+							"b": 150
+						}
+					}
 				]
 			},
 			{
@@ -457,7 +478,7 @@
 					"disableStructure": true,
 					"disablePool": true,
 					"rename": "ExamplesProjectionPlatformTimber1",
-					"reveals": "EXAMPLES_PROJECTION_TIMBER1"
+					"reveals": "EXAMPLES_PROJECTION_TIMBER"
 				},
 				"whiteboard": {
 					"position": {"x": 36.4735, "y": -16.5112, "z": 193.8339},
@@ -467,7 +488,11 @@
 						{
 							"id": "EXAMPLES_REMOTE_TIMBER2",
 							"location": "a",
-							"xmlFile": "planets/assets/nomaitext/Shared.xml"
+							"xmlFile": "planets/assets/nomaitext/Shared.xml",
+							"arcInfo":[
+								{"type": "adult" },
+								{"type": "teenager" }
+							]
 						}
 					]
 				},
@@ -488,7 +513,7 @@
 					"disableStructure": true,
 					"disablePool": true,
 					"rename": "ExamplesProjectionPlatformTimber2",
-					"reveals": "EXAMPLES_PROJECTION_TIMBER2"
+					"reveals": "EXAMPLES_PROJECTION_TIMBER"
 				},
 				"whiteboard": {
 					"position": {"x": 4.7737, "y": -61.2386, "z": 184.9187},
@@ -498,7 +523,11 @@
 						{
 							"id": "EXAMPLES_REMOTE_TIMBER1",
 							"location": "b",
-							"xmlFile": "planets/assets/nomaitext/Shared.xml"
+							"xmlFile": "planets/assets/nomaitext/Shared.xml",
+							"arcInfo":[
+								{"type": "adult" },
+								{"type": "teenager" }
+							]
 						}
 					]
 				},
