@@ -3,6 +3,7 @@
 	"canEnterViaWarpDrive": true,
 	"startHere": false,
 	"respawnHere": true,
+	"shipLogStartingPlanetID": "Frigid Pygmy",
 	"GlobalMusic": {
 		"travelAudio": "planets/assets/Travel Audio.mp3",
 		"endTimesAudio": "planets/assets/EndTimes.mp3",
