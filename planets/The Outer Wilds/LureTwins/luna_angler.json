@@ -61,6 +61,13 @@
 				"scale" : 0.5
 			}
 		],
+		"campfires": [
+			{
+				"initialState" : "lit",
+				"position" : {"x": 5.664703, "y": 16.86613, "z": 4.126942},
+				"alignRadial" : true
+			}
+		],
 		"details": [
 			{
 				"path" : "Anglerfish_Body/Beast_Anglerfish",
@@ -81,14 +88,9 @@
 				"scale":0.75
 			},
 			{
-				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire", 
-				"position" : {"x": 5.664703, "y": 16.86613, "z": 4.126942},
-				"alignToNormal" : true
-			},
-			{
 				"path" : "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume", 
 				"position" : {"x": 1.841939, "y": -18.10435, "z": 2.636243},
-				"alignToNormal" : true
+				"alignRadial" : true
 			}
 		],
 		"proxyDetails": [

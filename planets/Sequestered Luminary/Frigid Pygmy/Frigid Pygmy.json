@@ -241,21 +241,6 @@
 					"z": 44.0411
 				}
 			},
-			{
-				"rename": "CampfireForBurningReels",
-				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
-				"parentPath": "Sector/SlideReelPrefabExamples",
-				"rotation": {
-					"x": 344.0258,
-					"y": 185.318329,
-					"z": 349.991821
-				},
-				"position": {
-					"x": -9.915058,
-					"y": 93.64475,
-					"z": 29.20017
-				}
-			},
 			{ 
 				"rename": "Bob",
 				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
@@ -939,6 +924,23 @@
 						"offset": { "x": 0, "y": 1.5, "z": 0 }
 					}
 				]
+			}
+		],
+		"campfires": [
+			{
+				"rename": "CampfireForBurningReels",
+				"initialState" : "smoldering",
+				"parentPath": "Sector/SlideReelPrefabExamples",
+				"rotation": {
+					"x": 344.0258,
+					"y": 185.318329,
+					"z": 349.991821
+				},
+				"position": {
+					"x": -9.915058,
+					"y": 93.64475,
+					"z": 29.20017
+				}
 			}
 		],
 		"dreamCampfires": [
