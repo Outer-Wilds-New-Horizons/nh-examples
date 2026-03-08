@@ -6,9 +6,16 @@
 	{
 		"surfaceGravity" : 10,
 		"surfaceSize" : 200,
-		"ambientLight": 1,
-		"hasMapMarker" : true,
 		"groundSize": 200
+	},
+	"AmbientLights" :
+	[
+		{
+			"intensity": 1
+		}
+	],
+	"MapMarker": {
+		"enabled": true
 	},
 	"Orbit" :
 	{
