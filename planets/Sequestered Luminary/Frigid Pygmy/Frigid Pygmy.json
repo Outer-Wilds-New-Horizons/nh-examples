@@ -325,6 +325,7 @@
                 ],
 				"position": {"x": 0, "y": -150, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 270},
+				"keepLoaded": true,
 				"scale": 10
 			},
 			{
