@@ -1,0 +1,87 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Quantum Planet",
+	"starSystem": "xen.NewHorizonsExamples",
+	"isQuantumState": true,
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 200
+	},
+	"AmbientLights": [
+		{
+			"intensity": 0.8,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 32,
+				"b" : 32,
+				"a" : 255
+			}
+		}
+	],
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 2000,
+		"primaryBody": "Hindering Skies",
+		"trueAnomaly": 90
+	},
+	"ProcGen": {
+		"scale": 100,
+		"color": {
+			"r": 0,
+			"g": 0,
+			"b": 255
+		}
+	},
+    "Water": {
+        "size": 200,
+		"tint": {
+			"r": 255,
+			"g": 32,
+			"b": 32
+		}
+    },
+    "Atmosphere": {
+        "size": 300,
+		"useAtmosphereShader": true,
+		"hasRain": true,
+		"atmosphereTint": {
+			"r": 255,
+			"g": 0,
+			"b": 0
+		},
+		"clouds": {
+			"cloudsPrefab": "quantumMoon",
+			"innerCloudRadius": 250,
+			"outerCloudRadius": 300,
+			"texturePath": "planets/assets/clouds/hindering_skies.png",
+			"tint": {
+				"r": 130,
+				"g": 100,
+				"b": 150
+			}
+		}
+    },
+	"Props": {
+		"signals": [
+			{
+				"audio": "OW_QuantumSignal",
+				"frequency": "Quantum",
+				"detectionRadius": 400,
+				"identificationRadius": 250,
+				"sourceRadius": 200,
+				"name": "Quantum Planet"
+			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"playRefillAudio": false,
+				"radius": 250
+			}
+		]
+	}
+}
