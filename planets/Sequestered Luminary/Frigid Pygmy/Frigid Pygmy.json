@@ -142,6 +142,29 @@
 		]
 	},
 	"Props": {
+		"fuelTanks": [
+			{
+				"type": "hearthianTank",
+				"alignRadial": true,
+				"position": {"x": -5.15, "y": 93.6575, "z": 31.992}
+			},
+			{
+				"type": "nomaiTank",
+				"position": {"x": -2.4455, "y": 92.823, "z": 33.0728},
+				"rotation": {"x": 0, "y": 77, "z": 17},
+			},
+			{
+				"type": "preCrashNomaiTank",
+				"position": {"x": -12.47629, "y": 143.1099, "z": -27.71836},
+				"rotation": {"x": 0, "y": 60, "z": 0},
+				"parentPath": "Sector/Vessel_Body/Sector_VesselBridge"
+			},
+			{
+				"type": "dlcTorch",
+				"position": {"x": -11.5144, "y": 88.6012, "z": 41.5712},
+				"rotation": {"x": 359.884, "y": 256.1755, "z": 334.1104}
+			}
+		],
 		"details": [
 			{
 				"rename": "SlideReelPrefabExamples",
@@ -241,21 +264,6 @@
 					"z": 44.0411
 				}
 			},
-			{
-				"rename": "CampfireForBurningReels",
-				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
-				"parentPath": "Sector/SlideReelPrefabExamples",
-				"rotation": {
-					"x": 344.0258,
-					"y": 185.318329,
-					"z": 349.991821
-				},
-				"position": {
-					"x": -9.915058,
-					"y": 93.64475,
-					"z": 29.20017
-				}
-			},
 			{ 
 				"rename": "Bob",
 				"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_2/Ghosts_DreamZone_2/GhostNodeMap_HornetHouse/Prefab_IP_GhostBird_Hornet/Ghostbird_IP_ANIM", 
@@ -340,6 +348,7 @@
                 ],
 				"position": {"x": 0, "y": -150, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 270},
+				"keepLoaded": true,
 				"scale": 10
 			},
 			{
@@ -941,16 +950,51 @@
 				]
 			}
 		],
-		"dreamCampfires": [
+		"campfires": [
 			{
-				"id": "CampLink",
-				"position": {"x": -3.804941, "y": 97.07468, "z": 20.45352},
-				"rotation": {"x": 348.3116, "y": 171.9813, "z": 0.01027958}
+				"rename": "CampfireForBurningReels",
+				"initialState" : "smoldering",
+				"parentPath": "Sector/SlideReelPrefabExamples",
+				"rotation": {
+					"x": 344.0258,
+					"y": 185.318329,
+					"z": 349.991821
+				},
+				"position": {
+					"x": -9.915058,
+					"y": 93.64475,
+					"z": 29.20017
+				}
+			}
+		],
+		"alarmBells": [
+			{
+				"rename": "AlarmBell_CampLink",
+				"position": {"x": 0, "y": 10, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/DreamCampfire_CampLink"
 			},
 			{
+				"rename": "AlarmBell_CampLink_2",
+				"position": {"x": 0, "y": 10, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/DreamCampfire_CampLink_2"
+			}
+		],
+		"dreamCampfires": [
+			{
+				"rename": "DreamCampfire_CampLink",
+				"id": "CampLink",
+				"position": {"x": -3.804941, "y": 97.07468, "z": 20.45352},
+				"rotation": {"x": 348.3116, "y": 171.9813, "z": 0.01027958},
+				"alarmBellPath": "Sector/DreamCampfire_CampLink/AlarmBell_CampLink"
+			},
+			{
+				"rename": "DreamCampfire_CampLink_2",
 				"id": "CampLink_2",
 				"position": {"x": 2.075204, "y": 93.2397, "z": 31.74467},
-				"rotation": {"x": 343.2405, "y": 203.3198, "z": 355.0326}
+				"rotation": {"x": 343.2405, "y": 203.3198, "z": 355.0326},
+				"alarmBellPath": "Sector/DreamCampfire_CampLink_2/AlarmBell_CampLink_2"
 			}
 		],
 		"entryLocation": [
@@ -1083,6 +1127,7 @@
 				"radius": 160,
 				"dayAudio": "OW New Raft Music 082321_4 AP theme",
 				"nightAudio": "Dreamworld Base Ambience 1",
+				"track": "music",
 				"sun": "Sequestered Luminary",
 				"volume": 0.4
 			}
@@ -1161,6 +1206,21 @@
 				"animationTrigger": "Death",
 				"position": {"x": -24.22235, "y": 12.67696, "z": 94.5578},
 				"rotation": {"x": 340.8828, "y": 254.3237, "z": 276.1493}
+			}
+		],
+		"playerRecoveryVolumes": [
+			{
+				"rename": "RecoveryInteractVolume",
+				"radius": 2,
+				"shape": {
+					"useShape": false
+				},
+				"range": 4,
+				"heals": true,
+				"refuels": true,
+				"cleansVisor": true,
+				"dlcFuel": true,
+				"position": {"x": 0, "y": 88, "z": 44}
 			}
 		]
 	},

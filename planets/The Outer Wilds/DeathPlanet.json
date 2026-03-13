@@ -5,8 +5,10 @@
     {
         "surfaceGravity": 200,
         "surfaceSize": 350,
-        "groundSize": 100,
-        "hasMapMarker": true
+        "groundSize": 100
+    },
+    "MapMarker": {
+        "enabled": true
     },
     "Orbit":{
         "primaryBody": "Sun",

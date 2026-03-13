@@ -5,8 +5,11 @@
 	{
 		"surfaceGravity" : 6,
 		"surfaceSize" : 30,
-		"hasMapMarker" : true,
 		"gravityFallOff" : "linear"
+	},
+	"MapMarker" :
+	{
+		"enabled" : true
 	},
 	"Atmosphere" :
 	{

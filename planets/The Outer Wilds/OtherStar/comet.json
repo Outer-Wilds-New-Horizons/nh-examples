@@ -61,10 +61,15 @@
 	},
 	"Props" :
 	{
-		"scatter" : [
+		"campfires": [
 			{
-				"path" : "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire", 
-				"count" : 1
+				"initialState" : "smoldering",
+				"position" : {
+					"x": 99.102, 
+					"y": -10.1184, 
+					"z": -8.7417
+				},
+				"alignRadial" : true
 			}
 		]
 	},
