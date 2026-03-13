@@ -1184,6 +1184,21 @@
 				"position": {"x": -24.22235, "y": 12.67696, "z": 94.5578},
 				"rotation": {"x": 340.8828, "y": 254.3237, "z": 276.1493}
 			}
+		],
+		"playerRecoveryVolumes": [
+			{
+				"rename": "RecoveryInteractVolume",
+				"radius": 2,
+				"shape": {
+					"useShape": false
+				},
+				"range": 4,
+				"heals": true,
+				"refuels": true,
+				"cleansVisor": true,
+				"dlcFuel": true,
+				"position": {"x": 0, "y": 88, "z": 44}
+			}
 		]
 	},
 	"ParticleFields": [
