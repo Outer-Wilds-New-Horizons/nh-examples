@@ -142,6 +142,29 @@
 		]
 	},
 	"Props": {
+		"fuelTanks": [
+			{
+				"type": "hearthianTank",
+				"alignRadial": true,
+				"position": {"x": -5.15, "y": 93.6575, "z": 31.992}
+			},
+			{
+				"type": "nomaiTank",
+				"position": {"x": -2.4455, "y": 92.823, "z": 33.0728},
+				"rotation": {"x": 0, "y": 77, "z": 17},
+			},
+			{
+				"type": "preCrashNomaiTank",
+				"position": {"x": -12.47629, "y": 143.1099, "z": -27.71836},
+				"rotation": {"x": 0, "y": 60, "z": 0},
+				"parentPath": "Sector/Vessel_Body/Sector_VesselBridge"
+			},
+			{
+				"type": "dlcTorch",
+				"position": {"x": -11.5144, "y": 88.6012, "z": 41.5712},
+				"rotation": {"x": 359.884, "y": 256.1755, "z": 334.1104}
+			}
+		],
 		"details": [
 			{
 				"rename": "SlideReelPrefabExamples",
