@@ -944,16 +944,34 @@
 				}
 			}
 		],
-		"dreamCampfires": [
+		"alarmBells": [
 			{
-				"id": "CampLink",
-				"position": {"x": -3.804941, "y": 97.07468, "z": 20.45352},
-				"rotation": {"x": 348.3116, "y": 171.9813, "z": 0.01027958}
+				"rename": "AlarmBell_CampLink",
+				"position": {"x": 0, "y": 10, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/DreamCampfire_CampLink"
 			},
 			{
+				"rename": "AlarmBell_CampLink_2",
+				"position": {"x": 0, "y": 10, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector/DreamCampfire_CampLink_2"
+			}
+		],
+		"dreamCampfires": [
+			{
+				"rename": "DreamCampfire_CampLink",
+				"id": "CampLink",
+				"position": {"x": -3.804941, "y": 97.07468, "z": 20.45352},
+				"rotation": {"x": 348.3116, "y": 171.9813, "z": 0.01027958},
+				"alarmBellPath": "Sector/DreamCampfire_CampLink/AlarmBell_CampLink"
+			},
+			{
+				"rename": "DreamCampfire_CampLink_2",
 				"id": "CampLink_2",
 				"position": {"x": 2.075204, "y": 93.2397, "z": 31.74467},
-				"rotation": {"x": 343.2405, "y": 203.3198, "z": 355.0326}
+				"rotation": {"x": 343.2405, "y": 203.3198, "z": 355.0326},
+				"alarmBellPath": "Sector/DreamCampfire_CampLink_2/AlarmBell_CampLink_2"
 			}
 		],
 		"entryLocation": [

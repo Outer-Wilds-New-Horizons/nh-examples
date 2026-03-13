@@ -198,16 +198,34 @@
 				"rotation": {"x": 341.1762, "y": 90.9774, "z": 93.48647}
 			}
 		],
-		"dreamCampfires": [
+		"alarmBells": [
 			{
-				"id": "DW_Underground",
-				"position": {"x": 5.958428, "y": -8.873922, "z": 186.8561},
-				"rotation": {"x": 304.7703, "y": 275.7916, "z": 265.0268}
+				"rename": "AlarmBell_DW_Underground",
+				"position": {"x": 0, "y": 10, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/DreamCampfire_DW_Underground"
 			},
 			{
+				"rename": "AlarmBell_WetrockDream",
+				"position": {"x": 0, "y": 10, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/DreamCampfire_WetrockDream"
+			}
+		],
+		"dreamCampfires": [
+			{
+				"rename": "DreamCampfire_DW_Underground",
+				"id": "DW_Underground",
+				"position": {"x": 5.958428, "y": -8.873922, "z": 186.8561},
+				"rotation": {"x": 304.7703, "y": 275.7916, "z": 265.0268},
+				"alarmBellPath": "Sector_TH/DreamCampfire_DW_Underground/AlarmBell_DW_Underground"
+			},
+			{
+				"rename": "DreamCampfire_WetrockDream",
 				"id": "WetrockDream",
 				"position": {"x": -19.95653, "y": 4.435316, "z": 188.6851},
-				"rotation": {"x": 356.1093, "y": 84.09064, "z": 88.87032}
+				"rotation": {"x": 356.1093, "y": 84.09064, "z": 88.87032},
+				"alarmBellPath": "Sector_TH/DreamCampfire_WetrockDream/AlarmBell_WetrockDream"
 			}
 		],
 		"dialogue" :

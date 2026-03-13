@@ -66,6 +66,7 @@
                 "parentPath": "Sector_DreamWorld/Sector_Underground",
                 "sectorPath": "Sector_DreamWorld/Sector_Underground",
                 "id": "DW_EasterEgg",
+                "rename": "DreamCampfire_DW_EasterEgg",
                 "position": {"x": 8.292572, "y": -290.9471, "z": 698.1771},
                 "rotation": {"x": 0.2723752, "y": 211.2009, "z": 359.9885}
             }
