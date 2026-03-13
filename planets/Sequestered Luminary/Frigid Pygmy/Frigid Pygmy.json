@@ -1104,6 +1104,7 @@
 				"radius": 160,
 				"dayAudio": "OW New Raft Music 082321_4 AP theme",
 				"nightAudio": "Dreamworld Base Ambience 1",
+				"track": "music",
 				"sun": "Sequestered Luminary",
 				"volume": 0.4
 			}
