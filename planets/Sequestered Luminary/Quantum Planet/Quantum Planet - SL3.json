@@ -1,0 +1,114 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Quantum Planet",
+	"starSystem": "xen.NewHorizonsExamples",
+	"isQuantumState": true,
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 200
+	},
+	"AmbientLights": [
+		{
+			"intensity": 0,
+			"tint" : 
+			{
+				"r" : 255,
+				"g" : 64,
+				"b" : 64,
+				"a" : 255
+			}
+		}
+	],
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 5000,
+		"primaryBody": "Daunting Confidant",
+		"trueAnomaly": 180
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/terrain/frigid_pygmy_heightmap.png",
+		"textureMap": "planets/assets/terrain/frigid_pygmy_texturemap.png",
+		"minHeight": 196,
+		"maxHeight": 200,
+		"smoothness": 0.5,
+		"smoothnessMap": "planets/assets/terrain/frigid_pygmy_smoothnessmap.png",
+		"normalStrength": 0.5,
+		"normalMap": "planets/assets/terrain/frigid_pygmy_normalmap.png",
+		"tileBlendMap": "planets/assets/terrain/frigid_pygmy_blendmap.png",
+		"redTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/Ash_d.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Ash_s.png",
+			"normalTile": "planets/assets/terrain/tiles/Ash_n.png",
+			"normalStrength": 1
+		},
+		"greenTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/DirtShale_d.png",
+			"normalTile": "planets/assets/terrain/tiles/DirtShale_n.png",
+			"normalStrength": 2
+		},
+		"blueTile": {
+			"size": 10,
+			"textureTile": "planets/assets/terrain/tiles/Snow_d_mir.png",
+			"smoothnessTile": "planets/assets/terrain/tiles/Snow_s_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/Snow_n_mir.png",
+			"normalStrength": 1
+		}
+	},
+	"Atmosphere" :
+	{
+		"size": 300,
+		"fogTint": {
+			"r": 255,
+			"g": 127,
+			"b": 127,
+			"a": 255
+		},
+		"fogDensity": 0.9,
+		"fogSize": 250,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 255,
+			"g": 127,
+			"b": 127,
+			"a": 255
+		},
+		"clouds": {
+			"outerCloudRadius": 300,
+			"innerCloudRadius": 250,
+			"texturePath": "planets/assets/clouds/daunting_confidant.png",
+            "capPath": "planets/assets/clouds/daunting_confidant_cap.png",
+			"tint": {
+				"r": 140,
+				"g": 70,
+				"b": 70,
+				"a": 255
+			},
+			"fluidType": "cloud",
+			"cloudsPrefab": "quantumMoon"
+		}
+	},
+	"Props": {
+		"signals": [
+			{
+				"audio": "OW_QuantumSignal",
+				"frequency": "Quantum",
+				"detectionRadius": 400,
+				"identificationRadius": 250,
+				"sourceRadius": 200,
+				"name": "Quantum Planet"
+			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"playRefillAudio": false,
+				"radius": 250
+			}
+		]
+	}
+}

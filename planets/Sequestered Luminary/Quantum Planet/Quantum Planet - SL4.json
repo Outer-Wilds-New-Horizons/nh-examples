@@ -1,0 +1,80 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Quantum Planet",
+	"starSystem": "xen.NewHorizonsExamples",
+	"isQuantumState": true,
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 200
+	},
+	"AmbientLights": [
+		{
+			"intensity": 1,
+			"tint" : 
+			{
+				"r" : 32,
+				"g" : 255,
+				"b" : 128,
+				"a" : 255
+			}
+		}
+	],
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 3000,
+		"primaryBody": "Lava Twins",
+		"trueAnomaly": 270
+	},
+	"Lava" : 
+	{
+		"size" : 200,
+		"tint" : {
+			"r" : 32,
+			"g" : 255,
+			"b" : 128,
+			"a" : 255
+		}
+	},
+	"ParticleFields": [
+		{
+			"type": "embers",
+			"densityByHeightCurve": [
+				{
+					"density": 50,
+					"height": 0
+				},
+				{
+					"density": 50,
+					"height": 100
+				},
+				{
+					"density": 0,
+					"height": 250
+				}
+			],
+			"rename": "Effects_QP_LT_Embers"
+		}
+	],
+	"Props": {
+		"signals": [
+			{
+				"audio": "OW_QuantumSignal",
+				"frequency": "Quantum",
+				"detectionRadius": 400,
+				"identificationRadius": 250,
+				"sourceRadius": 200,
+				"name": "Quantum Planet"
+			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"playRefillAudio": false,
+				"radius": 250
+			}
+		]
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Quantum Planet",
+	"starSystem": "xen.NewHorizonsExamples",
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 200
+	},
+	"AmbientLights": [
+		{
+			"intensity": 1
+		}
+	],
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 28000,
+		"primaryBody": "Sequestered Luminary",
+		"trueAnomaly": 0
+	},
+	"HeightMap": {
+		"heightMap" : "planets/assets/terrain/snowball_heightmap.png",
+        "textureMap": "planets/assets/terrain/luna_texturemap.png",
+		"minHeight": 196,
+		"maxHeight": 200,
+		"baseTile": {
+			"size": 5,
+			"textureTile": "planets/assets/terrain/tiles/Moon_d2_mir.png",
+			"normalTile": "planets/assets/terrain/tiles/Moon_n_mir.png",
+			"normalStrength": 2
+		}
+	},
+	"Props": {
+		"signals": [
+			{
+				"audio": "OW_QuantumSignal",
+				"frequency": "Quantum",
+				"detectionRadius": 400,
+				"identificationRadius": 250,
+				"sourceRadius": 200,
+				"name": "Quantum Planet"
+			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"playRefillAudio": false,
+				"radius": 250
+			}
+		]
+	}
+}
