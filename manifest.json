@@ -4,9 +4,9 @@
   "author": "xen",
   "name": "New Horizons Examples",
   "uniqueName": "xen.NewHorizonsExamples",
-  "version": "0.30.0",
+  "version": "0.30.1",
   "owmlVersion": "2.5.2",
   "dependencies": [ "xen.NewHorizons" ],
   "pathsToPreserve": [ ".git", ".github", ".gitignore", "README.md", "LICENSE" ],
-  "donateLink": "https://www.patreon.com/ownh"
+  "donateLink": "https://www.patreon.com/xen42"
 }
