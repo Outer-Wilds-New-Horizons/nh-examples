@@ -1,0 +1,354 @@
+{
+//该翻译补丁经检查有3处不生效，原因未知。
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+
+  "DialogueDictionary": {
+    //Nomai.xml
+    "Fred": "弗莱德",
+    "You looking at something?": "你在看什么吗？",
+    "Aren't you guys all supposed to be dead?": "你们挪麦人不是应该都死了吗？",
+    "OH MY GOD A LIVING NOMAI AHHH WHAT HOW?!": "我的天居然有活着的挪麦人啊啊啊怎么回事？！",
+    "Fait beau, eh?": "天气不错嘛，是吧？",
+    "Nevermind.": "当我没说。",
+    "Oh yeah dude I totally forgot about that, maybe I'll be dead next time.": "奥对哦老兄，我把这事忘光了，说不定下次我就会是死的了。",
+    "Speaking of Nomai not being dead, have you seen my cousin? He's supposed to be in this system somewhere.": "说到没死的挪麦人这件事，你见过我表弟吗？他应该就在这个星系的某个地方。",
+    "He said something about anglerfish, so I've been following this Ernesto guy around. I don't think its him though.": "他提到过和安康鱼有关的事，所以我一直跟着这个叫厄内斯托的家伙。不过我觉得这不是他提到的安康鱼。",
+    "I'll keep a look out.": "我会留意的。",
+    "Did you try Dark Bramble?": "你去过黑棘星吗？",
+    "Yessir miller it's me the Nomai.": "没错老兄，就是我，挪麦人呗。",
+    "I'm just hanging out here man I don't get it.": "我就只是在这儿待着而已啊老兄，我搞不懂。",
+    "But you're all supposed to be dead.": "可你们本该都死了啊。",
+    "Forget I mentioned it.": "就当我没提过。",
+    "<i>Did you try Dark Bramble</i> really man, you think I didn't try looking for anglerfish in the place where anglerfish are?": "<i>“你去过黑棘星吗”</i>——不是吧老兄，你觉得我会不去找安康鱼扎堆的地方？",
+    "I am deeply offended that you would question me on this.": "我很生气你居然质疑我这个。",
+    "My bad, forget I asked.": "我的错，当我没问。",
+    "Pas pire.": "行吧。",
+    "Ciao big.": "回见了，大家伙。",
+
+    //Shale.xml
+    "Slate's Cousin": "斯雷特的表弟",
+    "Hey.": "嘿。",
+    "Hi Slate!": "嗨，斯雷特！",
+    "What? I'm not Slate, that's my cousin.": "啥？我不是斯雷特，那是我表哥。",
+    "Oh my bad. Bye.": "哦抱歉。拜拜。",
+    "Bye.": "拜拜。",
+
+    //SlateNewDialogue.xml
+    "Who are all these guys?": "这些人都是谁啊？",
+    "Give me an example of reusing all my current dialogue options.": "给我举个关于怎么把我现有的这些对话选项都复用一遍的例子。",
+    "Oh, you can see them too? Thought I had just eaten some bad marshmallows.": "哦，你也能看见他们？我还以为是我吃了些变质棉花糖产生幻觉了呢。",
+    "Actually, maybe I did and you're not here either. Yeah it's probably that. Yeah.": "说不定其实真是这样，而且你其实也不在这儿。对，肯定是这样。没错。",
+    "Sure thing bud.": "没问题啦，伙计。",
+
+    //Angry Geswaldo.xml
+    "Geswaldo": "格茨瓦尔多",
+    "I HATE YOU!": "我恨你！",
+
+    //Ernesto.xml
+    "Ernesto": "厄内斯托",
+    "Hey it's me Ernesto the magic talking anglerfish.": "嘿，是我呀，会说话的魔法安康鱼厄内斯托。",
+    "Wow you can talk?": "哇，你会说话？",
+    "What do you think about Geswaldo.": "你觉得格茨瓦尔多怎么样？",
+    "Where did you guys come from?": "你们是从哪儿来的？",
+    "I'll see you later.": "回头见。",
+    "No I can't. You must be mistaken.": "不，我不会说话。你肯定搞错了。",
+    "Haha that's a joke. I took speaking as an elective in college.": "哈哈，逗你的。我大学选了说话这门选修课呢。",
+    "Oh.": "哦。",
+    "I love him, he is my husband.": "我爱他，他是我爱人。",
+    "That's beautiful. I'm so happy for both of you.": "这也太美好了。真为你们俩高兴。",
+    "Me and Geswaldo were visiting my cousin on Wetrock, I don't know about the other two. I don't know those guys.": "我和格茨瓦尔多本来是去湿岩星看我表弟的，另外两个我就不知道了。我不认识那俩人。",
+    "Thanks for the info.": "谢啦，告诉我这些。",
+    "Bye bye.": "拜拜～",
+
+    //ErnestoEye.xml
+    "Woah, how'd you get here?": "哇哦，你咋到这儿来的？",
+    "Magic.": "魔法呗。",
+
+    //ErnestosCousin.xml
+    "dead fish": "死鱼",
+    "I think this was Ernesto's cousin.": "这应该就是厄内斯托的表弟了。",
+
+    //FredsCousin.xml
+    "Fred's Cousin": "弗莱德的表弟",
+    "Oh wow, I didn't expect anyone to hear my distress call.": "哇哦，我都没想到有人能收到我的求救信号。",
+    "How do you know my language?": "你怎么会说我的语言？",
+    "How long have you been here?": "你在这儿待了多久了？",
+    "Oh hey I met your cousin Fred on Timber Hearth!": "哦对了！我在木炉星见过你表弟弗莱德！",
+    "Lazy writing.": "这剧情写得也太敷衍了。",
+    "At least a quarter million years. I ate my own children for sustenance. Their souls have sustained me thus far.": "至少二十五万年了。我为了活下去吃了自己的孩子。他们的灵魂支撑我活到现在。",
+    "Who the hell is Fred?": "谁他妈是弗莱德？",
+
+    //Geswaldo.xml
+    "Hey it's me Geswaldo the magic talking jellyfish.": "嘿，是我呀，会说话的魔法水母格茨瓦尔多。",
+    "I hate you.": "我恨你。",
+    "I love you.": "我爱你。",
+    "I have to go.": "我得走了。",
+    "Did you want to talk about anything else.": "你还有别的事情想聊吗？",
+    "Okay... That's pretty rude bro...": "好吧……你也太没礼貌了吧兄弟……",
+    "You're right. I apologize.": "你说得对。我道歉。",
+    "I'm sorry but I'm taken.": "抱歉呀，我名花有主了。",
+    "Oh my bad, they must consider themselves very lucky.": "哦抱歉，跟你在一起的人肯定很幸运。",
+    "Okay nevermind I hate you.": "行吧当我没说，我还是恨你。",
+    "Okay, say hi to Ernesto for me!": "好吧，替我给厄内斯托问个好！",
+
+    //Ghostbird.xml
+    "Bob": "鲍勃",
+    "Hey man how's it going?": "嘿老兄，最近咋样？",
+    "Aren't you supposed to kill me?": "你不是该杀了我吗？",
+    "What are you doing here?": "你在这儿干啥呢？",
+    "I want to trigger the credits when I die with custom audio please": "我想让自己死掉的时候触发片尾字幕，还得配上自定义音效，麻烦啦",
+    "Can you teach me how to read gorp?": "你能教我怎么理解gorp吗？\n（译注：gorp是Discord中Outer Wilds Modding服务器的标签）",
+    "Die NOW!!!!!": "现在就去死！！！！！",
+    "Ok. Dies.": "行吧。死了。",
+    "Yeah, when it says \"gorp\" that means \"gorp\".": "好啊，上面写着“gorp”的时候，意思就是“gorp”。",
+    "Oh yeah dude I totally forgot about that, maybe next time.": "哦对哦老兄，我压根把这茬忘了，要不下次再说？",
+    "Yeah.": "嗯。",
+    "Consider it done. But maybe if you kill me it'd get overriden I don't know!": "包在我身上。不过要是你杀了我，这设置可能就失效了，我也说不清！",
+    "I'm actually a magical wizard and I've been casting some <b>crazy</b> spells on your solar system.": "其实我是个魔法巫师，我一直在给你们的太阳系施放一些<b>离谱</b>的咒语。",
+    "I put a bunch of sand on some moon, I put rings on some big gas giant...": "我在某颗卫星上堆了好多沙子，还给某颗巨型气态行星加了行星环……",
+    "Oh yeah I gave you guys an extra blackhole-whitehole pair, so you're welcome.": "哦对了，我还多给你们整了一组黑洞-白洞配对，不用谢。",
+    "<b>Oh</b> and I threw your planet far from the sun so look out for falling temperatures killing you all in a few months.": "<b>哦对</b>，我还把你们的星球扔得离太阳老远了，所以小心点，再过几个月气温骤降就会把你们全冻死。",
+    "Although you might not be too worried about that now that I think about it.": "不过现在想想，你们可能也没那么在乎这件事。",
+    "Also I think this dialogue is outdated now on this version of New Horizons Examples whoops!": "另外我觉得这段对话在新版的“New Horizons Examples”里已经过时了，哎呀！",
+    "What?": "啥？",
+    "... Bro I literally just told you.": "……老兄，我刚刚才跟你说了。",
+
+    //Cairn.xml
+    "Slide reel examples (10m).": "幻灯片胶卷示例（10米）。",
+
+    //Computer.xml
+    "Beep boop I am a computer.": "哔啵——我是台电脑。",
+    "Making New Horizons is rotting my brain.": "做“New Horizons”模组快把我脑子搞坏了。",
+    "This is a cry for help please kill me.": "这是求救信号！求你给我个痛快！",
+
+    //EyeRecorder.xml
+    "Dear diary.": "亲爱的日记。",
+    "Hi it's me Ernesto.": "嗨，是我呀，厄内斯托。",
+
+    //Gorp.xml
+    "It says \"gorp\".": "上面写着“gorp”。",
+
+    //Recorder.xml
+    "I just learned how to write in Nomai yesterday.": "我昨天刚学会写挪麦文字。",
+    "Wait no this is like a tape recorder right? Ok I just learned how to speak in Nomai yesterday.": "等等不对，这玩意儿是磁带录音机吧？好吧，那我是昨天刚学会说挪麦语。",
+
+    //Shared.xml
+    "MEGAPIGGY: I've gone crazy.": "MEGAPIGGY：我疯了。",
+    "MEGAPIGGY: No you haven't.": "MEGAPIGGY：你才没疯呢。",
+
+    //Trailmarker.xml
+    "Bob (2m).": "鲍勃（2米）。",
+
+    //Untranslatable.xml
+    "This is placeholder text because translator text requires a text block with text to spawn the each arc.": "此为占位文本，因为翻译文本需要一个包含文字的文本块来生成每个对话弧段。",
+
+    //WallText.xml
+    "FRED: Do you want to <color=lightblue>duo</color> in <color=red>Fortnite</color>.": "弗莱德：你想不想跟我<color=lightblue>组队双排</color>玩《<color=red>堡垒之夜</color>》。",
+    "BOB: No, I'd really rather not.": "鲍勃：不了，我真没啥兴趣。",
+    "FRED: Okay well does anyone want to play <color=pink>Among Us</color>.": "弗莱德：行吧，那有人想玩<color=pink>《太空狼人杀》</color>不？",
+    "Ernesto: Yeah I'm down.": "厄内斯托：我可以啊。",
+    "Geswaldo: Sure thing.": "格茨瓦尔多：没问题。",
+    "Slate: Who even are you people?": "斯雷特：你们到底是些什么人？",
+    "FRED: My name is Bob.": "弗莱德：我叫鲍勃。",
+    "David Attenborough: Here we observe the wild Gennius Zius. This is a young specimen, calling out for companionship. The cry can carry for miles and often irritates older members of its species.": "大卫·爱登堡：在这里，我们观察到了野生的“Z世代天才”。这是一只年轻的个体，正在发出寻求陪伴的叫声。这叫声能传出数英里远，还常常惹得族群里的年长者烦躁不已。",
+
+    //Text.xml
+    "Fred: Fred was here.": "弗莱德：弗莱德到此一游。",
+
+    //GhostbirdEye.xml
+    "Oh no oh god its the Eye of the Universe which is like really really bad and I hate it! Don't go there please it's bad I think!": "我的天呐！是宇宙之眼！这玩意儿超级超级危险的，我讨厌它！求你别去那儿！我感觉很不妙！",
+    "Okay bye": "行吧，拜拜",
+
+    //EyeErnesto.xml
+    "Hey it's me Ernesto waiting for the jam session to start.": "嘿，是我厄内斯托，等着即兴演奏赛开始呢。",
+    "Play music, NOW!": "快奏乐！立刻！马上！",
+    "Hey it's me etc, go get the others! We need everyone.": "是我啦，不多说了，去把其他人叫来！我们得全员到齐。",
+    "Everyone except Geswaldo apparently, who isn't even here. What's up with that!": "显然就差格茨瓦尔多了，他压根就没来。搞啥呢这是！",
+    "Hi Ernesto, you're joining the jam session?": "嗨，厄内斯托，你要参加这次即兴演奏赛不？",
+    "Yes, thanks to the power of modding.": "那必须的，全靠模组的魔力呗。",
+    "Hey it's me Ernesto, is it time to play music?": "嘿，是我厄内斯托，该奏乐了不？",
+    "Jeez okay no need to yell.": "天呐，行吧，没必要吼这么大声吧。",
+    "Bye bye forever this time!": "这次是真的永别啦！",
+    "Just kidding you can reload the game later, the finality of this moment is ruined!": "逗你的，你之后重新加载游戏就行。这下这时候的终结感全毁了。",
+
+    //EyeSlate.xml
+    "Slate, Probably": "斯雷特（应该是）",
+    "It's me, definitely Slate and not a Dreamstalker in disguise.": "是我啦，绝对是斯雷特，不是梦行者伪装的。",
+    "Hi Slate and not a Dreamstalker in disguise. You're going to join in, right?": "嗨，你是斯雷特而不是伪装的梦行者对吧？你要加入，对吧？",
+    "Okay then...": "行吧……",
+    "We can't start yet. You still have other travelers to gather.": "还不能开始呢。你还得把其他旅行者都召集过来。",
+    "You're going to join in, right?": "你会加入的，对吧？",
+    "Sure, why else would I be here!": "那当然，不然我来这儿干啥！",
+    "We're all here. Time to start the music. Should I start?": "我们都到齐啦。该奏乐了。要不我先来？",
+    "Ready to go.": "准备好咯。",
+    "Not yet.": "还没呢。",
+    "Let's begin.": "开始吧。",
+    "Whenever you're ready.": "你准备好了我就开始。",
+    "It's rewind time.": "该倒带啦。",
+    "...": "……",
+    "I'm sorry I said that.": "我后悔说那个了。",
+
+    //Vessel Wall Text.xml
+    "Wow this Nomai scroll spawned in a wall!": "哇哦这个挪麦卷轴生成在墙里！",
+    "Use the translation text type \"whiteboard\" to do this.": "使用翻译文本类型 “whiteboard” 来这样做。",
+    "Gabagool.": "卡波科洛火腿。",
+
+    //Wide Alignment Transmitter.xml
+    "360 alignment window = teleport pad! also enjoy the kazoo": "360度校准窗口=传送平台！并请享受卡祖笛",
+
+    //Daunting Transmitter.xml
+    "To Dauntless Confidant!": "前往无畏密友星！",
+
+    //Geb.xml
+    "Geb": "格布",
+    "Do you get to the Thunderdome very often?": "你经常去雷霆穹顶吗？",
+    "Oh, what am I saying. Of course you don't.": "哦，我在说什么呢。你当然没去过。",
+    "Hello.": "你好。",
+    "Do you prefer...": "你更喜欢……？",
+    "My peoples' technology?": "我们族群的科技？",
+    "Or the Nomai's technology?": "还是挪麦人的科技？",
+    "The choice is yours.": "选择权在你。",
+    "Your tech!": "选你们的科技！",
+    "Nomai tech!": "选挪麦科技！",
+    "I'm glad you agree.": "很高兴你能认同。",
+    "Agree to disagree.": "求同存异吧。",
+
+    //GhostbirdDialogue.xml
+    "Hey man want to move your spawn point?": "嘿老兄，想修改你的重生点吗？",
+    "I want to spawn here!": "我想在这里重生！",
+    "I want to spawn under the vessel.": "我想在发射塔下方重生！",
+    "No thanks!": "不用了，谢谢！",
+    "Ok! Consider it done.": "好嘞！包在我身上。",
+    "Okay, let me know if you change your mind.": "好的，如果你改主意了随时告诉我。",
+    "Agh, you scared me!": "啊，你吓到我了！",
+    "Sorry.": "抱歉。",
+
+    //Thunderdome.xml
+    "Welcome to... THE THUNDERDOME! One hatchling enters, one hatchling leaves!": "欢迎来到……雷霆穹顶！一个小家伙进来，一个小家伙出去！"
+  },
+
+  "ShipLogDictionary": {
+    //AshTwin.xml
+    "Rings": "行星环",
+    "Lava": "熔岩",
+    "All the sand on Ash Twin melted into lava, or something, thanks Fred.": "灰烬双星上的沙子全熔成熔岩或者其他东西了，都怪弗莱德。",
+    "Yeah Ash Twin is covered in lava, that's a bit of an issue.": "可不是嘛，灰烬双星现在到处都是熔岩，这可太麻烦了。",
+
+    //Attlerock.xml
+    "Sand?": "沙子？",
+    "Sand": "沙子",
+    "Apparently Fred covered the Attlerock in sand.": "看样子弗莱德把整颗废岩星都铺满了沙子。",
+    "Yeah, Attlerock really is covered in sand.": "可不是，废岩星真的全被沙子覆盖了。",
+
+    //FrigidPygmy.xml
+    "Some slide reels": "一些幻灯片胶卷",
+    "I saw a slide reel full of numbers.": "我看到一卷写满数字的幻灯片胶卷。",
+    "Frigid Pygmy": "寒矮星",
+    "Wow a whole new system with a cool planet!": "哇哦，一整个新星系，还有颗超酷的行星！",
+
+    //GiantsDeep.xml
+    "Fred put some rings on Giant's Deep for some reason.": "弗莱德不知道为什么给深巨星加了星环。",
+    "I have determined to my satisfaction that there are indeed rings here.": "我已经确认无疑了，这儿确实有星环。",
+    "There are four angler fish on Giant's Deep and they do not seem happy to see me.": "深巨星里有四条安康鱼，并且它们似乎不高兴见到我。",
+
+    //RingedJewel.xml
+    "More rings": "更多星环",
+    "Other rings": "其他星环",
+    "Giant's Deep isn't the only planet with rings.": "深巨星可不是唯一有星环的行星哦。",
+    "Well that's slightly less habitable than Giant's Deep.": "好吧，这儿的宜居性比深巨星还差点。",
+
+    //TimberHearth.xml
+    "Unexpected guests": "不速之客",
+    "Visitors": "访客",
+    "When I went to sleep by the campfire only Slate was here, who are these characters?": "我在篝火边睡着的时候，明明只有斯雷特在这儿，这些人都是谁啊？",
+    "I met a talking jellyfish. His name is Geswaldo!": "我遇到了一只会说话的水母。他叫格茨瓦尔多！",
+    "I met a talking anglerfish named Ernesto!": "我遇到了一只会说话的名叫厄内斯托的安康鱼！",
+    "There's a living Nomai here, just hanging out. His name is Fred.": "这儿有个活的挪麦人，只是在闲逛。他叫弗莱德。",
+    "Some sort of bird guy is here. Bob I think?": "有个长得像猫头鹰的家伙在这儿。我记得叫鲍勃？",
+    "I saw a vision but I don't understand it, maybe some of these new guys left it for me.": "我看到了一段幻象，但完全看不懂什么意思，说不定是这些新出现的家伙留给我的。",
+    "I pulled a weird vase off the ground.": "我从地上拔出来一个怪里怪气的花瓶。",
+    "I found 2 rectangles floating above Timber Hearth. There seems to be some artificial gravity when you go between them.": "我在木炉星上空发现了两个漂浮的矩形。从它们之间穿过去的时候似乎会有人工重力。",
+    "Name Doesn't Matter": "名字无关紧要",
+    "A lot of unfamiliar characters are hanging around the village now.": "现在村子里晃悠着好多我不认识的家伙。",
+    "Wetrock Dream": "湿岩星之梦",
+    "I dreamed about Wetrock using a green campfire.": "我通过绿色篝火做了个关于湿岩星的梦。",
+
+    //Wetrock.xml
+    "Wetrock": "湿岩星",
+    "Ernesto's cousin": "厄内斯托的表弟",
+    "Apparently Ernesto's cousin is on Wetrock.": "看样子厄内斯托的表弟就在湿岩星上。",
+    "It sure is wet.": "真的潮啊。",
+    "I found Ernesto's cousin! They're dead.": "我找到厄内斯托的表弟了！他已经死透了。",
+
+    "Scare Bob": "吓唬鲍勃", //不生效，原因未知
+    "Facepalm": "捂脸", //不生效，原因未知
+    "Amogus": "太空狠人杀", //不生效，原因未知
+    "White Hole Key": "白洞钥匙",
+    "Black Hole Key": "黑洞钥匙",
+    "Broken Door Mechanism: ": "" //指针未知，无法翻译
+  },
+
+  "UIDictionary": {
+    "You were eaten by the Planet of Death.\u000aIf only someone had warned you...": "你被死亡之星吞噬了。\n要是有人警告过你就好了……",
+
+    "Gateway to Sequestered Luminary": "前往幽禁星的门",
+    "Wetrock": "湿岩星",
+    "Lava Twins": "熔岩双星",
+    "Lava 1": "熔岩1号",
+    "Lava 2": "熔岩2号",
+    "Lures": "诱饵",
+    "Luna Lure": "月球诱饵",
+    "Terra Lure": "地球诱饵",
+    "Night Light": "夜明灯",
+    "Snowball": "雪球星",
+    "Ringed Jewel": "环饰明珠",
+    "Devil's Maw": "恶魔之口",
+    "Light Gateway": "光明之门",
+    "Dark Gateway": "黑暗之门",
+    "Quantum Planet": "量子行星",
+    "Frigid Pygmy": "寒矮星",
+    "Daunting Confidant": "无畏密友星",
+    "Sequestered Luminary": "幽禁星",
+    "Puzzle Station": "谜题空间站",
+    "Hindering Skies": "阻遏天穹",
+    "Viridian Flow": "青碧环流",
+    "Jade Maw": "碧玉巨口",
+    "Rondo": "回旋曲",
+    "Requiem": "安魂曲",
+    "Elegy": "挽歌",
+    "Planet of Death": "死亡之星",
+
+    "Slate": "斯雷特",
+    "Ernesto": "厄内斯托",
+    "Facepalm": "捂脸", //不生效，原因未知
+    "Amogus": "太空狠人杀", //不生效，原因未知
+    "White Hole Key": "白洞钥匙",
+    "Black Hole Key": "黑洞钥匙",
+    "WarpCore": "跃迁核心",
+    "Dauntless Confidant Transmitter": "无畏密友星跃迁平台",
+    "Frigid Pygmy Transmitter": "寒矮星跃迁平台",
+    "Frigid Pygmy Shard": "寒矮星碎片",
+    "Lure Distress Signal": "诱饵求救信号",
+    "Custom Bramble Dimension - Entrance Dimension": "自定义黑棘星维度 - 入口维度",
+    "Custom Bramble Dimension - Deep Dimension": "自定义黑棘星维度 - 深维度",
+
+    "Warning: Singularity Detected Nearby!": "警告：检测到附近存在奇点！",
+    "You made Bob die this loop why did you do that?": "这个循环你让鲍勃死了，为什么你要这么做？",
+    "Time for custom credits music!": "到传统的鸣谢音乐环节了！"
+  },
+
+  "AchievementTranslations": {
+    "EXAMPLES_SIGNAL": {
+      "Name": "并非陷阱",
+      "Description": "发现求救信号"
+    },
+    "EXAMPLES_DIALOGUE": {
+      "Name": "你这人真差劲儿",
+      "Description": "惹水母生气"
+    },
+    "EXAMPLES_FACTS": {
+      "Name": "鱼相关的玩意儿",
+      "Description": "造访深巨星"
+    }
+  }
+}
