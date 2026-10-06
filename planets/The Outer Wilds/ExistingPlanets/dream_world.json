@@ -127,7 +127,7 @@
                     "position": {"x": -133.8915, "y": -50.86169, "z": -250.5952},
                     "rotation": {"x": 21.10493, "y": 299.7081, "z": 269.679},
                     "entrywayVolumes": [
-                        "Sector_DreamWorld/PeepholeAudio"
+                        "Sector_RingInterior/PeepholeAudio"
                     ]
                 }
             }
@@ -277,14 +277,6 @@
 	},
     "Volumes": {
         "audioVolumes": [
-            {
-                "rename": "PeepholeAudio",
-                "audio": "SecretKorok",
-                "track": "music",
-                "loop": true,
-                "fadeSeconds": 0.1,
-                "radius": 0
-            },
             {
                 "rename": "ArrivalPointAudio",
                 "audio": "CometAmbience_LP",

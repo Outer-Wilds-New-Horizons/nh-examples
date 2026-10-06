@@ -19,5 +19,18 @@
 				"acceleration": 20
 			}
 		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+            {
+                "rename": "PeepholeAudio",
+                "audio": "SecretKorok",
+				"parentPath": "Sector_RingInterior",
+                "track": "music",
+                "loop": true,
+                "fadeSeconds": 0.1,
+                "radius": 0
+            },
+		]
 	}
 }
