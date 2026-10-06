@@ -22,6 +22,13 @@
 				"size": 4,
 				"position": {"x": 27.3984, "y": -32.6472, "z": 197.1166},
 				"spawnPointID": "examples_vessel_spawn"
+			},
+			{
+				"type": "blackHole",
+				"uniqueID": "ToWhiteHoleStation",
+				"pairedSingularity": "AtWhiteHoleStation",
+				"horizonRadius": 1,
+				"position": {"x": -9.15, "y": -15.4, "z": 184}
 			}
 		],
 		"signals" :
@@ -218,7 +225,10 @@
 				"id": "DW_Underground",
 				"position": {"x": 5.958428, "y": -8.873922, "z": 186.8561},
 				"rotation": {"x": 304.7703, "y": 275.7916, "z": 265.0268},
-				"alarmBellPath": "Sector_TH/DreamCampfire_DW_Underground/AlarmBell_DW_Underground"
+				"alarmBellPath": "Sector_TH/DreamCampfire_DW_Underground/AlarmBell_DW_Underground",
+				"entrywayVolumes": [
+					"Sector_TH/CampfireWakeUpAudio"
+				]
 			},
 			{
 				"rename": "DreamCampfire_WetrockDream",
@@ -830,7 +840,10 @@
 					"disableStructure": true,
 					"disablePool": true,
 					"rename": "ExamplesProjectionPlatformTimber1",
-					"reveals": "EXAMPLES_PROJECTION_TIMBER"
+					"reveals": "EXAMPLES_PROJECTION_TIMBER",
+					"entrywayVolumes": [
+						"Sector_TH/ProjectionAudio"
+					]
 				},
 				"whiteboard": {
 					"position": {"x": 36.4735, "y": -16.5112, "z": 193.8339},
@@ -929,6 +942,28 @@
 		"spriteFolder": "planets/assets/shiplogs/sprites"
     },
 	"Volumes": {
+		"audioVolumes": [
+			{
+				"rename": "CampfireWakeUpAudio",
+				"audio": "SecretKorok",
+				"track": "environmentUnfiltered",
+				"radius": 0,
+				"noFadeFromBeginning": true,
+				"pauseOnFadeOut": false,
+				"loop": false
+			},
+			{
+				"rename": "ProjectionAudio",
+				"audio": "SecretPortrait",
+				"track": "environmentUnfiltered",
+				"volume": 0.25,
+				"radius": 0,
+				"noFadeFromBeginning": true,
+				"fadeSeconds": 0,
+				"pauseOnFadeOut": false,
+				"loop": true
+			}
+		],
 		"creditsVolume": [
 			{
 				"position": {"x": 23.9989, "y": -39.3724, "z": 186.4618},

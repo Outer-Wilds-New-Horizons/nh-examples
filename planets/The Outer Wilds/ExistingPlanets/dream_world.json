@@ -77,7 +77,10 @@
                 "sectorPath": "Sector_DreamWorld/Sector_Underground",
 				"id": "DW_Underground",
                 "position": {"x": -16.78043, "y": -290.8658, "z": 522.3541},
-                "rotation": {"x": -2.953186E-05, "y": 140.4348, "z": -4.888376E-05}
+                "rotation": {"x": -2.953186E-05, "y": 140.4348, "z": -4.888376E-05},
+                "entrywayVolumes": [
+                    "Sector_DreamWorld/ArrivalPointAudio"
+                ]
 			},
             {
                 "parentPath": "Sector_DreamWorld/Sector_DreamZone_1",
@@ -122,7 +125,10 @@
                     "parentPath": "Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
                     "sectorPath": "Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
                     "position": {"x": -133.8915, "y": -50.86169, "z": -250.5952},
-                    "rotation": {"x": 21.10493, "y": 299.7081, "z": 269.679}
+                    "rotation": {"x": 21.10493, "y": 299.7081, "z": 269.679},
+                    "entrywayVolumes": [
+                        "Sector_DreamWorld/PeepholeAudio"
+                    ]
                 }
             }
         ],
@@ -268,5 +274,25 @@
                 "rotation": {"x": 0, "y": 170, "z": 0}
             }
         ]
-	}
+	},
+    "Volumes": {
+        "audioVolumes": [
+            {
+                "rename": "PeepholeAudio",
+                "audio": "SecretKorok",
+                "track": "music",
+                "loop": true,
+                "fadeSeconds": 0.1,
+                "radius": 0
+            },
+            {
+                "rename": "ArrivalPointAudio",
+                "audio": "CometAmbience_LP",
+                "track": "environmentUnfiltered",
+                "loop": true,
+                "radius": 0,
+                "volume": 0.25
+            }
+        ]
+    }
 }
