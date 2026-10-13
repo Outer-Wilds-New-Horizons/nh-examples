@@ -2,6 +2,15 @@
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Ring World",
 	"Props": {
+		"details": [
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_3/Interactibles_DreamZone_3/Korok_Achievement_OneNineHundred/Props_IP_Figurine",
+				"parentPath": "Sector_RingInterior/Sector_Zone1/Sector_DreamFireHouse_Zone1",
+				"sectorPath": "auto",
+				"position": {"x": -131.1481, "y": -50.71027, "z": -252.167},
+				"rotation": {"x": 16.1145, "y": 299.74, "z": 269.6868}
+			}
+		],
 		"rafts": 
 		[
 			{
@@ -9,6 +18,19 @@
 				"rename": "DockedRaft_Body",
 				"acceleration": 20
 			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+            {
+                "rename": "PeepholeAudio",
+                "audio": "SecretKorok",
+				"parentPath": "Sector_RingInterior",
+                "track": "music",
+                "loop": true,
+                "fadeSeconds": 0.1,
+                "radius": 0
+            },
 		]
 	}
 }
